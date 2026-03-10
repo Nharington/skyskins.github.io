@@ -1,0 +1,52 @@
+{
+  "name": "§6Grandma Wolf",
+  "type": "GRANDMA_WOLF",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Health: §c100\n§7Strength: §c25\n\n§6Kill Combo\n§7Gain buffs for combo kills. Effects\n§7stack as you increase your combo.\n\n§a5 Combo §8(lasts §a10s§8)\n  §b+3% ✯ Magic Find\n§a10 Combo §8(lasts §a8s§8)\n  §8+§610 §7coins per kill\n§a15 Combo §8(lasts §a6s§8)\n  §b+3% ✯ Magic Find\n§a20 Combo §8(lasts §a5s§8)\n  §3+15☯ Combat Wisdom\n§a25 Combo §8(lasts §a4s§8)\n  §b+3% ✯ Magic Find\n§a30 Combo §8(lasts §a3s§8)\n  §8+§610 §7coins per kill\n\n§8This pet's perks are active even\n§8when the pet is not summoned!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8§l* §8Soulbound §8§l*\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Grandma_Wolf_Pet",
+    "https://wiki.hypixel.net/Grandma_Wolf_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "GRANDMA_WOLF;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Grandma_Wolf/4e794274c1bb197ad306540286a7aa952974f5661bccf2b725424f6ed79c7884.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Strength: §c25\n\n§6Kill Combo\n§7Gain buffs for combo kills.\n§7Effects stack as you increase\n§7your combo.\n\n§a5 Combo §8(lasts §a10s§8)\n  §8+§b1% §b✯ Magic Find\n§a10 Combo §8(lasts §a8s§8)\n  §8+§62 §7coins per kill\n§a15 Combo §8(lasts §a6s§8)\n  §8+§b1% §b✯ Magic Find\n§a20 Combo §8(lasts §a5s§8)\n  §8+§35☯ Combat Wisdom\n§a25 Combo §8(lasts §a4s§8)\n  §8+§b1% §b✯ Magic Find\n§a30 Combo §8(lasts §a3s§8)\n  §8+§62 §7coins per kill\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§8§l* §8Soulbound §8§l*\n§f§lCOMMON"
+    },
+    {
+      "id": "GRANDMA_WOLF;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Grandma_Wolf/4e794274c1bb197ad306540286a7aa952974f5661bccf2b725424f6ed79c7884.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Strength: §c25\n\n§6Kill Combo\n§7Gain buffs for combo kills.\n§7Effects stack as you increase\n§7your combo.\n\n§a5 Combo §8(lasts §a10s§8)\n  §8+§b1% §b✯ Magic Find\n§a10 Combo §8(lasts §a8s§8)\n  §8+§64 §7coins per kill\n§a15 Combo §8(lasts §a6s§8)\n  §8+§b2% §b✯ Magic Find\n§a20 Combo §8(lasts §a5s§8)\n  §8+§37☯ Combat Wisdom\n§a25 Combo §8(lasts §a4s§8)\n  §8+§b1% §b✯ Magic Find\n§a30 Combo §8(lasts §a3s§8)\n  §8+§64 §7coins per kill\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§8§l* §8Soulbound §8§l*\n§a§lUNCOMMON"
+    },
+    {
+      "id": "GRANDMA_WOLF;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Grandma_Wolf/4e794274c1bb197ad306540286a7aa952974f5661bccf2b725424f6ed79c7884.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Strength: §c25\n\n§6Kill Combo\n§7Gain buffs for combo kills.\n§7Effects stack as you increase\n§7your combo.\n\n§a5 Combo §8(lasts §a10s§8)\n  §8+§b2% §b✯ Magic Find\n§a10 Combo §8(lasts §a8s§8)\n  §8+§66 §7coins per kill\n§a15 Combo §8(lasts §a6s§8)\n  §8+§b2% §b✯ Magic Find\n§a20 Combo §8(lasts §a5s§8)\n  §8§3+9☯ Combat Wisdom\n§a25 Combo §8(lasts §a4s§8)\n  §8+§b2% §b✯ Magic Find\n§a30 Combo §8(lasts §a3s§8)\n  §8+§66 §7coins per kill\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§8§l* §8Soulbound §8§l*\n§9§lRARE"
+    },
+    {
+      "id": "GRANDMA_WOLF;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Grandma_Wolf/4e794274c1bb197ad306540286a7aa952974f5661bccf2b725424f6ed79c7884.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Strength: §c25\n\n§6Kill Combo\n§7Gain buffs for combo kills.\n§7Effects stack as you increase\n§7your combo.\n\n§a5 Combo §8(lasts §a10s§8)\n  §8+§b2% §b✯ Magic Find\n§a10 Combo §8(lasts §a8s§8)\n  §8+§68 §7coins per kill\n§a15 Combo §8(lasts §a6s§8)\n  §8+§b3% §b✯ Magic Find\n§a20 Combo §8(lasts §a5s§8)\n  §8§3+12☯ Combat Wisdom\n§a25 Combo §8(lasts §a4s§8)\n  §8+§b2% §b✯ Magic Find\n§a30 Combo §8(lasts §a3s§8)\n  §8+§68 §7coins per kill\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§8§l* §8Soulbound §8§l*\n§5§lEPIC"
+    },
+    {
+      "id": "GRANDMA_WOLF;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Grandma_Wolf/4e794274c1bb197ad306540286a7aa952974f5661bccf2b725424f6ed79c7884.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Strength: §c25\n\n§6Kill Combo\n§7Gain buffs for combo kills. Effects\n§7stack as you increase your combo.\n\n§a5 Combo §8(lasts §a10s§8)\n  §b+3% ✯ Magic Find\n§a10 Combo §8(lasts §a8s§8)\n  §8+§610 §7coins per kill\n§a15 Combo §8(lasts §a6s§8)\n  §b+3% ✯ Magic Find\n§a20 Combo §8(lasts §a5s§8)\n  §3+15☯ Combat Wisdom\n§a25 Combo §8(lasts §a4s§8)\n  §b+3% ✯ Magic Find\n§a30 Combo §8(lasts §a3s§8)\n  §8+§610 §7coins per kill\n\n§8This pet's perks are active even\n§8when the pet is not summoned!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8§l* §8Soulbound §8§l*\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_GRANDMA_WOLF_REAL",
+      "name": "Real Grandma Wolf Skin",
+      "texturePath": "/assets/pets/skins/Grandma_Wolf/582eaf9fd0c8ac94275952b5faacb802050822e919ba5be88f5e8ed978468e1d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGrandma Wolf§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

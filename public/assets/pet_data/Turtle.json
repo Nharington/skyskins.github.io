@@ -1,0 +1,94 @@
+{
+  "name": "§6Turtle",
+  "type": "TURTLE",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a+100\n§7True Defense: §f+[True Defense]\n\n§6Turtle Tactics\n§7Gain §a+30% ❈ Defense §7and an\n§7additional §a+10% ❈ Defense §7when\n§7standing still.\n\n§6Genius Amniote\n§7Grants §a+30% ❈ Defense §7to 4\n§7players within 50 blocks of you.\n\n§6Unflippable\n§7Gain §aimmunity §7to knockback\n\n§6Turtle Shell\n§7When under §c40% §7maximum HP, you take\n§a25% §7less damage. Gain §4+?♨\n§4Vitality §7for 15 seconds after taking\n§710 hits.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Turtle_Pet",
+    "https://wiki.hypixel.net/Turtle_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 15000000,
+      "time": 864000,
+      "input": "TURTLE;3",
+      "output": "TURTLE;4",
+      "items": [
+        "ENCHANTED_RAW_FISH:16"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "TURTLE;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Turtle/242f86b51c8992b3758e85fe35bb2a20399ad4685095466e7feb54c6902fad8e.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a+100\n§7True Defense: §f+[True Defense]\n\n§6Turtle Tactics\n§7Gain §a+30% ❈ Defense §7and an\n§7additional §a+10% ❈ Defense §7when\n§7standing still.\n\n§6Genius Amniote\n§7Grants §a+30% ❈ Defense §7to 4\n§7players within 50 blocks of you.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "TURTLE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Turtle/242f86b51c8992b3758e85fe35bb2a20399ad4685095466e7feb54c6902fad8e.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a+100\n§7True Defense: §f+[True Defense]\n\n§6Turtle Tactics\n§7Gain §a+30% ❈ Defense §7and an\n§7additional §a+10% ❈ Defense §7when\n§7standing still.\n\n§6Genius Amniote\n§7Grants §a+30% ❈ Defense §7to 4\n§7players within 50 blocks of you.\n\n§6Unflippable\n§7Gain §aimmunity §7to knockback\n\n§6Turtle Shell\n§7When under §c40% §7maximum HP, you take\n§a25% §7less damage. Gain §4+?♨\n§4Vitality §7for 15 seconds after taking\n§710 hits.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_TURTLE_ANCIENT",
+      "name": "Ancient Turtle Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/39338a35acead2ebe5a0ce22588aea8fac96fb7f17cd315ceb07e7fe8e7d53e4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTurtle§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/39338a35acead2ebe5a0ce22588aea8fac96fb7f17cd315ceb07e7fe8e7d53e4.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/846fc012198105099e08f29a9fb1fdc08767ac2fb1cf094c2015d1125f6df5b7.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/c2fb5e8957e0163385e88e0654d0c55886d09acebaefa893e90eb4b3fa0ef9c.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/511d782ab5006ec9e6444ad72a326bad543ff94e9ec0731a193175ecd3a8d1ee.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/f2ef09ad45e23f9884a9fc738e71e82f2484bf9bae124f5c5023bb961903c87b.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/edfdb51cf229ee304f17ebf73c2adc16a4a2008f417ebe28cde4e0b445bc03f0.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/9cd3a58a5a4e93d024ba6fbb8d9b4d878efe9c009668bae5a3c925ab8af2361c.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/bc37fd41d532e9fac79bb1724e7e28de3ea0213b8bff37648acdfeaf45d94c88.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/3700ffb5c97d57be37517573ef9dba469b601d54b7f355eb5cf54aa3d9696b4a.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/3440d9ef2e02123c2031ae371f7c91861cbd626472ebd172851524f792032ae0.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/19e40749900f4aa06500417107f0a9bfb6278350f30e865429d7064d6867987a.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/193c27f9f87ddd4c54c419c6a952f60552079868f6d45952bf1d5ba3ebb25707.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/18110f367a02de3e916bf124f5cb11796d7bddfd0749e8151a6a53d483d6d30e.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/a3b693c20d9b641b13b84322129bc1a281f2c5b275fe8b1e2d11d0d4ee385915.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/d0de277e989a86e02f65c5e8f829f63a36a114c66976e254034ca92be928cb44.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/cc84771b41e6471fdbbf62da48a4cd1a61b06257ed56d24d5b9354da2efb314b.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/87f041661251501cc4f26bc5ccddb80eddac5af849e16c757a33002e9d773552.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/69716e1fd3e1a180b1764dab9b12187b72337498acf365cb7153ba318f82a90c.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/18fd187468539e4a3a03bd958461fa2270f4d2453a3ec3cf0749f69a4dce3ffd.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/94552bb1ac071f380e35c7102e4f0e9cb5200395b8a9b4686c72776571981fc3.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/1c8627c03bf67ba0250e552825f34b681e5a70b2b5508d0f17ba3fec3d7747d6.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/361359381c439dc3bd0f49777db0d69c789f1b6d017873f24b2b8aff89db1223.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_ANCIENT/5a85b6d364e8cd9dc777c0beed34e1af28d1bd6777a93852073c142a8ae17586.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_TURTLE_ANCIENT_GOLDEN",
+      "name": "Golden Ancient Turtle Skin",
+      "texturePath": "/assets/pets/skins/Turtle/b972da505e9e55e32039c5d8f5dbb2f12ab52eea02bec3df6a40adb8b8fecbb0.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTurtle§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true
+    },
+    {
+      "id": "PET_SKIN_TURTLE_SHELL_SHULKED",
+      "name": "Shell Shulked Turtle Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_SHELL_SHULKED_LIME/35bf45e8e4299eb2084118dc7e87046674dce10b1ed3f8b89f24086ca7f6a64f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTurtle§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 16 favorite shulky shells!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 20,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_SHELL_SHULKED_LIME/35bf45e8e4299eb2084118dc7e87046674dce10b1ed3f8b89f24086ca7f6a64f.png",
+          "/assets/pets/skins/animated_skins/Turtle/PET_SKIN_TURTLE_SHELL_SHULKED_LIME/b07f6c2a8e0fb376b7b5c5860ccada56d43fd24c51c9886de5d415018c988aab.png"
+        ]
+      }
+    }
+  ]
+}

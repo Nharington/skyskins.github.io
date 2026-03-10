@@ -1,0 +1,89 @@
+{
+  "name": "§6Blaze",
+  "type": "BLAZE",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Defense: §a30\n§7Intelligence: §b100\n\n§6Nether Embodiment\n§7Increases §cCombat §7and §dMiscellaneous\n§7stats by §a10% §7while on the §cCrimson\n§cIsle§7.\n\n§6Bling Armor\n§7Upgrades §cBlaze Armor §7stats and\n§7ability by §a40%§7.\n\n§6Fusion-Style Potato\n§7Double effects of hot potato books\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blaze_Pet",
+    "https://wiki.hypixel.net/Blaze_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 2500000,
+      "time": 432000,
+      "input": "BLAZE;3",
+      "output": "BLAZE;4",
+      "items": [
+        "ENCHANTED_BLAZE_ROD:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "BLAZE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Blaze/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a30\n§7Intelligence: §b100\n\n§6Nether Embodiment\n§7Increases §cCombat §7and §dMiscellaneous\n§7stats by §a5% §7while on the §cCrimson\n§cIsle§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "BLAZE;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Blaze/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a30\n§7Intelligence: §b100\n\n§6Nether Embodiment\n§7Increases §cCombat §7and §dMiscellaneous\n§7stats by §a7.5% §7while on the §cCrimson\n§cIsle§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "BLAZE;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Blaze/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a30\n§7Intelligence: §b100\n\n§6Nether Embodiment\n§7Increases §cCombat §7and §dMiscellaneous\n§7stats by §a7.5% §7while on the §cCrimson\n§cIsle§7.\n\n§6Bling Armor\n§7Upgrades §cBlaze Armor §7stats and\n§7ability by §a40%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "BLAZE;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Blaze/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a30\n§7Intelligence: §b100\n\n§6Nether Embodiment\n§7Increases §cCombat §7and §dMiscellaneous\n§7stats by §a10% §7while on the §cCrimson\n§cIsle§7.\n\n§6Bling Armor\n§7Upgrades §cBlaze Armor §7stats and\n§7ability by §a40%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "BLAZE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Blaze/b78ef2e4cf2c41a2d14bfde9caff10219f5b1bf5b35a49eb51c6467882cb5f0.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a30\n§7Intelligence: §b100\n\n§6Nether Embodiment\n§7Increases §cCombat §7and §dMiscellaneous\n§7stats by §a10% §7while on the §cCrimson\n§cIsle§7.\n\n§6Bling Armor\n§7Upgrades §cBlaze Armor §7stats and\n§7ability by §a40%§7.\n\n§6Fusion-Style Potato\n§7Double effects of hot potato books\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_BLAZE_FROZEN",
+      "name": "Frozen Blaze Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Blaze/PET_SKIN_BLAZE_FROZEN/486a3c5719d0b46d2f20d510d4acedefd994163c2800c702da01181e9c91c57e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlaze§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Blaze/PET_SKIN_BLAZE_FROZEN/486a3c5719d0b46d2f20d510d4acedefd994163c2800c702da01181e9c91c57e.png",
+          "/assets/pets/skins/animated_skins/Blaze/PET_SKIN_BLAZE_FROZEN/4b0c880ffc254cb2fb44039125e49c67ff3116e5514bd8ffe42a24c98982bae8.png",
+          "/assets/pets/skins/animated_skins/Blaze/PET_SKIN_BLAZE_FROZEN/47b78c3ff3e695dd5b2606fe266e19e628299815548dd2eb72ea864b7b8dfb18.png",
+          "/assets/pets/skins/animated_skins/Blaze/PET_SKIN_BLAZE_FROZEN/9617a34c8ff467fdb45be3ff17863fcff7e8424c8dd9b99666edd13b44b32e8c.png",
+          "/assets/pets/skins/animated_skins/Blaze/PET_SKIN_BLAZE_FROZEN/6ba8927cac02e5e49142c141790ee695e7f5b2e3e44c528aa23db0c138b8996b.png",
+          "/assets/pets/skins/animated_skins/Blaze/PET_SKIN_BLAZE_FROZEN/ad8dd3d82074f8ee731ed28b5cb4c53416ee9977ac965e53916070f0d07b3980.png",
+          "/assets/pets/skins/animated_skins/Blaze/PET_SKIN_BLAZE_FROZEN/314d2152f639dff120b1246a67970f9e688606017e354db15638a900616ef795.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_BLAZE_PLUSHIE",
+      "name": "Plushie Blaze Skin",
+      "texturePath": "/assets/pets/skins/Blaze/737623f79f7eb4f3f80da65b652cc44b2148eea41f9ffe2e86a23bdf49ab77b1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlaze§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BLAZE_SOUL",
+      "name": "Soul Blaze Skin",
+      "texturePath": "/assets/pets/skins/Blaze/cd8545b0888dba411e323abec71665bca785a0b0f4bce1397419c41921611362.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlaze§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

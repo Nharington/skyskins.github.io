@@ -1,0 +1,77 @@
+{
+  "name": "§6Wither Skeleton",
+  "type": "WITHER_SKELETON",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Defense: §a25\n§7Strength: §c25\n§7Crit Chance: §95%\n§7Crit Damage: §925%\n§7Intelligence: §b25\n\n§6Stronger Bones\n§7Take §a30% §7less damage from §f🦴\n§fSkeletal §7mobs.\n\n§6Wither Blood\n§7Deal §a100% §7more damage to §8☠ Wither\n§7mobs.\n\n§6Death's Touch\n§7Upon hitting an enemy inflict the\n§7wither effect for §a200% §7damage over 3\n§7seconds\n§8Does not stack\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wither_Skeleton_Pet",
+    "https://wiki.hypixel.net/Wither_Skeleton_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 250000,
+      "time": 43200,
+      "input": "WITHER_SKELETON;3",
+      "output": "WITHER_SKELETON;4",
+      "items": [
+        "ENCHANTED_COAL:128"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "WITHER_SKELETON;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Wither_Skeleton/d50e972d26c3dbc4e1663aaf583388ff321e958d195f8a465b71a596a736fe9c.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a25\n§7Strength: §c25\n§7Crit Chance: §95%\n§7Crit Damage: §925%\n§7Intelligence: §b25\n\n§6Stronger Bones\n§7Take §a10% §7less damage from §f🦴\n§fSkeletal §7mobs.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "WITHER_SKELETON;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Wither_Skeleton/d50e972d26c3dbc4e1663aaf583388ff321e958d195f8a465b71a596a736fe9c.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a25\n§7Strength: §c25\n§7Crit Chance: §95%\n§7Crit Damage: §925%\n§7Intelligence: §b25\n\n§6Stronger Bones\n§7Take §a20% §7less damage from §f🦴\n§fSkeletal §7mobs.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "WITHER_SKELETON;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Wither_Skeleton/d50e972d26c3dbc4e1663aaf583388ff321e958d195f8a465b71a596a736fe9c.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a25\n§7Strength: §c25\n§7Crit Chance: §95%\n§7Crit Damage: §925%\n§7Intelligence: §b25\n\n§6Stronger Bones\n§7Take §a20% §7less damage from §f🦴\n§fSkeletal §7mobs.\n\n§6Wither Blood\n§7Deal §a100% §7more damage to §8☠ Wither\n§7mobs.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "WITHER_SKELETON;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Wither_Skeleton/d50e972d26c3dbc4e1663aaf583388ff321e958d195f8a465b71a596a736fe9c.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a25\n§7Strength: §c25\n§7Crit Chance: §95%\n§7Crit Damage: §925%\n§7Intelligence: §b25\n\n§6Stronger Bones\n§7Take §a30% §7less damage from §f🦴\n§fSkeletal §7mobs.\n\n§6Wither Blood\n§7Deal §a100% §7more damage to §8☠ Wither\n§7mobs.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "WITHER_SKELETON;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Wither_Skeleton/d50e972d26c3dbc4e1663aaf583388ff321e958d195f8a465b71a596a736fe9c.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a25\n§7Strength: §c25\n§7Crit Chance: §95%\n§7Crit Damage: §925%\n§7Intelligence: §b25\n\n§6Stronger Bones\n§7Take §a30% §7less damage from §f🦴\n§fSkeletal §7mobs.\n\n§6Wither Blood\n§7Deal §a100% §7more damage to §8☠ Wither\n§7mobs.\n\n§6Death's Touch\n§7Upon hitting an enemy inflict the\n§7wither effect for §a200% §7damage over 3\n§7seconds\n§8Does not stack\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_WITHER",
+      "name": "Dark Wither Skeleton Skin",
+      "texturePath": "/assets/pets/skins/Wither_Skeleton/224c2d14a0219af5ccfcaa36e8a333e271724ed61276611f9529e16c10273a0d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aWither Skeleton§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WITHER_SKELETON_DESPAIR",
+      "name": "Despair Wither Skeleton Skin",
+      "texturePath": "/assets/pets/skins/Wither_Skeleton/1313d726827091c019e1effcc23aea5e5b9ecd8c05b71269d8eb8533fc82853a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aWither Skeleton§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WITHER_SKELETON_JACK_O_LANTERN",
+      "name": "Jack O' Lantern Wither Skeleton Skin",
+      "texturePath": "/assets/pets/skins/Wither_Skeleton/a319bae96051fa93b4e0b4a4d0d6db81d0476d6b7fcbb981703891e5c801a8d3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aWither Skeleton§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

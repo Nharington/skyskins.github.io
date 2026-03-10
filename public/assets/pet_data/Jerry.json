@@ -1,0 +1,125 @@
+{
+  "name": "§dJerry",
+  "type": "JERRY",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Intelligence: §b-100\n\n§6Jerry\n§7Gain §a50% §7chance to deal your\n§7regular damage\n\n§6Jerry\n§7Gain §a100% §7chance to receive a\n§7normal amount of drops from mobs\n\n§6Jerry\n§7Actually adds §c10 damage §7to the\n§7Aspect of the Jerry\n\n§6Jerry\n§7Tiny chance to find Jerry Candies\n§7when killing mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Jerry_Pet",
+    "https://wiki.hypixel.net/Jerry_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 25000,
+      "time": 3600,
+      "input": "JERRY;4",
+      "output": "JERRY;5",
+      "items": [
+        "PET_ITEM_TOY_JERRY:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "JERRY;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Jerry/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b-100\n\n§6Jerry\n§7Gain §a50% §7chance to deal your\n§7regular damage\n\n§6Jerry\n§7Gain §a100% §7chance to receive a\n§7normal amount of drops from mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "JERRY;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Jerry/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b-100\n\n§6Jerry\n§7Gain §a50% §7chance to deal your\n§7regular damage\n\n§6Jerry\n§7Gain §a100% §7chance to receive a\n§7normal amount of drops from mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "JERRY;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Jerry/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b-100\n\n§6Jerry\n§7Gain §a50% §7chance to deal your\n§7regular damage\n\n§6Jerry\n§7Gain §a100% §7chance to receive a\n§7normal amount of drops from mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "JERRY;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Jerry/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b-100\n\n§6Jerry\n§7Gain §a50% §7chance to deal your\n§7regular damage\n\n§6Jerry\n§7Gain §a100% §7chance to receive a\n§7normal amount of drops from mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "JERRY;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Jerry/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b-100\n\n§6Jerry\n§7Gain §a50% §7chance to deal your\n§7regular damage\n\n§6Jerry\n§7Gain §a100% §7chance to receive a\n§7normal amount of drops from mobs\n\n§6Jerry\n§7Actually adds §c10 damage §7to the\n§7Aspect of the Jerry\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "JERRY;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Jerry/822d8e751c8f2fd4c8942c44bdb2f5ca4d8ae8e575ed3eb34c18a86e93b.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b-100\n\n§6Jerry\n§7Gain §a50% §7chance to deal your\n§7regular damage\n\n§6Jerry\n§7Gain §a100% §7chance to receive a\n§7normal amount of drops from mobs\n\n§6Jerry\n§7Actually adds §c50 damage §7to the\n§7Aspect of the Jerry\n\n§6Jerry\n§7Tiny chance to find Jerry Candies\n§7when killing mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_JERRY_FROZEN",
+      "name": "Frozen Jerry Skin",
+      "texturePath": "/assets/pets/skins/Jerry/3ba8eff040cfbbc3417dc10e28aa3ad93a36ad76f25de57573dd95e4ed541134.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Jerry pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_JERRY_GREEN_ELF",
+      "name": "Green Elf Jerry Skin",
+      "texturePath": "/assets/pets/skins/Jerry/4ec5455f43426ca1874b5c7b4a492ec3722a502f8b9599e758e133fed8b3c1e4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aJerry§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§a§lUNCOMMON COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_JERRY_HANDSOME",
+      "name": "Handsome Jerry Skin",
+      "texturePath": "/assets/pets/skins/Jerry/11be7e0da38de93dba068a40011808ecc39bb757d3fdee8fb25128e2a06dde86.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aJerry§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_JERRY_KING",
+      "name": "King Jerry Skin",
+      "texturePath": "/assets/pets/skins/Jerry/e0b86b67735fa1735cba6b0ac2bc86d013ccd98f776ca0ed715f1cdd17e816c5.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aJerry§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_JERRY_LEPRECHAUN",
+      "name": "Leprechaun Jerry Skin",
+      "texturePath": "/assets/pets/skins/Jerry/4f71c743ce4c945dcfd942e3b5f8747e32c7ede6041c1f5fa71ba9eac1e71818.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aJerry§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_JERRY_MUMMY",
+      "name": "Mummy Jerry Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Jerry/PET_SKIN_JERRY_MUMMY_DAY/c5bded97b5390278066576488cc65299888322df41a3d3528775559b8a6e87a8.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aJerry§7 pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Jerry/PET_SKIN_JERRY_MUMMY_DAY/c5bded97b5390278066576488cc65299888322df41a3d3528775559b8a6e87a8.png"
+          ]
+        },
+        "night": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Jerry/PET_SKIN_JERRY_MUMMY_NIGHT/fb8988ff7c6016613cd72e4eb6540c5c07b01677b8e22b4726c88dfe9a0f8017.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_JERRY_RED_ELF",
+      "name": "Red Elf Jerry Skin",
+      "texturePath": "/assets/pets/skins/Jerry/1d82f9c36e824c1e37963a849bf5abd76d3b349125023504af58369086089ee9.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Jerry pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§a§lUNCOMMON COSMETIC",
+      "animated": false
+    }
+  ]
+}

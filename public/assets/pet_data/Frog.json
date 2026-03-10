@@ -1,0 +1,70 @@
+{
+  "name": "§6Frog",
+  "type": "FROG",
+  "category": "Foraging",
+  "description": "§8Foraging Pet\n\n§7Speed: §f[Speed]\n§7Fishing Speed: §b[Fishing Speed]\n§7Respiration: §3[Respiration]\n\n§6Hunting Enjoyer\n§7Increases your chance to catch\n§2Forest§7, §bWater§7, and §cCombat §7Shards by\n§a10%§7.\n\n§6Hop\n§7Grants §680☘ Foraging Fortune §7for\n§e20 §7seconds every time you jump.\n\n§6Happy Tree Friends\n§7Grants §610☘ Foraging Fortune §7for\n§7every other §2Frog Pet §7on the island,\n§7up to §b10 §7frogs.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Frog_Pet",
+    "https://wiki.hypixel.net/Frog_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 200000,
+      "time": 14400,
+      "input": "FROG;3",
+      "output": "FROG;4",
+      "items": [
+        "GIANT_FROG_TREAT:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "FROG;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Frog/45852a95928897746012988fbd5dbaa1b70b7a5fb65157016f4ff3f245374c08.png",
+      "lore": "§8Foraging Pet\n\n§7Speed: §f[Speed]\n§7Fishing Speed: §b[Fishing Speed]\n§7Respiration: §3[Respiration]\n\n§6Hunting Enjoyer\n§7Increases your chance to catch\n§2Forest §7Shards by §a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "FROG;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Frog/45852a95928897746012988fbd5dbaa1b70b7a5fb65157016f4ff3f245374c08.png",
+      "lore": "§8Foraging Pet\n\n§7Speed: §f[Speed]\n§7Fishing Speed: §b[Fishing Speed]\n§7Respiration: §3[Respiration]\n\n§6Hunting Enjoyer\n§7Increases your chance to catch\n§2Forest§7 and §bWater §7Shards by §a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "FROG;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Frog/45852a95928897746012988fbd5dbaa1b70b7a5fb65157016f4ff3f245374c08.png",
+      "lore": "§8Foraging Pet\n\n§7Speed: §f[Speed]\n§7Fishing Speed: §b[Fishing Speed]\n§7Respiration: §3[Respiration]\n\n§6Hunting Enjoyer\n§7Increases your chance to catch\n§2Forest§7, §bWater§7, and §cCombat §7Shards by\n§a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "FROG;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Frog/45852a95928897746012988fbd5dbaa1b70b7a5fb65157016f4ff3f245374c08.png",
+      "lore": "§8Foraging Pet\n\n§7Speed: §f[Speed]\n§7Fishing Speed: §b[Fishing Speed]\n§7Respiration: §3[Respiration]\n\n§6Hunting Enjoyer\n§7Increases your chance to catch\n§2Forest§7, §bWater§7, and §cCombat §7Shards by\n§a10%§7.\n\n§6Hop\n§7Grants §680☘ Foraging Fortune §7for\n§e20 §7seconds every time you jump.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "FROG;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Frog/45852a95928897746012988fbd5dbaa1b70b7a5fb65157016f4ff3f245374c08.png",
+      "lore": "§8Foraging Pet\n\n§7Speed: §f[Speed]\n§7Fishing Speed: §b[Fishing Speed]\n§7Respiration: §3[Respiration]\n\n§6Hunting Enjoyer\n§7Increases your chance to catch\n§2Forest§7, §bWater§7, and §cCombat §7Shards by\n§a10%§7.\n\n§6Hop\n§7Grants §680☘ Foraging Fortune §7for\n§e20 §7seconds every time you jump.\n\n§6Happy Tree Friends\n§7Grants §610☘ Foraging Fortune §7for\n§7every other §2Frog Pet §7on the island,\n§7up to §b10 §7frogs.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_FROG_BIOME",
+      "name": "Biome Frog Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Frog/PET_SKIN_FROG_BIOME_DEEP_DARK/40339f3bfc1371f4e8804e9279d10bf8185f0069c3b4c5b0fcbd80ee049d3fce.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aFrog\n§7pets.\n\n§aThis skin will allow you to swap\n§abetween 15 biome themed frogs!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 20,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Frog/PET_SKIN_FROG_BIOME_DEEP_DARK/40339f3bfc1371f4e8804e9279d10bf8185f0069c3b4c5b0fcbd80ee049d3fce.png",
+          "/assets/pets/skins/animated_skins/Frog/PET_SKIN_FROG_BIOME_DEEP_DARK/19d9a68a3b1cd7c2ce27ebf57687836bfe2aa8950a2f69ba220a7160b010a02e.png"
+        ]
+      }
+    }
+  ]
+}

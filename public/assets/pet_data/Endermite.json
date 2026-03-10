@@ -1,0 +1,99 @@
+{
+  "name": "§dEndermite",
+  "type": "ENDERMITE",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Intelligence: §b150\n§7Pet Luck: §d[Pet Luck]\n\n§6More Stonks\n§7Gain more exp orbs for breaking end\n§7stone and gain a +§a100% §7chance to get\n§7an extra block dropped\n\n§6Daily Commuter\n§9Transmission Abilities §7cost §a40% §7less\n§7mana\n\n§6Mite Bait\n§7Gain a §a3% §7chance to dig up a bonus\n§cNest Endermite §7per §d+1♣ Pet Luck\n§8(Stacks above 100%)\n\n§6Sacrificer\n§7Increases the odds of rolling for\n§7bonus items in the §cDraconic Altar §7by\n§a?%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Endermite_Pet",
+    "https://wiki.hypixel.net/Endermite_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000,
+      "time": 3600,
+      "input": "ENDERMITE;4",
+      "output": "ENDERMITE;5",
+      "items": [
+        "MIXED_MITE_GEL:1",
+        "ENCHANTED_ENDSTONE:64"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "ENDERMITE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Endermite/18ae7046da98dcb33f3ed42f1dc41d08ac8dfa5db3a3860de5b1b5c056804187.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b150\n§7Pet Luck: §d[Pet Luck]\n\n§6More Stonks\n§7Gain more exp orbs for breaking end\n§7stone and gain a +§a50% §7chance to get\n§7an extra block dropped\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "ENDERMITE;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Endermite/5a1a0831aa03afb4212adcbb24e5dfaa7f476a1173fce259ef75a85855.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b150\n§7Pet Luck: §d[Pet Luck]\n\n§6More Stonks\n§7Gain more exp orbs for breaking end\n§7stone and gain a +§a80% §7chance to get\n§7an extra block dropped\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§a§lUNCOMMON"
+    },
+    {
+      "id": "ENDERMITE;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Endermite/5a1a0831aa03afb4212adcbb24e5dfaa7f476a1173fce259ef75a85855.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b150\n§7Pet Luck: §d[Pet Luck]\n\n§6More Stonks\n§7Gain more exp orbs for breaking end\n§7stone and gain a +§a80% §7chance to get\n§7an extra block dropped\n\n§6Daily Commuter\n§7§7§9Transmission Abilities\n§9§7cost §a30% §7less mana.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§9§lRARE"
+    },
+    {
+      "id": "ENDERMITE;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Endermite/18ae7046da98dcb33f3ed42f1dc41d08ac8dfa5db3a3860de5b1b5c056804187.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b150\n§7Pet Luck: §d[Pet Luck]\n\n§6More Stonks\n§7Gain more exp orbs for breaking end\n§7stone and gain a +§a100% §7chance to get\n§7an extra block dropped\n\n§6Daily Commuter\n§9Transmission Abilities §7cost §a40% §7less\n§7mana\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "ENDERMITE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Endermite/18ae7046da98dcb33f3ed42f1dc41d08ac8dfa5db3a3860de5b1b5c056804187.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b150\n§7Pet Luck: §d[Pet Luck]\n\n§6More Stonks\n§7Gain more exp orbs for breaking end\n§7stone and gain a +§a100% §7chance to get\n§7an extra block dropped\n\n§6Daily Commuter\n§9Transmission Abilities §7cost §a40% §7less\n§7mana\n\n§6Mite Bait\n§7Gain a §a3% §7chance to dig up a bonus\n§cNest Endermite §7per §d+1♣ Pet Luck\n§8(Stacks above 100%)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "ENDERMITE;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Endermite/18ae7046da98dcb33f3ed42f1dc41d08ac8dfa5db3a3860de5b1b5c056804187.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b150\n§7Pet Luck: §d[Pet Luck]\n\n§6More Stonks\n§7Gain more exp orbs for breaking end\n§7stone and gain a +§a100% §7chance to get\n§7an extra block dropped\n\n§6Daily Commuter\n§9Transmission Abilities §7cost §a40% §7less\n§7mana\n\n§6Mite Bait\n§7Gain a §a3% §7chance to dig up a bonus\n§cNest Endermite §7per §d+1♣ Pet Luck\n§8(Stacks above 100%)\n\n§6Sacrificer\n§7Increases the odds of rolling for\n§7bonus items in the §cDraconic Altar §7by\n§a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_ENDERMITE_DYNAMITE",
+      "name": "Dynamite Endermite Skin",
+      "texturePath": "/assets/pets/skins/Endermite/9ebfdace31ac59cdd397869ac4471d8c7ddb4b4d6fa5e9928bbda45f092230d0.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEndermite§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDERMITE_GATEWAY",
+      "name": "Gateway Endermite Skin",
+      "texturePath": "/assets/pets/skins/Endermite/5fcd1e278b5ff75eae9db7ecfd44699b91164fd0c1f8cb00ab2c9461ae6b6dea.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEndermite§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDERMITE_RADIANT",
+      "name": "Radiant Endermite Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/3840ad985c0b08811ab0a137ca736119d079dbf2143462145eb62b6ecbd2d7cc.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEndermite§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 5,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/3840ad985c0b08811ab0a137ca736119d079dbf2143462145eb62b6ecbd2d7cc.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/b8705a24c728644bfec2195f315e5d354060638e2bd9bf8df73d84146c8d1406.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/4d671df85ea9ee52885d7d774f0c9462c8e8bf048e77aa06160c1cc5f45273be.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/adb8259926a17a493a85669387f6e3d77876dac3c838b6c7d6f919ebc53217a5.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/a028ac35c7c7e98f2a6bcd1d1b17b94e79510c6e239f7195717232dcbc7f1e0c.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/d99c5e82e36164b1d58a98e187a796c189e5049a6c0aa7c1d96a107bb5c868e2.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/7019bf6fa4602458a9b20ad09cca45ef5ccc6257081ae323f9bbfca0cbc947e9.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/b2e7419ad458452240b03d8e32016218c70a694a97b9973f4d8ba974056248bd.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/116743eb37c69387615fe4816bc9727ba269f64d1f0bf83b788e3e32c6b06147.png",
+          "/assets/pets/skins/animated_skins/Endermite/PET_SKIN_ENDERMITE_RADIANT/2fc4a7542b754420b1b19f9a28ea00040555a9e876052b97f65840308a93348d.png"
+        ]
+      }
+    }
+  ]
+}

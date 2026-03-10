@@ -1,0 +1,127 @@
+{
+  "name": "§6Chicken",
+  "type": "CHICKEN",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Speed: §f+50\n§7Farming Fortune: §6+[Farming Fortune]\n\n§6Free Range\n§7Grants §6+100☘ Farming Fortune §7while\n§7on §bPublic Islands§7.\n\n§6Eggstra Loot\n§7Chickens always drop an §fEgg §7when\n§7killed. Grants a §a100% §7chance for\n§7animals to drop an additional item.\n\n§6Light Feet\n§7Reduces fall damage by §a100%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Chicken_Pet",
+    "https://wiki.hypixel.net/Chicken_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 10000,
+      "time": 45,
+      "input": "CHICKEN;3",
+      "output": "CHICKEN;4",
+      "items": [
+        "ENCHANTED_RAW_CHICKEN:8",
+        "ENCHANTED_FEATHER:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "CHICKEN;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Chicken/c6e573262297df2bfa81562498a22a90478e5c96e80d05885d87084de24d2b18.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f+50\n§7Farming Fortune: §6+[Farming Fortune]\n\n§6Free Range\n§7Grants §6+50☘ Farming Fortune §7while\n§7on §bPublic Islands§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "CHICKEN;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Chicken/c6e573262297df2bfa81562498a22a90478e5c96e80d05885d87084de24d2b18.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f+50\n§7Farming Fortune: §6+[Farming Fortune]\n\n§6Free Range\n§7Grants §6+75☘ Farming Fortune §7while\n§7on §bPublic Islands§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "CHICKEN;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Chicken/c6e573262297df2bfa81562498a22a90478e5c96e80d05885d87084de24d2b18.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f+50\n§7Farming Fortune: §6+[Farming Fortune]\n\n§6Free Range\n§7Grants §6+100☘ Farming Fortune §7while\n§7on §bPublic Islands§7.\n\n§6Eggstra Loot\n§7Chickens always drop an §fEgg §7when\n§7killed. Grants a §a80% §7chance for\n§7animals to drop an additional item.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "CHICKEN;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Chicken/c6e573262297df2bfa81562498a22a90478e5c96e80d05885d87084de24d2b18.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f+50\n§7Farming Fortune: §6+[Farming Fortune]\n\n§6Free Range\n§7Grants §6+100☘ Farming Fortune §7while\n§7on §bPublic Islands§7.\n\n§6Eggstra Loot\n§7Chickens always drop an §fEgg §7when\n§7killed. Grants a §a100% §7chance for\n§7animals to drop an additional item.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "CHICKEN;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Chicken/c6e573262297df2bfa81562498a22a90478e5c96e80d05885d87084de24d2b18.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f+50\n§7Farming Fortune: §6+[Farming Fortune]\n\n§6Free Range\n§7Grants §6+100☘ Farming Fortune §7while\n§7on §bPublic Islands§7.\n\n§6Eggstra Loot\n§7Chickens always drop an §fEgg §7when\n§7killed. Grants a §a100% §7chance for\n§7animals to drop an additional item.\n\n§6Light Feet\n§7Reduces fall damage by §a100%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_CHICKEN_BABY_CHICK",
+      "name": "Baby Chick Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/700d207cb5c88401f027a716d02a765ea39e3186a8a69b5dfd2c4bf38ea3c702.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aChicken§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_CHICK_BLACK",
+      "name": "Black Chick Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/c4aaea6fd7218043acf26eeec71f6f30e461d13f3066c812e96c07e7dfee7efd.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aChicken§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_CHICK_BLUE",
+      "name": "Blue Chick Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/47e80cbe00cda96a63dbb9f619dfbd38d09a8c26d935af8145512c2a8315734d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aChicken§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_CHICK_PINK",
+      "name": "Pink Chick Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/83819bf3b9840f70a069514c541f8ea5fddb8a18ebeea06fd57d77438b6af779.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aChicken§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_LUNAR_ROOSTER",
+      "name": "Lunar Rooster Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/a28864b8fb895fc771099f3625d19c19c9e465f7e0945b968db06a7e121f8505.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Chicken pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_NESTED",
+      "name": "Nested Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/559cf8a2a5a6d746ca1ab76abd04c0a2758d18706c0364e9077e097a8dc700d7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aChicken§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_ROAST",
+      "name": "Roast Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/f33b1bbceedadff8d3cf786860b163bd24024606ff9e499d0c390cbe2690b778.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Chicken pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_RUBBER",
+      "name": "Rubber Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/414b3d49dfaf37ce453deb2cafb67dd4b4701195bacc0b6d9a38ac32e34a3eb2.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Chicken pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_TURKEY",
+      "name": "Turkey Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/a36c5153d00dd7356eb9aa438e9f1fe668ce3e26498793ed33c13908955b95e4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Chicken pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_CHICKEN_ZODIAC_ROOSTER",
+      "name": "Zodiac Rooster Chicken Skin",
+      "texturePath": "/assets/pets/skins/Chicken/2a533369ebe1f5b857480dcd17a77a9aceeed6307f68b9d4b394d68901a31ccb.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aChicken§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

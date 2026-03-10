@@ -1,0 +1,59 @@
+{
+  "name": "§6Phoenix",
+  "type": "PHOENIX",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Strength: §c60\n§7Intelligence: §b150\n\n§6Rekindle\n§7Before death, become §eimmune §7and\n§7gain §c30 ❁ Strength §7for §a4 §7seconds\n§860s cooldown\n\n§6Fourth Flare\n§7On 4th melee strike, §6ignite §7mobs,\n§7dealing §c15x §7your §9☠ Crit Damage\n§7each second for §a5 §7seconds\n\n§6Magic Bird\n§7You may always fly on your private\n§7island and garden\n\n§6Eternal Coins\n§7Don't lose coins from death.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Phoenix_Pet",
+    "https://wiki.hypixel.net/Phoenix_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000000,
+      "time": 1728000,
+      "input": "PHOENIX;3",
+      "output": "PHOENIX;4",
+      "items": [
+        "ENCHANTED_BLAZE_POWDER:1024"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "PHOENIX;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Phoenix/66b1b59bc890c9c97527787dde20600c8b86f6b9912d51a6bfcdb0e4c2aa3c97.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c60\n§7Intelligence: §b150\n\n§6Rekindle\n§7Before death, become §eimmune §7and\n§7gain §c20 ❁ Strength §7for §a4 §7seconds\n§860s cooldown\n\n§6Fourth Flare\n§7On 4th melee strike, §6ignite §7mobs,\n§7dealing §c13x §7your §9☠ Crit Damage\n§7each second for §a4 §7seconds\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "PHOENIX;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Phoenix/66b1b59bc890c9c97527787dde20600c8b86f6b9912d51a6bfcdb0e4c2aa3c97.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c60\n§7Intelligence: §b150\n\n§6Rekindle\n§7Before death, become §eimmune §7and\n§7gain §c30 ❁ Strength §7for §a4 §7seconds\n§860s cooldown\n\n§6Fourth Flare\n§7On 4th melee strike, §6ignite §7mobs,\n§7dealing §c15x §7your §9☠ Crit Damage\n§7each second for §a5 §7seconds\n\n§6Magic Bird\n§7You may always fly on your private\n§7island and garden\n\n§6Eternal Coins\n§7Don't lose coins from death.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_PHEONIX_FLAMINGO",
+      "name": "Flamingo Phoenix Skin",
+      "texturePath": "/assets/pets/skins/Phoenix/cdf48d0d3c90e3a08e411ed8e14ee769a86ba9e83def4161f101c72ffcbe821b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aPhoenix§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PHOENIX_ICE",
+      "name": "Ice Phoenix Skin",
+      "texturePath": "/assets/pets/skins/Phoenix/12582057e52d0f7fffd1a1f93acf196db5f09b76f1ba3ede28476cc4cd82da97.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aPhoenix§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PHOENIX_SEAGULL",
+      "name": "Seagull Phoenix Skin",
+      "texturePath": "/assets/pets/skins/Phoenix/ae9ccb75cf794bd2b1091562a5e64ea563ccb6913e2c8d11e59c40df8cc6fe73.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aPhoenix§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

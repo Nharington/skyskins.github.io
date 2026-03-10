@@ -1,0 +1,260 @@
+{
+  "name": "§dEnderman",
+  "type": "ENDERMAN",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Crit Damage: §975%\n\n§6Enderian\n§7Take §a30% §7less damage from §5⊙ Ender\n§7mobs\n\n§6Teleport Savvy\n§7Buffs the Transmission abilities\n§7granting §a50 §7weapon damage for 5s\n§7on use\n\n§6Zealot Madness\n§7Increases your odds to find a\n§7special Zealot by §a25%§7.\n\n§6Enderman Slayer\n§7Gain §b?x §7Combat XP against\n§aEndermen§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Enderman_Pet",
+    "https://wiki.hypixel.net/Enderman_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "ENDERMAN;4",
+      "output": "ENDERMAN;5",
+      "items": [
+        "ENDERMAN_CORTEX_REWRITER:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "ENDERMAN;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Enderman/9f31c9b5a2bfe7443645b4e7e8ea408b04d554a9200b00afd574ce924b555ecb.png",
+      "lore": "§8Combat Pet\n\n§7Crit Damage: §975%\n\n§6Enderian\n§7Take §a10% §7less damage from §5⊙ Ender\n§7mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "ENDERMAN;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Enderman/9f31c9b5a2bfe7443645b4e7e8ea408b04d554a9200b00afd574ce924b555ecb.png",
+      "lore": "§8Combat Pet\n\n§7Crit Damage: §975%\n\n§6Enderian\n§7Take §a20% §7less damage from §5⊙ Ender\n§7mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "ENDERMAN;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Enderman/9f31c9b5a2bfe7443645b4e7e8ea408b04d554a9200b00afd574ce924b555ecb.png",
+      "lore": "§8Combat Pet\n\n§7Crit Damage: §975%\n\n§6Enderian\n§7Take §a20% §7less damage from §5⊙ Ender\n§7mobs\n\n§6Teleport Savvy\n§7Buffs the Transmission abilities\n§7granting §a40 §7weapon damage for 5s\n§7on use\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "ENDERMAN;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Enderman/9f31c9b5a2bfe7443645b4e7e8ea408b04d554a9200b00afd574ce924b555ecb.png",
+      "lore": "§8Combat Pet\n\n§7Crit Damage: §975%\n\n§6Enderian\n§7Take §a30% §7less damage from §5⊙ Ender\n§7mobs\n\n§6Teleport Savvy\n§7Buffs the Transmission abilities\n§7granting §a50 §7weapon damage for 5s\n§7on use\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "ENDERMAN;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Enderman/9f31c9b5a2bfe7443645b4e7e8ea408b04d554a9200b00afd574ce924b555ecb.png",
+      "lore": "§8Combat Pet\n\n§7Crit Damage: §975%\n\n§6Enderian\n§7Take §a30% §7less damage from §5⊙ Ender\n§7mobs\n\n§6Teleport Savvy\n§7Buffs the Transmission abilities\n§7granting §a50 §7weapon damage for 5s\n§7on use\n\n§6Zealot Madness\n§7Increases your odds to find a\n§7special Zealot by §a25%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "ENDERMAN;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Enderman/9f31c9b5a2bfe7443645b4e7e8ea408b04d554a9200b00afd574ce924b555ecb.png",
+      "lore": "§8Combat Pet\n\n§7Crit Damage: §975%\n\n§6Enderian\n§7Take §a30% §7less damage from §5⊙ Ender\n§7mobs\n\n§6Teleport Savvy\n§7Buffs the Transmission abilities\n§7granting §a50 §7weapon damage for 5s\n§7on use\n\n§6Zealot Madness\n§7Increases your odds to find a\n§7special Zealot by §a25%§7.\n\n§6Enderman Slayer\n§7Gain §b1.5x §7Combat XP against\n§aEndermen§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_ENDERMAN",
+      "name": "Spooky Enderman Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/f50d937fac32e9a1b83c523e16e855bdbc68b6530c8b80188971a032c726d60c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnderman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/f50d937fac32e9a1b83c523e16e855bdbc68b6530c8b80188971a032c726d60c.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/2009074a10b5ecf60ad2d76f145df6d731ddbecce1bea792ed9bb8cb55fa6098.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/b9a6ba59aed1b7985d6db3d4c98b0cf9bad10039d05403aaf30856f289b14d64.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/edef9e1cf8a3f46991eac8a7d7adff6eb18989745c3054da4020fff79dd34575.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/be359ee4f357d7d9c23832fab1d95c63c4ee85f8d188ed17a5ccba442474eb2c.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/91467eb80c65281f2e2e0162db42e3242b52967774c997eefb6c5d3503619819.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/b18f538e7358b4b79e8402ae8c152f440bc1aed161b720c6b067a375c13b4d96.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/92defbe3cde326d4511bb53339d777afa703f3ec4daa697d61a4402744cbb0cd.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/92defbe3cde326d4511bb53339d777afa703f3ec4daa697d61a4402744cbb0cd.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/b18f538e7358b4b79e8402ae8c152f440bc1aed161b720c6b067a375c13b4d96.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/91467eb80c65281f2e2e0162db42e3242b52967774c997eefb6c5d3503619819.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/be359ee4f357d7d9c23832fab1d95c63c4ee85f8d188ed17a5ccba442474eb2c.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/edef9e1cf8a3f46991eac8a7d7adff6eb18989745c3054da4020fff79dd34575.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/b9a6ba59aed1b7985d6db3d4c98b0cf9bad10039d05403aaf30856f289b14d64.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/2009074a10b5ecf60ad2d76f145df6d731ddbecce1bea792ed9bb8cb55fa6098.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/f50d937fac32e9a1b83c523e16e855bdbc68b6530c8b80188971a032c726d60c.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ENDERMAN_BLUE_MOON",
+      "name": "Blue Moon Enderman Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/d1d128ffc3edc6a8b29053b4059358437d4a00c3714847096acc5408d5daa3d9.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnderman§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/d1d128ffc3edc6a8b29053b4059358437d4a00c3714847096acc5408d5daa3d9.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/1a1a0d14e7df3769343a4df790ce7c0fe2477dd786b4f8b6e2b21884aa63c988.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/aa88fabc07a2ae5931d197aa882e21939ec78139de10c11ea02c7783dd5d80f4.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/10db29d9182060dc4b0e11c718f11f892e751857ab0ea67d5842f7f6e2c045ab.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/62ba2137ac8ddb0d121263fc70e3218f64da31c11f6ce850e493d0adbf65676d.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/b5075941fb5ecbbee5974a8eab8c01e6ebf794e8f11f1c12b80e0abe02afd2bf.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/181586f6e79169d79570e319b2f08895cf366ca3ac506af88f831510783f8987.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/97b3faf4e739468d837e512e7d2cd454a6b9902079cc0dbdc04fa5ff560a139.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/9386ec9c3b3a4c4b1cf449b871f604c644de56e8ba5c22bc53e2a51dbe6bc6df.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/6828d5003aca8ac09c61e27ec00efee221809d288f345834c467f20d94155e12.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/bb318dbcd509bdcab415f26801896fda2f0af7fbf887f880d364a4df54765753.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/b7ee430c2984939997a3efbcb9099925a4794aa971b1602217a7db3f5842d682.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/33842524c16efed0ecfb7790984a50ecc50aa909456753480ff2247eed54991a.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/60320898da28cd67de44522dc98b732cb13ba49d6a1773d306192bd27c7fe4be.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/fdf31761aa57d40cb9694c305ec56c90564f6329393c405a1b33738c8c29f493.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/d481bf31fa9bdedd8575e1daf25ef596987eff5badba66bb58ec1568ec33d718.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/4dd87c6d27c14e6f480aeda4c53bc111e9119e743645282cb38b77fc2db9da1e.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/4d2dae52eaa0e9209b31fec5a7ec8f6395d69b3320fe0457326348982757ef2e.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/c90517d29ae09f7498bd3db971a75e24232205817fbb0dab72f3e4db91414aef.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/4b513992394dd64097983daf9fc7a39f743cff86d1f930691ab384b6189957f9.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/6664777767ed6271a57fac08dad03e9a7744d64640e5469b32edc4c86af30350.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/37f5dc5f16248d2d03d4749e28bf747a1de35bca589ee7dc063adfaf6e2961a1.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/b117e1cc748fe1653c73691e9ecc000e2fb9c4c9dd091f4f13e5188ebd4616e5.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/127f9560a763049e50b63647b5d3c59564ef7399e42d7b5344576eda4d0dbee9.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/b3bbcab8b7aff972b28689e681feedb3bbf265bf76fe7f7c39917866979bcfe5.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/354a21737facd3ebbcc2e3db6aecd64b811846d85226f573e2c68c7cf38c783c.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/65c55fd0f1c185f9e003cffd7a5e2a39d5a6a2de14d6b149c4d9c5499a62a2b1.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/3a3aefc10c45b1555ee1b559c51d6e66de0dc6dc4f8ceaffbe19c60889ed196d.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/e06e7006f67dc28ffe7170cd8d2c488497aac7f9696095873e996560898ba0cb.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/12f7e0c0c1d2d0914c33bd341dec86f128e4d2ef5d072f84589ea7176dd3e9d5.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/372be70695e4870af1567b5f607a695beeff0f83761170151cae9fa04b9d256.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/89e9bb4d6cd209b37ff00c61529b15ab9cc6b6d349bf53902aafdaaf95cb112.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/5e790d6e82371023e9664981c4c9efb29fdd332464af28396d28539effcbe935.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_BLUE_MOON/2f45adf587ea5c8c59e1623b2e83c9aa17bc942bd2a2061a90c484a43014604c.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ENDERMAN_DESPAIR",
+      "name": "Despair Enderman Skin",
+      "texturePath": "/assets/pets/skins/Enderman/c563516d4db15f3f3e5d73f24467482a2978dceda92190f68b45d10184ed854c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnderman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDERMAN_ENDERCAT",
+      "name": "Endercat Enderman Skin",
+      "texturePath": "/assets/pets/skins/Enderman/700a7088237cfa1923bf7e83ee064dfd63b70f3433e3ab85123fd455ad66d08d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnderman§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 14 ender themed cats!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDERMAN_NEBULA",
+      "name": "Nebula Enderman Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/919d90acd9979795d09787ca6f39378faed87f7fe463c9520466dbc58059bd44.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnderman§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/919d90acd9979795d09787ca6f39378faed87f7fe463c9520466dbc58059bd44.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/b32907495cfb0cf38bb0cdd2cd1822111cb6469088cd98423143815b55dbbd4a.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/d1eb2cc015da55a3089819ffa87ba1b55e970bf4bf192d417aa236628a033a0a.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/9a3dc7dac73dc4fe5cd7ebeedbf17cf61565efb0d0b65678f2c4c052ecc5734d.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/496ff0690187dc73bb7c086750587130abf4c0b45ac282e8d0223b4a9bceab9e.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/ef6d56934b225144b610b44461aa4cf48eb392a026fa157d63a86de5344f61ef.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/9b68db6d89977636b89a092429f23353cd73bfa3ae0809e36202b0adddbb391d.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/5c4df3685304682efdf7ebeaa803680f34f998354290a08e8ba9dbb8bb857102.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/74fc6c7a376111b5446837908e1dac5a2a5903fa283e0f29ff8dad68f987a542.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/8870d9460994cda904e88965003c2c3db3733c91803e89eac426abfb93eba505.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/e8cc71d8cffc3e732f6d5c0150b30f5391755418a90e531cb95b38dca6565df0.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/428195547c9e00b34fec134be8a71fa4aebc858b88680e5f13a973285f291f4.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/5790e730d6a51f509e6ac2e8dda0a277ee84905810557a78e916594a44dd6a.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/b147992d66beb9715660424047458f15b406b4d0af73b59175ef1e741975e61b.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/2bcd54ebf40dfa852ac4d26fb9e2e8ec2df345565bd5476e1548b3b7ce973f83.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/78f0170d06ab60fcb73334c2edd5a2ab82bfd8e8c2a9c81b17cab090fc1bd270.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/8f21b3746adcc92522235cc6289eeaa9ab934df984ee7d11b6451b368930eab3.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/5f9c98c85ee65948a263bb1c864c20f0ec2a6b83cc4704b4b59c9fa65c25e22e.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/29877602556a528bda398ba727a60856a4316dd1a31843415378a83a7150d904.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/2c104a59a0118a907f1137cf73d6d0517925d7afed7e94c530f4bcf6d3fa6c3a.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/3d07f3f0384e6cb29fc449d81794b410f1b4a4de1edab42b6dbd7677a48ed316.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/a74afffa8c7f78e1326e1261cfb7873c34d6567cf00fe1048bd49f80df0e9cae.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/79421d2c34f7e1d74be0992776ed6c325ebab5548f771ce77d4f22397e01db4d.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/7b8c55342a942adfa2c3a30ffc87788e0058e8c74f20c681a1d0410c8eace381.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/19967493c39786b5abb72edfce30736ad85b2cb20fcd91be3ac912f3a1447c8.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/a8b4116ecd0296cd942720e6a7874973b775de6b3e5ecbbcabc277b8458b57a7.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/b8241472c7c0d2b98f92729037e8627e3a621d52074c309f98ad8e8976c20925.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/a12d00ac826881132bab694eb8320c7cc554aad14b6d123db123c1f3367c3f53.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/962216b27832d2e5af50b368369b753ec3dfb36cc5aa60d9a7ba02a4c21d311b.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/685e00c03693cbb2f3583917b85e22bbb07ab06d2bb40bfd87a1943f5a15b8c.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/1d03d281391986716e80f6d07b7fa84dea5a88b099b2a2ecfb73dac0cbb0d3d.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/ab31da0eda40d1c3464a27de47a2cbce872ddf2e14bcde529445f4b4c7102068.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/66b12e6a073b5d0cd11e65e0aa0450888bf7ff0360535c61818a9d24ca70b0.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/432e27255f6e7522f2542517066cc4d2df0de169ac29a472decf85d40c396fbe.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEBULA/e6cf12ec2e2fb279768a532677b08b8499400fe9396c1f1c82186b4ad1eca34c.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ENDERMAN_NEON",
+      "name": "Neon Enderman Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/dc0363d39c0bbd6b51df2b1ed15317ae548ab67477ff1c7a3e003b9f8ff2f880.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnderman§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 5,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/dc0363d39c0bbd6b51df2b1ed15317ae548ab67477ff1c7a3e003b9f8ff2f880.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/b9d7d1208170f658bcfc3650790ec0156a2457a17b2066f1b4f08d0f68d4af18.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/fcb40712ec18d6aa40469cc28effc8218474f66fa19e2982cc28e9bdfad76028.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/6594f2542e0adb0d824b8bb84178581e10defc8a86eb4b7edc1486ea3f608d0e.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/6d2ad9bb19f98d867d6072d4fb2c7e4c1b90debe21f3de5a9631b4d93daa86f9.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/ae14b1f77d912d905ec4cd83adc16aa59af4d85d38fcfe7cfa0fea64df052efa.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/c5c18c532e0ac3e8d02f855ad8ea739803cff2647e34be53b618c6b0bfab8f2f.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/535f7a947de7affad74aa95b1188f7269657ae39ca2aa281277413d2335f82a0.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_NEON/6f9020c07d875bad1440337adb55a08c15db06b994646a691795f4cd293fe3de.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ENDERMAN_SLAYER",
+      "name": "Void Conqueror Enderman Skin",
+      "texturePath": "/assets/pets/skins/Enderman/8fff41e1afc597b14f77b8e44e2a134dabe161a1526ade80e6290f2df331dc11.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnderman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDERMAN_SUN",
+      "name": "Sun Enderman Skin",
+      "texturePath": "/assets/pets/skins/Enderman/7f261e3fe875dd75a7fbd4ea7b1932ca2f3e18665a80f32429e4f3fe504dca76.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Enderman pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true
+    },
+    {
+      "id": "PET_SKIN_ENDERMAN_XENON",
+      "name": "Xenon Enderman Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/f50d937fac32e9a1b83c523e16e855bdbc68b6530c8b80188971a032c726d60c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnderman§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/f50d937fac32e9a1b83c523e16e855bdbc68b6530c8b80188971a032c726d60c.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/2009074a10b5ecf60ad2d76f145df6d731ddbecce1bea792ed9bb8cb55fa6098.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/b9a6ba59aed1b7985d6db3d4c98b0cf9bad10039d05403aaf30856f289b14d64.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/edef9e1cf8a3f46991eac8a7d7adff6eb18989745c3054da4020fff79dd34575.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/be359ee4f357d7d9c23832fab1d95c63c4ee85f8d188ed17a5ccba442474eb2c.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/91467eb80c65281f2e2e0162db42e3242b52967774c997eefb6c5d3503619819.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/b18f538e7358b4b79e8402ae8c152f440bc1aed161b720c6b067a375c13b4d96.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/92defbe3cde326d4511bb53339d777afa703f3ec4daa697d61a4402744cbb0cd.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/92defbe3cde326d4511bb53339d777afa703f3ec4daa697d61a4402744cbb0cd.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/b18f538e7358b4b79e8402ae8c152f440bc1aed161b720c6b067a375c13b4d96.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/91467eb80c65281f2e2e0162db42e3242b52967774c997eefb6c5d3503619819.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/be359ee4f357d7d9c23832fab1d95c63c4ee85f8d188ed17a5ccba442474eb2c.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/edef9e1cf8a3f46991eac8a7d7adff6eb18989745c3054da4020fff79dd34575.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/b9a6ba59aed1b7985d6db3d4c98b0cf9bad10039d05403aaf30856f289b14d64.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/2009074a10b5ecf60ad2d76f145df6d731ddbecce1bea792ed9bb8cb55fa6098.png",
+          "/assets/pets/skins/animated_skins/Enderman/PET_SKIN_ENDERMAN_XENON/f50d937fac32e9a1b83c523e16e855bdbc68b6530c8b80188971a032c726d60c.png"
+        ]
+      }
+    }
+  ]
+}

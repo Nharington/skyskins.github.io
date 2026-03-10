@@ -1,0 +1,58 @@
+{
+  "name": "§dTarantula",
+  "type": "TARANTULA",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Strength: §c10\n§7Crit Chance: §910%\n§7Crit Damage: §930%\n\n§6Webbed Cells\n§7Anti-healing is §a30% §7less effective\n§7against you.\n\n§6Eight Legs\n§7Decreases the mana cost of Spider,\n§7Tarantula, Primordial and Spirit Boots\n§7by §a50%§7.\n\n§6Arachnid Slayer\n§7Gain §b1.5x §7Combat XP against\n§aSpiders§7.\n\n§6Web Battlefield\n§7Killing mobs grants §c+0.06❁ Strength\n§7and §b+0.01✯ Magic Find §7for §a40s §7to all\n§7players staying within §a20 §7blocks of\n§7where they died. §8Stacks up to 10\n§8times.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tarantula_Pet",
+    "https://wiki.hypixel.net/Tarantula_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "TARANTULA;4",
+      "output": "TARANTULA;5",
+      "items": [
+        "FAKE_NEUROSCIENCE_DEGREE:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "TARANTULA;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Tarantula/b81b5cf3a65bf9cab4bca55781721a86d567d9e106551647f35b715edf00a13f.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c10\n§7Crit Chance: §910%\n§7Crit Damage: §930%\n\n§6Webbed Cells\n§7Anti-healing is §a30% §7less effective\n§7against you.\n\n§6Eight Legs\n§7Decreases the mana cost of Spider,\n§7Tarantula, Primordial and Spirit Boots\n§7by §a50%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "TARANTULA;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Tarantula/b81b5cf3a65bf9cab4bca55781721a86d567d9e106551647f35b715edf00a13f.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c10\n§7Crit Chance: §910%\n§7Crit Damage: §930%\n\n§6Webbed Cells\n§7Anti-healing is §a30% §7less effective\n§7against you.\n\n§6Eight Legs\n§7Decreases the mana cost of Spider,\n§7Tarantula, Primordial and Spirit Boots\n§7by §a50%§7.\n\n§6Arachnid Slayer\n§7Gain §b1.5x §7Combat XP against\n§aSpiders§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "TARANTULA;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Tarantula/b81b5cf3a65bf9cab4bca55781721a86d567d9e106551647f35b715edf00a13f.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c10\n§7Crit Chance: §910%\n§7Crit Damage: §930%\n\n§6Webbed Cells\n§7Anti-healing is §a30% §7less effective\n§7against you.\n\n§6Eight Legs\n§7Decreases the mana cost of Spider,\n§7Tarantula, Primordial and Spirit Boots\n§7by §a50%§7.\n\n§6Arachnid Slayer\n§7Gain §b1.5x §7Combat XP against\n§aSpiders§7.\n\n§6Web Battlefield\n§7Killing mobs grants §c+0.06❁ Strength\n§7and §b+0.01✯ Magic Find §7for §a40s §7to all\n§7players staying within §a20 §7blocks of\n§7where they died. §8Stacks up to 10\n§8times.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_TARANTULA_GREENBOTTLE",
+      "name": "Greenbottle Tarantula Skin",
+      "texturePath": "/assets/pets/skins/Tarantula/b6f03e15ccdf4b43016959efd357e61a77e98ab4a18b006cfdb209c5cfb99457.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTarantula§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_TARANTULA_PINK",
+      "name": "Pink Tarantula Skin",
+      "texturePath": "/assets/pets/skins/Tarantula/e841ad77a748ed3d1d50855d1749981d5f38f8dbf55c14f74dd4235766181e3b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTarantula§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

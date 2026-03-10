@@ -1,0 +1,114 @@
+{
+  "name": "§6Dolphin",
+  "type": "DOLPHIN",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Intelligence: §b100\n§7Sea Creature Chance: §35%\n\n§6Pod Tactics\n§7Grants §b+10☂ Fishing Speed §7for\n§7each player within §a30 §7blocks, up to §a5\n§7players.\n\n§6Echolocation\n§7Grants §3+10α Sea Creature Chance§7.\n\n§6Splash Surprise\n§7Stun §3Sea Creatures §7for §a5s §7after\n§7fishing them up.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Dolphin_Pet",
+    "https://wiki.hypixel.net/Dolphin_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 50000000,
+      "time": 1209600,
+      "input": "DOLPHIN;3",
+      "output": "DOLPHIN;4",
+      "items": [
+        "ENCHANTED_RAW_FISH:16"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "DOLPHIN;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Dolphin/1415d2c543e34bb88ede94d79b9427691fc9be72daad8831a9ef297180546e18.png",
+      "lore": "§8Fishing Pet\n\n§7Intelligence: §b100\n§7Sea Creature Chance: §35%\n\n§6Pod Tactics\n§7Grants §b+6☂ Fishing Speed §7for\n§7each player within §a30 §7blocks, up to §a5\n§7players.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "DOLPHIN;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Dolphin/1415d2c543e34bb88ede94d79b9427691fc9be72daad8831a9ef297180546e18.png",
+      "lore": "§8Fishing Pet\n\n§7Intelligence: §b100\n§7Sea Creature Chance: §35%\n\n§6Pod Tactics\n§7Grants §b+8☂ Fishing Speed §7for\n§7each player within §a30 §7blocks, up to §a5\n§7players.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "DOLPHIN;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Dolphin/1415d2c543e34bb88ede94d79b9427691fc9be72daad8831a9ef297180546e18.png",
+      "lore": "§8Fishing Pet\n\n§7Intelligence: §b100\n§7Sea Creature Chance: §35%\n\n§6Pod Tactics\n§7Grants §b+8☂ Fishing Speed §7for\n§7each player within §a30 §7blocks, up to §a5\n§7players.\n\n§6Echolocation\n§7Grants §3+7α Sea Creature Chance§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "DOLPHIN;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Dolphin/1415d2c543e34bb88ede94d79b9427691fc9be72daad8831a9ef297180546e18.png",
+      "lore": "§8Fishing Pet\n\n§7Intelligence: §b100\n§7Sea Creature Chance: §35%\n\n§6Pod Tactics\n§7Grants §b+10☂ Fishing Speed §7for\n§7each player within §a30 §7blocks, up to §a5\n§7players.\n\n§6Echolocation\n§7Grants §3+10α Sea Creature Chance§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "DOLPHIN;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Dolphin/1415d2c543e34bb88ede94d79b9427691fc9be72daad8831a9ef297180546e18.png",
+      "lore": "§8Fishing Pet\n\n§7Intelligence: §b100\n§7Sea Creature Chance: §35%\n\n§6Pod Tactics\n§7Grants §b+10☂ Fishing Speed §7for\n§7each player within §a30 §7blocks, up to §a5\n§7players.\n\n§6Echolocation\n§7Grants §3+10α Sea Creature Chance§7.\n\n§6Splash Surprise\n§7Stun §3Sea Creatures §7for §a5s §7after\n§7fishing them up.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_DOLPHIN_LUNAR_HORSE",
+      "name": "Lunar Sea Horse Dolphin Skin",
+      "texturePath": "/assets/pets/skins/Dolphin/be0d1cd0a467b21764a183d6753b6cbdcb4ff3bbbf198956d6102c80ff487213.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aDolphin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_DOLPHIN_MIDNIGHT",
+      "name": "Midnight Dolphin Skin",
+      "texturePath": "/assets/pets/skins/Dolphin/132f71a7ffdc644c6d209180ba6e27c95f31f13fe180357156dbc3c0f4154e5e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aDolphin§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true
+    },
+    {
+      "id": "PET_SKIN_DOLPHIN_SNUBFIN",
+      "name": "Snubfin Dolphin Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/279413c788c7f450234bdab0cf0d0291c57f730e380c6d4c7746fde15928381.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aDolphin§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/279413c788c7f450234bdab0cf0d0291c57f730e380c6d4c7746fde15928381.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/e7df31c808b3e0e8907943e4cadf37f6bfd0af177913ba81d96115c6139d98b9.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/60098af339abd2fdd2b0046c6a5ca5ae351e429d0198e9711da42f78780bb5db.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/39f759bda7792e9810c4524d6d3f4463cd306c32a61f27077b58396dea89d551.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/78ebcc36ec0984c48721eaf8a662b94c4702823432e478046c65f641030b5b13.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/229bde70c7ab11489220ae2e15f0c68caba0b8ceeb726fc1bce518d37a900632.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/70271de0b78de131253e5723df01e3f3a89204658c5a1a77ded86e9d4d48337.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/a5ccc6f0a9b69bd1583f030400dc2d2997e9a1731b5f961c0eab2df9d653a583.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/81ecf02070175e5704d7d82e727f552796343bcb2e75855e78c58a6161223ca0.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/a13260270ab2538c902698942132cf3157a6d4e6e40c8aa97b72f17664c81f49.png",
+          "/assets/pets/skins/animated_skins/Dolphin/PET_SKIN_DOLPHIN_SNUBFIN/cd5cad5afe1ba4b7a4e303dce968c97ae06988702ed5dbd553035d936abd5159.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_DOLPHIN_SNUBNOSE_GREEN",
+      "name": "Green Snubfin Dolphin Skin",
+      "texturePath": "/assets/pets/skins/Dolphin/5f2879bd8b0bafdd71dbd3fc5850afc6c53da60d4252182cfc80737a00d72408.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aDolphin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_DOLPHIN_SNUBNOSE_PURPLE",
+      "name": "Purple Snubfin Dolphin Skin",
+      "texturePath": "/assets/pets/skins/Dolphin/fd0b213c15dd7b8c67512bc18bf14d32dc4b57b9c305d1c7514aa3e2609a78a4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aDolphin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_DOLPHIN_SNUBNOSE_RED",
+      "name": "Red Snubfin Dolphin Skin",
+      "texturePath": "/assets/pets/skins/Dolphin/779df5b4da325c0d740251b4204a0cd22d9fdb88cecb6eff6176ef4f2ecedb1e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aDolphin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    }
+  ]
+}

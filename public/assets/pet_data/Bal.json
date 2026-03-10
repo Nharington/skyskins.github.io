@@ -1,0 +1,144 @@
+{
+  "name": "§6Bal",
+  "type": "BAL",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Heat Resistance: §c150\n§7Mining Fortune: §6100\n\n§6Furnace\n§7Grants §5+3✧ Pristine §7while in the\n§cMagma Fields§7.\n\n§6Dispersion\n§7While in the §5Crystal Hollows§7, killing\n§7mobs reduces your §c♨ Heat §7by §c4§7.\n\n§6Chimney\n§7Reduce Pickaxe Ability cooldowns by\n§a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bal_Pet",
+    "https://wiki.hypixel.net/Bal_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 2000000,
+      "time": 864000,
+      "input": "BAL;3",
+      "output": "BAL;4",
+      "items": [
+        "YOGGIE:100"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "BAL;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Bal/c469ba2047122e0a2de3c7437ad3dd5d31f1ac2d27abde9f8841e1d92a8c5b75.png",
+      "lore": "§8Mining Pet\n\n§7Heat Resistance: §c150\n§7Mining Fortune: §6100\n\n§6Furnace\n§7Grants §5+2✧ Pristine §7while in the\n§cMagma Fields§7.\n\n§6Dispersion\n§7While in the §5Crystal Hollows§7, killing\n§7mobs reduces your §c♨ Heat §7by §c4§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "BAL;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Bal/c469ba2047122e0a2de3c7437ad3dd5d31f1ac2d27abde9f8841e1d92a8c5b75.png",
+      "lore": "§8Mining Pet\n\n§7Heat Resistance: §c150\n§7Mining Fortune: §6100\n\n§6Furnace\n§7Grants §5+3✧ Pristine §7while in the\n§cMagma Fields§7.\n\n§6Dispersion\n§7While in the §5Crystal Hollows§7, killing\n§7mobs reduces your §c♨ Heat §7by §c4§7.\n\n§6Chimney\n§7Reduce Pickaxe Ability cooldowns by\n§a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_AMMONITE_HERMIT_BEACH_BALL",
+      "name": "Hermit Beach Ball Ammonite Skin",
+      "texturePath": "/assets/pets/skins/Bal/a1714635035fc1ddaa3e48b03304e78d160470dcb59761e27cbcac90852989c4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aAmmonite§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BAL_BLIZZARD",
+      "name": "Blizzard Bal Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/86d3d5b8f75563e04ee1cc89f01662a497b728bb4b135afa0f2e3bb0c123dd5a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBal\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/86d3d5b8f75563e04ee1cc89f01662a497b728bb4b135afa0f2e3bb0c123dd5a.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/9ca2b38cc3b6aac55fda7dabf6560147796bce453a9b5c369e27002136e1025.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/99237932e037e6f2c642e8ddd64a886da15193ba2818167b6f9e9f9144be6f06.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/91a88e18adb2aa61991d573601208529dacd4152bc59658a0d7f011834bada12.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/f1c879a3a489cd3249f7e19fe5786c2c2ac4e72907c7abe35fc66309d185c88d.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/d471f58fdc5b1cc73581f737407059502367ac44c7cdebfa3d634df446158e79.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/e0f4b597a5d7c520fa251f5cba9f04d61170104e18f4671a0f8123bf8c46d5a1.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/609ad20430236df1cf9f7e7ac34a95a6d34a6c1033ba4008a4bbc5a45b6fc7b7.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/9b4ec202ac56839a57558f7a33b6e2d3dc176387869cbfebee71e1136ebee8bb.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/6529b5afe43fe0c83434142a48b6a8ab7f324721c4768fb0650b66cb7a64e06d.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/2183db44a224b0916a448e6284bb4ac256ce8f935a436ffa6c1de16d8de55f0e.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/499ddfc9207c45f0fe2328fcd3dbf0a5108904cf7d2cebcf8313f8de724d38e8.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/506963d49aca1047a199f1f96704dbb32e96958f44002d29b77e7e47335c17ae.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/8ccb8baf887e0e42d9c829e1842ec800570673b2f4ff9e32223ffecabb989958.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/a74db0ac19c2a0a0a53104b6821bb178681da75bd89a3dffc83e56ab8a1905d.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/1c4b609a006d4b2c1dc290bd968f914b7c75702e8ad30795eff8e85985b074cc.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/cf0376e469857f42d815eb75261b8f957008b1b8b63e73a61239a3fc5b8f55c.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/8f2f72bbd48d6a50c6550ee0ec2eee967c0d2f7f36b0bcc1fba3c88355943003.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/c224f77efe982f325adc2995d456faa7c5845c4286b9d6f8e0a46d8cb5e67a91.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/6ba085a97318f5111788b828c7da87af80352cc923f38183a6976009cbafc78e.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/6113d472053d943bbd4011d1bc09d125bd6d256bd766306a926d7de60181329.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/ea9fe88431ff59ecd4843d6906eb4155a3dc838fd270880806f050fa88e48909.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/e0173a9acb8bc81d2d3bcd60df77b24077fc8ab977ea8867b1d9964c64b0afdc.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/e74badf1f757b85326099450caea36ee4f5df0fac2456f028a078e14c6d30e2.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/cca97411f9ae8841d50cd2e3acc3c01510529a137779b3390e51efba617335ba.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/e8bed4ad287dc4a06277ec2fd2fcd96cb922b5535e8cd01ab8d68cdd9a908a78.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/29694230ba312222235d5179eb681c61d6934f4f65d72782cef01ed3b10da658.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/18187bced5ec544ced027d55880835b45a58b90f16d81224695fc640e597178c.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/cfc56c1740606ef46095111ac7b7e3012e2b87942ac1ccd6c30b7b11491424a8.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/2984401f87524c93c6dd23ef1a294fde388847376accfac40a8246fc64bca4dd.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/e84fa74c89915d51190e1e85ceb0959a95e422627abcc6f7ebcbc1992b644fd5.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/79161e3dd0bcb1d41d5bfd5744ea31270d1610d4726e04ddbb76acb00b54ebf6.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/aa10461fa7579630cd224e3c8d1e1a884c3b05a7d668a4d773c7443f398578b.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/81748e7ca978ae05fb1881701fc5790f32e465d059308f44a31ea12375393cae.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/169446c98bcd487e5b590aae44263ad8147b5273e9d01a18c904dcee0e69b4e1.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/f3c51ba9df3481007596cc9fe55086a4b8a563554872b788545fd6909ddeb72f.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/2e3215527f3e79a9caa86dac6367c526f9e8dc33cd6470b3f70338775db0f6e.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/c5d8ca0c284e26c973b824392b6e80fa5aacfde2100a158d30cb5ca457fa1874.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/59d3a55eef2ce184b1ac37695fd62af0561e11770e1092118afc9204ce3f6daf.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/e9fcd1b77949479dc261be7fe2de85effb80928bbd9494339ba835b5612d7ef4.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/8aed585a6119572394ce5e4657307975688c03f0d48f5a64aa5f5ba6842a2edf.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/d48e6fea1a23b1b5c31bcfc07f36a5e2eefa82342c769e4920bd184a239c46e6.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/6c7d483a4d59dbae754068174d7cc34757e725c24452d92dc7adb13a71515b38.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/eb708157ec28c79b4eeec0abac7f3bde9c7a5c5f271cb341ce8eba34a027bd37.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/9049f3f0adde8e1669b97ccab4da4f3ed5b3dc1c1eded6282d4aea44f15984eb.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_BLIZZARD/726c8a7b5cbc59864c4fa4f6408d684e058fc9c659ca33a5f6aeb5c2ff76859f.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_BAL_INFERNO",
+      "name": "Inferno Bal Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/2f0ae52577d106c7179a902f3f3f183811994b9645debb83c8d61106c00193a0.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBal\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/2f0ae52577d106c7179a902f3f3f183811994b9645debb83c8d61106c00193a0.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/9800062213c9e2a6660358794357187b6a5e36b3407b62d05524ce3748b722a9.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/c38f85e9a9408af4aeec9f518c0269afd23af3eccd0d914c4866bdef29cb023.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/d6336dda701bf64439195661b8aa41581c5036bc95b34180abc4a75092f73c8e.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/9fa282189c27bbf2fbfd0b9545695c521aad22e29d5dc1de15f95ca01fda56c2.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/c33c2e1c37a5f89cdea38782fd29cffb6df356d2ec04c23e3668e8a42060f0e3.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/a8298cd12b75fe1c06c7b1e28547cc5690f9af0afc8a0a69a03665d736e1008c.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/e58c17eb68e09d1571d79a37b25c82f3f5bf5831c4701c29a33b2dbbc4c0e295.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/6137c0bdd7d8a2042edd5cd21177a8d20153c3fefb178fd78ee90e81eb5657be.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/da87b231c23d2443ec70e8d80ae45dac99edb53845ab1b8709f31ae905fbe88c.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/ac571409b1388787f515085bf25efc3741209159930b940ab1c1d232d477876b.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/97fe96ddb4c1a56c6da1a4f851109d82d33dd50bcfcc20635a88008e0f246102.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/cbf98cac365592d56ae74f3184d7600313ab05b4c8879806636504bc42425832.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/e90b568791677a42e655f1ef895cde7870c3bae969fb280087f523f96b377b3b.png",
+          "/assets/pets/skins/animated_skins/Bal/PET_SKIN_BAL_INFERNO/15ae6e347c2c828020b22f6faed62baf27548fad1656447af007b802d6f556e4.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_GRIFFIN_BALD_EAGLE",
+      "name": "Bald Eagle Griffin Skin",
+      "texturePath": "/assets/pets/skins/Bal/e15c4adce60a4480f7d5d763dda5b04573ea08c7e167e25680b8153c6b4ef9b4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGriffin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SNOWBALL_SPIRIT",
+      "name": "Snowball Spirit Skin",
+      "texturePath": "/assets/pets/skins/Bal/b8f33a49185c07ae21f3b4d5a569acd12ae11157e496cccc26487ed1b09ded3f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSpirit§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

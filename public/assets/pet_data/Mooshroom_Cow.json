@@ -1,0 +1,106 @@
+{
+  "name": "§6Mooshroom Cow",
+  "type": "MOOSHROOM_COW",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Health: §c100\n§7Farming Fortune: §a[Farming Fortune]\n\n§6Efficient Mushrooms\n§7Mushroom and Mycelium minions work\n§a30% §7faster while on your island.\n\n§6Mushroom Eater\n§7When breaking mature crops, there\n§7is a §a100% §7chance that a mushroom will\n§7drop.\n\n§6Farming Strength\n§7Gain §6+0.7☘ Farming Fortune §7per\n§7every §c20 ❁ Strength§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mooshroom_Cow_Pet",
+    "https://wiki.hypixel.net/Mooshroom_Cow_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 250000,
+      "time": 43200,
+      "input": "MOOSHROOM_COW;3",
+      "output": "MOOSHROOM_COW;4",
+      "items": [
+        "ENCHANTED_MYCELIUM:128",
+        "DIGESTED_MUSHROOMS:64"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "MOOSHROOM_COW;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Mooshroom_Cow/2b52841f2fd589e0bc84cbabf9e1c27cb70cac98f8d6b3dd065e55a4dcb70d77.png",
+      "lore": "§8Farming Pet\n\n§7Farming Fortune: §a[Farming Fortune]\n§7Health: §c100\n\n§6Efficient Mushrooms\n§7§7Mushroom§7 and Mycelium\n§7minions work §a20% §7faster\n§7while on your island.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§f§lCOMMON"
+    },
+    {
+      "id": "MOOSHROOM_COW;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Mooshroom_Cow/2b52841f2fd589e0bc84cbabf9e1c27cb70cac98f8d6b3dd065e55a4dcb70d77.png",
+      "lore": "§8Farming Pet\n\n§7Farming Fortune: §a[Farming Fortune]\n§7Health: §c100\n\n§6Efficient Mushrooms\n§7§7Mushroom§7 and Mycelium\n§7minions work §a20% §7faster\n§7while on your island.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§a§lUNCOMMON"
+    },
+    {
+      "id": "MOOSHROOM_COW;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Mooshroom_Cow/2b52841f2fd589e0bc84cbabf9e1c27cb70cac98f8d6b3dd065e55a4dcb70d77.png",
+      "lore": "§8Farming Pet\n\n§7Farming Fortune: §a[Farming Fortune]\n§7Health: §c100\n\n§6Efficient Mushrooms\n§7§7Mushroom§7 and Mycelium\n§7minions work §a30% §7faster\n§7while on your island.\n\n§6Mushroom Eater\n§7§7When breaking mature crops,\n§7there is a §a100% §7chance that\n§7a mushroom will drop.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§9§lRARE"
+    },
+    {
+      "id": "MOOSHROOM_COW;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Mooshroom_Cow/47f1bc3fa91cd86cf4ba7745586d67207b58e7cf27bdf7a717780843785bf9b5.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Farming Fortune: §a[Farming Fortune]\n\n§6Efficient Mushrooms\n§7Mushroom and Mycelium minions work\n§a30% §7faster while on your island.\n\n§6Mushroom Eater\n§7When breaking mature crops, there\n§7is a §a100% §7chance that a mushroom will\n§7drop.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "MOOSHROOM_COW;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Mooshroom_Cow/47f1bc3fa91cd86cf4ba7745586d67207b58e7cf27bdf7a717780843785bf9b5.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Farming Fortune: §a[Farming Fortune]\n\n§6Efficient Mushrooms\n§7Mushroom and Mycelium minions work\n§a30% §7faster while on your island.\n\n§6Mushroom Eater\n§7When breaking mature crops, there\n§7is a §a100% §7chance that a mushroom will\n§7drop.\n\n§6Farming Strength\n§7Gain §6+0.7☘ Farming Fortune §7per\n§7every §c20 ❁ Strength§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_MOOSHROOM_COW_LUNAR_OX",
+      "name": "Lunar Ox Mooshroom Cow Skin",
+      "texturePath": "/assets/pets/skins/Mooshroom_Cow/145d7b463247bfe9344bfc04c62c0c3812e913930b3c248dedbf111191bad791.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Mooshroom Cow pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MOOSHROOM_COW_MOOCELIUM",
+      "name": "Moocelium Mooshroom Cow Skin",
+      "texturePath": "/assets/pets/skins/Mooshroom_Cow/b92d94a5efca94f8739973b44a01bbbdf4a2c0e05dbb45e97342076c950b73a7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMooshroom Cow§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MOOSHROOM_COW_MOONBLOOM",
+      "name": "Moonbloom Mooshroom Cow Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Mooshroom_Cow/PET_SKIN_MOOSHROOM_COW_MOONBLOOM_DAY/105bae34a7b4e8eca9f65b610c107764b3bb15ed4a0e853dfd067a93a9d0a084.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMooshroom Cow§7 pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Mooshroom_Cow/PET_SKIN_MOOSHROOM_COW_MOONBLOOM_DAY/105bae34a7b4e8eca9f65b610c107764b3bb15ed4a0e853dfd067a93a9d0a084.png"
+          ]
+        },
+        "night": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Mooshroom_Cow/PET_SKIN_MOOSHROOM_COW_MOONBLOOM_NIGHT/65aec6af672aba24560d5b6c582db55d4043013aa3520afd26d8507f2e63a0f8.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_MOOSHROOM_COW_MYCELIYUM_BURGER",
+      "name": "Myceliyum Burger Mooshroom Cow Skin",
+      "texturePath": "/assets/pets/skins/Mooshroom_Cow/82283039358cb291388a06beb02aadd552214da15d43f23426936fbcc77bd46c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMooshroom Cow§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MOOSHROOM_ZODIAC_OX",
+      "name": "Zodiac Ox Mooshroom Cow Skin",
+      "texturePath": "/assets/pets/skins/Mooshroom_Cow/7ccb57d81797dc315a9ebf329c6b09c6767975744a975652a980851f4ae49198.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMooshroom Cow§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

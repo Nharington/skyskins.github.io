@@ -1,0 +1,46 @@
+{
+  "name": "§6T-Rex",
+  "type": "TYRANNOSAURUS",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Strength: §c75\n§7Crit Chance: §95%\n§7Ferocity: §c[Ferocity]\n\n§6Close Combat\n§7Deal §a100% §7more §cdamage §7to enemies\n§7within 1.5 blocks.\n\n§6Ferocious Roar\n§7Attacks have a §a10% §7chance to stun\n§7the target §8(10s cooldown).\n\n§6Tyrant\n§7Combat stats granted by pet items on\n§7this pet are increased by §a100%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/T-Rex_Pet",
+    "https://wiki.hypixel.net/T-Rex_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FOOTPRINT_FOSSIL:1.0",
+        "FLAWLESS_ONYX_GEM:1.0"
+      ],
+      "count": 1,
+      "overrideOutputId": "TYRANNOSAURUS;4",
+      "duration": 604800
+    }
+  ],
+  "rarities": [
+    {
+      "id": "TYRANNOSAURUS;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/T-Rex/93f28ec96df59c67e9d2fc2e7e3d055fa31646e4111add9fe26a692801964126.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c75\n§7Crit Chance: §95%\n§7Ferocity: §c[Ferocity]\n\n§6Close Combat\n§7Deal §a100% §7more §cdamage §7to enemies\n§7within 1.5 blocks.\n\n§6Ferocious Roar\n§7Attacks have a §a10% §7chance to stun\n§7the target §8(10s cooldown).\n\n§6Tyrant\n§7Combat stats granted by pet items on\n§7this pet are increased by §a100%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_TYRANNOSAURUS_FOSSIL",
+      "name": "Fossil T-Rex Skin",
+      "texturePath": "/assets/pets/skins/T-Rex/1c16246fc9c39daab9fbe99a2bfac6305cbd63fc0049625311c2bbffe88d3101.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aT-Rex§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_TYRANNOSAURUS_PLUSHIE",
+      "name": "Plushie T-Rex Skin",
+      "texturePath": "/assets/pets/skins/T-Rex/896883f4d2fd981d66188c31982053094127b80529a5a7e04421e53f54678bc1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aT-Rex§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

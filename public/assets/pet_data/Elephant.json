@@ -1,0 +1,218 @@
+{
+  "name": "§6Elephant",
+  "type": "ELEPHANT",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Health: §c100\n§7Intelligence: §b75\n\n§6Stomp\n§7Gain §a20❈ Defense §7for every 100 §f✦\n§fSpeed§7.\n\n§6Walking Fortress\n§7Gain §c1❤ Health §7for every 10 §a❈\n§aDefense§7.\n\n§6Trunk Efficiency\n§7Grants §6+150 ☘ Farming Fortune§7, which\n§7increases your chance for multiple\n§7drops.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Elephant_Pet",
+    "https://wiki.hypixel.net/Elephant_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 14000000,
+      "time": 864000,
+      "input": "ELEPHANT;3",
+      "output": "ELEPHANT;4",
+      "items": []
+    }
+  ],
+  "rarities": [
+    {
+      "id": "ELEPHANT;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Elephant/4ef8efea450632d2753a38a23a4f1502a8a685f6e99bf69205ec04420fd64f6.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Intelligence: §b75\n\n§6Stomp\n§7Gain §a15❈ Defense §7for every 100 §f✦\n§fSpeed§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "ELEPHANT;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Elephant/7071a76f669db5ed6d32b48bb2dba55d5317d7f45225cb3267ec435cfa514.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Intelligence: §b75\n\n§6Stomp\n§7Gain §a15❈ Defense §7for every 100 §f✦\n§fSpeed§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "ELEPHANT;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Elephant/4ef8efea450632d2753a38a23a4f1502a8a685f6e99bf69205ec04420fd64f6.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Intelligence: §b75\n\n§6Stomp\n§7Gain §a15❈ Defense §7for every 100 §f✦\n§fSpeed§7.\n\n§6Walking Fortress\n§7Gain §c1❤ Health §7for every 10 §a❈\n§aDefense§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "ELEPHANT;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Elephant/4ef8efea450632d2753a38a23a4f1502a8a685f6e99bf69205ec04420fd64f6.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Intelligence: §b75\n\n§6Stomp\n§7Gain §a20❈ Defense §7for every 100 §f✦\n§fSpeed§7.\n\n§6Walking Fortress\n§7Gain §c1❤ Health §7for every 10 §a❈\n§aDefense§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "ELEPHANT;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Elephant/4ef8efea450632d2753a38a23a4f1502a8a685f6e99bf69205ec04420fd64f6.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Intelligence: §b75\n\n§6Stomp\n§7Gain §a20❈ Defense §7for every 100 §f✦\n§fSpeed§7.\n\n§6Walking Fortress\n§7Gain §c1❤ Health §7for every 10 §a❈\n§aDefense§7.\n\n§6Trunk Efficiency\n§7Grants §6+150 ☘ Farming Fortune§7, which\n§7increases your chance for multiple\n§7drops.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_ELEPHANT_BLACK_PLUSHIE",
+      "name": "Black Plushie Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/e69e45deda0db5a91e6b8aac2765c605509170e1cfc3500b0d757e630e4ab247.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_BLUE",
+      "name": "Blue Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/4b62969c005815d0409136380febc5ac468aaba9bda4db80954fa5426ee0a323.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Elephant pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_BLUE_PLUSHIE",
+      "name": "Blue Plushie Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/20226fa7c2569ea7569033b3a11043d25213955f9f792e517fb75fc405d4223a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_COSMIC",
+      "name": "Cosmic Elephant Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/7f4bd58b6abbb63eebb13d51258d7255448ce0618aa38fa37ad956e611e9b2b7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/7f4bd58b6abbb63eebb13d51258d7255448ce0618aa38fa37ad956e611e9b2b7.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/8fcdb9f8ff1a821fdd24350d65ee848f54fcc27b0f1e443768e307e8788435be.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/a95f1d7751666d1ef2997d909afd8c0068f2e9c9d9a01270a0059bdadd772fd6.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/113f5238fccb71407254848426ee3034114731c3be0251beb10bdfb88045318e.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/a34f7ad0690f84135b2def3948ec3a8bd9a22d3d733c8f32308c702297533593.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/83ec9b8038893c4c9298be2e95f4a4191e71f05c8a91b6776557160e653fe037.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/9d6d7da78a526bb80c332ddcb08b7cc583ecf2ecb00f6277d5bd844a2301fb3c.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/573a8c198c293c69a6e92e0a3d76b2d1dc320aed90638b8d4421512159f67f34.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/1ade89685d0086e639a0aa87eca4cccc6b7ceb2e9848f6281602b27a8ad56db9.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/f3d1a5a55a4c1dc1d46a63a6a2b57fc9634d2e0aba35da4a3b17fd29d10f4c55.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/7a8cddaeb7b23f2a5d6324c8d824bf6cec8128c3d5c689955c4f175d18cf73bc.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/87b0c3c8b17715e77fbde64125b0977bb189ba8f0da491bb986aa5d46931d96f.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/2d9f5ce95181acfb42ae09ef0005656de5c34727b0e93f8a1992f9142794905.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/fef7c72dac6c25325e023db8a1880c98fe3d067b962f845e6809efd28871b316.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/ed1a8896ab5fb9ede183df9938f24f596ac23f73fe6205749250bddfdb103f03.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/4ce44fbaa207f77d8b8981dd0048d2d563c0976456347bf98bab8af0712fdd6.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/123cf6ea19f2bb9e208812b70da22a8fb35a29e84d062ee584feb57d642ab0db.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/41da9aeb0d929091cd4cbc04c5879e24b6cd648dfff1c45331f521860e853e91.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/1036bd11f54776c9f1e656481a33e1ff81a65cc412f8795620c24a464e991826.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/8bd3f4d31e21fdc5ed12646f2d7dfd191ef7f3a900d9f2fc04f7e2d3a380daeb.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/bb760c021f62ba72bdde1b7284b4b84e6c8118df0d175cc80ed6072b8bf939b8.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/f0d8e4c0dc23239d1cc41ff11a076aade3faad7e0909b01e4dc639645440648d.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/71c6989580da8fd45c5cc2b1ba2ce801f473264f331188b545e3b4e1fb277c6c.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/56750e8231ea980e707d68a15f973a8ff3bbe566b2d404dee49d8c7b015e910b.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/dd1dbf59d1d3fd00a79a308cd293496c384e63a78feea3fb20bfcaa0a8f6ebfe.png",
+          "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_COSMIC/468c9d97c4f1d97885571ff11745083c6125025fd90fdd0a3431dc833762464b.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_DARK_BLUE_PLUSHIE",
+      "name": "Dark Blue Plushie Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/79f95be39102b50f5ecc57a161618608b0e47f27be7afd747451fd09505cc935.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7§aElephant§7 pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_GRAY_PLUSHIE",
+      "name": "Gray Plushie Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/3f123b8de86123ef2bf01d84bc97d258205eb99df95a5a85e8dcfaac8068d4f1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_GREEN",
+      "name": "Green Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/360c122ade5b2fedca14aa78c834a7b0ac9cb5da2a0c93112163086f90c13b68.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_MONOCHROME",
+      "name": "Monochrome Elephant Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_MONOCHROME_DAY/4bdf0f628c05e86cabdee2f5858dd5def7f8b8d940cbf25f9937e2ffb53432f4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_MONOCHROME_DAY/4bdf0f628c05e86cabdee2f5858dd5def7f8b8d940cbf25f9937e2ffb53432f4.png"
+          ]
+        },
+        "night": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Elephant/PET_SKIN_ELEPHANT_MONOCHROME_NIGHT/176e8db6cd2db2fd11747c750d24040f3435b3301d91949f33f9615d16dab060.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_ORANGE",
+      "name": "Orange Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/554a34a80c474206d3700b8fced6b44fab0b0ed0b05c1293ff0c5d86eda251d1.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Elephant pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_PINK",
+      "name": "Pink Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/570eef474ec0e56cc34c2307eaa39f024612f8cd7248e7d5b14169ebd307c742.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_PINK_PLUSHIE",
+      "name": "Pink Plushie Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/7d1fd8b2236a5285057774de0c0b748453aa5fbf85219dab726b333a9d86664a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_PURPLE",
+      "name": "Purple Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/5ff9df290b6c5a4984fc6e516605f9816b9882f7bf04db08d3f7ee32d1969a44.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_PURPLE_PLUSHIE",
+      "name": "Purple Plushie Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/aa5856c193a02a23e076f81fc742cabc54e9d185a319cd4b6975468bcc1f4035.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7§aElephant§7 pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_RED",
+      "name": "Red Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/ba5c66ec66cb6b4b5550085f583b4e5c1cee5247bec5fbcc5c318c30c66cab42.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aElephant§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_SAFARI",
+      "name": "Safari Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/80b6f7231157a9f3a1d7f5a5c44b7e26a9887d32d64d93aed42a31c2f2e893d0.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7§aElephant§7 pets.\n\n§7§aThis skin will allow you to swap\n§abetween 16 crazy safari themed\n§aelephants!\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_TEAL_PLUSHIE",
+      "name": "Teal Plushie Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/874341173b619eb563a5fad886ac01ecb580f8c5e5339124949de686de9e8af1.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7§aElephant§7 pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ELEPHANT_WHITE_PLUSHIE",
+      "name": "White Plushie Elephant Skin",
+      "texturePath": "/assets/pets/skins/Elephant/247acb6e8f52d8935dbc4d09f6569adc2013cc8713dfe1838e5372e67a464a0c.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7§aElephant§7 pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

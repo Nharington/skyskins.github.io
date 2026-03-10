@@ -1,0 +1,39 @@
+{
+  "name": "§6Penguin",
+  "type": "PENGUIN",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Sea Creature Chance: §310\n§7Cold Resistance: §b[Cold Resistance]\n\n§6Thick Blubber\n§7Each time you catch a §3Sea Creature§7,\n§7reduce your §b❄ Cold §7by §a6§7.\n\n§6Chilly Reception\n§7Grants §b+1❄ Cold Resistance §7for\n§7each player within §a30 §7blocks, up to\n§a10 §7players.\n\n§6Subzero Hero\n§7Grants §b+75☂ Fishing Speed §7while in\n§7the §bGlacite Tunnels§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Penguin_Pet",
+    "https://wiki.hypixel.net/Penguin_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "WEBBED_FOSSIL:1.0",
+        "FLAWLESS_AQUAMARINE_GEM:1.0"
+      ],
+      "count": 1,
+      "duration": 604800,
+      "overrideOutputId": "PENGUIN;4"
+    }
+  ],
+  "rarities": [
+    {
+      "id": "PENGUIN;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Penguin/37534e97f36e5a8335928e171ec99608bee7fb16e260afb301025b3b17eeefc4.png",
+      "lore": "§8Fishing Pet\n\n§7Sea Creature Chance: §310\n§7Cold Resistance: §b[Cold Resistance]\n\n§6Thick Blubber\n§7Each time you catch a §3Sea Creature§7,\n§7reduce your §b❄ Cold §7by §a6§7.\n\n§6Chilly Reception\n§7Grants §b+1❄ Cold Resistance §7for\n§7each player within §a30 §7blocks, up to\n§a10 §7players.\n\n§6Subzero Hero\n§7Grants §b+75☂ Fishing Speed §7while in\n§7the §bGlacite Tunnels§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_PENGUIN_BABY_EMPEROR",
+      "name": "Baby Emperor Penguin Skin",
+      "texturePath": "/assets/pets/skins/Penguin/c768ab42a1f65ff5d68195a4f8f75e51c7ad602185c7f5edfffffe062753c59c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aPenguin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "name": "§fPrecursor Drone",
+  "type": "PRECURSOR_DRONE",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Sea Creature Chance: §3+10%\n§7Mining Fortune: §6+30\n§7Foraging Fortune: §6+30\n\n§6Contraband\n§7Catching a §3Sea Creature §7has a §a10%\n§7chance to also give you §6Treasure§7.\n\n§6Grungle\n§7You can now ONLY throw your\n§7Foraging Axe, but it has §cno throwing\n§cpenalty §7anymore.\n\n§6Mining Off Camera\n§7While mining, each collection\n§7progress grants a §a0.005% §7chance to\n§7drop a random enchanted mining item.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§f§lCOMMON",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Precursor_Drone_Pet"
+  ],
+  "recipes": [
+    {
+      "A1": "",
+      "A2": "FINE_CITRINE_GEM:10",
+      "A3": "",
+      "B1": "FINE_AQUAMARINE_GEM:10",
+      "B2": "SUPER_EGG:1",
+      "B3": "FINE_JADE_GEM:10",
+      "C1": "",
+      "C2": "PRECURSOR_APPARATUS:1",
+      "C3": "",
+      "type": "crafting",
+      "count": 1,
+      "overrideOutputId": "PRECURSOR_DRONE;0"
+    }
+  ],
+  "rarities": [
+    {
+      "id": "PRECURSOR_DRONE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Precursor_Drone/51aae288ab9d5354fda4e395a36421bd261a9b6213dbb786d7ab39465e479ce9.png",
+      "lore": "§8Combat Pet\n\n§7Sea Creature Chance: §3+10%\n§7Mining Fortune: §6+30\n§7Foraging Fortune: §6+30\n\n§6Contraband\n§7Catching a §3Sea Creature §7has a §a10%\n§7chance to also give you §6Treasure§7.\n\n§6Grungle\n§7You can now ONLY throw your\n§7Foraging Axe, but it has §cno throwing\n§cpenalty §7anymore.\n\n§6Mining Off Camera\n§7While mining, each collection\n§7progress grants a §a0.005% §7chance to\n§7drop a random enchanted mining item.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§f§lCOMMON"
+    }
+  ],
+  "variants": []
+}

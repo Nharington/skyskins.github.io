@@ -1,0 +1,31 @@
+{
+  "name": "§6Spinosaurus",
+  "type": "SPINOSAURUS",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §38\n\n§6Sharp Attitude\n§3Sea Creatures §7spawn with §a15% §7of\n§7their maximum health missing.\n\n§6Pursuit\n§7Gain §b+8✯ Magic Find §7against §3Sea\n§3Creatures§7.\n\n§6Primordial Fisher\n§7During §9rain§7, increases this pet's\n§7base stats and stats granted by\n§7perks by §a75%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spinosaurus_Pet",
+    "https://wiki.hypixel.net/Spinosaurus_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "SPINE_FOSSIL:1.0",
+        "FLAWLESS_AQUAMARINE_GEM:1.0"
+      ],
+      "count": 1,
+      "overrideOutputId": "SPINOSAURUS;4",
+      "duration": 604800
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SPINOSAURUS;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Spinosaurus/d3c9d479471a2f13f22548315159591720992e70c920fef83a901b7186720e3c.png",
+      "lore": "§8Fishing Pet\n\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §38\n\n§6Sharp Attitude\n§3Sea Creatures §7spawn with §a15% §7of\n§7their maximum health missing.\n\n§6Pursuit\n§7Gain §b+8✯ Magic Find §7against §3Sea\n§3Creatures§7.\n\n§6Primordial Fisher\n§7During §9rain§7, increases this pet's\n§7base stats and stats granted by\n§7perks by §a75%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": []
+}

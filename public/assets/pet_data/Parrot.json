@@ -1,0 +1,114 @@
+{
+  "name": "§6Parrot",
+  "type": "PARROT",
+  "category": "Alchemy",
+  "description": "§8Alchemy Pet\n\n§7Crit Damage: §910%\n§7Intelligence: §b100\n\n§6Flamboyant\n§7Adds §a1 §7levels to intimidation\n§7accessories\n\n§6Repeat\n§7Boosts potions duration by §a40%§7.\n\n§6Bird Discourse\n§7Gives §c+30❁ Strength §7to players\n§7within §a20 §7blocks\n§8Doesn't stack\n\n§6Parrot Feather Infusion\n§7When summoned or in your Pets menu,\n§7boost the duration of consumed §cGod\n§cPotions §7and §cMixins §7by §a20%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Parrot_Pet",
+    "https://wiki.hypixel.net/Parrot_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 15000000,
+      "time": 864000,
+      "input": "PARROT;3",
+      "output": "PARROT;4",
+      "items": [
+        "ENCHANTED_FEATHER:16"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "PARROT;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Parrot/5df4b3401a4d06ad66ac8b5c4d189618ae617f9c143071c8ac39a563cf4e4208.png",
+      "lore": "§8Alchemy Pet\n\n§7Crit Damage: §910%\n§7Intelligence: §b100\n\n§6Flamboyant\n§7Adds §a1 §7levels to intimidation\n§7accessories\n\n§6Repeat\n§7Boosts potions duration by §a40%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "PARROT;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Parrot/5df4b3401a4d06ad66ac8b5c4d189618ae617f9c143071c8ac39a563cf4e4208.png",
+      "lore": "§8Alchemy Pet\n\n§7Crit Damage: §910%\n§7Intelligence: §b100\n\n§6Flamboyant\n§7Adds §a1 §7levels to intimidation\n§7accessories\n\n§6Repeat\n§7Boosts potions duration by §a40%§7.\n\n§6Bird Discourse\n§7Gives §c+30❁ Strength §7to players\n§7within §a20 §7blocks\n§8Doesn't stack\n\n§6Parrot Feather Infusion\n§7When summoned or in your Pets menu,\n§7boost the duration of consumed §cGod\n§cPotions §7and §cMixins §7by §a20%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_PARROT_BUCCANEER",
+      "name": "Buccaneer Parrot Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/9b5f74df828f6b1e2576191763075d6c78166fcc0723aa0cecf80bf5b45a3648.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aParrot§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/9b5f74df828f6b1e2576191763075d6c78166fcc0723aa0cecf80bf5b45a3648.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/8db00d43388b19c5007327bbc87d4f76d004fa72c5f8b7a8649be1affc92bcbf.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/dd45072d1c255bf608db05dea5bb194434f698915a53ff03f3d18d92100a14e8.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/fe79ffed8f2668c92c957251dcd7792e8f6a414e323fd5cd2aff8886d7bca417.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/1aa1229c0230c6fd5042bc51b601f7b02c81349330c07c89e99dedb443389475.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/fc9dcbc70b029dc92a8693c1ee184702c41ae9422bb195662cb4461844c27672.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/d8ff920be43cc67e2cd64caeee15b62639c6fdfebbc7e433bde0f362a4a4c3a8.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/de103c585db1f9a0b80e6e889e57ef60b5a29b5a2e57bcef82e9b764456202ad.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/5a8ba2b1cb435fd2b1b6929013232bd0347f6405b40bdf810fd48fbfc9c55084.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/34c0d3abaf6045764321b8de9f18b9f42135938046f4c86f0def96d4526a81.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/85e78682bb8bef9bfb0d78ed234240da858326de2de071de3f7c0d9d9c9404ef.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/684d5886da363c1059dd68dbc58adc0155d1ab7f96170116810f1a6cd29fcc7e.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/e3ed947251f887c9fa38c397ecf9d492b82f09c193b020b5118395dc7978d8f.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/29fccfcdf3f089fff8cdcb1a9b256b50ec44aaef0579d14891711c7efdb33ee2.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/ea807fa677d6ff1a282c941305e0c5f57b01ecd94580f7fe2953775ea80836d4.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/a2c5bcfde948fc59714b2bea725963b9ab47523811c90ca67e47f67f910f1b9b.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/8f051d39ed5d4a3a884d2c1405ff46940b968916e0b67baeaa4db603999a1ff2.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/7209e99326c5ce96f82af2475823acb659755249c24200f593ef2014dd046687.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/bc3c34bb6be3b5df9d8de1f4d3221f0b7e59d5d608a171246282baf83caf7f2d.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/5dd471d0c5591a76d6b671b59844f35ae18bef36e40f610ab89ced5046635243.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/7542dabce506baac1e2367c06c594e006c027cd00a67a342e07f66d8eb13f20e.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/fecfa9853436ab7ee86f3639149573a163bf7d0c0dd32a45ae5f9ca745783008.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/aa116ddf816c446d43f80a5f986606aaab2ca40353df294865f3fc3e0016ecd5.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/e6415d7d6d30ac76f988ee10032db464660513fb82acdc79f6deb9dcd8cea95b.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/9576c1c29f473f424733400ecfab5e7170e73c41de5684ac59146a6cc10f4c82.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/e546b33550e51fa62f4d890f4c57dbaa2a51cf1047be0dd7018136b2e3f3931a.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/68230c6c480ec2ed7a875071d7a490c64dea57bf25f59a54169ffc2e6879a92d.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/385de4d50ab148f68fa377cdd760f9d23f20d503b3e1c1ad74120029ccdc7299.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/fac0dd8e9d8d352a78ae69a24ad423ccfecc46441d999ab4cfe5d38c23664f56.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/eddfd3964b6626a2c7643792bd1a3b15c98e75bbd5773aa9abb9ed1105b2095.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/a7c7666952b558872942a00837502a21fffdf08aa8385761f92da57e61d0791f.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/3200f5163018f783dddb7791b97b8f10a1ce0b7ed0c8b51a187a1b95d922718e.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/965e0c27797a23d8ab08737a4b407ec469056c37eaa3a62950470cb64a4eb96e.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/88514b129f9cc9f8f9513edcb405468a40ce71323ae33d934d8a355b92191b6.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/f8269ed14050643243363859609231f8c4d0502d3134374fd3a2126214ca350a.png",
+          "/assets/pets/skins/animated_skins/Parrot/PET_SKIN_PARROT_BUCCANEER/2877b9cd825b58c7b1bec3ae7c21f48f012c29753ddaa3f4a4f34bdd60eb6083.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_PARROT_CROW",
+      "name": "Crow Parrot Skin",
+      "texturePath": "/assets/pets/skins/Parrot/ddd89350c2de4eb99099224b626f5aaa81ca7fcea5b03852043b19d72b01a27e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aParrot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PARROT_GALAXY",
+      "name": "Galaxy Parrot Skin",
+      "texturePath": "/assets/pets/skins/Parrot/ca864a854f12128bf2b8845f04256425cb4b0b17ecc44fcd5cdb42a91b1c211e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aParrot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PARROT_GOLD_MACAW",
+      "name": "Gold Macaw Parrot Skin",
+      "texturePath": "/assets/pets/skins/Parrot/5dad34650f8d1c6afbfd979b38d7e1412e636215b8f85240e06d998278879b8b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aParrot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PARROT_TOUCAN",
+      "name": "Toucan Parrot Skin",
+      "texturePath": "/assets/pets/skins/Parrot/d835b17a26396037deac5796b72e25f2523e9f8650963ddaedc2ecec081b4346.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aParrot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

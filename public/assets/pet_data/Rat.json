@@ -1,0 +1,143 @@
+{
+  "name": "§dRat",
+  "type": "RAT",
+  "category": "Combat",
+  "description": "§8Combat Morph\n\n§7Health: §c100\n§7Strength: §c50\n§7Crit Damage: §910\n\n§6Morph\n§7Right-click your summoned pet to\n§7morph into it!\n\n§6CHEESE!\n§7As a Rat, you smell §e§lCHEESE§7 nearby!\n§7Yummy!\n\n§6Rat's Blessing\n§7Has a chance to grant a random\n§7player §b+7✯ Magic Find§7 for §a60\n§7seconds after finding a yummy piece\n§7of Cheese! If the player gets a drop\n§7during this buff, you have a §a20%\n§7chance to get it too.\n\n§6Extreme Speed\n§7The Rat is TWO times faster AND can\n§7fly!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rat_Pet",
+    "https://wiki.hypixel.net/Rat_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "RAT;4",
+      "output": "RAT;5",
+      "items": [
+        "RAT_JETPACK:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "RAT;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Rat/a8abb471db0ab78703011979dc8b40798a941f3a4dec3ec61cbeec2af8cffe8.png",
+      "lore": "§8Combat Morph\n\n§7Health: §c100\n§7Strength: §c50\n§7Crit Damage: §910\n\n§6Morph\n§7Right-click your summoned pet to\n§7morph into it!\n\n§6CHEESE!\n§7As a Rat, you smell §e§lCHEESE§7 nearby!\n§7Yummy!\n\n§6Rat's Blessing\n§7Has a chance to grant a random\n§7player §b+7✯ Magic Find§7 for §a60\n§7seconds after finding a yummy piece\n§7of Cheese! If the player gets a drop\n§7during this buff, you have a §a20%\n§7chance to get it too.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "RAT;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Rat/250de7097d939e447ca2d398441cba1d2a5e1a69052ac99c19ff20ad5a3f01ab.png",
+      "lore": "§8Combat Morph\n\n§7Health: §c100\n§7Strength: §c50\n§7Crit Damage: §910\n\n§6Morph\n§7Right-click your summoned pet to\n§7morph into it!\n\n§6CHEESE!\n§7As a Rat, you smell §e§lCHEESE§7 nearby!\n§7Yummy!\n\n§6Rat's Blessing\n§7Has a chance to grant a random\n§7player §b+7✯ Magic Find§7 for §a60\n§7seconds after finding a yummy piece\n§7of Cheese! If the player gets a drop\n§7during this buff, you have a §a20%\n§7chance to get it too.\n\n§6Extreme Speed\n§7The Rat is TWO times faster AND can\n§7fly!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_RAT_FIELD_MOUSE",
+      "name": "Field Mouse Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/f379e09252817314bd0b694f7d53b48af2c7fa8499109802a41bb294d2f93e3e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_FIELD_MOUSE_DESPAIR",
+      "name": "Field Mouse Despair Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/d64e1462b2b66bc72dd60ec5faf2f40fb8f0ba6c5258a4fd836e2cc479006ea4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_GYM_RAT",
+      "name": "Gym Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/e9f05d0552f5418957808d3b098567e9d6294e5257f6c677f22f3401c9616231.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_HIDE_AND_SQUEAK",
+      "name": "Hide and Squeak Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/c484a612ef0b1061478ddd7595abd612fb61de5a3cdc7d0e53c5f6915f0ebb8f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_JUNK_RAT",
+      "name": "Junk Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/879d59e8cff4831c985988f5701a6689a88ccbcb094a97b61bd408384d093417.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_KARATE",
+      "name": "KaRate Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/c0983ff7f3e7525f32fceab07b64aced104e4c8798294a1dcc262e5283327258.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but\n§7only one skin can be active at a\n§7time!\n\n§7§7This skin can only be applied\n§7to Rat pets.\n\n§7§eRight-click on your summoned\n§epet to apply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_LUNAR",
+      "name": "Lunar Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/13ecb0a7d77a8d99368c2bb33a1e8e3472e78d3932b93e6b20e93c4917af855f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_MR_CLAWS",
+      "name": "Mr Claws Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/11787e838120c6cce0570154a406adeefec3f04afdaec915067db829b3588270.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_NINJA",
+      "name": "Ninja Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/337e9a838503d17acdb0d2642e5bcdefa0393887b61bb13698f4368333a6e962.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Rat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_PIRATE",
+      "name": "PiRate Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/d7c7624fc4463749ed516df1bbbaa67c172ffc9f20b6f2d5b80e39ccf03d5f7a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_RAT-STRONAUT",
+      "name": "Rat-stronaut Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/22f6f61f863dea14b18ee763d0cc0053bad338ed7755cc52df459c6c9a10a237.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_SECRAT_SERVICE",
+      "name": "SecRat Service Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/3d248f8e7cb791ece9bcea2dd0381f2eb138f18f02b9657099625735cd4bfc0e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_SECURATY_GUARD",
+      "name": "SecuRaty Guard Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/e0da7bef0d3dda928ad34d6f7ca780e08659af043bdb31a09e123ccf6b63ad3c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_SQUEAKHEART",
+      "name": "Squeakheart Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/278ca13dc36d2efbc628a8f0265325e589a56475cc6cde1f267e7ed083f1f8ff.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RAT_ZODIAC",
+      "name": "Zodiac Rat Skin",
+      "texturePath": "/assets/pets/skins/Rat/bac5b05ea3bf2ef9906c95041e37e3a3240f63fff15013cd22ceeafe475d6397.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

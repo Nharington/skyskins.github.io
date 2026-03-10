@@ -1,0 +1,39 @@
+{
+  "name": "§6Mole",
+  "type": "MOLE",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Magic Find: §b5\n§7Mining Speed: §6[Mining Speed]\n\n§6Archaeologist\n§cScavenged Items §7appear §a25% §7more\n§7often while in the §2Mines of Divan§7.\n\n§6Magnetic Nose\n§9Automatons §7drop their parts §a50%\n§7more frequently.\n\n§6Nucleic Veins\n§7The §5Crystal Nucleus §7has a §a100%\n§7chance to drop an additional item.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mole_Pet",
+    "https://wiki.hypixel.net/Mole_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "SKYBLOCK_COIN:300000.0",
+        "CLAW_FOSSIL:1.0"
+      ],
+      "count": 1,
+      "overrideOutputId": "MOLE;4",
+      "duration": 259200
+    }
+  ],
+  "rarities": [
+    {
+      "id": "MOLE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Mole/727baaafc09978d4bda73e16afdde85ec13b0f95ad989524c5fcaa717cf06b4a.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Magic Find: §b5\n§7Mining Speed: §6[Mining Speed]\n\n§6Archaeologist\n§cScavenged Items §7appear §a25% §7more\n§7often while in the §2Mines of Divan§7.\n\n§6Magnetic Nose\n§9Automatons §7drop their parts §a50%\n§7more frequently.\n\n§6Nucleic Veins\n§7The §5Crystal Nucleus §7has a §a100%\n§7chance to drop an additional item.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_MOLE_MINER",
+      "name": "Miner Mole Skin",
+      "texturePath": "/assets/pets/skins/Mole/51a60849693833fbbee20cf46da19867e7e6a9d9030de9b3aa197c7a17cb1359.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aMole\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

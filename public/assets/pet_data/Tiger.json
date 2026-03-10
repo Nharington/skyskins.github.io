@@ -1,0 +1,193 @@
+{
+  "name": "§6Tiger",
+  "type": "TIGER",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Strength: §c15\n§7Crit Chance: §95%\n§7Crit Damage: §950%\n§7Ferocity: §c[Ferocity]\n\n§6Merciless Swipe\n§7Gain §c+30% ⫽ Ferocity§7.\n\n§6Hemorrhage\n§7Melee attacks reduce healing by §655%\n\n§6Apex Predator\n§7Deal §c+100% §7damage against targets with\n§7no other mobs within §a15 §7blocks.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Tiger_Pet",
+    "https://wiki.hypixel.net/Tiger_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 14000000,
+      "time": 1036800,
+      "input": "TIGER;3",
+      "output": "TIGER;4",
+      "items": [
+        "ENCHANTED_RAW_CHICKEN:1024"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "TIGER;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Tiger/fc42638744922b5fcf62cd9bf27eeab91b2e72d6c70e86cc5aa3883993e9d84.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c15\n§7Crit Chance: §95%\n§7Crit Damage: §950%\n§7Ferocity: §c[Ferocity]\n\n§6Merciless Swipe\n§7Gain §c+10% ⫽ Ferocity§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "TIGER;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Tiger/fc42638744922b5fcf62cd9bf27eeab91b2e72d6c70e86cc5aa3883993e9d84.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c15\n§7Crit Chance: §95%\n§7Crit Damage: §950%\n§7Ferocity: §c[Ferocity]\n\n§6Merciless Swipe\n§7Gain §c+20% ⫽ Ferocity§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "TIGER;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Tiger/fc42638744922b5fcf62cd9bf27eeab91b2e72d6c70e86cc5aa3883993e9d84.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c15\n§7Crit Chance: §95%\n§7Crit Damage: §950%\n§7Ferocity: §c[Ferocity]\n\n§6Merciless Swipe\n§7Gain §c+20% ⫽ Ferocity§7.\n\n§6Hemorrhage\n§7Melee attacks reduce healing by §630%\n§7for §a10s§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "TIGER;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Tiger/fc42638744922b5fcf62cd9bf27eeab91b2e72d6c70e86cc5aa3883993e9d84.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c15\n§7Crit Chance: §95%\n§7Crit Damage: §950%\n§7Ferocity: §c[Ferocity]\n\n§6Merciless Swipe\n§7Gain §c+30% ⫽ Ferocity§7.\n\n§6Hemorrhage\n§7Melee attacks reduce healing by §655%\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "TIGER;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Tiger/fc42638744922b5fcf62cd9bf27eeab91b2e72d6c70e86cc5aa3883993e9d84.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c15\n§7Crit Chance: §95%\n§7Crit Damage: §950%\n§7Ferocity: §c[Ferocity]\n\n§6Merciless Swipe\n§7Gain §c+30% ⫽ Ferocity§7.\n\n§6Hemorrhage\n§7Melee attacks reduce healing by §655%\n\n§6Apex Predator\n§7Deal §c+100% §7damage against targets with\n§7no other mobs within §a15 §7blocks.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_OCELOT_SNOW_TIGER",
+      "name": "Snow Tiger Ocelot Skin",
+      "texturePath": "/assets/pets/skins/Tiger/496499b99c88314b1459fc5b515c477b069bf2229a2833abb2e1ff20b5f29457.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aOcelot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_TIGER_GOLDEN",
+      "name": "Golden Tiger Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/5dd7f6cc8e60c94f379ee5c7883d971491d952a7d585993d2955a53fdcbd64e6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTiger§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/5dd7f6cc8e60c94f379ee5c7883d971491d952a7d585993d2955a53fdcbd64e6.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/d44e2408796c0e45c0abd5544b8bc1b9dcf7c53a75aba8a67b29bea09bf62bf0.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/3e12619952e22eab5ab29417a0be1b9c14037804854c298357762279599a48a5.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/577c388aa2a20441497af7f99b87f152e9a7618d1d9f9fb650d3b1c27f931054.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/1d4293777c02c6aa00714d56c996153288ddae411aefe16863fef6f52525d696.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/c85f8db6e5b826d3dd5847cd8d7279f4d4dd50bc955ca7968c7c49b496ed7a3b.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/930b0cafdcfd0fbd86e9c44d405dea2f9910c79e4aa3c276d512eeb491a61cff.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/787e301cbe921605958c598223a226a029820759b3516a47f1d5000262f22c17.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/1714532202ac9f522f87f88d12931930dacea8f954f069cf59623cf33fbbf0a5.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/9d12e1bed0e66537d7db32db6fc53d209d7fb863b3c5c9e86edf3c27d3b9a796.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/95d950e1d7e55839e669a267e874b1eb6e501c71955a4e12b521db358102ad98.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/b7bfdc6a4d26ee1964baab7898c1709753c07365804171250ac1ce2d44121d61.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/a7af11dbd2384865ea6dbab0058404f638e75f646ec49af84afd290e267550b.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/afc3f0d6946ff010c9bb1aa99c66f75110bef5b1572cbcd47b969c5903b6b217.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_GOLDEN/3478f6cebf3ae0138f5c911ac5152b8f7a10c532db6ec13e24dfe35e5ddd6451.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_TIGER_LOAF_CAT_ORANGE",
+      "name": "Loafed Tiger Skin",
+      "texturePath": "/assets/pets/skins/Tiger/316c840b9c13ab235b5e1ab84eb032abf4c6da620ba98beb102cc036111c7e41.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTiger§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_TIGER_LUNAR",
+      "name": "Lunar Tiger Skin",
+      "texturePath": "/assets/pets/skins/Tiger/78324ddd19ad1988df3f1f71e8af0bc6445a5fd212bdc480c6aa498e71a57abe.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTiger§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_TIGER_NEON",
+      "name": "Neon Tiger Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/ae00d7b2779c2b3f15d9afce2f57f9328973e61420ff7573cca9f584cd8cff58.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTiger§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/ae00d7b2779c2b3f15d9afce2f57f9328973e61420ff7573cca9f584cd8cff58.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/d58a94e37743203b8b25880d14e8d7e5a10977535180141d52f27cf0838b590d.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/89b4a1bc6a4a81becfb16e24f90dc3a8b1f73e8911350ece6dc86481c34a8b91.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/c447b712b3cb09081f51f98e29dbf80738347d7561fafbcff2509d14bdb3096f.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/5b913007de33f72bf4a6f7ad71291d0407ca5c29ab0edafe541356788bf26243.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/1105a1ca4b233bdd68882b9960346c18961d35f6925939cb6e83a10d7cd1a43b.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/66b6340b302184a7726c5542754e7298cfee22211e0a83bfb0951d65f28ce980.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/59aaea405d1bc13a9b6a21f4f73d09a0d12c3326be472ad252b38dc0bf2a281b.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/ecd479b727d50cebdf88efa90513827d3f10aceaa7c94b7221eb29b681f4076f.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/8c38d6b435a8650501fa990aa832f53772dcb1f1ae362b70100eb04124120c5.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/98d23eb7d0912da8e43ca5bd8605d674882e3f2b0cde65f82c98102b8b4c3bae.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/2de461d8f1724ac61bbd4c6becd1ed3408b306b2f689d2b9b0b252361a3f5c45.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/e1f2261a8278dc106ead0d064ac96dcd714d89406eb641f38527419f83b1b22d.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/a3c7eecd934bca42e8fd99b589845d3d6af1d8af0a417effa9b0f93e42ce9765.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/5079a8de2d4404ee279b6fba821bb7d6eddff1fe869b92b911b153e2e3239a4f.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/78e2ab1ea8002361e513d24b97d4b0f1a9aae8efc6d610b110bc0341a0d38f09.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/ec47595252fdc95503c02894100af58b2b33470c275d15381b8b7fa9438e09d2.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/39734cb0a25d88c652fe86d03ea9a40f41c4f4fd6f1a901d1ee846eb96d6ffd6.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/805de32806ea868cb6e222656936932f106fb4f44018afdbf78e4566d5e0a34b.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/24120e885fdc54296ee214d6265e13c7f73dbd1bcd2f5a33e34058f30fa6519e.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/aa33bb5e642501136bbffb03482bac411e79590465b235453fcaef4f4d4fe364.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/b9c82fa0a11f20a09e899f69a91f51cc9ec96064cbaed6c9d4d87618e9d8d4fa.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/79068a578596f16b77f3c656e9f4dc5b5fbbe31c444c015f3679700ddf79f940.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/95f34fabf046e7f2fbf389ae1b4b03dd70238e8b0fdea242f0686fa31e26d8a5.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/3336594c4d22b855b5824a63126d4219d7b18223cfddc713f9571b003d7097cf.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/9c2be5b4e922e839530f716f1e132a6408ffe2247640b6fd0b24c4b9819a8555.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/585eb430607dfea8e5e17cd8acdb98981483e18cda59401dace8d78c2f8d18a2.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/f6c6356a652791445c8e1d7a8b790eb46b8caf0e79d0c69fdbcca1e4b53a740a.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/69d6617d591ceb83547337557bdc44e67d50fbf99513215cf824ce3b33b14650.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/bbd0ad4a211eea43c72910f69b1b2b8857dbfec28c272be2d8c68a95fb3cef94.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/e016c8b1614746a4c584daf11dba2e47497d9a3bc42c29382978e806581537b7.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/9d9adb3baa78172d9e32f1562ad91b7ddce96c14b3fb4a5ca633971311b79b4c.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/60f50b11f62ea93b884c7f8103f87260e0b29055f3dbdfcff24aa7e147d1047e.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/90de7c8a65b4338797f534fc0a7668e397fa1073a64eed94bebd6304a34527e0.png",
+          "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_NEON/2f963dabb4337afed87fdd42edcf62f8e9b242ba38e7cc37549e17cf0f151155.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_TIGER_PLUSHIE",
+      "name": "Plushie Tiger Skin",
+      "texturePath": "/assets/pets/skins/Tiger/543415c373092ce4a6410a6de114dafb0ec13edc8031c146fe110f144997ff65.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTiger§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_TIGER_SABER_TOOTH",
+      "name": "Saber-Tooth Tiger Skin",
+      "texturePath": "/assets/pets/skins/Tiger/e92dba2fbd699d541b2fa0fbcaff640ad8c311987ade59a13b2a65d0ce319316.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTiger§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_TIGER_TWILIGHT",
+      "name": "Twilight Tiger Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_TWILIGHT_DAY/896211dc599368dbd9056c0116ab61063991db793be93066a858eb4e9ce56438.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTiger§7 pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_TWILIGHT_DAY/896211dc599368dbd9056c0116ab61063991db793be93066a858eb4e9ce56438.png"
+          ]
+        },
+        "night": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Tiger/PET_SKIN_TIGER_TWILIGHT_NIGHT/25afc37dc1909ee0a3eb8d0404271fc47660cff1153495412d6e9896632eaa8e.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_TIGER_ZODIAC",
+      "name": "Zodiac Tiger Skin",
+      "texturePath": "/assets/pets/skins/Tiger/715692312848223702fbe6e91cb743d4105cdf835a48c895b4ffb283db528e85.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aTiger§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "name": "§6Jellyfish",
+  "type": "JELLYFISH",
+  "category": "Alchemy",
+  "description": "§8Alchemy Pet\n\n§7Health: §c200\n§7Health Regen: §c[Health Regen]\n\n§6Radiant Scyphozoa\n§7While in dungeons, reduces the mana\n§7cost of Power Orbs by §a50%§7.\n\n§6Stored Energy\n§7While in dungeons, for every §c2,000\n§cHP §7you heal teammates the cooldown\n§7of §aWish §7is reduced by §a1s§7, up to\n§a30s§7.\n\n§6Powerful Potions\n§7While in dungeons, increase the\n§7effectiveness of Dungeon Potions by\n§a50%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Jellyfish_Pet",
+    "https://wiki.hypixel.net/Jellyfish_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 15000000,
+      "time": 864000,
+      "input": "JELLYFISH;3",
+      "output": "JELLYFISH;4",
+      "items": [
+        "ENCHANTED_SLIME_BALL:16"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "JELLYFISH;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Jellyfish/64c9ad5400fa660cbd121d4415a33e07fdf20ecf212a6bd4e68a43c7f646f5c4.png",
+      "lore": "§8Alchemy Pet\n\n§7Health: §c200\n§7Health Regen: §c[Health Regen]\n\n§6Radiant Scyphozoa\n§7While in dungeons, reduces the mana\n§7cost of Power Orbs by §a50%§7.\n\n§6Stored Energy\n§7While in dungeons, for every §c2,000\n§cHP §7you heal teammates the cooldown\n§7of §aWish §7is reduced by §a1s§7, up to\n§a30s§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "JELLYFISH;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Jellyfish/64c9ad5400fa660cbd121d4415a33e07fdf20ecf212a6bd4e68a43c7f646f5c4.png",
+      "lore": "§8Alchemy Pet\n\n§7Health: §c200\n§7Health Regen: §c[Health Regen]\n\n§6Radiant Scyphozoa\n§7While in dungeons, reduces the mana\n§7cost of Power Orbs by §a50%§7.\n\n§6Stored Energy\n§7While in dungeons, for every §c2,000\n§cHP §7you heal teammates the cooldown\n§7of §aWish §7is reduced by §a1s§7, up to\n§a30s§7.\n\n§6Powerful Potions\n§7While in dungeons, increase the\n§7effectiveness of Dungeon Potions by\n§a50%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_JELLYFISH_CUTE",
+      "name": "Cute Jellyfish Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_CUTE_BLUE/c6dc0a6f307755decf173e0d7f73e4fb4be625789bc0943cee7cb6988a77cd9c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aJellyfish§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 14 cute versions!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 10,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_CUTE_BLUE/c6dc0a6f307755decf173e0d7f73e4fb4be625789bc0943cee7cb6988a77cd9c.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_CUTE_BLUE/89ccb75daec409c05fdf7c47954c89643bd9106913bc818fd9cb6e8a0ec99d57.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_CUTE_BLUE/1a0272e2f5a7d9dfc24412571f205d03c8014810e654a5bcdb9773ce349f8ad0.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_JELLYFISH_LUMINESCENT",
+      "name": "Luminescent Jellyfish Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/fb656bac64ada64fa221e9f48fbf8ab9334b7934efb979d758df4d0c1bd17695.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aJellyfish§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/fb656bac64ada64fa221e9f48fbf8ab9334b7934efb979d758df4d0c1bd17695.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/261a49093574829a56f58a0e1dd90779ff18474dd92432a957713d6160ebe541.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/b15fc93dedc9e1ad8c56edb52efb7728d9f498ec0c4100db4a8c2e1eed9f3051.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/2270c7ff355b7215b4f8016571ed9c364e55aea4deb8661103f762be7ab76cf3.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/b6d2a283048bb44aa1d747c2644a2798b566a0f3b2ef9629fc8882d0b79967e1.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/4325d8edbfea684872c3d57b1ae2341d8a63045bebea4f910a741f32f71d9a14.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/1910e7ff30ccd67a5434f53c1a4c3a0414027470ad7e72323c9ebcd4cd5ef050.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/22656c209808cb42856ce5391f4e8e10c51a3e3ecfd749cd90fa4a164ed6d773.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/22656c209808cb42856ce5391f4e8e10c51a3e3ecfd749cd90fa4a164ed6d773.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/1910e7ff30ccd67a5434f53c1a4c3a0414027470ad7e72323c9ebcd4cd5ef050.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/4325d8edbfea684872c3d57b1ae2341d8a63045bebea4f910a741f32f71d9a14.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/b6d2a283048bb44aa1d747c2644a2798b566a0f3b2ef9629fc8882d0b79967e1.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/2270c7ff355b7215b4f8016571ed9c364e55aea4deb8661103f762be7ab76cf3.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/b15fc93dedc9e1ad8c56edb52efb7728d9f498ec0c4100db4a8c2e1eed9f3051.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/261a49093574829a56f58a0e1dd90779ff18474dd92432a957713d6160ebe541.png",
+          "/assets/pets/skins/animated_skins/Jellyfish/PET_SKIN_JELLYFISH_LUMINESCENT/fb656bac64ada64fa221e9f48fbf8ab9334b7934efb979d758df4d0c1bd17695.png"
+        ]
+      }
+    }
+  ]
+}

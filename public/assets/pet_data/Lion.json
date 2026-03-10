@@ -1,0 +1,105 @@
+{
+  "name": "§6Lion",
+  "type": "LION",
+  "category": "Foraging",
+  "description": "§8Foraging Pet\n\n§7Strength: §c50\n§7Ferocity: §c+[Ferocity]\n§7Speed: §f+25\n\n§6Primal Force\n§7Adds §c+20 ❁ Damage §7and §c+20 ❁\n§cStrength §7to your weapons.\n\n§6First Pounce\n§7First Strike, Triple-Strike, and\n§d§lCombo §7are §a100% §7more effective.\n\n§6King of the Jungle\n§7Deal §c+150% ❁ Damage §7against mobs\n§7that have attacked you.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Lion_Pet",
+    "https://wiki.hypixel.net/Lion_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 14000000,
+      "time": 1036800,
+      "input": "LION;3",
+      "output": "LION;4",
+      "items": [
+        "ENCHANTED_RAW_BEEF:1024"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "LION;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Lion/38ff473bd52b4db2c06f1ac87fe1367bce7574fac330ffac7956229f82efba1.png",
+      "lore": "§8Foraging Pet\n\n§7Strength: §c50\n§7Ferocity: §c+[Ferocity]\n§7Speed: §f+25\n\n§6Primal Force\n§7Adds §c+3 ❁ Damage §7and §c+3 ❁\n§cStrength §7to your weapons.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "LION;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Lion/38ff473bd52b4db2c06f1ac87fe1367bce7574fac330ffac7956229f82efba1.png",
+      "lore": "§8Foraging Pet\n\n§7Strength: §c50\n§7Ferocity: §c+[Ferocity]\n§7Speed: §f+25\n\n§6Primal Force\n§7Adds §c+5 ❁ Damage §7and §c+5 ❁\n§cStrength §7to your weapons.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "LION;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Lion/38ff473bd52b4db2c06f1ac87fe1367bce7574fac330ffac7956229f82efba1.png",
+      "lore": "§8Foraging Pet\n\n§7Strength: §c50\n§7Ferocity: §c+[Ferocity]\n§7Speed: §f+25\n\n§6Primal Force\n§7Adds §c+10 ❁ Damage §7and §c+10 ❁\n§cStrength §7to your weapons.\n\n§6First Pounce\n§7First Strike, Triple-Strike, and\n§d§lCombo §7are §a75% §7more effective.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "LION;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Lion/38ff473bd52b4db2c06f1ac87fe1367bce7574fac330ffac7956229f82efba1.png",
+      "lore": "§8Foraging Pet\n\n§7Strength: §c50\n§7Ferocity: §c+[Ferocity]\n§7Speed: §f+25\n\n§6Primal Force\n§7Adds §c+15 ❁ Damage §7and §c+15 ❁\n§cStrength §7to your weapons.\n\n§6First Pounce\n§7First Strike, Triple-Strike, and\n§d§lCombo §7are §a100% §7more effective.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "LION;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Lion/38ff473bd52b4db2c06f1ac87fe1367bce7574fac330ffac7956229f82efba1.png",
+      "lore": "§8Foraging Pet\n\n§7Strength: §c50\n§7Ferocity: §c+[Ferocity]\n§7Speed: §f+25\n\n§6Primal Force\n§7Adds §c+20 ❁ Damage §7and §c+20 ❁\n§cStrength §7to your weapons.\n\n§6First Pounce\n§7First Strike, Triple-Strike, and\n§d§lCombo §7are §a100% §7more effective.\n\n§6King of the Jungle\n§7Deal §c+150% ❁ Damage §7against mobs\n§7that have attacked you.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_LION_BLACK",
+      "name": "Black Lion Skin",
+      "texturePath": "/assets/pets/skins/Lion/6a48b0d08cedf94c5949663cc05397cda7e4c7271a93f82bae9c71cc6ad25db.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aLion\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_LION_HEART",
+      "name": "Heart Lion Skin",
+      "texturePath": "/assets/pets/skins/Lion/cd3c9c44bbca59f158514c5484e918d1f8aec8857d7cbec3b71ba19c57f6433e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Lion\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_LION_LIONESS_NEW",
+      "name": "Lioness Lion Skin",
+      "texturePath": "/assets/pets/skins/Lion/4d89354c09d821c68cb91e0fcf2595a36d75d2cd7e31a0a114b4f7574ea7beca.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aLion\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_LION_PLUSHIE",
+      "name": "Plushie Lion Skin",
+      "texturePath": "/assets/pets/skins/Lion/640cda801239bcbc6c577cea8932e3ebc06b09fbd5d6f39434ef0a6572de2c82.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aLion\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_LION_PLUSHIE_SPIRIT",
+      "name": "Spirit Plushie Lion Skin",
+      "texturePath": "/assets/pets/skins/Lion/cbc6e73aa5fd4f8cf8cc4b097d6db8da36ddd1a1db584937663354f638e68b12.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aLion\n§7pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_LION_WHITE",
+      "name": "White Lion Skin",
+      "texturePath": "/assets/pets/skins/Lion/d1b0cbbb0b6708756775d0ab20cac1c66e6076e7e926282cd9853cbd0c77f66c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aLion\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MONKEY_LION_TAMARIN",
+      "name": "Lion Tamarin Monkey Skin",
+      "texturePath": "/assets/pets/skins/Lion/2cd69e072074fae9faa948f4dd577a27babb6e10c315f79c609284b6b7cba609.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMonkey§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

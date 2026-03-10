@@ -1,0 +1,161 @@
+{
+  "name": "§6Blue Whale",
+  "type": "BLUE_WHALE",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Health: §c200\n\n§6Ingest\n§7All potions heal §c+200❤§7.\n\n§6Bulk\n§7Gain §a1❈ Defense §7per §c30 Max ❤\n§cHealth§7.\n\n§6Archimedes\n§7Gain §c+20% Max ❤ Health§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Blue_Whale_Pet",
+    "https://wiki.hypixel.net/Blue_Whale_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 9000000,
+      "time": 1036800,
+      "input": "BLUE_WHALE;3",
+      "output": "BLUE_WHALE;4",
+      "items": [
+        "ENCHANTED_COOKED_FISH:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "BLUE_WHALE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Blue_Whale/9ee72d3435c183dbdda2290cc8fcc9054b6e4d6e8f5338db4f4c1d9a30854b5d.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c200\n\n§6Ingest\n§7All potions heal §c+50❤§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "BLUE_WHALE;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Blue_Whale/dab779bbccc849f88273d844e8ca2f3a67a1699cb216c0a11b44326ce2cc20.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c200\n\n§6Ingest\n§7All potions heal §c+100❤§7.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§a§lUNCOMMON"
+    },
+    {
+      "id": "BLUE_WHALE;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Blue_Whale/9ee72d3435c183dbdda2290cc8fcc9054b6e4d6e8f5338db4f4c1d9a30854b5d.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c200\n\n§6Ingest\n§7All potions heal §c+150❤§7.\n\n§6Bulk\n§7Gain §a1❈ Defense §7per §c30 Max ❤\n§cHealth§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "BLUE_WHALE;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Blue_Whale/9ee72d3435c183dbdda2290cc8fcc9054b6e4d6e8f5338db4f4c1d9a30854b5d.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c200\n\n§6Ingest\n§7All potions heal §c+200❤§7.\n\n§6Bulk\n§7Gain §a1❈ Defense §7per §c30 Max ❤\n§cHealth§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "BLUE_WHALE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Blue_Whale/9ee72d3435c183dbdda2290cc8fcc9054b6e4d6e8f5338db4f4c1d9a30854b5d.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c200\n\n§6Ingest\n§7All potions heal §c+200❤§7.\n\n§6Bulk\n§7Gain §a1❈ Defense §7per §c30 Max ❤\n§cHealth§7.\n\n§6Archimedes\n§7Gain §c+20% Max ❤ Health§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_BLUE_WHALE_PLUSHIE",
+      "name": "Plushie Blue Whale Skin",
+      "texturePath": "/assets/pets/skins/Blue_Whale/88fef025b944a2a14b084dc50b92d6de999e44d0bb05bbf092378292f7d2dbef.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBlue\n§aWhale§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WHALE_COSMIC",
+      "name": "Cosmic Blue Whale Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/b62f631b0349b3d8f3af886c20292fe2efafb215d84569cc9e593f2c11f5395.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBlue\n§aWhale§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/b62f631b0349b3d8f3af886c20292fe2efafb215d84569cc9e593f2c11f5395.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/9125a41cf35a51fd9a2536bb9ce5484724191835ea580099f40ccfc09f5b58e6.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/1133454f990b4ad54fab49bf681e96d023073965ffbe4284fe7a68461c97828e.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/8872a2fa4d71a41070b432a68b672c294299ba1e77cccf01dc7e5808c17d7c85.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/1ef564eb5c7c3ce5a280f7855476b7da0b980a50ef5dc3fb7317f7d57bf6590a.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/952695080e47a8484d030848ff2ab9e91949b50b8d94de939ef2d508c824ad4c.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/af2a860a8ebfaf78bc6ad600b7db43862d88d204da6bfba1ff776a4d27366a27.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/3e60c6f4b2614caa8dba9cdaa536730ba5679f013c3ae67a45af772adacd16a0.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/f4d889ba41b7a1483ada57cdcd22d317e744bd2bd88c94d385acd16a114171b4.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/eb1617536ad23920e063707e7bab0c68832670849850e6617b35a0efa9cc57c9.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/1a68f59a187f5b7183df2ea708a6e4704845afd433272cd32cbed52286db1fd3.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/65048e9201df51ae05f8141c860586fd8fd875b2a366d052919b870c7749534d.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/6b2cf43b666ef83f17df547442ca446bc421a78940078426fa2743ba2aaf1cf0.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/da97bb74334e949077ff4f2630c51de44e664117716eea548d9ae89a8bae8ac6.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/7ce55c42189ea7fcb133af9a97e281c3f48fc0779b2a64c38067abc8696fcb03.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/52f327e6e9649950abceea5f40a1550f55e47dc19e16bf6eb2654360695a6527.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/89b3ba3f2b7aac69dd225fef98b5efe8ab71c42d4596aa35d4fe84de40af54a5.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/1ed41a6c42a427c5e0a9c5cc73f18616b955415b73fbb27027f19d2c193517e5.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/2f0e54b64cfa88770c8513e99d0e77c46408339535557b718fd560626c008350.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/1952a0dd9c49527f57dda8f609d6ee488431e90479bf66e2dd6407d595e43b66.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/69ff1200cecb1ecae9ee14ee0a572ebb876c57b6378669f2569510765310e3b9.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/625fbe69a2ff21f7160c115a045b613eaf99e59ea0f53a368264ff15a0e4fd91.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/4c9866123f013f4b5e4cec01f096c8906fec418af4877f2b8821101f51552391.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/5bdc35393f605e980998647a1c18f0b6b7658599959dc82bb85765546abe957d.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/805697b7b565c4d3e6b4d6ec30d77cd9c0b45b8ff4fe4dfca693598132738dc2.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/b1776067a8628f73b512e7819cb13dbd5cb1030898704e0e930c3c1eccb85c1d.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/c6dfd1cd862ae925ee0385ad129101146372cb21e79d3e03e7a294bf53e76232.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/8adccfb7304eb6665aa084f2205db6d92f137e5d8341d20dc042d2f3e0f9d0ce.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/c053a28a4e983710808b21952755b5bfd388c48cd764ba8ccb19ed8613d4ccff.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/ebce4dfc754b2b84c9682b20e2083f43feb6d0ecfdfb0132de858eb5bfd00864.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/9445b35b60cbb80bbd3c568497a0f8e7a92fe0464872050d78669d1b235e6ac1.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_COSMIC/4734a90fcbc3fe9bfaabfcddc3e9d53f9b89fcf01a0f0bbd43a00f5851cb5504.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_WHALE_ORCA",
+      "name": "Orca Blue Whale Skin",
+      "texturePath": "/assets/pets/skins/Blue_Whale/b008ca9c00cecf499685030e8ef0c230a32908619ce9dc10690b69111591faa1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBlue\n§aWhale§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WHALE_SPIRIT_ORCA",
+      "name": "Spirit Orca Blue Whale Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/54f803b534f4663e44c22462f056a1fc07f3039572470559eb3f679b1292f0d3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBlue\n§aWhale§7 pets.\n\n§aFeatures!\n§8▶ §7This skin is swappable between 10\n§7spirited orcas!\n§8▶ §7Displays §aMob Kills §7with this pet\n§7equipped above your pet!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§4§lULTIMATE COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/54f803b534f4663e44c22462f056a1fc07f3039572470559eb3f679b1292f0d3.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/98768395c04a54f7227a78ab9785c4553f1ba420da1f3546124347f893ffed88.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/63136597328967284ba87d86d48c02eb003e0fb3b6dede28dab247269527f79f.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/4e9d4ae48ffccc8e17d81173cecaafba2420041a5a9c055d2513fc849dfc25cf.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/6eb618642c0f9fec4833746a060fb5959e24e8d0f9de3c3a2f7f16b1af5ccad2.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/12a1c86bdeee1802c8c08f493da5bda12e72ca3221673b9b53d93df88b358adb.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/3a4f04c6fce2283132c2089cee9c45b123ee2d8cd3a292770a08ffef27e20756.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/d24876de7294ca4fe7b8666c01f3bf42abf02e3aedbc6e86ac45b19263fc41ab.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/11e607365b05094ba67f249503830f14c3fa40bca1c7adfc2d6dc289d179fd4c.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/5eaadc58603203338bdb8af30dbf348e49ab177fefd9aa5902bcdde37696f114.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/ad3cfd9a5b9b82a56bca7feb9367ea39b3d0262f90de5ce0f006e8856b1acfc4.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/4fc1e4c1f3c8639eb3898a814400b6bb9dcb8faac6c7f269c123903da96184bd.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/424a1231cd2c8eee7fef6dd7797b39eacecd951d25768ce5a579c1c9056ab231.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/36e67561171d1d798195f426a3409a84513eca79bd3f1a0a5487846b1f9645c2.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/7e33d8f745d475e32f968f0a495f43988842e81b517dec84bda9580291e361e5.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/6247a61f2fb7a5869d11bdd2e8ea11aa566665030d810e7e5a0472bb0177a0b1.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/4b93218f2f1466bcf35de6a8fb5926290defe060276e9a34ffd791fa0911896a.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/cc54df3be6a13f6b354274079927fee2b3aa0074db06df5b977bb6f2c71c39c8.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/a3f954c2b5e1e45ebcd3e4d2e22cefea7fc102cd995d3f4af9259b60ae264270.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/bd606d26c8dcbe828814cdae4fde56a76a30558ef89a3560e3d87b1789965757.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/6077c018b95f94e452875ffc1559c71e9ddc2c00d52f0584557921cc0b87e489.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/621c6c5bdfac67e8c490467890f7f9ef2cbf4dec6a04c71073d9597fd932bfd4.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/e06f4cfc03af8cbac92bb45f0a753690b2686a2432ee123d49a5efea9d68eea2.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/6b2a1e4251994a7a7e4b251c160a78ad2811b8d33d2490cce302edb165694630.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/a8fef16a158907fce92b3f3dae5eb2761e992db7903138c159807384b43f780e.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/2713c15707dfeab8c726cc03c5029e06716edf403d3992735d5a84b8516a7d36.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/9cd0ee25e35b5783bdfddba62272f68643ced29474a40bd612f841a5550ba588.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/2bdf0e892daa5a21c28f3496cbc3e8eff428f9c6d5b9661dbc50cef8a6f2a70f.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/5f3aac8823c46d7280658602242fffc8f0b855490f85e3c331a16498d471e90f.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/5a8b3187571e31046c41619fa715836ee29a97fb315fdaaa99a1ff574a1da242.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/6be113ba13cd17705c07e0f3deb216163b42e16c7d0979ac81cfe8386e201744.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/b4d94608306ee6bc73232e8262c4af0cf86dfbe69dff4d20a61f848b83a3f631.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/1c308eee49cd22b6ff3b87afcc03695312544cd3cd80daf4da9d91fa3ecf6019.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/1f806ea0a57c4877f5494a7fe8f3a6156d7c998c8c1cb0e4c90fb919f39c3e34.png",
+          "/assets/pets/skins/animated_skins/Blue_Whale/PET_SKIN_WHALE_SPIRIT_ORCA_BLACK/c779729b7789d45a931c7b1ff08f5838b11a731957582c44ebecc42e02337d61.png"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "name": "§6Snail",
+  "type": "SNAIL",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Defense: §a100\n§7Intelligence: §b100\n\n§6Red Sand Enjoyer\n§9Red Sand Minions §7work §a30% §7faster\n§7while on your §bPrivate Island§7.\n\n§6Slow and Steady\n§7Convert every §f2✦ Speed §7you\n§7have above §f100 §7into §6+1☘ Block\n§6Fortune§7.\n\n§6Slimy Reach\n§7Grants §e+400▚ Mining Spread §7while\n§7mining §9Blocks§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Snail_Pet",
+    "https://wiki.hypixel.net/Snail_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 250000,
+      "time": 43200,
+      "input": "SNAIL;3",
+      "output": "SNAIL;4",
+      "items": [
+        "BURNING_EYE:64",
+        "ENCHANTED_RED_SAND:128"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SNAIL;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Snail/50a9933a3b10489d38f6950c4e628bfcf9f7a27f8d84666f04f14d5374252972.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Intelligence: §b100\n\n§6Red Sand Enjoyer\n§9Red Sand Minions §7work §a10% §7faster\n§7while on your §bPrivate Island§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "SNAIL;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Snail/50a9933a3b10489d38f6950c4e628bfcf9f7a27f8d84666f04f14d5374252972.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Intelligence: §b100\n\n§6Red Sand Enjoyer\n§9Red Sand Minions §7work §a20% §7faster\n§7while on your §bPrivate Island§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "SNAIL;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Snail/50a9933a3b10489d38f6950c4e628bfcf9f7a27f8d84666f04f14d5374252972.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Intelligence: §b100\n\n§6Red Sand Enjoyer\n§9Red Sand Minions §7work §a20% §7faster\n§7while on your §bPrivate Island§7.\n\n§6Slow and Steady\n§7Convert every §f3✦ Speed §7you\n§7have above §f100 §7into §6+1☘ Block\n§6Fortune§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "SNAIL;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Snail/50a9933a3b10489d38f6950c4e628bfcf9f7a27f8d84666f04f14d5374252972.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Intelligence: §b100\n\n§6Red Sand Enjoyer\n§9Red Sand Minions §7work §a30% §7faster\n§7while on your §bPrivate Island§7.\n\n§6Slow and Steady\n§7Convert every §f3✦ Speed §7you\n§7have above §f100 §7into §6+1☘ Block\n§6Fortune§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "SNAIL;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Snail/50a9933a3b10489d38f6950c4e628bfcf9f7a27f8d84666f04f14d5374252972.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Intelligence: §b100\n\n§6Red Sand Enjoyer\n§9Red Sand Minions §7work §a30% §7faster\n§7while on your §bPrivate Island§7.\n\n§6Slow and Steady\n§7Convert every §f2✦ Speed §7you\n§7have above §f100 §7into §6+1☘ Block\n§6Fortune§7.\n\n§6Slimy Reach\n§7Grants §e+400▚ Mining Spread §7while\n§7mining §9Blocks§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_SNAIL_CAKE",
+      "name": "Cake Snail Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_CAKE_DAY/7b7081ef63558972887c3cb03af0a99fcd2762eb4c5ed301d8a976bc1e59f435.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aSnail\n§7pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_CAKE_DAY/7b7081ef63558972887c3cb03af0a99fcd2762eb4c5ed301d8a976bc1e59f435.png"
+          ]
+        },
+        "night": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_CAKE_NIGHT/41c5e579f55e344b4fc0365de8346e621693b155ff5d817909fa3a0b806bbc94.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_SNAIL_RAINBOW",
+      "name": "Rainbow Snail Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/e95522a1aabe6709ee077de132ae1e501b84e98d5bb0d531ca3d637c121297f6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aSnail\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/e95522a1aabe6709ee077de132ae1e501b84e98d5bb0d531ca3d637c121297f6.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/9606a7a8bb0107bb2073c43291a16786dc488e4fcebd8af99ce587ff8df4c1e6.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/fb16a9745c0040ea240e9bf6fe23a43e9eb34e06e15dabbfc434aefcef3c7f54.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/a81872defc539006d54040cb553d5de4843012e56489acda68368b9b189367a1.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/50bd135a86157b010bad80633bbc06e6cc9ff94747d30f54034a694cdf571746.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/c46ff2faa4b4b951669caf9f3a5c81c88a646257c0034c9de851866852ff1edc.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/298bafc92ff6213f54961d05fbd06c3de5a9e209969d8f260bf92269f9418ed5.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/69f00d76bd0bf65248cd82b97f01711df2e2b013e220e7555a9d643aaf03fe62.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/b8c517f9a6f420338ffe82a9caea3b13cee705dacda5ab33dd671377e2392637.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/9ceaca294e868187d0500138a1eaac0a7195b512dfd21a9d0fa86dab33881544.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/e55ddcf1040d90bdf445c06cf4cf1097b87e85eead46f12ef93f35f45e9491bd.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/ee0bd22479178f4054626cc8d7bb19d474887c7ced71c6206f91e4361725dff4.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/6c17c961f6ad175c534a98e158bf85962a6d5c95c9c95a107b1307beab5c68d7.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/bb288310542ddd05e63aec593cafa8561568717cf0d114544eaea03e2db5cf13.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/4726d1442d88b28ebfe4a6a968301f6b09ca7014decf3dc69df2c29bafc4f345.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/395841613831ff831e6461314af550275a06d9d04e1e34978edb576d5c09a2e3.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/4975880bb089066a81a3e010c07ec7bcfff0724f589372b4f1ebd65eb58b3b3b.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/e2e75e8876c41a60182e49abcb8e3d9c9504d13dc00d5f9542d11287e2cc7830.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/9c0fc9abb845ef854b828ca0722de0492414f2dcb223a3eb041914d908b91999.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/c1149d217e476af4ac8ea2fd355e0817aeac4006dbd7d3f48f3b48e8be912bb7.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/b0fa952ba499092f19630370d873de62fe9e373773bc671bc32c836926d54299.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/7b96bf050d03cc10fad35e73d1f6efe6e804b2c66283d3fbf34bade0c7d9e08c.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/10f995d922c8bf5a0845aae19f068fa6ed5a85c3eec1657dc36137fe3d9c038e.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/d646d3bea6bf391e3a61b2893e7fd18a60c3f46b5827c24db6b43837b55eb47.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/d57d54d5e9e153bd1258fcfc7dd4bdce5cee25594e8c634356a7ad4f77a102da.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/43e85e0327cced1ddfb566afc90905d7db614e4614117a691836e0da2cd98fdd.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/3306853879f6357a07b22dad0f730d8350c43c772d2ec5127d7be3c80db4dbaf.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/582b37d20dee7185b4e3390fe0f39265691ab694899dfac13a17fb31ddc454d2.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/66fb5c442f518e01fde994b462176cc17c5276c277fe651581d018ddd67bd1c2.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/d4c315971c59155b011aa5cffae6dd371900ead35d9174cd8c70de0811f2705e.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/7139e798b35993fa55f853ebd9690f6a295903c455a070b6a3a8c4a5c9d12333.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/a8b487034bf59d56e626506bb13765667e37afe2d30b2f6f4fd906cbf36c1875.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/c53cafb6c223dab8f8bb691fa2bd7148664953644af56d69be6052c8cf48bdc4.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/3b86d4620ee7fad859467a708bbcc278ae3b9b16ad9e2d030b913a14cc40b43a.png",
+          "/assets/pets/skins/animated_skins/Snail/PET_SKIN_SNAIL_RAINBOW/f2c45ed4901bf624d9c8c3514833dad7c9c5529b3cc62b336089dc6c2d0839fa.png"
+        ]
+      }
+    }
+  ]
+}

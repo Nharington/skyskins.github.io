@@ -1,0 +1,50 @@
+{
+  "name": "§6Megalodon",
+  "type": "MEGALODON",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n§7Magic Find: §b10\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §310%\n\n§6Blood Scent\n§7Deal up to §c+150% ❁ Damage §7based on\n§7the enemy's missing health\n\n§6Enhanced Scales\n§7Doubles the pet's base stats during\n§7the §bFishing Festival§7.\n\n§6Feeding Frenzy\n§7Increases your chance to catch\n§7Sharks during the §bFishing Festival §7by\n§a20%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Megalodon_Pet",
+    "https://wiki.hypixel.net/Megalodon_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 10000000,
+      "time": 1728000,
+      "input": "MEGALODON;3",
+      "output": "MEGALODON;4",
+      "items": []
+    }
+  ],
+  "rarities": [
+    {
+      "id": "MEGALODON;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Megalodon/a94ae433b301c7fb7c68cba625b0bd36b0b14190f20e34a7c8ee0d9de06d53b9.png",
+      "lore": "§8Fishing Pet\n\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n§7Magic Find: §b10\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §310%\n\n§6Blood Scent\n§7Deal up to §c+150% ❁ Damage §7based on\n§7the enemy's missing health\n\n§6Enhanced Scales\n§7Doubles the pet's base stats during\n§7the §bFishing Festival§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "MEGALODON;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Megalodon/a94ae433b301c7fb7c68cba625b0bd36b0b14190f20e34a7c8ee0d9de06d53b9.png",
+      "lore": "§8Fishing Pet\n\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n§7Magic Find: §b10\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §310%\n\n§6Blood Scent\n§7Deal up to §c+150% ❁ Damage §7based on\n§7the enemy's missing health\n\n§6Enhanced Scales\n§7Doubles the pet's base stats during\n§7the §bFishing Festival§7.\n\n§6Feeding Frenzy\n§7Increases your chance to catch\n§7Sharks during the §bFishing Festival §7by\n§a20%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_MEGALODON_BABY",
+      "name": "Baby Megalodon Skin",
+      "texturePath": "/assets/pets/skins/Megalodon/7cdb1ff8c967c831eb685e09e5dea586ed291472395acf7a25e9d5bb41d6c082.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMegalodon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MEGALODON_PINK_PLUSHIE",
+      "name": "Pink Plushie Megalodon Skin",
+      "texturePath": "/assets/pets/skins/Megalodon/320c35b7863d16bb08f7a299fefdf3704c3d89307aa08eb61fc4eaf376dbc34f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Megalodon pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

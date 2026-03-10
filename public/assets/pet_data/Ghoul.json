@@ -1,0 +1,45 @@
+{
+  "name": "§6Ghoul",
+  "type": "GHOUL",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Health: §c100\n§7Ferocity: §c[Ferocity]\n§7Intelligence: §b75\n§7Vitality: §4[Vitality]\n§7Mending: §a[Mending]\n\n§6Undead Slayer\n§7Gain §b1.5x §7Combat XP against\n§aZombies§7.\n\n§6Army of the Dead\n§7Increases the amount of souls you\n§7can store by §a2 §7and the chance of\n§7getting a mob's soul by §a20%§7.\n\n§6Reaper Soul\n§7Reduces the summoning cost of mobs\n§7by §a30% §7and increases their damage\n§7output by §a20%§7. Increases the health\n§7of all summoned mobs by §a100%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ghoul_Pet",
+    "https://wiki.hypixel.net/Ghoul_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 5000000,
+      "time": 864000,
+      "input": "GHOUL;3",
+      "output": "GHOUL;4",
+      "items": [
+        "REVENANT_FLESH:512"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "GHOUL;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Ghoul/1e1109bbd1f82c182363ed53b624b688924447f9f68b929674ad37f3cef762a8.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Ferocity: §c[Ferocity]\n§7Intelligence: §b75\n§7Vitality: §4[Vitality]\n§7Mending: §a[Mending]\n\n§6Undead Slayer\n§7Gain §b1.5x §7Combat XP against\n§aZombies§7.\n\n§6Army of the Dead\n§7Increases the amount of souls you\n§7can store by §a2 §7and the chance of\n§7getting a mob's soul by §a20%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "GHOUL;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Ghoul/1e1109bbd1f82c182363ed53b624b688924447f9f68b929674ad37f3cef762a8.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Ferocity: §c[Ferocity]\n§7Intelligence: §b75\n§7Vitality: §4[Vitality]\n§7Mending: §a[Mending]\n\n§6Undead Slayer\n§7Gain §b1.5x §7Combat XP against\n§aZombies§7.\n\n§6Army of the Dead\n§7Increases the amount of souls you\n§7can store by §a2 §7and the chance of\n§7getting a mob's soul by §a20%§7.\n\n§6Reaper Soul\n§7Reduces the summoning cost of mobs\n§7by §a30% §7and increases their damage\n§7output by §a20%§7. Increases the health\n§7of all summoned mobs by §a100%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_GHOUL_GHOULFRIEND",
+      "name": "Ghoulfriend Ghoul Skin",
+      "texturePath": "/assets/pets/skins/Ghoul/95807c36eb026d77e43ef842486d81c3b6173a8925e50f128db9080585f007e4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGhoul§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

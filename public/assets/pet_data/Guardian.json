@@ -1,0 +1,76 @@
+{
+  "name": "§dGuardian",
+  "type": "GUARDIAN",
+  "category": "Enchanting",
+  "description": "§8Enchanting Pet\n\n§7Defense: §a50\n§7Intelligence: §b100\n\n§6Laserbeam\n§7Zaps your enemies for §b20x §7your §b✎\n§bIntelligence §7every §a3s§7.\n\n§6Enchanting Wisdom Boost\n§7Grants §3+30☯ Enchanting Wisdom§7.\n\n§6Mana Pool\n§7Regenerate §b30% §7extra mana, doubled\n§7when near or in water\n\n§6Lucky Seven\n§7Gain §b+?% §7chance to find §5ultra rare\n§7books in §dSuperpairs§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Guardian_Pet",
+    "https://wiki.hypixel.net/Guardian_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "GUARDIAN;4",
+      "output": "GUARDIAN;5",
+      "items": [
+        "GUARDIAN_LUCKY_BLOCK:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "GUARDIAN;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Guardian/221025434045bda7025b3e514b316a4b770c6faa4ba9adb4be3809526db77f9d.png",
+      "lore": "§8Enchanting Pet\n\n§7Defense: §a50\n§7Intelligence: §b100\n\n§6Laserbeam\n§7Zaps your enemies for §b2x §7your §b✎\n§bIntelligence §7every §a3s§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "GUARDIAN;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Guardian/221025434045bda7025b3e514b316a4b770c6faa4ba9adb4be3809526db77f9d.png",
+      "lore": "§8Enchanting Pet\n\n§7Defense: §a50\n§7Intelligence: §b100\n\n§6Laserbeam\n§7Zaps your enemies for §b6x §7your §b✎\n§bIntelligence §7every §a3s§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "GUARDIAN;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Guardian/221025434045bda7025b3e514b316a4b770c6faa4ba9adb4be3809526db77f9d.png",
+      "lore": "§8Enchanting Pet\n\n§7Defense: §a50\n§7Intelligence: §b100\n\n§6Laserbeam\n§7Zaps your enemies for §b10x §7your §b✎\n§bIntelligence §7every §a3s§7.\n\n§6Enchanting Wisdom Boost\n§7Grants §3+25☯ Enchanting Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "GUARDIAN;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Guardian/221025434045bda7025b3e514b316a4b770c6faa4ba9adb4be3809526db77f9d.png",
+      "lore": "§8Enchanting Pet\n\n§7Defense: §a50\n§7Intelligence: §b100\n\n§6Laserbeam\n§7Zaps your enemies for §b15x §7your §b✎\n§bIntelligence §7every §a3s§7.\n\n§6Enchanting Wisdom Boost\n§7Grants §3+30☯ Enchanting Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "GUARDIAN;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Guardian/221025434045bda7025b3e514b316a4b770c6faa4ba9adb4be3809526db77f9d.png",
+      "lore": "§8Enchanting Pet\n\n§7Defense: §a50\n§7Intelligence: §b100\n\n§6Laserbeam\n§7Zaps your enemies for §b20x §7your §b✎\n§bIntelligence §7every §a3s§7.\n\n§6Enchanting Wisdom Boost\n§7Grants §3+30☯ Enchanting Wisdom§7.\n\n§6Mana Pool\n§7Regenerate §b30% §7extra mana, doubled\n§7when near or in water\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "GUARDIAN;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Guardian/221025434045bda7025b3e514b316a4b770c6faa4ba9adb4be3809526db77f9d.png",
+      "lore": "§8Enchanting Pet\n\n§7Defense: §a50\n§7Intelligence: §b100\n\n§6Laserbeam\n§7Zaps your enemies for §b120x §7your §b✎\n§bIntelligence §7every §a3s§7.\n\n§6Enchanting Wisdom Boost\n§7Grants §3+30☯ Enchanting Wisdom§7.\n\n§6Mana Pool\n§7Regenerate §b30% §7extra mana, doubled\n§7when near or in water\n\n§6Lucky Seven\n§7Gain §b+7% §7chance to find §5ultra rare\n§7books in §dSuperpairs§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_GUARDIAN",
+      "name": "Watcher Guardian Skin",
+      "texturePath": "/assets/pets/skins/Guardian/37cc76e7af29f5f3fbfd6ece794160811eff96f753459fa61d7ad176a064e3c5.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Guardian pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GUARDIAN_CORRUPT_EYE",
+      "name": "Corrupt Eye Guardian Skin",
+      "texturePath": "/assets/pets/skins/Guardian/27a87aff28cdf80fe52ea74264ec0c93348b2d9ad8274ac8b76f25fcbff83bf2.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGuardian§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "§6Jade Dragon",
+  "type": "JADE_DRAGON",
+  "category": "Foraging",
+  "description": "§8Foraging Pet\n\n§7Strength: §c50\n§7Magic Find: §a10\n§7Foraging Fortune: §a[Foraging Fortune]\n\n§6Forest Power\n§7Adds §c100❁ Strength §7and §f50✦\n§fSpeed §7to all your Axes.\n\n§6Jade Scale\n§7Grants §615☘ Foraging Fortune §7and\n§24∮ Sweep §7for every digit in your\n§aMangrove Collection§7.\n§8(Max 10M collection)\n\n§6Dragon's Pride\n§7Grants §61☘ Foraging Fortune §7per §25∮\n§2Sweep§7.\n\n§6Apex Predator\n§7Increase your total §2∮ Sweep §7by\n§20.1% §7for every Maxed out Attribute\n§7you unlocked.\n\n§6Symbiosis\n§7If you own a level §a200 Jade Dragon§7,\n§7grants §6+4☘ Foraging Fortune §7for\n§7every other unique maxed Foraging\n§7Pet that you own.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Jade_Dragon_Pet",
+    "https://wiki.hypixel.net/Jade_Dragon_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "JADE_DRAGON;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Jade_Dragon/4099589796de185787ab92c3066d0d0af832ffad7153a42bb2e2d23598e7ea60.png",
+      "lore": "§8Foraging Pet\n\n§7Strength: §c50\n§7Magic Find: §a10\n§7Foraging Fortune: §a[Foraging Fortune]\n\n§6Forest Power\n§7Adds §c100❁ Strength §7and §f50✦\n§fSpeed §7to all your Axes.\n\n§6Jade Scale\n§7Grants §615☘ Foraging Fortune §7and\n§24∮ Sweep §7for every digit in your\n§aMangrove Collection§7.\n§8(Max 10M collection)\n\n§6Dragon's Pride\n§7Grants §61☘ Foraging Fortune §7per §25∮\n§2Sweep§7.\n\n§6Apex Predator\n§7Increase your total §2∮ Sweep §7by\n§20.1% §7for every Maxed out Attribute\n§7you unlocked.\n\n§6Symbiosis\n§7If you own a level §a200 Jade Dragon§7,\n§7grants §6+4☘ Foraging Fortune §7for\n§7every other unique maxed Foraging\n§7Pet that you own.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": []
+}

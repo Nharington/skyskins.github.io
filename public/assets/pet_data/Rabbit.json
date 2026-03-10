@@ -1,0 +1,249 @@
+{
+  "name": "§dRabbit",
+  "type": "RABBIT",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Health: §c100\n§7Speed: §f20\n\n§6Happy Feet\n§7Jump potions also give §a+50 §7speed\n\n§6Farming Wisdom Boost\n§7Grants §3+30☯ Farming Wisdom§7.\n\n§6Efficient Farming\n§7Farming minions work §a30% §7faster\n§7while on your island\n\n§6Chocolate Injections\n§7Increases §6Chocolate Factory\n§7production by §a+?x§7. Duplicate\n§aChocolate Rabbits §7that you find\n§7grant §6+?% Chocolate§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rabbit_Pet",
+    "https://wiki.hypixel.net/Rabbit_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000,
+      "time": 3600,
+      "input": "RABBIT;4",
+      "output": "RABBIT;5",
+      "items": [
+        "ENCHANTED_RABBIT:64",
+        "ENCHANTED_RABBIT_HIDE:32",
+        "ENCHANTED_RABBIT_FOOT:32",
+        "PET_ITEM_CHOCOLATE_SYRINGE:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "RABBIT;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Rabbit/63438555e899bd9a051a95dbea49eb2ecfa52a69dbba8998f3673819e277fdf5.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Speed: §f20\n\n§6Happy Feet\n§7Jump potions also give §a+30 §7speed\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "RABBIT;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Rabbit/63438555e899bd9a051a95dbea49eb2ecfa52a69dbba8998f3673819e277fdf5.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Speed: §f20\n\n§6Happy Feet\n§7Jump potions also give §a+40 §7speed\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "RABBIT;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Rabbit/63438555e899bd9a051a95dbea49eb2ecfa52a69dbba8998f3673819e277fdf5.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Speed: §f20\n\n§6Happy Feet\n§7Jump potions also give §a+40 §7speed\n\n§6Farming Wisdom Boost\n§7Grants §3+25☯ Farming Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "RABBIT;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Rabbit/63438555e899bd9a051a95dbea49eb2ecfa52a69dbba8998f3673819e277fdf5.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Speed: §f20\n\n§6Happy Feet\n§7Jump potions also give §a+50 §7speed\n\n§6Farming Wisdom Boost\n§7Grants §3+30☯ Farming Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "RABBIT;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Rabbit/63438555e899bd9a051a95dbea49eb2ecfa52a69dbba8998f3673819e277fdf5.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Speed: §f20\n\n§6Happy Feet\n§7Jump potions also give §a+50 §7speed\n\n§6Farming Wisdom Boost\n§7Grants §3+30☯ Farming Wisdom§7.\n\n§6Efficient Farming\n§7Farming minions work §a30% §7faster\n§7while on your island\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "RABBIT;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Rabbit/63438555e899bd9a051a95dbea49eb2ecfa52a69dbba8998f3673819e277fdf5.png",
+      "lore": "§8Farming Pet\n\n§7Health: §c100\n§7Speed: §f20\n\n§6Happy Feet\n§7Jump potions also give §a+50 §7speed\n\n§6Farming Wisdom Boost\n§7Grants §3+30☯ Farming Wisdom§7.\n\n§6Efficient Farming\n§7Farming minions work §a30% §7faster\n§7while on your island\n\n§6Chocolate Injections\n§7Increases §6Chocolate Factory\n§7production by §a+0.05x§7. Duplicate\n§aChocolate Rabbits §7that you find\n§7grant §6+33.3% Chocolate§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_RABBIT",
+      "name": "Pretty Rabbit Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/ce4267187331f915b627702b6a18232059620419accee9958b4ac3e198ff0d2f.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied\n§7to Rabbit pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/ce4267187331f915b627702b6a18232059620419accee9958b4ac3e198ff0d2f.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/d7865917dc36693d69299fecd20c9dd39280b623217f03d5fcf1f4cad0949daf.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/2fc218c051681b48e68a616db159c4e63bd14a53d2acf451a028cbdfa69ca4c8.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/8b067faf7ffb28515a4e2b436e818ec380707bf13f9955a24eca16d9e8fe65d7.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/fa01220846d821413800ce65b7bf3e9c9f1b5d3b092ec2ca36beb202ac36d663.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/3f3c26c974cf50847062c8a5ba2666005f8d372b571f0639b24202d0750a0b83.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/5bca2b756d0477e268e725f40776e704069746cbf904cf7d3df33b50c1e1890a.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/b299576a87b4838a86b932ea4928ac4a5729429467c5ce90bf351c7fbb46f29b.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/9425b32f83fa7cba5552059a9fe1077cee39dfcd8059382b862655909873ec0c.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/68838763d42ed4218a6b9c35210226d0539ae8f0bb17a31ab997ed0290647f29.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/71e3f67fb39b2a1e01426aa091c5a6666b237286eb1c4c5fcbca505dfe1dbdc3.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/f5eed72846c2c9e7effc51e3de2ef72258c00e9964f20ab62e04fa479b9997b1.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/5f6b9fcedaf889138bcad28c9c94af50b8c1601e8ced3d6082906f974bb99420.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/40f5bed587160b9e8df5e7a2c89a0ba80224078dddd77b4fb3fe9860ecfb84bf.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/401615bf4868b77459498946fb573d937471c3514e269b0b5543b156f8e267cf.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/f3b6b0b76f8d2a41ecbe2237f5204e19f3730f0297d90c7a470f7af5b0e01185.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/9efac7372606437e9e3afc69282587cac3304a81c2a4d42b9a2c4accbf97d264.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_RABBIT_AQUAMARINE",
+      "name": "Aquamarine Rabbit Skin",
+      "texturePath": "/assets/pets/skins/Rabbit/35a2119d122961852c010c1007ab2aff95b4bbeb74407463f6d2e1ff0792c812.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aRabbit§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RABBIT_HOT_COCOA",
+      "name": "Hot Cocoa Rabbit Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/32d35eb47a15fbfe8552192eb16972c7bb8d2521474f94c74eb8902e1ada4e8d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aRabbit§7 pets.\n\n§aThis skin is animated, and adapts to\n§athe day-night cycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 3,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/32d35eb47a15fbfe8552192eb16972c7bb8d2521474f94c74eb8902e1ada4e8d.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/70c2014ac9de6b9f64608c59cae62df2510eb660e159932cda08e685d7edb3e.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/50c35c5002bad537be74570f4d6d1d5af106e3daaf0de4d792500a0f8ed73a0f.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/932a631bbcb13db6294ce79c44012618059def6f5df6bf0cee7fb4cb04f8350f.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/c160ec1590402100fc63c7aadee568ad007e77a76791bb6bc38f5b677a22ac8c.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/7e325312c1cccb15badd8812c6b366d21d2bebf4e60b26ecfba97b2c034b64f6.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/3e60149feb050f25f17a83da4b235f7992e5b65bef1208788920ab2ffcc5f29d.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/b0853df872b0cbdc6ae049644f8be3811aa78e362a64ea6fbbc473e4e575f8ec.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/100fece5932e16fa21353d3736d275f2d6996a7d875de3e9e8005bd105e5493f.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/aff8d3a72a57d668c41d151368c4547a0b4f19997091e8a842ee4217c17fe916.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/350301f0551a48f7d19833d01deb7b474769e58a18969e4ff3774b20d8fdd970.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/716af0da52465de115c7efce60c44581d0580f2630f2e49a21bf0d256500a28b.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/e967834461bbe91f1d1625c19ca262b3370367e837ea14bb65f15f3a97307eb4.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/7c683689f458b871b0936c821c76835acc7a8b441426cdb76db3aca2aac83898.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/412ebebef8b64802adff4adc3b6787f13a7ba7f7285e842113fecc3171e7866c.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/6fec97e4421b5cee8c77e914b76efc52585ea82a5c877c69b9c17a4dc180266c.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/5700b51869df0dd5756b1ab47fd69b5b3e6c11f41ef8edfca28a201bef9cdb42.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/f50ff2f119f7a359818cede64a8182a72887777e644f48ed1caa710c0746583a.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/8e9652e10629f90ba1b41acf739ceea29505d59b5f3ae3279cb97ea7369535f3.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/19e1cef53631645c24d0960c9df10112504ef30a219d9553fa4476efe55ffbf9.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/c6753540fb2c9dde612ce9cefd6d5281b68cbd405c4d6922f0c9ed12dd281c43.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/81ce305e1426b241bf35662a51068e6220940c93ffac0ac9205f47640d8abfb7.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/221b03316da61bc94a94c4a93929130688f831662a07693daf114cfc2d74b7de.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/fe7aa05d38016bfee0bbe7d85c718c57b46f9e4f366e984448baadffece0f9c2.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/95c5c1d91c982bf1f5ceef25482dff5a4e7d3cdcbc799b73ae1724020e16068.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/225dcdedbe39a5fdb3afc28c2096b5db4e0546ad7e241ca4d8508c519a289352.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/5dd89f5d0da63a77fcdf734fafa884e6697ea07ebd32c4a38cff3bbe994b7ee4.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/b61b112473a96200b5c7781afc44a3200ae717a1cb045a4a36af6663b1a06b6d.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/70f1134aab9be0136f2235df679e214a33ad11d4edd1a3f0dda29854e63cad10.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/85225dfb6df96b79ba76a93f5c4c12516be7aef34ebc1da1a01fa488e8ac6e86.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/a225da2cea943666b9a9e373ce33bf857a7edbf5e85932bdfc533b4d68c2512b.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/a4728d6b10b85bcbe7b6eb6e242569b4474698639afd39ef30514fcd82c6c611.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/d831ec43429e60bd33a97baf00d560cfc68157f2110e63709d52ad3f6c7f87d2.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/309eb1fc4db221a1936d8486c5dc2f6b1ac743ebe9a387293b3dc3af33a815a3.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/cfb3530ef17d1c87499819beeea8388155d82da6e6ba45ec7752cdaf60d58a75.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_DAY/e0df9235a5ab208f5366b8083dd345fa186ef9cc3e452712866006e79078163e.png"
+          ]
+        },
+        "night": {
+          "ticks": 3,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/2e7bbd4405d0172210188a00f9011ee1ed0024645d8199ff6d90de97dca75ead.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/47b996b756ab24438e8a48f8a246c213ac158390b6868e9d3ebb1092a9fad769.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/841e75284b1794c3cf4678e697cf99e1051e5682af5853caddfccc404a10fbc7.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/519c036d29c0b585c89b1a619d6054420b1bcf7924dd947eca0354731fe11db7.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/e530a181a81a3f0158a355e73e484ea28d3464c4d2bb07f724d7663cacab34e4.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/92a68087d6920f42aa2746a4e329ca6c858a87e97b5e2a035563d0eccd7c5c9f.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/64d03cb7558f2a80cc2897c8047415fd26cf5f6bba4f38a6095c00088a9482e6.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/56cff61ce60b47a12a416b2a84f291a4626b5c1fe9f7f2813f0d5d28121c0c4e.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/6655dfd04fb64bbe078b995aa1e9ef96b8eedf7cfa975e22938ddbbec8f54979.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/b2b6a80b28a6c5c95e1e61afe16149de859f4e4402edd0a85ba406df8e045efc.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/272c009f152913597361b50ddb7fde85183f0a2812b668000ea4c89e71cac315.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/79a71bf8f41b4628cd1d4fb3c7372c9eb4c112c93539ac49f88244972d2eb1bd.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/a18b2a17585a44e49f5cb3b14348915e948075e3acf0923b3646b4269fb8bb17.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/f6d765f00b5799069770424227f6f2a33e18ef3235b3a4840da8492d13643d04.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/40af365a2af69f57629f2541c99c183269511994dc1dd4d61eca10ac8ef585f7.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/1987c4b0b1688935372b5f54d2d7931e1d4f8bd7cb01f2d2300783bb76310f9f.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/b2da2fccea0a65a73196eb77ea928216d8fc23af30ba14d809c0163998dec6c0.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/9588fdbaa64f2455747a4238086a666d6e9634f762704b809b6e7d2b46025351.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/b7d92fdb7677322c73890639187f90a8b725023157100a550f316f35c7d8df57.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/3f032746f54ebdf7d5ad5d4eaf08a610b38b44d21366b12cd4e02bf43ea69588.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/7cdf6f298ebd1caca04827662da31017e202be3b4cb8616ff2261127f80c7d19.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/1ce32b79299dc03e7ba2cd9ad5a1cee62fded6cd30980be4ed43485d1b333f69.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/13e7377826c9b266d5cbb48972b4c089eeb0bb96d2440200ca4c51f4e9c45f82.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/4120974872503640d2c492495b1f6450ef0d6a94928a240daed67ef77466c9ad.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/89a7c6137fade695c1bdfd35ab1d4fbda3055ff388b5596656103a7120b3e9ae.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/f752f143e2c2565400f2635d469a77b3e7947606180b89a90eee83b3adcb1232.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/e5ea4504ac7f068d01711336e5d1eafc45d33ca24592002346ba89be8dd03c01.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/f8a592055c143b7860882ff7008a5dfdf4e5b2dce8b9fddde309d33992e5ccca.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/900d7b08e44d6d784dd79242da69eb8b9bf712f4324dbd155a236e69df8b2ae8.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/d784ab1434d0d6e6ae2edd424f43dc2026f04a67fc7408336493379148559426.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/783a4cb6d2670fc9d8790a5d711ca410a0f12cfecd360dd336314c00db446f55.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/b3c8dd431583f445600db3cfc265b6efdbe101a4d8951c0ce599ae3aba904383.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/b6dd6ab517b32679c2b430ef85231f3b01c9dbc5b57c863ea28cd3e14e74fc45.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/37ccfbdb6a8d25d4aea0768a1de2b97a46d61d697bd2dc72c8c89a16238e4243.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/676899d7633cc557deee3e2b36d8df43b6e73f73e9b634e0c7ec88e0edcfaf04.png",
+            "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_HOT_COCOA_NIGHT/f452fcb8750818e3ea93e207f6493cdf6a879e425b86bf4eff833b19eff552b9.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_RABBIT_LUNAR",
+      "name": "Lunar Rabbit Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/ce4267187331f915b627702b6a18232059620419accee9958b4ac3e198ff0d2f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aRabbit§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/ce4267187331f915b627702b6a18232059620419accee9958b4ac3e198ff0d2f.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/d7865917dc36693d69299fecd20c9dd39280b623217f03d5fcf1f4cad0949daf.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/2fc218c051681b48e68a616db159c4e63bd14a53d2acf451a028cbdfa69ca4c8.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/8b067faf7ffb28515a4e2b436e818ec380707bf13f9955a24eca16d9e8fe65d7.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/fa01220846d821413800ce65b7bf3e9c9f1b5d3b092ec2ca36beb202ac36d663.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/3f3c26c974cf50847062c8a5ba2666005f8d372b571f0639b24202d0750a0b83.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/5bca2b756d0477e268e725f40776e704069746cbf904cf7d3df33b50c1e1890a.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/b299576a87b4838a86b932ea4928ac4a5729429467c5ce90bf351c7fbb46f29b.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/9425b32f83fa7cba5552059a9fe1077cee39dfcd8059382b862655909873ec0c.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/68838763d42ed4218a6b9c35210226d0539ae8f0bb17a31ab997ed0290647f29.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/71e3f67fb39b2a1e01426aa091c5a6666b237286eb1c4c5fcbca505dfe1dbdc3.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/f5eed72846c2c9e7effc51e3de2ef72258c00e9964f20ab62e04fa479b9997b1.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/5f6b9fcedaf889138bcad28c9c94af50b8c1601e8ced3d6082906f974bb99420.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/40f5bed587160b9e8df5e7a2c89a0ba80224078dddd77b4fb3fe9860ecfb84bf.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/401615bf4868b77459498946fb573d937471c3514e269b0b5543b156f8e267cf.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/f3b6b0b76f8d2a41ecbe2237f5204e19f3730f0297d90c7a470f7af5b0e01185.png",
+          "/assets/pets/skins/animated_skins/Rabbit/PET_SKIN_RABBIT_LUNAR/9efac7372606437e9e3afc69282587cac3304a81c2a4d42b9a2c4accbf97d264.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_RABBIT_LUNAR_BABY",
+      "name": "Lunar Baby Rabbit Skin",
+      "texturePath": "/assets/pets/skins/Rabbit/2d791f902635d21a80a26300b2140e6990a312dd2d95d0c291846f3345b123a7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Rabbit pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RABBIT_PLUSHIE",
+      "name": "Plushie Rabbit Skin",
+      "texturePath": "/assets/pets/skins/Rabbit/a15683eaca0913279361a1f8baa461a90f1cf0193df938f81507b0d84f9fb37e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aRabbit§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RABBIT_ROSE",
+      "name": "Rose Rabbit Skin",
+      "texturePath": "/assets/pets/skins/Rabbit/d7cddf5b20cb50d6600e5333c6bb3fb15b4741f17e3675fc2bfc09c2cd09e619.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aRabbit§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_RABBIT_ZODIAC",
+      "name": "Zodiac Bunny Rabbit Skin",
+      "texturePath": "/assets/pets/skins/Rabbit/3459c7b2430cbc2cbb52b39b994d82bf1ea9da0cbf44cc3f16cf0959740801ff.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aRabbit§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

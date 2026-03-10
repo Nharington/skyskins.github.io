@@ -1,0 +1,295 @@
+@import "tailwindcss";
+
+@theme {
+  --color-border: hsl(var(--border));
+  --color-input: hsl(var(--input));
+  --color-ring: hsl(var(--ring));
+  --color-background: hsl(var(--background));
+  --color-foreground: hsl(var(--foreground));
+
+  --color-primary: hsl(var(--primary));
+  --color-primary-foreground: hsl(var(--primary-foreground));
+
+  --color-secondary: hsl(var(--secondary));
+  --color-secondary-foreground: hsl(var(--secondary-foreground));
+
+  --color-destructive: hsl(var(--destructive));
+  --color-destructive-foreground: hsl(var(--destructive-foreground));
+
+  --color-muted: hsl(var(--muted));
+  --color-muted-foreground: hsl(var(--muted-foreground));
+
+  --color-accent: hsl(var(--accent));
+  --color-accent-foreground: hsl(var(--accent-foreground));
+
+  --color-popover: hsl(var(--popover));
+  --color-popover-foreground: hsl(var(--popover-foreground));
+
+  --color-card: hsl(var(--card));
+  --color-card-foreground: hsl(var(--card-foreground));
+
+  --radius-lg: var(--radius);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-sm: calc(var(--radius) - 4px);
+
+  --animate-accordion-down: accordion-down 0.2s ease-out;
+  --animate-accordion-up: accordion-up 0.2s ease-out;
+
+  @keyframes accordion-down {
+    from { height: 0 }
+    to { height: var(--radix-accordion-content-height) }
+  }
+  @keyframes accordion-up {
+    from { height: var(--radix-accordion-content-height) }
+    to { height: 0 }
+  }
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 222.2 84% 4.9%;
+
+    --card: 0 0% 100%;
+  }
+
+  ::selection {
+    background-color: #10b981;
+    color: #ffffff;
+  }
+
+  .dark {
+    --card-foreground: 222.2 84% 4.9%;
+
+    --popover: 0 0% 100%;
+    --popover-foreground: 222.2 84% 4.9%;
+
+    --primary: 222.2 47.4% 11.2%;
+    --primary-foreground: 210 40% 98%;
+
+    --secondary: 210 40% 96.1%;
+    --secondary-foreground: 222.2 47.4% 11.2%;
+
+    --muted: 210 40% 96.1%;
+    --muted-foreground: 215.4 16.3% 46.9%;
+
+    --accent: 210 40% 96.1%;
+    --accent-foreground: 222.2 47.4% 11.2%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 214.3 31.8% 91.4%;
+    --input: 214.3 31.8% 91.4%;
+    --ring: 222.2 84% 4.9%;
+
+    --radius: 0.5rem;
+  }
+
+  .dark {
+    --background: 222.2 84% 4.9%;
+    --foreground: 210 40% 98%;
+
+    --card: 222.2 84% 4.9%;
+    --card-foreground: 210 40% 98%;
+
+    --popover: 222.2 84% 4.9%;
+    --popover-foreground: 210 40% 98%;
+
+    --primary: 210 40% 98%;
+    --primary-foreground: 222.2 47.4% 11.2%;
+
+    --secondary: 217.2 32.6% 17.5%;
+    --secondary-foreground: 210 40% 98%;
+
+    --muted: 217.2 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
+
+    --accent: 217.2 32.6% 17.5%;
+    --accent-foreground: 210 40% 98%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 210 40% 98%;
+
+    --border: 217.2 32.6% 17.5%;
+    --input: 217.2 32.6% 17.5%;
+    --ring: 212.7 26.8% 83.9%;
+  }
+
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+}
+
+/* Base custom styles */
+body {
+  margin: 0;
+  display: flex;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+#root {
+  width: 100%;
+}
+
+/* Minecraft-style local pixel font */
+@font-face {
+  font-family: 'Minecraft';
+  src: url('./assets/fonts/minecraft.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+.mc-font {
+  font-family: 'Minecraft', 'VT323', 'Courier New', monospace;
+  font-size: 11px; /* Real Minecraft font is slightly smaller than VT323 at same scale */
+  line-height: 1.45;
+  letter-spacing: 0.01em;
+  image-rendering: pixelated;
+}
+
+/* Minecraft shadow text effect */
+.mc-shadow {
+  text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.6);
+}
+
+/* Authentic Minecraft Tooltip Style */
+.mctooltip {
+    background: rgba(16,0,16,0.93);
+    border: 2px solid;
+    border-image: linear-gradient(to bottom,rgba(80,0,255,0.31),rgba(40,0,127,0.31));
+    border-image-slice: 1;
+    border-radius: 4px;
+    box-shadow: 0 0 0 2px rgba(16,0,16,0.93);
+    line-height: 1.4;
+    padding: 8px 10px;
+    pointer-events: auto;
+    text-indent: initial;
+    /* Removed global text-shadow here to prevent 'ghosting' with children */
+    width: auto;
+    min-width: 280px;
+}
+
+.mctooltip-line {
+    direction: ltr;
+    display: block;
+    white-space: pre-wrap;
+    text-align: left;
+    overflow: visible;
+    text-shadow: 2px 2px #3F3F3F; /* Default shadow for all text inside */
+}
+
+/* Scrollbar theme for mctooltip */
+.mctooltip ::-webkit-scrollbar {
+  width: 12px;
+}
+.mctooltip ::-webkit-scrollbar-track {
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgba(80, 0, 255, 0.1);
+}
+.mctooltip ::-webkit-scrollbar-thumb {
+  background: #555555;
+  border: 2px solid #111111;
+}
+.mctooltip ::-webkit-scrollbar-thumb:hover {
+  background: #777777;
+}
+
+.mctooltip-line:nth-child(1):not(:last-child) {
+    padding-bottom: 8px;
+    margin-bottom: 4px;
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+
+.mctooltip-line.inline {
+    display: inline-block !important
+}
+/* Ensure the color spans stay inline */
+.mctooltip-line span {
+    display: inline !important;
+    white-space: pre-wrap;
+}
+
+.mctooltip .rarity-divine { color: #55FFFF }
+.mctooltip .rarity-rare { color: #5555FF; text-shadow: 2px 2px #15153F }
+.mctooltip .rarity-epic { color: #AA00AA; text-shadow: 2px 2px #2A002A }
+.mctooltip .rarity-admin, .mctooltip .rarity-supreme { color: #AA0000; text-shadow: 2px 2px #2A0000 }
+.mctooltip .rarity-legendary { color: #FFAA00; text-shadow: 2px 2px #2A2A00 }
+.mctooltip .rarity-uncommon { color: #55FF55; text-shadow: 2px 2px #153F15 }
+.mctooltip .rarity-mythic { color: #FF55FF; text-shadow: 2px 2px #3F153F }
+.mctooltip .rarity-veryspecial, .mctooltip .rarity-special { color: #FF5555; text-shadow: 2px 2px #3F1515 }
+
+.mctooltip .color-aqua { text-shadow: 2px 2px #153F3F }
+.mctooltip .color-black { text-shadow: 2px 2px #000000 }
+.mctooltip .color-blue { text-shadow: 2px 2px #15153F }
+.mctooltip .color-dark_aqua { text-shadow: 2px 2px #002A2A }
+.mctooltip .color-dark_blue { text-shadow: 2px 2px #00002A }
+.mctooltip .color-dark_gray { text-shadow: 2px 2px #151515 }
+.mctooltip .color-dark_green { text-shadow: 2px 2px #002A00 }
+.mctooltip .color-dark_purple { text-shadow: 2px 2px #2A002A }
+.mctooltip .color-dark_red { text-shadow: 2px 2px #2A0000 }
+.mctooltip .color-gold { text-shadow: 2px 2px #2A2A00 }
+.mctooltip .color-gray { text-shadow: 2px 2px #2A2A2A }
+.mctooltip .color-green { text-shadow: 2px 2px #153F15 }
+.mctooltip .color-light_purple { text-shadow: 2px 2px #3F153F }
+.mctooltip .color-red { text-shadow: 2px 2px #3F1515 }
+.mctooltip .color-white { text-shadow: 2px 2px #3F3F3F }
+.mctooltip .color-yellow { text-shadow: 2px 2px #3F3F15 }
+
+.mctooltip > span:nth-child(1):not(:last-child) {
+    padding-bottom: 5px
+}
+
+.mctooltip > span.inline {
+    display: inline-block !important
+}
+
+.tooltiptemp {
+    position: relative !important;
+    display: inline-block !important;
+    text-decoration: underline dotted;
+    cursor: help
+}
+
+.tooltiptemp .tooltiptexttemp {
+    visibility: visible;
+    width: 240px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border: 1px #333 solid;
+    border-radius: 6px;
+    padding: 5px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 100% !important;
+    left: 50% !important;
+    margin-left: -5px;
+    opacity: 1;
+    transition: opacity 1s;
+	top: 100%;
+    left: 50%;
+    border-width: 5px;
+    border-style: solid;
+    border-color: black transparent transparent transparent
+}
+
+.tooltiptemp p {
+    margin: 0
+}
+
+.raw-mctooltip {
+    position: relative !important;
+    display: inline !important;
+    font-weight: 400
+}
+
+.raw-mctooltiptext {
+    font-family: 'Minecraft',serif;
+    margin: 0
+}

@@ -1,0 +1,70 @@
+{
+  "name": "§6Crow",
+  "type": "CROW",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Intelligence: §b150\n§7Ability Damage: §c[Ability Damage]\n\n§6Quick Hands\n§7Lowers the cooldown of your\n§7abilities by §a15%§7.\n\n§6Camouflage\n§7After casting an ability, increase\n§7your §a❈ Defense §7by §a20% §7for §b20\n§bseconds§7.\n§8Capped at 500 Defense\n\n§6Insightful\n§7Gives a §a15% §7chance to not consume\n§7Mana when using an ability.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Crow_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 10000000,
+      "time": 432000,
+      "input": "CROW;3",
+      "output": "CROW;4",
+      "items": [
+        "COMPACTED_MOONFLOWER:16",
+        "DO_NOT_EAT_SHROOM:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "CROW;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Crow/c31e7e1c614639bbc95a0d81ff7e5f7f606d9b33115cf2bf2a40cdcbbb531324.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b150\n§7Ability Damage: §c[Ability Damage]\n\n§6Quick Hands\n§7Lowers the cooldown of your\n§7abilities by §a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "CROW;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Crow/c31e7e1c614639bbc95a0d81ff7e5f7f606d9b33115cf2bf2a40cdcbbb531324.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b150\n§7Ability Damage: §c[Ability Damage]\n\n§6Quick Hands\n§7Lowers the cooldown of your\n§7abilities by §a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "CROW;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Crow/c31e7e1c614639bbc95a0d81ff7e5f7f606d9b33115cf2bf2a40cdcbbb531324.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b150\n§7Ability Damage: §c[Ability Damage]\n\n§6Quick Hands\n§7Lowers the cooldown of your\n§7abilities by §a10%§7.\n\n§6Camouflage\n§7After casting an ability, increase\n§7your §a❈ Defense §7by §a15% §7for §b20\n§bseconds§7.\n§8Capped at 500 Defense\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "CROW;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Crow/c31e7e1c614639bbc95a0d81ff7e5f7f606d9b33115cf2bf2a40cdcbbb531324.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b150\n§7Ability Damage: §c[Ability Damage]\n\n§6Quick Hands\n§7Lowers the cooldown of your\n§7abilities by §a15%§7.\n\n§6Camouflage\n§7After casting an ability, increase\n§7your §a❈ Defense §7by §a20% §7for §b20\n§bseconds§7.\n§8Capped at 500 Defense\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "CROW;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Crow/c31e7e1c614639bbc95a0d81ff7e5f7f606d9b33115cf2bf2a40cdcbbb531324.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b150\n§7Ability Damage: §c[Ability Damage]\n\n§6Quick Hands\n§7Lowers the cooldown of your\n§7abilities by §a15%§7.\n\n§6Camouflage\n§7After casting an ability, increase\n§7your §a❈ Defense §7by §a20% §7for §b20\n§bseconds§7.\n§8Capped at 500 Defense\n\n§6Insightful\n§7Gives a §a15% §7chance to not consume\n§7Mana when using an ability.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_CROW_SNOW",
+      "name": "Snow Crow Skin",
+      "texturePath": "/assets/pets/skins/Crow/34a065dd1bcf130187ff2e594f8d9f840fcc3af07b948e642cd48e0d9fb42737.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aCrow\n§7pets.\n\n§aThis skin will allow you to swap\n§abetween 15 chilly crows!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PARROT_CROW",
+      "name": "Crow Parrot Skin",
+      "texturePath": "/assets/pets/skins/Crow/ddd89350c2de4eb99099224b626f5aaa81ca7fcea5b03852043b19d72b01a27e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aParrot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

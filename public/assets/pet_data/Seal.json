@@ -1,0 +1,17 @@
+{
+  "name": "§6Seal",
+  "type": "SEAL",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §35%\n§7Treasure Chance: §6[Treasure Chance]%\n\n§6Showboater\n§7Increases your chance of catching\n§5Bouncy Beach Balls§7 and §6Giant Bouncy\n§6Beach Balls§7 during the §9Year of the\n§9Seal§7 by §a100%§7.\n\n§6Peak Performance\n§7Gain a §a5%§7 chance to materialize some\n§9Treasure Bait§7 in your inventory\n§7upon catching §6Treasure§7. Materializes\n§aGolden Bait§7 instead during the §9Year\n§9of the Seal§7.\n\n§6Amphibious\n§7Increases the base stats of this pet\n§7by §a100%§7 during the §9Year of the Seal.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "SEAL;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Seal/3a7728bbf6f53f6c1e3b121778e2c2175f6c27032dbd9a5fb3a0d8747e104f67.png",
+      "lore": "§8Fishing Pet\n\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §35%\n§7Treasure Chance: §6[Treasure Chance]%\n\n§6Showboater\n§7Increases your chance of catching\n§5Bouncy Beach Balls§7 and §6Giant Bouncy\n§6Beach Balls§7 during the §9Year of the\n§9Seal§7 by §a100%§7.\n\n§6Peak Performance\n§7Gain a §a5%§7 chance to materialize some\n§9Treasure Bait§7 in your inventory\n§7upon catching §6Treasure§7. Materializes\n§aGolden Bait§7 instead during the §9Year\n§9of the Seal§7.\n\n§6Amphibious\n§7Increases the base stats of this pet\n§7by §a100%§7 during the §9Year of the Seal.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": []
+}

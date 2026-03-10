@@ -1,0 +1,189 @@
+{
+  "name": "§dBat",
+  "type": "BAT",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Speed: §f5\n§7Sea Creature Chance: §35\n\n§6Candy Lover\n§7Increases drop chance of candies\n§7from mobs by §a20%§7.\n\n§6Nightmare\n§7During night, gain §a30 §b✎ Intelligence§7,\n§a50 §f✦ Speed§7, and §aNight Vision§7.\n\n§6Wings of Steel\n§7Deals §a+50% §7damage to §6Spooky\n§7enemies during the §6Spooky Festival§7.\n\n§6Sonar\n§a+?% §7chance to fish up spooky sea\n§7creatures\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bat_Pet",
+    "https://wiki.hypixel.net/Bat_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000,
+      "time": 3600,
+      "input": "BAT;4",
+      "output": "BAT;5",
+      "items": [
+        "ENCHANTED_RED_MUSHROOM:32",
+        "ENCHANTED_BROWN_MUSHROOM:32",
+        "PET_ITEM_VAMPIRE_FANG:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "BAT;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Bat/377ade8afb257086fb1861da43c8ae468b8eb0578fada84303858517ba17217e.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Speed: §f5\n\n§6Candy Lover\n§7Increases drop chance of candies\n§7from mobs by §a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "BAT;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Bat/377ade8afb257086fb1861da43c8ae468b8eb0578fada84303858517ba17217e.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Speed: §f5\n\n§6Candy Lover\n§7Increases drop chance of candies\n§7from mobs by §a15%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "BAT;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Bat/377ade8afb257086fb1861da43c8ae468b8eb0578fada84303858517ba17217e.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Speed: §f5\n\n§6Candy Lover\n§7Increases drop chance of candies\n§7from mobs by §a15%§7.\n\n§6Nightmare\n§7During night, gain §a20 §b✎ Intelligence§7,\n§a40 §f✦ Speed§7, and §aNight Vision§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "BAT;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Bat/377ade8afb257086fb1861da43c8ae468b8eb0578fada84303858517ba17217e.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Speed: §f5\n\n§6Candy Lover\n§7Increases drop chance of candies\n§7from mobs by §a20%§7.\n\n§6Nightmare\n§7During night, gain §a30 §b✎ Intelligence§7,\n§a50 §f✦ Speed§7, and §aNight Vision§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "BAT;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Bat/377ade8afb257086fb1861da43c8ae468b8eb0578fada84303858517ba17217e.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Speed: §f5\n\n§6Candy Lover\n§7Increases drop chance of candies\n§7from mobs by §a20%§7.\n\n§6Nightmare\n§7During night, gain §a30 §b✎ Intelligence§7,\n§a50 §f✦ Speed§7, and §aNight Vision§7.\n\n§6Wings of Steel\n§7Deals §a+50% §7damage to §6Spooky\n§7enemies during the §6Spooky Festival§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "BAT;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Bat/377ade8afb257086fb1861da43c8ae468b8eb0578fada84303858517ba17217e.png",
+      "lore": "§8Mining Pet\n\n§7Intelligence: §b100\n§7Speed: §f5\n§7Sea Creature Chance: §35\n\n§6Candy Lover\n§7Increases drop chance of candies\n§7from mobs by §a20%§7.\n\n§6Nightmare\n§7During night, gain §a30 §b✎ Intelligence§7,\n§a50 §f✦ Speed§7, and §aNight Vision§7.\n\n§6Wings of Steel\n§7Deals §a+50% §7damage to §6Spooky\n§7enemies during the §6Spooky Festival§7.\n\n§6Sonar\n§a+25% §7chance to fish up spooky sea\n§7creatures\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_BAT_BONE",
+      "name": "Bone Bat Skin",
+      "texturePath": "/assets/pets/skins/Bat/2444eb6f238a00528a7f9bfbdcd6c6b0bac8bdb1e3749ef4f0931013c78b8804.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BAT_CANDY",
+      "name": "Candy Bat Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/3b0696c54d6afbbad43cd6cc0b0f1685987c7ac9e4854815668c8496e9b5ac31.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBat\n§7pets.\n\n§aThis skin is animated, and adapts to\n§athe day-night cycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 3,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/3b0696c54d6afbbad43cd6cc0b0f1685987c7ac9e4854815668c8496e9b5ac31.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/9aec3fd91a71732e88da384fbecbb5a38ac6d7d78917a600e8648c6dc61e4cf4.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/c4977c6837e1a32a7f0e2803dad82f796cbbe42d54691a7dd5ce6d3d27858cfd.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/9cb3d2aa740f69eb66da16f32bf412b63802a09ce36302c6eb788eedd9f6a427.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/65e988f120e22a2f9f681ba13b4c224e3c94fdae433baf11b679590725ef40b1.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/44a22f845e588a1380f429e4d98732453995bebbefa1ba79b5134ca70ad78995.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/eddd4b57eadd3fac8dd0e0dfecbc1ef73303dc9f4fd095a6fcd4513e3c494038.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/74de5c48baecbf53c35355aba6455dcf2f3a546c50a66858abc0e438d483e468.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/2aa0678d452a341e2dcc73e6196177619e45042ab16cd961a54950d8df3ac452.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/7de364b23164e089d077ac34d7f631c018044b02d7f6c2640802c77c385413ff.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/b7e7eb621094270ce6412fd1d432dcded5c2d0892dd9a3a81bbb898c9ac1dd43.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/6b8a161b2c1100255259cf8a117769e3c96e3487aa56a3e3fc875ff44945d468.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/44526fd0b5e47a8b41e5e7b676bbc0d7a8dfe110f57a076189790cd008c99715.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/9c33531f0669a8baa6ebbe9dbde790e93e08166933a73e22e01d296dcbb4f4c.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/428f12e33ffb27615ccf298c231b9698ec0934e00ade2debca47050c85da0065.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/335a9272212216e488f387672d90871ff88f0d5ff7098a9a6427b53f652dab1.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/f786ee94178084e2f9da08bc15e1a3ec195c27f6d7386f8c1a2328d301eb4304.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/98b04edd68a359cb5eec15ba7b64e6993cb314a817a7d6d128ec82088e114d1b.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/a4c46f5fd713f757c37dec95d3592ce0ffc2fd420ca6a582d4c69db5222ca104.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/dd65d18cfb979a41113540af45a010e70d324628b9279b025c7b2f2c483376ec.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/98bd652532a716278305615dff42500350ef56f3863991e0893402983e18e5c.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/d9bed78ca26c7650dc7dfa1c1bc3557f28d687b0da679140014e6be3aaaeabb6.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/67b3d4cd4f43ba479acb4a167bd6edca84355a206a1d2030252cbecdfc775c4.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/461e43c4d6e49258478a535dccf4f48c742c4c1d6f846fa294c41abde8907927.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/fc1a9624bf11add2850bff4cb33275578221dc5d5ebb234ec1f7816422325e72.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/a8947f6167b7b6be413e3c9c4845d1ac1dd26cb31ed6ed61fd31fb0cdaa0d9b4.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/be50180e381137aafeee4871f4e0309f3df1f1b995b11fc39240517459aadb1e.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/9a6bc1923f93591295f2b424706dc5ad0712d6903153bdbf8c644b09ab289ef5.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/788b6e48fc4a956a6e1c92e1ec01c1ae88c5219e15eccd5aa0915e184a55ab49.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/c8f0ae3fb2f29529dbfc2aefa2aebf5a8f283fa7c649bc4e022570a36604c039.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/6f696c2ed3c2cef6dccebd61d48e32144bd30362fde1f949f6d8dd62d433aa40.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/a4f47d9f9bc533481c34f5d340234ff74648bb55181c5a02e3ef352723f1eaee.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/64e6c772a87f8f5d7a27ecc7686052988e1bbd653a7357d26304fbeee300cc4.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/cfefcc45f13aa32fba46aa4ac6bb7c2921e337267cba85884e996f5bdd631f42.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_DAY/c8ce018e1d8b4b3b8771f71ba4d1547257dc3f85dcafa548dace5c329afd6cb8.png"
+          ]
+        },
+        "night": {
+          "ticks": 3,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/1cbcf32c45033ef6488a83658bc4260190262e8e6a5ce61e73470ee98379ea44.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/7f36a14058f9e1c48f3a438e449b4a46bc6b801c32fff1c915ff5bb3bbfaaf21.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/8963b2c8df3792f37fe6a7fbf4476196be7de867e63b1b842fcac806286f4221.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/97dd17d19c79847798a9cfd0b38b42d52d140245af11805435c0974913c38c4f.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/c96a2a565130e28b850d16b809d1b7c8e0e2ab6bf6122045697fa32eecd9ec78.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/841537dc5d6e57fa73411023b9e7f1c78b67d60bd3ee22e30c275cd4ddd45b37.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/9e25375f120753b6e2195c8fd30ea0fc706a485eb75fa4d1e8a2183cb01eaf9e.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/9482ee39333d34741ad109c64e08c30ba8c44be567ea484fb59944ae6c1f0d15.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/7043effd8f907faed51b13eddda789d6effedcd90b355a0a08aef1e634659678.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/386e7fef3e6af786325b48e4c02ffd3142841d86ca299d9ddde4c56dae84060c.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/669dbe804ffc631e18d490c8a243fb0bc487d376de8d73438ffa32c0dd3bfe0.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/82fd15f78e185cfa522408cfa07ba734880437825b39e45fe19bb9523eecfb2.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/35dddee6957941d45f3f6c8cc818e489b9ca4aa4ff15ee57e28914beddea52fb.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/b495912d3771c223164df47e3227f7704990b73252b0283dfe0beec6c661b439.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/31fbc6223ec7a6a2185f3c871f3abd92e2960ab42c6006fedccc694d9f73978.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/106ac9c6de7fdf684ce9f34da66a4881aca88def9ac387dd8b29b2b08266c88e.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/85715e7e76816dfda7a57a92212c224c85f8cf198f0628fbf58d20276a0d5849.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/8c2385e1d4ca5cd6f675b04655c1777473f52662934dfd1f2df9e50d70c102a1.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/c3255af0c40a8d0cfa068ba512c52652486a50a7856a981d144bc257278368d2.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/5eef00c55c76edd0a8b251c16913906266fd863093c3a71ed0e141d459f488e.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/1fcbbbf5bfe356a329222f8fc29f74db3d682fa67ebab971f354114aeec9d53d.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/9cecec0b598e6888d8a8885773476e591e7ed793f872b56587aa6a19c3b04d9d.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/25eadb90e12a68a55b8f503ac717eced8b0b4db2007df349332e559a8fa6f8b8.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/122585fff27049e4896c2bab1c90a3bc20fd9bfec38b9c5606ba37e99376036e.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/d0a0330f2c923457fad1c1dbe09f62662bcc88934cf78dfddfb7469074d65bbf.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/88a7053e62cd9cb2b931cc9d0814a41ee1a18c27249d9d56153691fed12a4717.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/46026c7c4099dffcf1b1ea70b2899adfc465069a02e23a77bb60c59ef28d6441.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/65851aba1f66f3b5a88ad4705b76462e7352764dcbc213479c6d4c8f656956bf.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/2cb17fe1f6ae1af9b646554205d63466004cc200f4980e9bb43b45d750240900.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/650d23e91c402ed5350d24831d92122868321b40dfa4812ee155d11db199185d.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/1ac41a1711397d703428d1c8155d22901f388193e71245d2dab5407e576c6f21.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/e16a6ab7c1aa38b6abaca885070ff4c19ac8684eee9976435ae8de701db9b660.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/23304842f6ad4da63b9a36fd4114279e2fea8c7953e3a139b70cc16a50f9faaa.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/d36ab07347076ced81b93127455373c261ac3cdd102513e7a854eae8479ab29a.png",
+            "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_CANDY_NIGHT/4292eddac14cd40903c25cff3a830cbc8d5a0349771ef726829f3d9d39f3041a.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_BAT_SUGAR_GLIDER",
+      "name": "Sugar Glider Bat Skin",
+      "texturePath": "/assets/pets/skins/Bat/d15816096780700d5c6f50f60427857df41f508a53f3adf721e32df3f8ec2c5a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBat\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BAT_VAMPIRE",
+      "name": "Vampire Bat Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/f14d63fbe721f986971136b0f812a99f9a7d6689179365b4499f6fa2c45ece3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBat\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/f14d63fbe721f986971136b0f812a99f9a7d6689179365b4499f6fa2c45ece3.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/453a525e531c5d24fbee6cc83c6767a6de4882df6c099bbe8513e7dbe35abad0.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/46574a3327abba60da5ccae9ccb8f30788a6a243bce7150c9c7dab8c15d76e53.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/434d14248f21329e090fa46b1914a762415d4c0739c4cebc660b9fce305961c3.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/a349d2ea1872ed47a387c89894e0265187a00219ee4da63b75b907016d3cd6aa.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/af254f20be3680f2b042a4289ae63089e08ae26e137f74dc5318cc57a67a42df.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/9fe39e362f74f05186818eb9f69fce89325c70f55d1b85214155fbc82bd67863.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/473af69ed9bf67e2f5403dd7d28bbe32034749bbfb635ac1789a412053cdcbf0.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/d20db6a87d2eb5ace95807b66a3af0e9853c70ed8b51a2c036958c01e83c5d01.png",
+          "/assets/pets/skins/animated_skins/Bat/PET_SKIN_BAT_VAMPIRE/7fc09aaa2987ac6875307d5730352d6e222034c6104287fe41eeea04ac44e0cb.png"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,118 @@
+{
+  "name": "§dBlack Cat",
+  "type": "BLACK_CAT",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Intelligence: §b100\n§7Speed: §f125\n§7Magic Find: §b15\n§7Pet Luck: §d[Pet Luck]\n\n§6Hunter\n§7Increases your §f✦ Speed §7and speed\n§7cap by §a+100§7.\n\n§6Omen\n§7Grants §d+15♣ Pet Luck§7.\n\n§6Supernatural\n§7Grants §b+15✯ Magic Find§7.\n\n§6Looting\n§7Gain §c?% §7more collection items from\n§7monsters!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Black_Cat_Pet",
+    "https://wiki.hypixel.net/Black_Cat_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "BLACK_CAT;4",
+      "output": "BLACK_CAT;5",
+      "items": [
+        "BLACK_WOOLEN_YARN:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "BLACK_CAT;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Black_Cat/8282b5a9bbe2cd3223724023cd4f6ad413f5bb9e0edef81700b8afc3072d04a5.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b100\n§7Speed: §f125\n§7Magic Find: §b15\n§7Pet Luck: §d[Pet Luck]\n\n§6Hunter\n§7Increases your §f✦ Speed §7and speed\n§7cap by §a+100§7.\n\n§6Omen\n§7Grants §d+15♣ Pet Luck§7.\n\n§6Supernatural\n§7Grants §b+15✯ Magic Find§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "BLACK_CAT;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Black_Cat/8282b5a9bbe2cd3223724023cd4f6ad413f5bb9e0edef81700b8afc3072d04a5.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b100\n§7Speed: §f125\n§7Magic Find: §b15\n§7Pet Luck: §d[Pet Luck]\n\n§6Hunter\n§7Increases your §f✦ Speed §7and speed\n§7cap by §a+100§7.\n\n§6Omen\n§7Grants §d+15♣ Pet Luck§7.\n\n§6Supernatural\n§7Grants §b+15✯ Magic Find§7.\n\n§6Looting\n§7Gain §c15% §7more collection items from\n§7monsters!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_BLACK_CAT_CARDBOARD_BOX",
+      "name": "Cardboard Box Black Cat Skin",
+      "texturePath": "/assets/pets/skins/Black_Cat/c5612476fe44a9e7c44ae8972f4175e2719f598ba0a409386ccbe136a9aac627.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlack Cat§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BLACK_CAT_CATGIRL",
+      "name": "Catgirl Black Cat Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_CATGIRL_BLACK_CAT_JANE/3cdb9c236e68e364127fcd5c8472c1372b4d53144063022f4618b0bc2c9eac89.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlack Cat§7 pets.\n\n§aThis skin will allow you to swap\n§abetween multiple variants of your\n§ahelmet!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§4§lULTIMATE COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 10,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_CATGIRL_BLACK_CAT_JANE/3cdb9c236e68e364127fcd5c8472c1372b4d53144063022f4618b0bc2c9eac89.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_CATGIRL_BLACK_CAT_JANE/83381b12bf01664e6f52ecfee01187210a3c77fda5879ecb6f00514aa502e02.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_CATGIRL_BLACK_CAT_JANE/67e724f1d4a38a7b08c6353fde48517edef0e12b44d221cc8cc3935e382c132a.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_BLACK_CAT_IVORY",
+      "name": "Ivory Black Cat Skin",
+      "texturePath": "/assets/pets/skins/Black_Cat/f51b17d7ded6c7e8f3b2dac12378a6fc4e9228b911986f64c8af45837ae6d9e1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlack Cat§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BLACK_CAT_LOAF_CAT_BLACK",
+      "name": "Loafed Black Cat Skin",
+      "texturePath": "/assets/pets/skins/Black_Cat/8f1e1c2b039fa5ad5c30e7bd5ba08e2a78449d983e2e4088ebbe388f29ae6ae0.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlack Cat§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BLACK_CAT_ONYX",
+      "name": "Onyx Black Cat Skin",
+      "texturePath": "/assets/pets/skins/Black_Cat/be924115d3a8bbacfd4fafb6cc70f99a2f7580e4583a50fa9b9c285a98ac0c56.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlack Cat§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BLACK_CAT_PURRANORMAL",
+      "name": "Purranormal Black Cat Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/92a4a73e3474b15f7790eb3ed69faba8f01f35f44046ac3d46e9726a208c661b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlack Cat§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/92a4a73e3474b15f7790eb3ed69faba8f01f35f44046ac3d46e9726a208c661b.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/f724c1ebf6cc5dde8ec0903b04147cb008f81edd6c71e6531855b9397c825a2e.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/f5ba866deea9be0f3ef11e20a3ece57baa692979e8536041a13b79c68f83ea3f.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/e8254b6df95dabbc05f8701d1a475f56a6e828e294f1af4f3857d0a6d7fba269.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/e329c0b296e2b3ad7888fba8363a25da5d1f37a07aa898ab227766e16566bb6.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/ab14bed7a6ae4159c396c4272a10d9638fecad8556af1885d59d145f02ae4cf6.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/569ce291da2a76535fc8706a19b0f9d057a2d1c7a6062cdf5529e63e94158be1.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/534a1340f5aa4f013bd49e9d41d8a471d3a044165adcb929c05fe052376e5e4b.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/d924dbcfface0b9feab9bd3c614404ba66658cc495c44e914096e9e7b99453bd.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/9fb802822bddc14748f070fb409b246fba24b0644312fb17bab2898909188389.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/c71700e4c15dd64f22d80a1c6e16d78cb295d016c42c34a91e73458a98ebe68f.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/c8ffd1f796b23c0f09343c01c48ad84efb91f2e6010e73176fa3ffe058e82220.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/eaa2fc11596e62b18dd39c1d7ec324a35563b14e4854f00633d50206dd8d53bb.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/55053bf1278f93c40b7a0b0307bc31c67c07e76858049c81d55d261f0d355a0e.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/1fce553cbbee9751392e844fa146c93aa9ba5bcf0e2b5b028b49c05f3b1055c6.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/e85c2657ab0ce3eff61783956a999d81616bd67ce97a4c2cc5eab4a6c4ac990f.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/df41aecfda60dfae4894881a5e9a166b31bc31eb79448ab989a8ae661295749a.png",
+          "/assets/pets/skins/animated_skins/Black_Cat/PET_SKIN_BLACK_CAT_PURRANORMAL/a557edc1b22d19e3889121ce3a115318672e211e6caca5e7820bd430ee816cb.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_CAT_SPACE_KITTY",
+      "name": "Space Kitty Black Cat Skin",
+      "texturePath": "/assets/pets/skins/Black_Cat/c6f8dfc25e70cc036774e77253349c548a10f232a999b7287a84b2f9b5c6c4a8.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aBlack Cat§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

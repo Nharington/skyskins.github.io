@@ -1,0 +1,109 @@
+{
+  "name": "§6Ammonite",
+  "type": "AMMONITE",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Sea Creature Chance: §35\n\n§6Heart of the Sea\n§7Grants §3+1α Sea Creature Chance\n§7to your pet for each §5Heart of the\n§5Mountain §7level.\n\n§6Expert Cave Fisher\n§7Grants §9+0.5⚓ Double Hook Chance\n§7for each §5Heart of the Mountain §7level\n§7while in the §5Crystal Hollows§7.\n\n§6Gift of the Ammonite\n§7Each Mining and Fishing level grants\n§b+0.5☂ Fishing Speed§7, §f+2✦ Speed\n§7and §a+2❈ Defense§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ammonite_Pet",
+    "https://wiki.hypixel.net/Ammonite_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "HELIX:1",
+        "SKYBLOCK_COIN:300000"
+      ],
+      "count": 1,
+      "overrideOutputId": "AMMONITE;4",
+      "duration": 259200
+    }
+  ],
+  "rarities": [
+    {
+      "id": "AMMONITE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Ammonite/a074a7bd976fe6aba1624161793be547d54c835cf422243a851ba09d1e650553.png",
+      "lore": "§8Fishing Pet\n\n§7Sea Creature Chance: §35\n\n§6Heart of the Sea\n§7Grants §3+1α Sea Creature Chance\n§7to your pet for each §5Heart of the\n§5Mountain §7level.\n\n§6Expert Cave Fisher\n§7Grants §9+0.5⚓ Double Hook Chance\n§7for each §5Heart of the Mountain §7level\n§7while in the §5Crystal Hollows§7.\n\n§6Gift of the Ammonite\n§7Each Mining and Fishing level grants\n§b+0.5☂ Fishing Speed§7, §f+2✦ Speed\n§7and §a+2❈ Defense§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_AMMONITE_HERMIT_BAKED_BEANS",
+      "name": "Hermit Baked Beans Ammonite Skin",
+      "texturePath": "/assets/pets/skins/Ammonite/1f05b61df477f53d76b7e637b95cde382db325d71db5da38ab9d1366cac413da.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aAmmonite§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_AMMONITE_HERMIT_BEACH_BALL",
+      "name": "Hermit Beach Ball Ammonite Skin",
+      "texturePath": "/assets/pets/skins/Ammonite/a1714635035fc1ddaa3e48b03304e78d160470dcb59761e27cbcac90852989c4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aAmmonite§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_AMMONITE_HERMIT_GRAPHITE",
+      "name": "Hermit Graphite Ammonite Skin",
+      "texturePath": "/assets/pets/skins/Ammonite/ec8b8a1e927b2dd19458c9f7c5fb410929795a8ad260b06942a7bc33d5e01f55.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aAmmonite§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_AMMONITE_HERMIT_PAUA_SHELL",
+      "name": "Hermit Paua Shell Ammonite Skin",
+      "texturePath": "/assets/pets/skins/Ammonite/f1c20ea8e890cb7652b24dd0beea6d58da1a3878b9a36d20b8298148d2090a2c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aAmmonite§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_AMMONITE_HERMIT_SAND_CASTLE",
+      "name": "Hermit Sand Castle Ammonite Skin",
+      "texturePath": "/assets/pets/skins/Ammonite/b129df42bf27aaf5e8164391851a75aef8ce000762ca02fc7c3ebf7ffcd25838.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Ammonite pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_AMMONITE_MAGMA",
+      "name": "Magma Ammonite Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/4c4f7551b65342f702fdc41dfafc5ee9a224f4f1af0c53e16e5b415b79c4a86e.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Ammonite pets.\n\n§7§aThis skin is animated!\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/4c4f7551b65342f702fdc41dfafc5ee9a224f4f1af0c53e16e5b415b79c4a86e.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/a81dcc1af40149ce324d1c3675c4b6eacb2df80298768b0494a36a14c20e64d9.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/ba0cce0cf1a5fcbc655b1b99972ed5bf7d4e2f96acd8c797d47af9ad98e4bafa.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/a0f549e08e1f4d236d2a540a9bd3db079de49a519b46023017dd2aa538531845.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/45f64f1a1706ce98611684a84f0786f9faad607dca604e9b7d6a07d137a68e62.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/2de435940209d12054f2789c7fe1d60162c37e232644e2fb571a219080095e35.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/4dcc342f6ec96707b75a61764d03b4c9a71983818e23723f2c9c61ef154f3331.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/4f9908fefd200830a444665d5cd001278ef4005532f0962e5c7bbc55c761aaca.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/a995fd807d182c6d26abd3aff0bf70ec59062674b8424a4c91f9d6c7e00c8cf2.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/1dfdf04a37b6122db690482e04bc122f5cc4fc40be6ec25772550605c53ec85b.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/5ff78ef5d922f437ebd0ee5b761130becb8ded49bba308e3a7be27b0e87fee6f.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/a47b54bd5b5ada47adb88dff3631ab4f6a97946d01c09f29636d3ad13c7df0cb.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/4b65b945a981fc32c532795b96b38a7bde4450f48916004a1f6e4951e64b6f93.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/fde51473e1a972100195b8427779ba3f1c4d60bbe23ce8070d475239df2cf719.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/d70c2f438741dd4b66c011f3ffe50097cafa796b88b617c2f090b5aa75a30268.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/da7db8e47ba39be38b41a183729d745cfacd7a941265f6eec43a133a13e8cffb.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/cf8658232c41319c8f5897943748d89c1eab15f24ddd38d92f32b5a718f3a480.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/e34669592fb92ebbb990f94f97b14abb14892a0345718df25f181365b0f0376d.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/ed0b61ad7fdb0b7332db8bd78fffd4ee5443b9ccca20925a9dcb0f2c39f501db.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/7008b8d08f812efe328f898aa7ccf70a68c7dded3ba715490e25065e7ff34d13.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/54a44634b6afac34422cf581b5773473ff768d911466c0f5eaa9a10cab59dcaa.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/8f40e68cc00fd5d352dd29b9032da85cddda702ce2c62cd3d3e9e760e348abd8.png",
+          "/assets/pets/skins/animated_skins/Ammonite/PET_SKIN_AMMONITE_MAGMA/40dc5bb41b93e9a34b2dc63b48e840746c957324a668791fc23e9fe93653dc0b.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_AMMONITE_NATURAL",
+      "name": "Natural Ammonite Skin",
+      "texturePath": "/assets/pets/skins/Ammonite/f1546d6a690ecf22a5a93812435ddacbbe9c278a02ea38039d938313344dba53.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aAmmonite§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

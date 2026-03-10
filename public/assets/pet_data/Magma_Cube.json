@@ -1,0 +1,96 @@
+{
+  "name": "§6Magma Cube",
+  "type": "MAGMA_CUBE",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a33\n§7Strength: §c20\n\n§6Slimy Minions\n§7Slime and Magma Cube minions work\n§a30% §7faster while on your island\n\n§6Salt Blade\n§7Deal §a25% §7more damage to slimes\n\n§6Hot Ember\n§7Buffs the stats of §5Rekindled Ember\n§5Armor §7by §a50%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Magma_Cube_Pet",
+    "https://wiki.hypixel.net/Magma_Cube_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 500000,
+      "time": 864000,
+      "input": "MAGMA_CUBE;3",
+      "output": "MAGMA_CUBE;4",
+      "items": [
+        "ENCHANTED_MAGMA_CREAM:16"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "MAGMA_CUBE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Magma_Cube/38957d5023c937c4c41aa2412d43410bda23cf79a9f6ab36b76fef2d7c429.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a33\n§7Strength: §c20\n\n§6Slimy Minions\n§7§7Slime and Magma Cube minions work\n§7§a20% §7faster while on your island.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§f§lCOMMON"
+    },
+    {
+      "id": "MAGMA_CUBE;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Magma_Cube/38957d5023c937c4c41aa2412d43410bda23cf79a9f6ab36b76fef2d7c429.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a33\n§7Strength: §c20\n\n§6Slimy Minions\n§7Slime and Magma Cube minions work\n§a20% §7faster while on your island\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "MAGMA_CUBE;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Magma_Cube/38957d5023c937c4c41aa2412d43410bda23cf79a9f6ab36b76fef2d7c429.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a33\n§7Strength: §c20\n\n§6Slimy Minions\n§7Slime and Magma Cube minions work\n§a25% §7faster while on your island\n\n§6Salt Blade\n§7Deal §a20% §7more damage to slimes\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "MAGMA_CUBE;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Magma_Cube/38957d5023c937c4c41aa2412d43410bda23cf79a9f6ab36b76fef2d7c429.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a33\n§7Strength: §c20\n\n§6Slimy Minions\n§7Slime and Magma Cube minions work\n§a30% §7faster while on your island\n\n§6Salt Blade\n§7Deal §a25% §7more damage to slimes\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "MAGMA_CUBE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Magma_Cube/38957d5023c937c4c41aa2412d43410bda23cf79a9f6ab36b76fef2d7c429.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7Defense: §a33\n§7Strength: §c20\n\n§6Slimy Minions\n§7Slime and Magma Cube minions work\n§a30% §7faster while on your island\n\n§6Salt Blade\n§7Deal §a25% §7more damage to slimes\n\n§6Hot Ember\n§7Buffs the stats of §5Rekindled Ember\n§5Armor §7by §a50%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_MAGMA_CUBE_CHOCO_CUBE",
+      "name": "Choco Magma Cube Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/eec03990ed98bb6978fce57a1f5d521147c37e1a83acad419ad353ff51b05983.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMagma Cube§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/eec03990ed98bb6978fce57a1f5d521147c37e1a83acad419ad353ff51b05983.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/83e7f06ef2361021e0637c8ff53c73f29c0b032c52adbd74558750077921be6f.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/d9b477bd5282ab3988dde41c8d66c8de25f31ccdf6da24d2b94ed24772650772.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/522824bd62884162585dc39c24ba5a6af4ea240e7cdedbae188dfc0805c649eb.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/7f1d9f14b79851fcf13106de084796034ebab193184275dff7818c29e1fbe462.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/ba91c7388fe98e675f03acc184a455bb70582731f46e22cb9bfb0ed5f942303f.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/f55764e9e8c6f2665452d038d95931c1c2d5eed157b32adb6a645ed738950960.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/21edd7b8ac5d000f1c8db53b5b9b0e4484cc79b794cb20dc5eb3dda828271b.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/1624135b69ea43c8287364a2f13240104b1418d608a3079778079bf1ee7f7fc1.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/7fa9b6997438b792e7d41cc062ac846ef18282548dbf29a75ddb9ddc58039289.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/529f44277587f1363be2804bbbafbbea88273107339c89c63ca3e3955386c775.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/e2d1620300a8e1e0bda70c71efbc46b7845d6171584d800fa9004cfad88d2aa8.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/f8e697799680450812688bf736829a7e0e51fae964c9517a81e1fd6632dcb8ec.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/2235c5b40d11d8e74b7e6873ee9bb5881aad2deafebbad43ff46e18adf3c403e.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/6cb0f9212270dbd266c1ff0a46b373baed752bca36c6f7b8f4a440f2f1e46d5d.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/2b1f14f93e37c453cc18fde6e64df030689453cc85a645268ac593a9c6a75bbc.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/11b183ab38fd5d58ab5ce58ed283b597a08a408650f192b6633ebdf5781fa6ab.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/ae4ee7a82b41d76e3cffbc6bca3e36e27be76443ae4ea028cf397b3689894356.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/de3018c4fc908dd02ba251599db22861b7209b7399e2139787ac98aa8a8915cf.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/c23d1a824b7843725a4a58e25a3ac241d4d0563e5c6adec2e31b368d00c69ad4.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/2d1413db10bda87710e3adffd5333d7217d88b7c3dddd7806f110d1c60eb09d7.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/85289febc8a1d8ddb0158a7deb7832a5b2ea84c2b475c3070c0d9f323763bcd0.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/fc6aac7d07484e2a010a60e3e6de94baab3d9dc87d1b4a6a794d0227c8de0c0b.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/8e954476eff20e8e2387d9b61705e8ebdac4656b85ac5240fe248ae855f43c20.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/bedfdf4a164baafbe4f6b4d10ce3c248c24b432d4ad611906e4c8dee2e206706.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/7ca1a1a53f14f7e8f22162d9f7269d8e774c0ee97e60fa3de6f77b79068a1baf.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/c746b2eda7b9bea2b9ff26b0f65be7396f3a8cda951042809d59563d15e9337c.png",
+          "/assets/pets/skins/animated_skins/Magma_Cube/PET_SKIN_MAGMA_CUBE_CHOCO_CUBE/5b308e62941e38169b2a702bbcde24618d562152719e397370541d00bc8f85bb.png"
+        ]
+      }
+    }
+  ]
+}

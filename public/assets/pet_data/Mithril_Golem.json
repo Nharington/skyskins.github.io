@@ -1,0 +1,124 @@
+{
+  "name": "§dMithril Golem",
+  "type": "MITHRIL_GOLEM",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7True Defense: §f[True Defense]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Mithril Affinity\n§7Grants §6+200⸕ Mining Speed §7when mining\n§2Mithril§7.\n\n§6Subterranean Battler\n§7Increases all §cCombat Stats §7by §a+20%\n§7on §bMining Islands§7.\n\n§6The Smell Of Powder\n§7Grants §2+20% ᠅ Mithril Powder §7from\n§7all sources.\n\n§6Refined Senses\n§7Grants §b+?% ✯ Magic Find §7while on\n§bMining Islands§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mithril_Golem_Pet",
+    "https://wiki.hypixel.net/Mithril_Golem_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000,
+      "time": 3600,
+      "input": "MITHRIL_GOLEM;4",
+      "output": "MITHRIL_GOLEM;5",
+      "items": [
+        "PET_ITEM_PURE_MITHRIL_GEM:1",
+        "ENCHANTED_MITHRIL:64"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "MITHRIL_GOLEM;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Mithril_Golem/c1b2dfe8ed5dffc5b1687bc1c249c39de2d8a6c3d90305c95f6d1a1a330a0b1.png",
+      "lore": "§8Mining Pet\n\n§7True Defense: §f[True Defense]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Mithril Affinity\n§7Grants §6+100⸕ Mining Speed §7when mining\n§2Mithril§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "MITHRIL_GOLEM;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Mithril_Golem/c1b2dfe8ed5dffc5b1687bc1c249c39de2d8a6c3d90305c95f6d1a1a330a0b1.png",
+      "lore": "§8Mining Pet\n\n§7True Defense: §f[True Defense]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Mithril Affinity\n§7Grants §6+150⸕ Mining Speed §7when mining\n§2Mithril§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "MITHRIL_GOLEM;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Mithril_Golem/c1b2dfe8ed5dffc5b1687bc1c249c39de2d8a6c3d90305c95f6d1a1a330a0b1.png",
+      "lore": "§8Mining Pet\n\n§7True Defense: §f[True Defense]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Mithril Affinity\n§7Grants §6+150⸕ Mining Speed §7when mining\n§2Mithril§7.\n\n§6Subterranean Battler\n§7Increases all §cCombat Stats §7by §a+10%\n§7on §bMining Islands§7.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "MITHRIL_GOLEM;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Mithril_Golem/c1b2dfe8ed5dffc5b1687bc1c249c39de2d8a6c3d90305c95f6d1a1a330a0b1.png",
+      "lore": "§8Mining Pet\n\n§7True Defense: §f[True Defense]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Mithril Affinity\n§7Grants §6+200⸕ Mining Speed §7when mining\n§2Mithril§7.\n\n§6Subterranean Battler\n§7Increases all §cCombat Stats §7by §a+20%\n§7on §bMining Islands§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "MITHRIL_GOLEM;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Mithril_Golem/c1b2dfe8ed5dffc5b1687bc1c249c39de2d8a6c3d90305c95f6d1a1a330a0b1.png",
+      "lore": "§8Mining Pet\n\n§7True Defense: §f[True Defense]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Mithril Affinity\n§7Grants §6+200⸕ Mining Speed §7when mining\n§2Mithril§7.\n\n§6Subterranean Battler\n§7Increases all §cCombat Stats §7by §a+20%\n§7on §bMining Islands§7.\n\n§6The Smell Of Powder\n§7Grants §2+20% ᠅ Mithril Powder §7from\n§7all sources.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "MITHRIL_GOLEM;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Mithril_Golem/c1b2dfe8ed5dffc5b1687bc1c249c39de2d8a6c3d90305c95f6d1a1a330a0b1.png",
+      "lore": "§8Mining Pet\n\n§7True Defense: §f[True Defense]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Mithril Affinity\n§7Grants §6+200⸕ Mining Speed §7when mining\n§2Mithril§7.\n\n§6Subterranean Battler\n§7Increases all §cCombat Stats §7by §a+20%\n§7on §bMining Islands§7.\n\n§6The Smell Of Powder\n§7Grants §2+20% ᠅ Mithril Powder §7from\n§7all sources.\n\n§6Refined Senses\n§7Grants §b+10% ✯ Magic Find §7while on\n§bMining Islands§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_MITHRIL_GOLEM_CHERRY_BLOSSOM",
+      "name": "Cherry Blossom Mithril Golem Skin",
+      "texturePath": "/assets/pets/skins/Mithril_Golem/8d8e9ab5c4c8ed7a9308fb68b0cb40cdae0cedc58eff21cf00b560a60365d6d5.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMithril Golem§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MITHRIL_GOLEM_COPPER",
+      "name": "Copper Mithril Golem Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/6d2c2323de1c16b7dc8c1f0605aef2c91c2cafe754e8cdaed94393ae6b8c877b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Mithril Golem pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/6d2c2323de1c16b7dc8c1f0605aef2c91c2cafe754e8cdaed94393ae6b8c877b.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/cf6bb8acef2c01bc377c439d1d51d6ebc429436184f1bc4decb743fa3feba63e.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/223d3f87b8c7eaa38fdc14b52726380e07d76003e4888b6e670ba4cbb66546dc.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/ee74e4e9d7f7d3f7bcad1fc35fcc78d46c2c1e36eaa7c6bff2a0a0982b03516d.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/2bb21b4c8af8e92b59d7c44750fea24744f0b60d11dd75d3b7e21b7c04c5c22b.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/d164bd5f89555e734fb64951f0bb0159f759a25b589a9672420fd1f0b386d38c.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/8a9ba42842291d108b89b6dae2637a734a9b3e71eb5701b29755f1af7a913a22.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/2376cf9d45cf569045a6990fb9b21dfb84998e6ffdf9af5b8d60feb3621178ec.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/4aab4d4086f5a07cdeceb337d840d55aaed65f8963d3ac50342a0df1995e3154.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/f3dd93eae83cbbe833cf8fe167aa7e81c8855dc6d3eb5965ff3e93b5dfead2cd.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/48e3781be0e2254910097e175e0963612477d1e79fe99bb2791ad59fd2aefab6.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/61c77636aeb4ea3bbdd6caff169935895f7432fc1850c8ed456d45e9bcc19181.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/47a0373828243d1e0b5c50bd874fda58e4c830c2601e812aa006aacd2fbcb41b.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/117edf3946ff7e8a6533a17560fcbe8037f0d5002831513f9f4324e85b22a9f4.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/8c4fff8a39feb63a4affbe8e2fb83ed7c312868079cc3db2251276255a1f2be6.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/52d57da23d494fc452c5b0b75b87ee22ebc72aba97a6d1d5b22f5b0ae43363c6.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/ad05a0338450b86e2439387e3796589e5126acf3048a7f6eba625fe30d62cb55.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/1acaca8cfc1d8b9515f23f21c1ded2b0f83bd50133a750ff217882d33f4c2b10.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/d06c337fb48deb4b1af4fccf8158b52585af47570871f4ffe5ec77c7a3eba923.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/4d27dfbe777a41a0054f9f5f432f938a90bc46aaa0298f5bcc2f73ba4dccbc34.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/50a6e4e43ec1f802776ce15232f37607597c4b966eec56c30d745878493b79ea.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/42aa3710362003eda49c0364df9ff3ff1f3443755a2826b38323dac336613b37.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/bdc264745689b75ff1ce396479fde465f3a622ab1e9e013a3e448682ad9095b2.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/9376837bda8d226048384d8a794e2849b9e4a90b43b93e7fc086f29f7292a4be.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/3cc2cdc3f5d6cace21ea290497b49de618d474adeebc995fd0e582a7a44dc9fb.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/2685a772b8aa69079ae356aca81ae703010a1464d62660d482032bc331c2d5a1.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/6d9f6e250fd81cb5b315798faa196277eb4641a033aac8ea380e0a3e7370fa24.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/4ea6c39b2dcf8136369f408f8f5a8ece19dbc261c3bf643023eadce6088df1fa.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/da733c042f034293d1ae3d7ddcaf5f177ef638f70eba11848e400544814ce581.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/deb4e65a88cd09f82472df77a88da3982d2206a7e00c604ac96b16362b904460.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/29cea30323ad1ed3ba5d475c65b0987eb247d07516da66251e0a1d93e159b5ef.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/b641f8b72552ec4b05f31e3c69e0f32f0fee8eb37f2973dfeef690996e36bfbf.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/77519139ab0e77e8a23e9e748edadb7d5c2644ebbb92ed58d860c7374fbe74a3.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/58cd81131f66eab956238e382531503902b0da94d1950a8bcc23bd8331618f17.png",
+          "/assets/pets/skins/animated_skins/Mithril_Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/ca46378c49c7be333b1944f5d623dcfe671098254b4769843bdbc5718b918905.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_MITHRIL_GOLEM_CRYSTAL",
+      "name": "Crystal Mithril Golem Skin",
+      "texturePath": "/assets/pets/skins/Mithril_Golem/a20aa3dfd94a622bbe4facf0b19e6dbb07636e7762ade427ccaa2f94a075326c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Mithril Golem pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

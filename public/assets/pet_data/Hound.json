@@ -1,0 +1,52 @@
+{
+  "name": "§6Hound",
+  "type": "HOUND",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Strength: §c40\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n§7Ferocity: §c[Ferocity]\n§7Speed: §f10\n\n§6Scavenger\n§7Gain §a+100 §7coins per monster kill\n\n§6Finder\n§7Increases the chance for monsters\n§7to drop their armor by §a30%§7.\n\n§6Pack Slayer\n§7Gain §b1.5x §7Combat XP against §aWolves§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hound_Pet",
+    "https://wiki.hypixel.net/Hound_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 5000000,
+      "time": 864000,
+      "input": "HOUND;3",
+      "output": "HOUND;4",
+      "items": [
+        "WOLF_TOOTH:512"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "HOUND;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Hound/1290ad550c376d0108b5be22dd5a4082a8621cf9d40b2807156ca1950d246207.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c40\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n§7Ferocity: §c[Ferocity]\n§7Speed: §f10\n\n§6Scavenger\n§7Gain §a+100 §7coins per monster kill\n\n§6Finder\n§7Increases the chance for monsters\n§7to drop their armor by §a30%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "HOUND;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Hound/1290ad550c376d0108b5be22dd5a4082a8621cf9d40b2807156ca1950d246207.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c40\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n§7Ferocity: §c[Ferocity]\n§7Speed: §f10\n\n§6Scavenger\n§7Gain §a+100 §7coins per monster kill\n\n§6Finder\n§7Increases the chance for monsters\n§7to drop their armor by §a30%§7.\n\n§6Pack Slayer\n§7Gain §b1.5x §7Combat XP against §aWolves§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_HOUND_BEAGLE",
+      "name": "Beagle Hound Skin",
+      "texturePath": "/assets/pets/skins/Hound/877364e0ce27f0239b7754706b93022d0cf945854015d6096f9cf43d24a38269.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aHound§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_HOUND_LUNAR",
+      "name": "Lunar Dog Hound Skin",
+      "texturePath": "/assets/pets/skins/Hound/cb504181e7c7224ccee40b58ac4fb645b8c1768d1945581ff96a0ec5649cdeb2.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aHound§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

@@ -1,0 +1,46 @@
+{
+  "name": "§6Subzero Wisp",
+  "type": "SUBZERO_WISP",
+  "category": "Pet",
+  "description": "§8Gabagool Pet, feed to gain XP\n\n§7Health: §c[Health]\n§7Damage: §c[Damage]\n§7True Defense: §f[True Defense]\n§7Intelligence: §a[Intelligence]\n\n§6Icehammer\n§7Lets you break fire pillars, which\n§7heals you for §c50% §7of your max §c❤\n§7over §a3s§7.\n\n§6Bulwark\n§7Kill Blazes to gain defense against\n§7them and demons.\n§7Bonus: §a+0❈ §7& §f+0❂\n§7Next Upgrade: §a+30❈ §7& §f+3❂ §8(§a0§7/§c100§8)\n\n§6Blaze Slayer\n§7Gain §b?x §7Combat XP against §aBlazes§7.\n\n§6Extinguish\n§7While in combat on the Crimson Isle,\n§7spawn a pool every §a8s§7.\n§7Bathing in it heals §c25%❤ §7now and\n§c10%❤§7/s for §a8s§7.\n\n§6Ephemeral Stability\n§7Regenerate mana §b40% §7faster\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Subzero_Wisp_Pet",
+    "https://wiki.hypixel.net/Subzero_Wisp_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "DROPLET_WISP;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Wisp/b412e70375ec99ee38ae94b30e9b10752d459662b54794dfe66fe6a183c672d3.png",
+      "lore": "§8Gabagool Pet, feed to gain XP\n\n§7Health: §c[Health]\n§7Damage: §c[Damage]\n\n§6Drophammer\n§7§7Lets you break fire pillars,\n§7which heals you for §c15% §7of\n§7your max §c❤ §7over §a3s§7.\n\n§6Bulwark\n§7Kill Blazes to gain defense\n§7against them and demons.\n§7Bonus: §a+0❈ §7& §f+0❂\n§7Next Upgrade: §a+30❈ §7& §f+3❂ §8(§a0§7/§c100§8)\n\n§6Blaze Slayer\n§7§7Gain §b?x §7Combat XP\n§7§7against §aBlazes§7.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§a§lUNCOMMON"
+    },
+    {
+      "id": "FROST_WISP;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Wisp/1d8ad9936d758c5ea30b0b7cc7c67c2bfcea829ecf2425c0b50fc92a26ae23d0.png",
+      "lore": "§8Gabagool Pet, feed to gain XP\n\n§7Health: §c[Health]\n§7Damage: §c[Damage]\n§7True Defense: §f[True Defense]\n§7Intelligence: §b[Intelligence]\n\n§6Icehammer\n§7§7Lets you break fire pillars,\n§7which heals you for §c25% §7of\n§7your max §c❤ §7over §a3s§7.\n\n§6Bulwark\n§7Kill Blazes to gain defense\n§7against them and demons.\n§7Bonus: §a+0❈ §7& §f+0❂\n§7Next Upgrade: §a+30❈ §7& §f+3❂ §8(§a0§7/§c100§8)\n\n§6Blaze Slayer\n§7§7Gain §b?x §7Combat XP\n§7§7against §aBlazes§7.\n\n§6Extinguish\n§7While in combat on the Crimson\n§7Isle, spawn a pool every §a8s.\n§7Bathing in it heals §c15%❤ now\n§7and §c4%❤§7/s for §a8s.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§9§lRARE"
+    },
+    {
+      "id": "GLACIAL_WISP;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Wisp/3e2018feebe1a99177b3cb196d4e44521268b4b3eb56e6419cb0253cdbf0456c.png",
+      "lore": "§8Gabagool Pet, feed to gain XP\n\n§7Health: §c[Health]\n§7Damage: §c[Damage]\n§7True Defense: §f[True Defense]\n§7Intelligence: §b[Intelligence]\n\n§6Icehammer\n§7Lets you break fire pillars, which\n§7heals you for §c40% §7of your max §c❤\n§7over §a3s§7.\n\n§6Bulwark\n§7Kill Blazes to gain defense against\n§7them and demons.\n§7Bonus: §a+60❈ §7& §f+6❂\n§7Next Upgrade: §a+30❈ §7& §f+3❂ §8(§a0§7/§c100§8)\n\n§6Blaze Slayer\n§7Gain §b1.45x §7Combat XP against §aBlazes§7.\n\n§6Extinguish\n§7While in combat on the Crimson Isle,\n§7spawn a pool every §a8s§7.\n§7Bathing in it heals §c20%❤ §7now and\n§c7%❤§7/s for §a8s§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§5§lEPIC"
+    },
+    {
+      "id": "SUBZERO_WISP;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Wisp/7a0eb37e58c942eca4d33ab44e26eb1910c783788510b0a53b6f4d18881e237e.png",
+      "lore": "§8Gabagool Pet, feed to gain XP\n\n§7Health: §c[Health]\n§7Damage: §c[Damage]\n§7True Defense: §f[True Defense]\n§7Intelligence: §a[Intelligence]\n\n§6Icehammer\n§7Lets you break fire pillars, which\n§7heals you for §c50% §7of your max §c❤\n§7over §a3s§7.\n\n§6Bulwark\n§7Kill Blazes to gain defense against\n§7them and demons.\n§7Bonus: §a+0❈ §7& §f+0❂\n§7Next Upgrade: §a+30❈ §7& §f+3❂ §8(§a0§7/§c100§8)\n\n§6Blaze Slayer\n§7Gain §b?x §7Combat XP against §aBlazes§7.\n\n§6Extinguish\n§7While in combat on the Crimson Isle,\n§7spawn a pool every §a8s§7.\n§7Bathing in it heals §c25%❤ §7now and\n§c10%❤§7/s for §a8s§7.\n\n§6Ephemeral Stability\n§7Regenerate mana §b40% §7faster\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_WISP_FAIRY",
+      "name": "Ice Fairy Subzero Wisp Skin",
+      "texturePath": "/assets/pets/skins/Wisp/f2618d211e0669d4c330f6a701a34147a48363f38ebc04b2c9dd5ddcaf1d8e1f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can be applied to Subzero\n§7Wisp, Droplet Wisp, Frost Wisp, and\n§7Glacial Wisp pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

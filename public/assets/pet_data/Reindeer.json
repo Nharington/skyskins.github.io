@@ -1,0 +1,90 @@
+{
+  "name": "§6Reindeer",
+  "type": "REINDEER",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Health: §c100\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §35\n\n§6Winter Sprint\n§7Gain §ddouble §7pet §aEXP§7.\n\n§6Infused\n§7Gives §b+75☂ Fishing Speed §7and §3+10α\n§3Sea Creature Chance §7while on\n§cJerry's Workshop§7.\n\n§6Snow Power\n§7Grants §a+10% §7bonus gift chance\n§7during the §cGift Attack §7event.\n\n§6Icy Wind\n§7Grants §a+20% §7chance of getting\n§7double §bIce Essence§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Reindeer_Pet",
+    "https://wiki.hypixel.net/Reindeer_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "REINDEER;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Reindeer/a2df65c6fd19a58bee38252192ac7ce2cf1dc8632c3547a9228b6b697240d098.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c100\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §35\n\n§6Winter Sprint\n§7Gain §ddouble §7pet §aEXP§7.\n\n§6Infused\n§7Gives §b+75☂ Fishing Speed §7and §3+10α\n§3Sea Creature Chance §7while on\n§cJerry's Workshop§7.\n\n§6Snow Power\n§7Grants §a+10% §7bonus gift chance\n§7during the §cGift Attack §7event.\n\n§6Icy Wind\n§7Grants §a+20% §7chance of getting\n§7double §bIce Essence§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_REINDEER_AURORA",
+      "name": "Aurora Reindeer Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/7a2c1e374a59a62400197c99db81988998b3afe5c3def4b57d10229a568acfe5.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aReindeer§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/7a2c1e374a59a62400197c99db81988998b3afe5c3def4b57d10229a568acfe5.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/88b4263b4763dff85c0e314620201cc06169d82acec569ecb150f32dcf949729.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/af14c2100a3073567d88af49cbb091d988fe06a81a0149b0d8856ac86e5f206.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/fdc74ca6473c6e399115eff73c0ac42d9ba9ff78438317f41267e5235ec772d3.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/3fbf0610edb1717f9990cd39b8ea6268b88d9fa2d25c562313e914f6dac36762.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/e5d733863ef567363d9ef0e90501c91adafbb2ba60e1c26aaa32d722bb74b65c.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/4b7a8460eee48900f15035b0ab2294a8b02168a147e04d5b96385ca95463fc42.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/910593314413616b51ac2b56b17bfc9d4888896877594ba98ac066a3ec263ddd.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/5de5e6d83974c969a17ec68eaf1cbaf5caa50a90cd17794818be31754ea35123.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/bcea3ad7a2cd951145265edae50d1be75de5fedd4052c9c1d300b38181806ff.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/17e336cdded294aa92a2fa7e6fe0c2c202486ca5748835017715b66aead4306f.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/1e5063214816ebf153e141a32098698135c66450a9e83c478e3a82ea6a812bf0.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/dcd74dcf0ae8a553b10b24f116f0278e65d6d4c28fd5f58d8c21dce6e2502673.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/5f38a17b4946e5bebe37d9225d618c43b84f9f63b0351a8778775bd44b50f957.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/9ba5ea1f6d2a5e5c73e27829a24be43d050a6222ac72b602d6363aec316d2ab6.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/a3b68707964482f3076090265f58e87c5aaecb8f00d1496299c040593444e09e.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/a99394defc8b3195fcec42fc58fb55bfae7789682e429970948d19bcdb95b565.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/834a6b280b4ade8b6b04da4a07e2b357712a0005fcc3fdc213d4a0b04b139cef.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/e062e107d846976b727b02201d2efdca5f2b68765a31e44c0f739b335c4b0f9b.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/76ed3e5a451fe87b11247f3db8ac60809c2877b258d62d30377454c30ef6e5b4.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/d5efe1e540082a02ddc271a343045c50e6c84e74def190267fe1aac6cfead867.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/9121e0123082aa4229ba16fa08b941f7e2bbd5a8d1ec079e2e03ca199a439b4a.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/a8467acfb7e4e89abb628ce5407f13d3ccdde4bf394945f0b552f0e3a1f10a77.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/9a4028a87b26640c1a746968386662cc575a19018e61eb48f51aa2172ac31a8.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/103f1838b0c9536547ada074bdbb9aedd4eb4d5cd469f945a0551877dd011570.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/62d57b9afe7d87d3e85f85f04df032cce589b7ecf874b64cd1ad8ad55cf493b4.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/3d0d4a520df6edc986f959fefc9b63b56eec3c54deff0a4a023a87dfe98083db.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/39f88de3aa15a64da4fe190ae1d674cfcafd4fbf4c29855c87671bd741625cc6.png",
+          "/assets/pets/skins/animated_skins/Reindeer/PET_SKIN_REINDEER_AURORA/70288982ef6f39350224abb7e3e7a5214504ff3b12df2109bb34b2108dea0e61.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_REINDEER_PLUSHIE",
+      "name": "Plushie Reindeer Skin",
+      "texturePath": "/assets/pets/skins/Reindeer/6c4a5ce9a490eae59b8597cd171ac802978f3eebf1679259d3e0667f4ae29d00.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aReindeer§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_REINDEER_RED_NOSE",
+      "name": "Red Nose Reindeer Skin",
+      "texturePath": "/assets/pets/skins/Reindeer/317975b5b688d25d189f6df33cfb26a701a2d215d03078ec2e281dba112841fa.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aReindeer§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_REINDEER_UNICORN",
+      "name": "Unicorn Reindeer Skin",
+      "texturePath": "/assets/pets/skins/Reindeer/1babfb52091cc70d5f5f35382cb50923f8d9e2ce6fa00d84acbd0c4fb20dad9.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aReindeer§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_REINDEER_ZODIAC_HORSE",
+      "name": "Zodiac Horse Reindeer Skin",
+      "texturePath": "/assets/pets/skins/Reindeer/b4c1edcf3e267063d59eb1a4c90ced9aa601f46e36e79569482413cb4b76cd1f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aReindeer§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

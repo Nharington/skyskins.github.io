@@ -1,0 +1,50 @@
+{
+  "name": "§dBingo",
+  "type": "BINGO",
+  "category": "All",
+  "description": "§8All Skills\n\n§7Strength: §c25\n§7Health: §c100\n§7Speed: §f75\n\n§6Lucky Looting\n§7§7Gain §c25% §7more collection\n§7items from any source!\n\n§6Mountain Climber\n§7§7Gain §c50% §7more HOTM Experience.\n\n§6Fast Learner\n§7§7Gain §c250% §7more Skill Experience and\n§7Slayer Experience\n\n§6Chimera\n§7§7Increases the base stats of\n§7your active pet by §c15%§7.\n\n§6Scavenger\n§7Gain §c40§7 more coins per\n§7monster level on kill.\n\n§6Consumer\n§7§7Potion effects you obtain will\n§7have §c1% §7more time.\n\n§6Power Of Completion\n§7Gain §c+2❁ Strength§7, §9+1☣\n§9Crit Chance§7, and §c+5❤\n§cHealth§7 per completed Personal\n§7Bingo Goal in the current Bingo\n§7Event\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bingo_Pet",
+    "https://wiki.hypixel.net/Bingo_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "BINGO;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Bingo/d4cd9c707c7092d4759fe2b2b6a713215b6e39919ec4e7afb1ae2b6f8576674c.png",
+      "lore": "§8All Skills\n\n§7Strength: §c25\n§7Health: §c100\n\n§6Lucky Looting\n§7§7Gain §c25% §7more collection\n§7items from any source!\n\n§6Mountain Climber\n§7§7Gain §c?% §7more HOTM Experience.\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!"
+    },
+    {
+      "id": "BINGO;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Bingo/d4cd9c707c7092d4759fe2b2b6a713215b6e39919ec4e7afb1ae2b6f8576674c.png",
+      "lore": "§8All Skills\n\n§7Strength: §c25\n§7Health: §c100\n\n§6Lucky Looting\n§7§7Gain §c25% §7more collection\n§7items from any source!\n\n§6Mountain Climber\n§7§7Gain §c?% §7more HOTM Experience.\n\n§6Fast Learner\n§7§7Gain §c250% §7more Skill Experience and\n§7Slayer Experience\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!"
+    },
+    {
+      "id": "BINGO;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Bingo/d4cd9c707c7092d4759fe2b2b6a713215b6e39919ec4e7afb1ae2b6f8576674c.png",
+      "lore": "§8All Skills\n\n§7Strength: §c25\n§7Health: §c100\n\n§6Lucky Looting\n§7§7Gain §c25% §7more collection\n§7items from any source!\n\n§6Mountain Climber\n§7§7Gain §c?% §7more HOTM Experience.\n\n§6Fast Learner\n§7§7Gain §c250% §7more Skill Experience and\n§7Slayer Experience\n\n§6Chimera\n§7§7Increases the base stats of\n§7your active pet by §c15%§7.\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!"
+    },
+    {
+      "id": "BINGO;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Bingo/d4cd9c707c7092d4759fe2b2b6a713215b6e39919ec4e7afb1ae2b6f8576674c.png",
+      "lore": "§8All Skills\n\n§7Strength: §c25\n§7Health: §c100\n\n§6Lucky Looting\n§7§7Gain §c25% §7more collection\n§7items from any source!\n\n§6Mountain Climber\n§7§7Gain §c?% §7more HOTM Experience.\n\n§6Fast Learner\n§7§7Gain §c250% §7more Skill Experience and\n§7Slayer Experience\n\n§6Chimera\n§7§7Increases the base stats of\n§7your active pet by §c15%§7.\n\n§6Scavenger\n§7Gain §c40§7 more coins per\n§7monster level on kill.\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!"
+    },
+    {
+      "id": "BINGO;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Bingo/d4cd9c707c7092d4759fe2b2b6a713215b6e39919ec4e7afb1ae2b6f8576674c.png",
+      "lore": "§8All Skills\n\n§7Strength: §c25\n§7Health: §c100\n§7Speed: §f75\n\n§6Lucky Looting\n§7§7Gain §c25% §7more collection\n§7items from any source!\n\n§6Mountain Climber\n§7§7Gain §c50% §7more HOTM Experience.\n\n§6Fast Learner\n§7§7Gain §c250% §7more Skill Experience and\n§7Slayer Experience\n\n§6Chimera\n§7§7Increases the base stats of\n§7your active pet by §c15%§7.\n\n§6Scavenger\n§7Gain §c40§7 more coins per\n§7monster level on kill.\n\n§6Consumer\n§7§7Potion effects you obtain will\n§7have §c1% §7more time.\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!"
+    },
+    {
+      "id": "BINGO;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Bingo/d4cd9c707c7092d4759fe2b2b6a713215b6e39919ec4e7afb1ae2b6f8576674c.png",
+      "lore": "§8All Skills\n\n§7Strength: §c25\n§7Health: §c100\n§7Speed: §f75\n\n§6Lucky Looting\n§7§7Gain §c25% §7more collection\n§7items from any source!\n\n§6Mountain Climber\n§7§7Gain §c50% §7more HOTM Experience.\n\n§6Fast Learner\n§7§7Gain §c250% §7more Skill Experience and\n§7Slayer Experience\n\n§6Chimera\n§7§7Increases the base stats of\n§7your active pet by §c15%§7.\n\n§6Scavenger\n§7Gain §c40§7 more coins per\n§7monster level on kill.\n\n§6Consumer\n§7§7Potion effects you obtain will\n§7have §c1% §7more time.\n\n§6Power Of Completion\n§7Gain §c+2❁ Strength§7, §9+1☣\n§9Crit Chance§7, and §c+5❤\n§cHealth§7 per completed Personal\n§7Bingo Goal in the current Bingo\n§7Event\n\n§7§8This pet's perks are active\n§8even when the pet is not\n§8summoned!"
+    }
+  ],
+  "variants": []
+}

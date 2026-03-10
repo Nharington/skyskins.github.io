@@ -1,0 +1,177 @@
+{
+  "name": "§6Scatha",
+  "type": "SCATHA",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Mining Speed: §6[Mining Speed]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Burrowing\n§7Grants a §a+50% §7chance to find\n§eTreasure Chests §7while mining.\n\n§6Drill Infusion\n§7Grants §6+125☘ Gemstone Fortune §7to\n§7Drills.\n\n§6Bejeweled Eyes\n§7Earn §a+20% §dGemstone Powder §7from all\n§7sources.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Scatha_Pet",
+    "https://wiki.hypixel.net/Scatha_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 250000000,
+      "time": 1209600,
+      "input": "SCATHA;3",
+      "output": "SCATHA;4",
+      "items": [
+        "ENCHANTED_HARD_STONE:256"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SCATHA;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Scatha/df03ad96092f3f789902436709cdf69de6b727c121b3c2daef9ffa1ccaed186c.png",
+      "lore": "§8Mining Pet\n\n§7Mining Speed: §6[Mining Speed]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Burrowing\n§7Grants a §a+30% §7chance to find\n§eTreasure Chests §7while mining.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "SCATHA;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Scatha/df03ad96092f3f789902436709cdf69de6b727c121b3c2daef9ffa1ccaed186c.png",
+      "lore": "§8Mining Pet\n\n§7Mining Speed: §6[Mining Speed]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Burrowing\n§7Grants a §a+40% §7chance to find\n§eTreasure Chests §7while mining.\n\n§6Drill Infusion\n§7Grants §6+100☘ Gemstone Fortune §7to\n§7Drills.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "SCATHA;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Scatha/df03ad96092f3f789902436709cdf69de6b727c121b3c2daef9ffa1ccaed186c.png",
+      "lore": "§8Mining Pet\n\n§7Mining Speed: §6[Mining Speed]\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Burrowing\n§7Grants a §a+50% §7chance to find\n§eTreasure Chests §7while mining.\n\n§6Drill Infusion\n§7Grants §6+125☘ Gemstone Fortune §7to\n§7Drills.\n\n§6Bejeweled Eyes\n§7Earn §a+20% §dGemstone Powder §7from all\n§7sources.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_SCATHA_ALBINO",
+      "name": "Albino Scatha Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/8f546464133bcd5325bb284fa3a2b7f5098ea4a6e13eb87ddb1b1529c9c976f3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aScatha§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/8f546464133bcd5325bb284fa3a2b7f5098ea4a6e13eb87ddb1b1529c9c976f3.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/563d499acde7bfa2ac0bcac15e3cb6f0b4115adceada8e7bd30dfc5ffc815fa6.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/e7f23af2848937441bbe4ae599398c2298ae07ea905602062b6394c12298c49a.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/5b508d429afe792994ae1de3de6b9cc5a685d3a2d2a5464121deefa5c1510a43.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/8efd062cc839d85b7d9f0e77040c5fc1e71f4735bc616a0262706588c1e9bb71.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/133059239b0fe69862996ff9888a7eddae75ced1d43332d268c0ee1c5d75d3fa.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/74b4b084c1191fd7e77ac788d772b89f23369fbb232a12c41f7ee460465600d3.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/704bc479c08e2d150978a5cf6fd5fb8bf0dc0209555a54d62b22c75800c11bd6.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/38cfb7ac37908822110e8e5f9a4f74eb1dc037e8a449cadb6dc6d6bb0e810112.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/9a00f0aa142acbdf2d9f0398f768073a972b4fd88c183455f12cf3003f2a84e9.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/a57d28771add9ad572290d67275e247ad1182f9989c7d2e04a6e5983c6b05586.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/d608fdc7c9c2fbb51fc7bbfca8874752d9435875d782654b4f1d2b2220e9d6ae.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/dbc7d12c9bb4bf1dea55a64b1a94cf2c28c3ba9cdc940049d379840cd8a69db5.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/8012c4fee3f3eb596a572868078e2e1074d850211704e3c17bfc1d20f98d5308.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/bf1e34af63df54689bb2e3576ae262e3f711bf10e60299761dc5d3c25bc907f0.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/d5985e0e7473c65770295a05ab2036ac9da70c336f31baac187c77bb8dc2eec4.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/d0918783e1a7b56e93618b1af4351a0b7deb5edd258a4c01e2b8fe1245baafe8.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/71878ba7403a6692c5aa3ca544baade2dfecf6a2de7a6e04528610ab90a28313.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/eab56e37986c09fa55c1d542d1c62a8090df86d2bf44287d97317e1a0a004951.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/9274fbc5f1d0c56fc4e026b896b218029eb4cb4f0ab1c3dbcb4a3e894fde1ec7.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/54216940c6e7944e2184ecddcb2bac55f0c1f6b4f5d670c94f0c5ba8dfdb9514.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/d9f567b10a377d3ec1c0df1d56ce4b843d3803978185a6a6bbadc519cacbc5b9.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/ce6450236e6cf84d739d21d52c67b208dfcb5d131728566e744ded46b69753f.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/50120948df62c81ee751d21bc38b8864f37ae30ef6ea6f86999f646e70c54d07.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/c6c5119fedae6de6c32b3e17a0472d2df8a618a0706920be55e0e730cb951dc8.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/8fe74034fe7ac07e0105a0b930fbc991fef45815eb9481b48b136b5cd5ae75c5.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/f4816857909511763d598d2c856bb27756a9d093d1e41ca9948513c77863acd0.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_ALBINO/7c605b20c9dd2c25d49cbf4894fca6c134423cdc7464391497fcea6b95004723.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_SCATHA_DARK",
+      "name": "Dark Scatha Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/5ba3b10d99f682a924881fb1f9737a945e291ef45eab8bda2191a8eb668878d1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aScatha§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/5ba3b10d99f682a924881fb1f9737a945e291ef45eab8bda2191a8eb668878d1.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/d5593b9b66668ed48f5d47e09d6c832b4f341652433e3a403d56e56f8bbff4c8.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/fe62994cff3365b7ad3ef55f43c87504a0fccbeed6aeb0cdd3fb02f40ae72742.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/83a827814367cb98feecd0719029ecc05522481e779bd3951b4cc6f4011f3d20.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/302d443a474a8fda058bcc6b009f077354b6114e0710f36a59993af4f20a347a.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/496709db3825f5fbd103a36a23a2b8f6a0add439a71b058ec5033d645dee8945.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/9b6946ddfdcdc5a894faa8f1b048728521dc0f93c751d6980f85b98a504a1789.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/8ab3be18bfac984818dadc1a12a74a602e695c40209a8d44e592910def698ee4.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/3279a9b62c696f35027f969f88eca9697f4d3abd7488596b672ed904eefff2bf.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/6ccdeceaf3afb9e26c27fa47254890b01dccf11c0a69bae0bc9459e21bb548b3.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/7fd214693f11e8b33cf936ff6778f1f687a4d0f2c93f35965362df2ddb4cfa57.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/4226e59ce02e93c1540b95f226fdf146fd14bcf2cc9248e0fc67401f4c7c0665.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/2483f61b456d54e016d25f32974c26f64addb91765d7dd6d30ea1406017841dd.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/76d2417ddf4b1021b1b0b27bd92ca153d3cbd6326d14bab3a7536bfbc493d5fe.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/dea98c26bf3180e82030c09c5ed2bd59a79f396c0af053efd7d6815354ffafdd.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/49da0b736bed4fc4e05300aad30413f9f4e6bc53ecc2dcf2a3f7678a939d6dfe.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/329a95a476025694ea2e5a147e9c026d44988afbb908094b9b162eb710336320.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/abfc0e371f4f6535a4585e65adee9734b93c2d4afdb78ce0ff1a07ea02e9f31c.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/4f19b0c418e5d115586d21b1eea164e461fa9a26f35f7a78a7f84ba32375d1c0.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/ee907f4650b92ef4b7aae628e526680d0fddfec0e9eaf0d818fa5d792d687656.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/a17c065c758c2a3042bfa73ef770746baba644cc787fa0df3444ff9f68be1766.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/db98be28821a46a228036b59eae4452bd52cf1ca28d82c5c17d12f7a2ff48bd3.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/2c392424abfe02114c204319811b3b58a1dd27629ee4ceda80f9bbc9cd3804ad.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/5e839cffdaf3e2f4a5ca7c52911b22a3db186a5a2b52194bcafce9c80393d158.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/2b5b332be11574858ba3dc465c8af879a200972872de3d84ca5b2d06401c02b.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/cf7e5317516e19729072f1a6ae3567fc90a31ddb4fe1bb497776f94256e0c969.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/7c62528184948b5249f16fae956354213617cb5bf8aef8ade41ba09d576e5c1.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/c4802c0cd02ffa5c4715516eb1c773b4b77746a1ed52fbf41e95fb530cd81201.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_DARK/fbb295e900e4fa11cd0744a4a9a9623955d84cb2d563b22a95f1bfd00d91e53d.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_SCATHA_GOLDEN",
+      "name": "Golden Scatha Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/b7ebcf66d64ef09dc8fffcffd669f503c4658a023225109db5d830594cb10c7e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aScatha§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/b7ebcf66d64ef09dc8fffcffd669f503c4658a023225109db5d830594cb10c7e.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/cb3e4ff036db3ab34cd013eba7064d70150b55046c567ebd70c5417f686fcf5d.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/c6055e91f794665640b6a158b8c52d8518bf2898f33229cac3ed1d36bcdf95e0.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/14d8e2215d00b173de82ce81fb98e0c33f2ed3b745a67f7f7d4ecf407ddf0372.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/fdbd91779baaa8d40d54a55bc3e0d1bf0dd70bcc2c368bca2355bc6a98866a45.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/4313bb28c6e2cfe4444a3eaacab53103cc91f9419015292facfd431e950bf71a.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/9f2c8aca1d1081c2c3c4cf10213d1b98a7177539406fffe93386d2952a95236d.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/b473b7a4f3079b19f104869a4063098655b6200aaf8e27a2378c7a57d1ee013c.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/5c63b7497c0f21eafaf9325926d4e2a9f3a76a5f1ba4fbda6337d94655fc1688.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/b4ebfd50d535f68c88e2d799d285fccb38bcf91cbe5acd63f76aa2953438bccf.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/77d084b9d18ae4f822f2e90a73c49bb7ea613875fc089488a7951b57133b4683.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/73af38c23322af208c78b2278ed9987ee0963431dc5144a613d6c1aa66efa734.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/b610eba791304f0bc4074222c86b9aeb5b621ea3d7d84b1099f723e25074c233.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/444da34bdf369eb04e8834a8e959d0e263d6822f907024f3ef454d6509f4ad12.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/19b6cd8910359679437f6cbbc347f0f240c59aad8f9ad3ddd9787b05b4d66278.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/874a8f62576a7ae3865de4579b4e5396da7ab333a2f0f6e3df42c902758c9e7a.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/1adcbd6c574248098ee6b29131c3e5230c952e0eaf9834f4abf3cd88e4b5bc57.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/e7d26e3ba23202c0c156f75915a914ee1a8c1d32fafc77ec47f876dbb500bfc8.png",
+          "/assets/pets/skins/animated_skins/Scatha/PET_SKIN_SCATHA_GOLDEN/f10a25454e6dd36605ef552ef34618b41662e9b751c4e72d88a01b19424c7e68.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_SCATHA_GUMMY",
+      "name": "Gummy Worm Scatha Skin",
+      "texturePath": "/assets/pets/skins/Scatha/9fd6fc819a55d27b152aeee822475961767ed1f6317db969b0384e681e1b5cdc.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aScatha§7 pets.\n\n§aFeatures!\n§8▶ §7This skin is swappable between §a15\n§7gummy worms!\n§8▶ §7Modifies the look of your spawned\n§aWorms §7and §aScathas§7!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§4§lULTIMATE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SCATHA_LUNAR_SNAKE",
+      "name": "Lunar Snake Scatha Skin",
+      "texturePath": "/assets/pets/skins/Scatha/39324636846da9d9328260f2595f589228775caa2459602a516b7acfd2922ec.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aScatha§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SCATHA_ZODIAC_SNAKE",
+      "name": "Zodiac Snake Scatha Skin",
+      "texturePath": "/assets/pets/skins/Scatha/963a23cab76a9cb89bb3db7f9abbcb0db840aeb7bcb7e7786dadf4c4a53c94dd.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aScatha§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

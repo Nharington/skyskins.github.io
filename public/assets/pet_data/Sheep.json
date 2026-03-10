@@ -1,0 +1,330 @@
+{
+  "name": "§6Sheep",
+  "type": "SHEEP",
+  "category": "Alchemy",
+  "description": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Ability Damage: §c[Ability Damage]%\n\n§6Mana Saver\n§7Reduces the mana cost of abilities by\n§a20%§7.\n\n§6Overheal\n§7Gives a §a10% §7shield after not taking\n§7damage for 10s\n\n§6Dungeon Wizard\n§7Increases your total mana by §a25%\n§7while in dungeons\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Sheep_Pet",
+    "https://wiki.hypixel.net/Sheep_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 50000,
+      "time": 1800,
+      "input": "SHEEP;3",
+      "output": "SHEEP;4",
+      "items": [
+        "ENCHANTED_MUTTON:32",
+        "ENCHANTED_WOOL:32"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SHEEP;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Sheep/64e22a46047d272e89a1cfa13e9734b7e12827e235c2012c1a95962874da0.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Ability Damage: §c[Ability Damage]%\n\n§6Mana Saver\n§7Reduces the mana cost of abilities by\n§a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "SHEEP;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Sheep/64e22a46047d272e89a1cfa13e9734b7e12827e235c2012c1a95962874da0.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Ability Damage: §c[Ability Damage]%\n\n§6Mana Saver\n§7Reduces the mana cost of abilities by\n§a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "SHEEP;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Sheep/64e22a46047d272e89a1cfa13e9734b7e12827e235c2012c1a95962874da0.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Ability Damage: §c[Ability Damage]%\n\n§6Mana Saver\n§7§7§7Reduces the mana cost of\n§7abilities by §a10%§7.\n\n§6Overheal\n§7§7Gives a §a10% §7shield after\n§7not taking damage for 10s.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§9§lRARE"
+    },
+    {
+      "id": "SHEEP;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Sheep/64e22a46047d272e89a1cfa13e9734b7e12827e235c2012c1a95962874da0.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Ability Damage: §c[Ability Damage]%\n\n§6Mana Saver\n§7Reduces the mana cost of abilities by\n§a20%§7.\n\n§6Overheal\n§7Gives a §a10% §7shield after not taking\n§7damage for 10s\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "SHEEP;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Sheep/64e22a46047d272e89a1cfa13e9734b7e12827e235c2012c1a95962874da0.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Ability Damage: §c[Ability Damage]%\n\n§6Mana Saver\n§7Reduces the mana cost of abilities by\n§a20%§7.\n\n§6Overheal\n§7Gives a §a10% §7shield after not taking\n§7damage for 10s\n\n§6Dungeon Wizard\n§7Increases your total mana by §a25%\n§7while in dungeons\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_SHEEP_BLACK",
+      "name": "Black Sheep Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/dbc38554c70c51aed73aa3b30f51af1453227e8e4693de2981d9c906a20423cc.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Sheep pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§a§lUNCOMMON COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/dbc38554c70c51aed73aa3b30f51af1453227e8e4693de2981d9c906a20423cc.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/3b2512b9ca88cd12554904a67cdc6b828d3aad47770aac3fee28d1916961644a.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/1c37664603a044f5dd230dee8e4de41528b853e8728eab6bae491582040a6b88.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/bd0e2ee158373b97fc707e6ab4f3a31817b63d9f010aeb470b383f3b06ad5bd9.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/6b482607ea3be8ed3e7deb9193f1fc4d760fe4d24bce1016e27e674bd3dde952.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/cd846bd93f2d653f3c9b44bb5e88ed3a3ebd64aef86a473cab1f0a27494bbbc4.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/2ce5df72bacfb46dc7c5059fe2abc5ea6838e6cd78ecabbb5798c73720e97bf7.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/a16e390489bf9486f9bfbeb9c5bea28347249b262682c656df568f0f0e299bd6.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/a4c93d3cb1a150fbc69ca7caf3f97a9a48b62caa19802f9d605ecb95582b9c41.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/d9060ef777822fec3f1273a5df0748b8f9e7441e19d17f21020c3699c5e3a611.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/c4f1222e20f45678c37d4e73aa631660fac8db1f11ef65bf3cff50a8f8bdb053.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/dac764dfa961f60b2db17be939cd3653c59d17d345146f8d1da3862476cea7d3.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/23b1b9e2085868ef72481d7a506499dd60ff347fcef8a81bf398532c5a13ab1b.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/d594874bd91f29aa271d402b02581d0570d5f6625a4908463c10eb9e81654de4.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/3faf96db9ef4dbe54fe2c6f9cdf72065c05c15a126b507cd4009da92aaa058b7.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/6fa94e9c34ab0f55b38246caa77ddf62dfcafbc5692df2f3fa78f372ec107955.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/aec5dddafe3d595c6c95e5da4c7eb549f04656ffbf79abe1af87aacf239ed7cc.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/790baaf4625f93d326469e2672107ff334f8d5d93d9e075b7140b91ff6fbc7d2.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/940a40eb3a9667d158ab6b737692f133fbd4da0cc70f62f637a49be0c21f04de.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/c2569f8db23ce905e25b51ddc91fe974e59cba40a507d84c540cc9bf43b81e66.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/b8588713a8f7ffaff27df828cce535570193a0ff57a79e3a68ae897e39ea72b6.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/bfd774d55daa48a6c27112b2411c8964342030551db0032e1e5da35f2027862b.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/1aba1f2988f5169d1f22da8a8ecbfc4dc5034b9c35b21fd79a3b3aa09a56112a.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/520d8bc49348e767527ca925dfa8c75d2dfb2642ce791a96436198b9a5048cc.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/93ad7f289a8132ad8dcd618abe26144b3eda07f3ef8e7b3bfa665bf7b515f4ec.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/d7bfe5bf00cd7dad61b03d0d10efccf11ef2ba95da35ccb8bb356eb2b11a6933.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/5974f2354cf61d3b920d733add024b4e03f3d265e8c9c49ec9aca3fdc69a9bda.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/753fbc85e70cf3b20a76142acf91d10b81c36ccfad8e664f5fb43d1f127ead3f.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/f2504ab79ac2d3d7c7a7d23f54c6b01320c127ec2ad6fa6828471641f606758f.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/da9f334376da2e36b0b9ef5c51541598b0e773dde004743c687363f0c5ba22cb.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/2877fb36a5995aafc63dba436f2a11f8d828fc7c0d6ae26187b9acf946641cca.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/f3ce4253b8ce8a37de1b38a01194e6eac400fe456351811a4b9adb83d39ccb9c.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/c7f1ff72863ccf2f53536949ad33ab3fe2c484837c3b05e41acd22503437558e.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH",
+      "name": "Chromatic Crush Sheep Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/dbc38554c70c51aed73aa3b30f51af1453227e8e4693de2981d9c906a20423cc.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/dbc38554c70c51aed73aa3b30f51af1453227e8e4693de2981d9c906a20423cc.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/3b2512b9ca88cd12554904a67cdc6b828d3aad47770aac3fee28d1916961644a.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/1c37664603a044f5dd230dee8e4de41528b853e8728eab6bae491582040a6b88.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/bd0e2ee158373b97fc707e6ab4f3a31817b63d9f010aeb470b383f3b06ad5bd9.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/6b482607ea3be8ed3e7deb9193f1fc4d760fe4d24bce1016e27e674bd3dde952.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/cd846bd93f2d653f3c9b44bb5e88ed3a3ebd64aef86a473cab1f0a27494bbbc4.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/2ce5df72bacfb46dc7c5059fe2abc5ea6838e6cd78ecabbb5798c73720e97bf7.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/a16e390489bf9486f9bfbeb9c5bea28347249b262682c656df568f0f0e299bd6.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/a4c93d3cb1a150fbc69ca7caf3f97a9a48b62caa19802f9d605ecb95582b9c41.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/d9060ef777822fec3f1273a5df0748b8f9e7441e19d17f21020c3699c5e3a611.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/c4f1222e20f45678c37d4e73aa631660fac8db1f11ef65bf3cff50a8f8bdb053.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/dac764dfa961f60b2db17be939cd3653c59d17d345146f8d1da3862476cea7d3.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/23b1b9e2085868ef72481d7a506499dd60ff347fcef8a81bf398532c5a13ab1b.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/d594874bd91f29aa271d402b02581d0570d5f6625a4908463c10eb9e81654de4.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/3faf96db9ef4dbe54fe2c6f9cdf72065c05c15a126b507cd4009da92aaa058b7.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/6fa94e9c34ab0f55b38246caa77ddf62dfcafbc5692df2f3fa78f372ec107955.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/aec5dddafe3d595c6c95e5da4c7eb549f04656ffbf79abe1af87aacf239ed7cc.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/790baaf4625f93d326469e2672107ff334f8d5d93d9e075b7140b91ff6fbc7d2.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/940a40eb3a9667d158ab6b737692f133fbd4da0cc70f62f637a49be0c21f04de.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/c2569f8db23ce905e25b51ddc91fe974e59cba40a507d84c540cc9bf43b81e66.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/b8588713a8f7ffaff27df828cce535570193a0ff57a79e3a68ae897e39ea72b6.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/bfd774d55daa48a6c27112b2411c8964342030551db0032e1e5da35f2027862b.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/1aba1f2988f5169d1f22da8a8ecbfc4dc5034b9c35b21fd79a3b3aa09a56112a.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/520d8bc49348e767527ca925dfa8c75d2dfb2642ce791a96436198b9a5048cc.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/93ad7f289a8132ad8dcd618abe26144b3eda07f3ef8e7b3bfa665bf7b515f4ec.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/d7bfe5bf00cd7dad61b03d0d10efccf11ef2ba95da35ccb8bb356eb2b11a6933.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/5974f2354cf61d3b920d733add024b4e03f3d265e8c9c49ec9aca3fdc69a9bda.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/753fbc85e70cf3b20a76142acf91d10b81c36ccfad8e664f5fb43d1f127ead3f.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/f2504ab79ac2d3d7c7a7d23f54c6b01320c127ec2ad6fa6828471641f606758f.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/da9f334376da2e36b0b9ef5c51541598b0e773dde004743c687363f0c5ba22cb.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/2877fb36a5995aafc63dba436f2a11f8d828fc7c0d6ae26187b9acf946641cca.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/f3ce4253b8ce8a37de1b38a01194e6eac400fe456351811a4b9adb83d39ccb9c.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_BLACK_CHROMATIC_CRUSH/c7f1ff72863ccf2f53536949ad33ab3fe2c484837c3b05e41acd22503437558e.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_SHEEP_BLACK_WOOLY",
+      "name": "Black Wooly Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/dd7d6f438d16594c46b1fc3c868e4b68c53324ad01bcfe1a22052fc822cb5bb1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_BLUE",
+      "name": "Blue Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/4158a501213747e119669082de5b751d66c2c55d7c051cb58367ca4665289f60.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§65th Fire Sale Anniversary Edition\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_BLUE_CRUSH",
+      "name": "Blue Crush Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/547be1bed83baf622c5d7d1050fcc5e76a6560aeafc654ec5d3d212c046ab08d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_CHROMA_WOOLY",
+      "name": "Chroma Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/53911510276c27656be97386baabb2d8543c0dffb9e5723ad279438fc2eaa51e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true
+    },
+    {
+      "id": "PET_SKIN_SHEEP_GRAY",
+      "name": "Gray Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/18e9c92b3768c464b6e557b5e3d8e4daa8a377c983b8fb25019760b6eae03127.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§65th Fire Sale Anniversary Edition\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_GREEN",
+      "name": "Dark Green Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/10201d6846d70d94255f7f7d1fb1f17fd27fdf20465d283472f6aca34c2202bd.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§65th Fire Sale Anniversary Edition\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_LIGHT_BLUE",
+      "name": "Light Blue Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/722220de1a863bc5d9b9e7a6a3b03214c9f3d698ed3fe0d28220f3b93b7685c5.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Sheep pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§a§lUNCOMMON COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_LIGHT_GREEN",
+      "name": "Light Green Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/cf183ec2fe58faa43e568419b7a0dc446ece4ea0be52ec784c94e1d74b75939d.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Sheep pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§a§lUNCOMMON COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_LUNAR_GOAT",
+      "name": "Lunar Goat Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/b93538f81c7529749dc24607c9734bb846a081fb351002edd499eaf8c811bd7e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_MONSTER",
+      "name": "Monster Sheep Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_MONSTER_SOUL_EATER/3b5df3dd418e9a27ae3714299322fe5a71dc61323e82fdfd3f9650e1cca71215.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 15 monster sheep!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 20,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_MONSTER_SOUL_EATER/3b5df3dd418e9a27ae3714299322fe5a71dc61323e82fdfd3f9650e1cca71215.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_MONSTER_SOUL_EATER/8b30f71b6ddb8894544a09ac01114f0f79c07133529386313009d4705b59efed.png",
+          "/assets/pets/skins/animated_skins/Sheep/PET_SKIN_SHEEP_MONSTER_SOUL_EATER/12cad1b1330865df8afe2c98a57063f90b66cfafbdea541a6b33627de2b6c660.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_SHEEP_NEON_BLUE",
+      "name": "Neon Blue Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/e55b3fe9311c99342ea565483cbf9e969a258faf7afa30270fb9a0929377acfd.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Sheep pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_NEON_GREEN",
+      "name": "Neon Green Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/2c14d66911554bd0882339074bf6b8110c2d3509b69e7a6144e4d5a7164bacc8.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_NEON_RED",
+      "name": "Neon Red Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/4918be142a20b2b39bc582f421f6ae87b3184b5c9523d16fbe6d69530107886a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Sheep pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_NEON_YELLOW",
+      "name": "Neon Yellow Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/94263428c23da9165b2639a8f2428ff4835227945c9e1038461cf644d67cc82a.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Sheep pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_ORANGE",
+      "name": "Orange Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/83b86b1b5561359a8591956bdaa157d6844771afaca1247d6cdfd3d2b02513b6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§65th Fire Sale Anniversary Edition\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_PINK",
+      "name": "Pink Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/afa7747684dcb96192d90342cea62742ec363da07cb5e6e25eecec888cd2076.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Sheep pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§a§lUNCOMMON COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_PINK_CRUSH",
+      "name": "Pink Crush Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/afcfad539f35e7050b3dc13f136d4202cf953eb0430aacf0b27f7880d9aaacda.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_PURPLE",
+      "name": "Purple Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/99a88cf7dd33063587c6b540e6130abc5d07f1a65c47573ab3c1ad3ccec8857f.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Sheep pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§a§lUNCOMMON COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_PURPLE_CRUSHED",
+      "name": "Purple Crushed Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/471b020f2a6fcb93b337674eaab26f35547a519cf41fe283867b5da467977474.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_RED",
+      "name": "Red Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/5582ee5d1c5c08d37df26d6922be0808be9c0b6b347d89c0da263562fafcd505.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§65th Fire Sale Anniversary Edition\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_WHITE",
+      "name": "White Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/b92a1a5c325f25f7438a0abb4f86ba6cf75552d02c7349a7292981459b31d2f7.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Sheep pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§a§lUNCOMMON COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_WHITE_WOOLY",
+      "name": "White Wooly Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/7b44fb8a08057e4a7278a6c5aa2cb692f2e7cfea960c68fc0d4d2e26e88dd359.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_YELLOW",
+      "name": "Yellow Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/9c840b66c6442059ba31fc34998e15c4447a429d3f789a7e9f62e6a57dda0ab2.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§65th Fire Sale Anniversary Edition\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SHEEP_ZODIAC_GOAT",
+      "name": "Zodiac Goat Sheep Skin",
+      "texturePath": "/assets/pets/skins/Sheep/c0ed6ac59243b457f01eb80f8c711017bec6ccc6fde300cd9213b52ab7c7f0c6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSheep§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SLUG_LEAF_SHEEP_SEA_SLUG",
+      "name": "Leaf Sheep Sea Slug Skin",
+      "texturePath": "/assets/pets/skins/Sheep/c55803ea21a24393b5f5e16b72121e658c67696ffa599b13d8127a7fef5183b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aSlug\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

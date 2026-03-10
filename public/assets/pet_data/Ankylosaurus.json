@@ -1,0 +1,31 @@
+{
+  "name": "§6Ankylosaurus",
+  "type": "ANKYLOSAURUS",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Health: §c150\n§7Defense: §a50\n§7True Defense: §f15\n\n§6Armored Tank\n§7Gain §a15% §7of your §a❈ Defense §7as §c❁\n§cStrength§7. §8(Max +1,000)\n\n§6Unyielding\n§7Increase the effectiveness of §d§lLast\n§d§lStand §7and §6Lifeline §7by §a50%§7.\n\n§6Clubbed Tail\n§7Every 5th hit deals §a50% §7of your\n§7final damage to enemies within 5\n§7blocks. Enemies hit deal §a10% §7less\n§7damage for 10s.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ankylosaurus_Pet",
+    "https://wiki.hypixel.net/Ankylosaurus_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "FLAWLESS_OPAL_GEM:1.0",
+        "CLUBBED_FOSSIL:1.0"
+      ],
+      "count": 1,
+      "duration": 604800,
+      "overrideOutputId": "ANKYLOSAURUS;4"
+    }
+  ],
+  "rarities": [
+    {
+      "id": "ANKYLOSAURUS;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Ankylosaurus/c1aa836b9096c417903299a6c5ab41738c19648ac439fed4bcbe6c32605338dc.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c150\n§7Defense: §a50\n§7True Defense: §f15\n\n§6Armored Tank\n§7Gain §a15% §7of your §a❈ Defense §7as §c❁\n§cStrength§7. §8(Max +1,000)\n\n§6Unyielding\n§7Increase the effectiveness of §d§lLast\n§d§lStand §7and §6Lifeline §7by §a50%§7.\n\n§6Clubbed Tail\n§7Every 5th hit deals §a50% §7of your\n§7final damage to enemies within 5\n§7blocks. Enemies hit deal §a10% §7less\n§7damage for 10s.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": []
+}

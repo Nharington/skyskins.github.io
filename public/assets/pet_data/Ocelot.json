@@ -1,0 +1,109 @@
+{
+  "name": "§6Ocelot",
+  "type": "OCELOT",
+  "category": "Foraging",
+  "description": "§8Foraging Pet\n\n§7Ferocity: §c[Ferocity]\n§7Speed: §f50\n\n§6Foraging Wisdom Boost\n§7Grants §3+30☯ Foraging Wisdom§7.\n\n§6Tree Hugger\n§7Foraging minions work §a30% §7faster\n§7while on your island\n\n§6Tree Essence\n§7Gain a §a30% §7chance to get exp from\n§7breaking a log\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ocelot_Pet",
+    "https://wiki.hypixel.net/Ocelot_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 50000,
+      "time": 1800,
+      "input": "OCELOT;3",
+      "output": "OCELOT;4",
+      "items": [
+        "ENCHANTED_JUNGLE_LOG:32"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "OCELOT;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Ocelot/5657cd5c2989ff97570fec4ddcdc6926a68a3393250c1be1f0b114a1db1.png",
+      "lore": "§8Foraging Pet\n\n§7Ferocity: §c[Ferocity]\n§7Speed: §f50\n\n§6Foraging Wisdom Boost\n§7Grants §3+20☯ Foraging Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "OCELOT;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Ocelot/5657cd5c2989ff97570fec4ddcdc6926a68a3393250c1be1f0b114a1db1.png",
+      "lore": "§8Foraging Pet\n\n§7Ferocity: §c[Ferocity]\n§7Speed: §f50\n\n§6Foraging Wisdom Boost\n§7Grants §3+25☯ Foraging Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "OCELOT;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Ocelot/5657cd5c2989ff97570fec4ddcdc6926a68a3393250c1be1f0b114a1db1.png",
+      "lore": "§8Foraging Pet\n\n§7Ferocity: §c[Ferocity]\n§7Speed: §f50\n\n§6Foraging Wisdom Boost\n§7Grants §3+25☯ Foraging Wisdom§7.\n\n§6Tree Hugger\n§7Foraging minions work §a30% §7faster\n§7while on your island\n\n§7§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "OCELOT;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Ocelot/5657cd5c2989ff97570fec4ddcdc6926a68a3393250c1be1f0b114a1db1.png",
+      "lore": "§8Foraging Pet\n\n§7Ferocity: §c[Ferocity]\n§7Speed: §f50\n\n§6Foraging Wisdom Boost\n§7Grants §3+30☯ Foraging Wisdom§7.\n\n§6Tree Hugger\n§7Foraging minions work §a30% §7faster\n§7while on your island\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "OCELOT;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Ocelot/5657cd5c2989ff97570fec4ddcdc6926a68a3393250c1be1f0b114a1db1.png",
+      "lore": "§8Foraging Pet\n\n§7Ferocity: §c[Ferocity]\n§7Speed: §f50\n\n§6Foraging Wisdom Boost\n§7Grants §3+30☯ Foraging Wisdom§7.\n\n§6Tree Hugger\n§7Foraging minions work §a30% §7faster\n§7while on your island\n\n§6Tree Essence\n§7Gain a §a30% §7chance to get exp from\n§7breaking a log\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_OCELOT_JUNGLE",
+      "name": "Jungle Ocelot Skin",
+      "texturePath": "/assets/pets/skins/Ocelot/e25101f8531b1207d607597d3b87d7c65b990fb97d918c0dbddcf16f5f713f7f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aOcelot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_OCELOT_PANTHER",
+      "name": "Panther Ocelot Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Ocelot/PET_SKIN_OCELOT_PANTHER_DAY/4d1d1f17b06b778e09ea911f90564608da943eca3df4c171a160444a9f73107e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aOcelot§7 pets.\n\n§aThis skin is animated, and adapts to\n§athe day-night cycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 10,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Ocelot/PET_SKIN_OCELOT_PANTHER_DAY/4d1d1f17b06b778e09ea911f90564608da943eca3df4c171a160444a9f73107e.png",
+            "/assets/pets/skins/animated_skins/Ocelot/PET_SKIN_OCELOT_PANTHER_DAY/dd8d64f7def87dd7cbf0eb2609b835af7ce5d2fe1f3be5bb33a91e1e5320e14e.png",
+            "/assets/pets/skins/animated_skins/Ocelot/PET_SKIN_OCELOT_PANTHER_DAY/400bfb2f94680d2585eb0c890ec2c5ca47903ee6382a56e280b785191e4a0a80.png"
+          ]
+        },
+        "night": {
+          "ticks": 10,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Ocelot/PET_SKIN_OCELOT_PANTHER_NIGHT/98bf21293ba112d9e773d0a7c73e5855eb92ebec1144fcf5c8af336bee6b66a8.png",
+            "/assets/pets/skins/animated_skins/Ocelot/PET_SKIN_OCELOT_PANTHER_NIGHT/8846fe61dca8c75b69f57424c3133c61c4b1feebd595d9e7efa61ec7720b69a3.png",
+            "/assets/pets/skins/animated_skins/Ocelot/PET_SKIN_OCELOT_PANTHER_NIGHT/8779dbc30b8f00ad26b14b517f3e002d334aa501b5696737f09bc344cfdcfb5e.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_OCELOT_RACOON",
+      "name": "Racoon Ocelot Skin",
+      "texturePath": "/assets/pets/skins/Ocelot/235244dfe380ed17ad88dc8be4f84dea24b55c361a6a23dc99198b1432f6161e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aOcelot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_OCELOT_RED_PANDA",
+      "name": "Red Panda Ocelot Skin",
+      "texturePath": "/assets/pets/skins/Ocelot/5e17cea0feed8bd422974a6dbc123a7103bdd119f374c880d5e0d9c5b4515535.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aOcelot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_OCELOT_SNOW_TIGER",
+      "name": "Snow Tiger Ocelot Skin",
+      "texturePath": "/assets/pets/skins/Ocelot/496499b99c88314b1459fc5b515c477b069bf2229a2833abb2e1ff20b5f29457.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aOcelot§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

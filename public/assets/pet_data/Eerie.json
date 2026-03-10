@@ -1,0 +1,32 @@
+{
+  "name": "§6Eerie",
+  "type": "EERIE",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§8Edition: #???\n\n§7Intelligence: §b50\n§7Speed: §f10\n\n§6Fearnesy\n§5Fear §7from §5Great Spook Armor §7in\n§7your §bwardrobe §7applies to you, even\n§7if you aren't wearing it.\n\n§6Fearama\n§7Increases §cdamage §7dealt to Primal\n§7Fears and Spooky Mobs by §a0.4% §7for\n§7every §5Fear §7you have.\n\n§6Fearcreasing\n§7Gives §a+? §5Fear §7for every §a10 §cPrimal\n§cFears §7killed, up to §a150 §cPrimal Fears§7.\n§cPrimal Fear Kills§7: (§a§k111§7/§a150§7)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8§l* §8Soulbound §8§l*\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Eerie_Pet",
+    "https://wiki.hypixel.net/Eerie_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "EERIE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Eerie/c3af70c6ff76ba48f24ee8a2063a5b50bbfabf409f4795248a292f8289f47c98.png",
+      "lore": "§8Combat Pet\n\n§7§8Edition: #???\n\n§7Intelligence: §b50\n§7Speed: §f10\n\n§6Fearnesy\n§7§7§5Fear §7from §5Great Spook\n§5Armor §7in your §bwardrobe\n§b§7applies to you, even if you\n§7aren't wearing it.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§8§l* §8Soulbound §8§l*\n§f§lCOMMON"
+    },
+    {
+      "id": "EERIE;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Eerie/c3af70c6ff76ba48f24ee8a2063a5b50bbfabf409f4795248a292f8289f47c98.png",
+      "lore": "§8Combat Pet\n\n§7§8Edition: #???\n\n§7Intelligence: §b50\n§7Speed: §f10\n\n§6Fearnesy\n§7§7§5Fear §7from §5Great Spook\n§5Armor §7in your §bwardrobe\n§b§7applies to you, even if you\n§7aren't wearing it.\n\n§6Fearama §8Edition #???\n§7§7§7Increases §cdamage §7dealt\n§7to Primal Fears and Spooky Mobs\n§7by §a? §7for every §5Fear §7you\n§7have.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§8§l* §8Soulbound §8§l*\n§9§lRARE"
+    },
+    {
+      "id": "EERIE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Eerie/c3af70c6ff76ba48f24ee8a2063a5b50bbfabf409f4795248a292f8289f47c98.png",
+      "lore": "§8Combat Pet\n\n§8Edition: #???\n\n§7Intelligence: §b50\n§7Speed: §f10\n\n§6Fearnesy\n§5Fear §7from §5Great Spook Armor §7in\n§7your §bwardrobe §7applies to you, even\n§7if you aren't wearing it.\n\n§6Fearama\n§7Increases §cdamage §7dealt to Primal\n§7Fears and Spooky Mobs by §a0.4% §7for\n§7every §5Fear §7you have.\n\n§6Fearcreasing\n§7Gives §a+? §5Fear §7for every §a10 §cPrimal\n§cFears §7killed, up to §a150 §cPrimal Fears§7.\n§cPrimal Fear Kills§7: (§a§k111§7/§a150§7)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8§l* §8Soulbound §8§l*\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": []
+}

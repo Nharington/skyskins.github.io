@@ -1,0 +1,35 @@
+{
+  "name": "§6Owl",
+  "type": "OWL",
+  "category": "Pet",
+  "description": "§8Taming Pet\n\n§6Training Refunds\n§7The more coins you spend on Fann's\n§7Sessions, the less coins they will\n§7cost in the future. §8(Max 5% off).\n\n§7Next Milestone: §61% off\n§f§l§m                    §r §60§e/§61M\n\n§6Efficient Trainer\n§7Makes training sessions at Fann\n§7more efficient when added into a\n§7session.\n\n§7Increased EXP: §b+10% EXP\n\n§6Fast Learner\n§7Passively grants §3+4.55☯ Taming\n§3Wisdom§7.\n\n§8This pet's perks are active even\n§8when the pet is not summoned!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Owl_Pet",
+    "https://wiki.hypixel.net/Owl_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "OWL;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Owl/da3216da54e7368fb40b721239ad95e07ef4f97d93f1c42ff319bab9a53882af.png",
+      "lore": "§8Taming Pet\n\n§6Training Refunds\n§7The more coins you spend on Fann's\n§7Sessions, the less coins they will\n§7cost in the future. §8(Max 5% off).\n\n§7Next Milestone: §61% off\n§f§l§m                    §r §60§e/§61M\n\n§6Efficient Trainer\n§7Makes training sessions at Fann\n§7more efficient when added into a\n§7session.\n\n§7Increased EXP: §b+10% EXP\n\n§6Fast Learner\n§7Passively grants §3+4.55☯ Taming\n§3Wisdom§7.\n\n§8This pet's perks are active even\n§8when the pet is not summoned!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_GRIFFIN_PEAFOWL",
+      "name": "Peafowl Griffin Skin",
+      "texturePath": "/assets/pets/skins/Owl/b5fcf1e20bc09681e246978a4f3ac04d74a9d7a5ef9b87617b2d458cfbf79406.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGriffin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SNOW_OWL",
+      "name": "Snow Owl Skin",
+      "texturePath": "/assets/pets/skins/Owl/93fb62c7e76c5c0aeff358737570d90e6ce9499bd47b3697e69ac02f29afba86.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aOwl\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

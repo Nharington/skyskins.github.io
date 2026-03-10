@@ -1,0 +1,112 @@
+{
+  "name": "§6Skeleton",
+  "type": "SKELETON",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Crit Chance: §915%\n§7Crit Damage: §930%\n\n§6Bone Arrows\n§7Increase arrow damage by §a20%\n§7which is doubled while in dungeons\n\n§6Combo\n§7Gain a combo stack for every bow hit\n§7granting +§a3 §c❁ Strength§7. Max §a20\n§7stacks, stacks disappear after 8\n§7seconds.\n\n§6Skeletal Defense\n§7Your skeleton shoots an arrow\n§7dealing §a30x §7your §9☠ Crit Damage\n§7when a mob gets close to you (5s\n§7cooldown).\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Pet",
+    "https://wiki.hypixel.net/Skeleton_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 50000,
+      "time": 1800,
+      "input": "SKELETON;3",
+      "output": "SKELETON;4",
+      "items": [
+        "ENCHANTED_BONE:32"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SKELETON;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Skeleton/fca445749251bdd898fb83f667844e38a1dff79a1529f79a42447a0599310ea4.png",
+      "lore": "§8Combat Pet\n\n§7Crit Chance: §915%\n§7Crit Damage: §930%\n\n§6Bone Arrows\n§7Increase arrow damage by §a10%\n§7which is doubled while in dungeons\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "SKELETON;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Skeleton/fca445749251bdd898fb83f667844e38a1dff79a1529f79a42447a0599310ea4.png",
+      "lore": "§8Combat Pet\n\n§7Crit Chance: §915%\n§7Crit Damage: §930%\n\n§6Bone Arrows\n§7Increase arrow damage by §a15%\n§7which is doubled while in dungeons\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "SKELETON;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Skeleton/fca445749251bdd898fb83f667844e38a1dff79a1529f79a42447a0599310ea4.png",
+      "lore": "§8Combat Pet\n\n§7Crit Chance: §915%\n§7Crit Damage: §930%\n\n§6Bone Arrows\n§7Increase arrow damage by §a15%\n§7which is doubled while in dungeons\n\n§6Combo\n§7Gain a combo stack for every bow hit\n§7granting +§a3 §c❁ Strength§7. Max §a15\n§7stacks, stacks disappear after 8\n§7seconds.\n\n§7§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "SKELETON;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Skeleton/fca445749251bdd898fb83f667844e38a1dff79a1529f79a42447a0599310ea4.png",
+      "lore": "§8Combat Pet\n\n§7Crit Chance: §915%\n§7Crit Damage: §930%\n\n§6Bone Arrows\n§7Increase arrow damage by §a20%\n§7which is doubled while in dungeons\n\n§6Combo\n§7Gain a combo stack for every bow hit\n§7granting +§a3 §c❁ Strength§7. Max §a17\n§7stacks, stacks disappear after 8\n§7seconds.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "SKELETON;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Skeleton/fca445749251bdd898fb83f667844e38a1dff79a1529f79a42447a0599310ea4.png",
+      "lore": "§8Combat Pet\n\n§7Crit Chance: §915%\n§7Crit Damage: §930%\n\n§6Bone Arrows\n§7Increase arrow damage by §a20%\n§7which is doubled while in dungeons\n\n§6Combo\n§7Gain a combo stack for every bow hit\n§7granting +§a3 §c❁ Strength§7. Max §a20\n§7stacks, stacks disappear after 8\n§7seconds.\n\n§6Skeletal Defense\n§7Your skeleton shoots an arrow\n§7dealing §a30x §7your §9☠ Crit Damage\n§7when a mob gets close to you (5s\n§7cooldown).\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_HORSE_ZOMBIE",
+      "name": "Zombie Skeleton Horse Skin",
+      "texturePath": "/assets/pets/skins/Skeleton/578211e1b4d99d1c7bfda4838e48fc884c3eae376f58d932bc2f78b0a919f8e7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSkeleton Horse§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SKELETON_PEARL",
+      "name": "Pearl Skeleton Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Skeleton/PET_SKIN_SKELETON_PEARL_DAY/ac761ee16930126f751cdcb09f25e871f1c42869150b80e5344ba5413dbd752d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSkeleton§7 pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Skeleton/PET_SKIN_SKELETON_PEARL_DAY/ac761ee16930126f751cdcb09f25e871f1c42869150b80e5344ba5413dbd752d.png"
+          ]
+        },
+        "night": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Skeleton/PET_SKIN_SKELETON_PEARL_NIGHT/b45703577e20e8c9997744551501dc15789bcdf69e83cf7a3859939d39e2080d.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_SKELETON_SANTA",
+      "name": "Santa Skeleton Skin",
+      "texturePath": "/assets/pets/skins/Skeleton/6a2e0c7a4253d83c325a21ec41623822f29d078f604b2db54f6ff88cca2fc53a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSkeleton§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WITHER",
+      "name": "Dark Wither Skeleton Skin",
+      "texturePath": "/assets/pets/skins/Skeleton/224c2d14a0219af5ccfcaa36e8a333e271724ed61276611f9529e16c10273a0d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aWither Skeleton§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WITHER_SKELETON_DESPAIR",
+      "name": "Despair Wither Skeleton Skin",
+      "texturePath": "/assets/pets/skins/Skeleton/1313d726827091c019e1effcc23aea5e5b9ecd8c05b71269d8eb8533fc82853a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aWither Skeleton§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WITHER_SKELETON_JACK_O_LANTERN",
+      "name": "Jack O' Lantern Wither Skeleton Skin",
+      "texturePath": "/assets/pets/skins/Skeleton/a319bae96051fa93b4e0b4a4d0d6db81d0476d6b7fcbb981703891e5c801a8d3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aWither Skeleton§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

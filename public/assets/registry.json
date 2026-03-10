@@ -1,0 +1,1480 @@
+{
+  "Ammonite": {
+    "name": "§6Ammonite",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 7
+  },
+  "Ankylosaurus": {
+    "name": "§6Ankylosaurus",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Armadillo": {
+    "name": "§dArmadillo",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 4
+  },
+  "Baby_Yeti": {
+    "name": "§6Baby Yeti",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 6
+  },
+  "Bal": {
+    "name": "§6Bal",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 5
+  },
+  "Bat": {
+    "name": "§dBat",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 4
+  },
+  "Bee": {
+    "name": "§6Bee",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 12
+  },
+  "Bingo": {
+    "name": "§dBingo",
+    "category": "All",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Black_Cat": {
+    "name": "§dBlack Cat",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 7
+  },
+  "Blaze": {
+    "name": "§6Blaze",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Blue_Whale": {
+    "name": "§6Blue Whale",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 4
+  },
+  "Chicken": {
+    "name": "§6Chicken",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 10
+  },
+  "Crow": {
+    "name": "§6Crow",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Dolphin": {
+    "name": "§6Dolphin",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 6
+  },
+  "Eerie": {
+    "name": "§6Eerie",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Elephant": {
+    "name": "§6Elephant",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 17
+  },
+  "Enderman": {
+    "name": "§dEnderman",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 9
+  },
+  "Endermite": {
+    "name": "§dEndermite",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Ender_Dragon": {
+    "name": "§6Ender Dragon",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 10
+  },
+  "Flying_Fish": {
+    "name": "§dFlying Fish",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Frog": {
+    "name": "§6Frog",
+    "category": "Foraging",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Ghoul": {
+    "name": "§6Ghoul",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Giraffe": {
+    "name": "§6Giraffe",
+    "category": "Foraging",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 4
+  },
+  "Glacite_Golem": {
+    "name": "§6Glacite Golem",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Goblin": {
+    "name": "§6Goblin",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 4
+  },
+  "Golden_Dragon": {
+    "name": "§6Golden Dragon",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Golem": {
+    "name": "§6Golem",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 9
+  },
+  "Grandma_Wolf": {
+    "name": "§6Grandma Wolf",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Griffin": {
+    "name": "§dGriffin",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 4
+  },
+  "Guardian": {
+    "name": "§dGuardian",
+    "category": "Enchanting",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Hedgehog": {
+    "name": "§6Hedgehog",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 5
+  },
+  "Hermit_Crab": {
+    "name": "§dHermit Crab",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Horse": {
+    "name": "§6Horse",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Hound": {
+    "name": "§6Hound",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Jade_Dragon": {
+    "name": "§6Jade Dragon",
+    "category": "Foraging",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Jellyfish": {
+    "name": "§6Jellyfish",
+    "category": "Alchemy",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Jerry": {
+    "name": "§dJerry",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 7
+  },
+  "Kuudra": {
+    "name": "§6Kuudra",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Lion": {
+    "name": "§6Lion",
+    "category": "Foraging",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 7
+  },
+  "Magma_Cube": {
+    "name": "§6Magma Cube",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Mammoth": {
+    "name": "§6Mammoth",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Megalodon": {
+    "name": "§6Megalodon",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Mithril_Golem": {
+    "name": "§dMithril Golem",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Mole": {
+    "name": "§6Mole",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Monkey": {
+    "name": "§6Monkey",
+    "category": "Foraging",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 9
+  },
+  "Mooshroom_Cow": {
+    "name": "§6Mooshroom Cow",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 5
+  },
+  "Mosquito": {
+    "name": "§6Mosquito",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Ocelot": {
+    "name": "§6Ocelot",
+    "category": "Foraging",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 5
+  },
+  "Owl": {
+    "name": "§6Owl",
+    "category": "Pet",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Parrot": {
+    "name": "§6Parrot",
+    "category": "Alchemy",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 5
+  },
+  "Penguin": {
+    "name": "§6Penguin",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Phoenix": {
+    "name": "§6Phoenix",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Pig": {
+    "name": "§6Pig",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Pigman": {
+    "name": "§6Pigman",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Precursor_Drone": {
+    "name": "§fPrecursor Drone",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Rabbit": {
+    "name": "§dRabbit",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 8
+  },
+  "Rat": {
+    "name": "§dRat",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 15
+  },
+  "Reindeer": {
+    "name": "§6Reindeer",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 5
+  },
+  "Rift_Ferret": {
+    "name": "§5Rift Ferret",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Rock": {
+    "name": "§6Rock",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 12
+  },
+  "Rose_Dragon": {
+    "name": "§6Rose Dragon",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Scatha": {
+    "name": "§6Scatha",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 6
+  },
+  "Seal": {
+    "name": "§6Seal",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Sheep": {
+    "name": "§6Sheep",
+    "category": "Alchemy",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 27
+  },
+  "Silverfish": {
+    "name": "§6Silverfish",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Skeleton": {
+    "name": "§6Skeleton",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 6
+  },
+  "Skeleton_Horse": {
+    "name": "§6Skeleton Horse",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Slug": {
+    "name": "§6Slug",
+    "category": "Farming",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 4
+  },
+  "Snail": {
+    "name": "§6Snail",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Snowman": {
+    "name": "§dSnowman",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 4
+  },
+  "Spider": {
+    "name": "§dSpider",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Spinosaurus": {
+    "name": "§6Spinosaurus",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Spirit": {
+    "name": "§6Spirit",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 10
+  },
+  "Squid": {
+    "name": "§6Squid",
+    "category": "Fishing",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "T-Rex": {
+    "name": "§6T-Rex",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Tarantula": {
+    "name": "§dTarantula",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      },
+      {
+        "name": "Mythic"
+      }
+    ],
+    "variantsCount": 2
+  },
+  "Tiger": {
+    "name": "§6Tiger",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 9
+  },
+  "Turtle": {
+    "name": "§6Turtle",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Wisp": {
+    "name": "§6Subzero Wisp",
+    "category": "Pet",
+    "rarities": [
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 1
+  },
+  "Witch": {
+    "name": "§6Witch",
+    "category": "Alchemy",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 0
+  },
+  "Wither_Skeleton": {
+    "name": "§6Wither Skeleton",
+    "category": "Mining",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 3
+  },
+  "Wolf": {
+    "name": "§6Wolf",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 9
+  },
+  "Zombie": {
+    "name": "§6Zombie",
+    "category": "Combat",
+    "rarities": [
+      {
+        "name": "Common"
+      },
+      {
+        "name": "Uncommon"
+      },
+      {
+        "name": "Rare"
+      },
+      {
+        "name": "Epic"
+      },
+      {
+        "name": "Legendary"
+      }
+    ],
+    "variantsCount": 4
+  }
+}

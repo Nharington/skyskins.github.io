@@ -1,0 +1,182 @@
+{
+  "name": "§6Golem",
+  "type": "GOLEM",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Health: §c150\n§7Strength: §c50\n§7Swing Range: §e[Swing Range]\n\n§6Last Stand\n§7While at less than §a20% HP§7, reduce\n§7incoming damage by §a20%§7. Additionally,\n§7gain a temporary shield equal to §a40%\n§7of your maximum health and deal §a40%\n§7more damage.\n§8(Lasts 12s, 60s cooldown)\n\n§6Ricochet\n§7Your iron plating causes §a25% §7of\n§7attacks to ricochet and hit the\n§7attacker\n\n§6Toss\n§7Every 5 hits, throw the enemy up into\n§7the air and deal §a5x §7damage §8(5s\n§8cooldown)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Golem_Pet",
+    "https://wiki.hypixel.net/Golem_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 10000000,
+      "time": 1728000,
+      "input": "GOLEM;3",
+      "output": "GOLEM;4",
+      "items": [
+        "ENCHANTED_IRON_BLOCK:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "GOLEM;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Golem/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c150\n§7Strength: §c50\n§7Swing Range: §e[Swing Range]\n\n§6Last Stand\n§7While at less than §a20% HP§7, reduce\n§7incoming damage by §a20%§7. Additionally,\n§7gain a temporary shield equal to §a40%\n§7of your maximum health and deal §a40%\n§7more damage.\n§8(Lasts 12s, 60s cooldown)\n\n§6Ricochet\n§7Your iron plating causes §a25% §7of\n§7attacks to ricochet and hit the\n§7attacker\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "GOLEM;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Golem/89091d79ea0f59ef7ef94d7bba6e5f17f2f7d4572c44f90f76c4819a714.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c150\n§7Strength: §c50\n§7Swing Range: §e[Swing Range]\n\n§6Last Stand\n§7While at less than §a20% HP§7, reduce\n§7incoming damage by §a20%§7. Additionally,\n§7gain a temporary shield equal to §a40%\n§7of your maximum health and deal §a40%\n§7more damage.\n§8(Lasts 12s, 60s cooldown)\n\n§6Ricochet\n§7Your iron plating causes §a25% §7of\n§7attacks to ricochet and hit the\n§7attacker\n\n§6Toss\n§7Every 5 hits, throw the enemy up into\n§7the air and deal §a5x §7damage §8(5s\n§8cooldown)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_GLACITE_GOLEM_CAVERN",
+      "name": "Cavern Glacite Golem Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/a1b8458bf009ad36601299cef604e45d8dc68e7f455931c9f3c79bf6bcc0d29f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGlacite Golem§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/a1b8458bf009ad36601299cef604e45d8dc68e7f455931c9f3c79bf6bcc0d29f.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/da2836d75176e665db7f162e00fa560a13624afcfdf27f8d9facf7ef206cb810.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/2816c92b3198d900279e07070482e8a6c742e95099f3e8fbb1ed2aa4ed3aca12.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/e8452d6f5037548857ee0209dd78ce000d5ccbdd83881ef3074c1f767b3f649d.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/ede63d083061693bd68156bbe92a1a07e5a68279ed77cd63377c0f4789879bad.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/2c0ce7faede96d4e0ba41cdd1e60e6a3ded125655de070701021218ff23443e3.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/40673c32d18ee07e7d416dd27bf69010b34fbc2a9fb6b96e606a3a17833a4da.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/8864fa12496220c774179a26ff1a7f29487dfae10f566ba3fe5204cefdee07ae.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/86a503f6b10746fcec8b90db8e01797ce3146765703cffffb1a7700c45a61149.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/d3dfb211fffac417a00e80c34f557fb762bead2212d5c25ff842ffa88a246c0.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/541fdf89b7765e7cc897bbc3a24fb1870222c9df8ae6be60171b711174b1240f.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/ba6990f8d7bba3c02fb727d8679b88eb61d6ac861656193fafcd6bf4c48098ce.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/26e5ffe295f4bec58af203d492a86ac0ce84ec3972338e17365b9fc31bcaaf7f.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/76c872d9ecd04162e90b17e7e5dff68c6453872d7690c7b0eb5fb37bfef644c6.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/db8dfaf9e492ad60e6bcd3887d2347e002b3b4b5716859934780c83b21a67b9f.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/9d6edc5ab39d0494d57ab2a03b0a51bbe4be30e24e721536359274f4dce03fa8.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/3c6b77e579faafd9bcb11965a58fa9f291b0ac05d3eaa4ff2c46dc126199e16b.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/a443f6ae36694830a4b6e50d1a86e9d3c1618807c1a2f6dd282960b9bab37f1f.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/841b17bacdaef4b62c1e847eadb17ed7ae467c8da8777d3ff156a541b691ca7.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/35ca15c0a6ffa0ca4ae05f084beef8ffa6481926d777e10c37d86e4cb3b88861.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/f5247d26aef05e7b28742a6bad4b517a21896f4425cedc234193443d90affdc2.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/f1b9bf30d78a56adb008e6a714c567f651393cfa88a98060eef8406385e95646.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/e69ff6c5fa415c429f91612c1e4da3c624a9ead421149adeb4d1a88833d18ee7.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/63d2f596b7b7d244b384c546861866d6997fe4b04f96cb9bcf7b7b524d303a20.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/80766589063b554e694d7945f55bc99caac4f5ef185ea097ca74b6abf82e4b66.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/84ebc952a530d6410182f1e402caadbeaefc7c9e8b735d9a92b1635ed8336938.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/e5baec5fe33e9ec3c47316cecb0cd1f41e6c038137f8aeb5b40ec68f36899d9e.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/e3fba5748620b180fca3e96eba679529fac4dbd4fdff9cefbd1f57ee25bb2938.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/3307765527fad2ca0a3c452251581cafc67ee8eea31394b18d2406584af36a34.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/f72e7f7f5d0b744db028f97383e6bfe1b652a54248da9bf1663422b89f08a300.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/a49b6dd1f95ef0fb0530419f782021117fa8a94c1819bcb566b58205b3682d.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/461077dcfb4255c1a965aae63320271dd6f6bca4e95d096a384198b001b62894.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/b7bca9455a15f66ca3aa99f683d1a9bb6c2bb11fbca102553ddd4b9b671cd0de.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/ba39d28aa21b8b49471e8c046fbbd30b475484324f198bbda47b3ca6e83ce5bd.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/22555e868cbf213b2da36b357941b47229960823a9bfb76f74c5ae32ab55cf06.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/c014499bc4b5dace1718be0850d6bb18b16917df3738b897351102ea8b4f771a.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_GLACITE_GOLEM_CRYSTAL",
+      "name": "Crystal Glacite Golem Skin",
+      "texturePath": "/assets/pets/skins/Golem/5a5126c06fa4e219527e4055cf9a0df4b7e3bf9ccdfe277ae0fadd6f611f88e6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGlacite Golem§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 12 crystallized golems!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GLACITE_GOLEM_MOLTEN",
+      "name": "Molten Glacite Golem Skin",
+      "texturePath": "/assets/pets/skins/Golem/9114dbd2b0ccf7244b3fcc25ef4cdcc0a560a428e993d4e7a28db3ddab3f8ee9.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGlacite Golem§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GOLEM_END",
+      "name": "End Golem Skin",
+      "texturePath": "/assets/pets/skins/Golem/6d06e06364fdd76f524dcd48c22c743068604bde889614aaac6188b9a09b6037.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGolem§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_IRON_GOLEM_CLAY",
+      "name": "Clay Golem Skin",
+      "texturePath": "/assets/pets/skins/Golem/d34ea620a6feaff32f31be0b9f3dfc227209d4c77bdbbde9630d548643e01b51.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGolem§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MITHRIL_GOLEM_CHERRY_BLOSSOM",
+      "name": "Cherry Blossom Mithril Golem Skin",
+      "texturePath": "/assets/pets/skins/Golem/8d8e9ab5c4c8ed7a9308fb68b0cb40cdae0cedc58eff21cf00b560a60365d6d5.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMithril Golem§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MITHRIL_GOLEM_COPPER",
+      "name": "Copper Mithril Golem Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/6d2c2323de1c16b7dc8c1f0605aef2c91c2cafe754e8cdaed94393ae6b8c877b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Mithril Golem pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/6d2c2323de1c16b7dc8c1f0605aef2c91c2cafe754e8cdaed94393ae6b8c877b.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/cf6bb8acef2c01bc377c439d1d51d6ebc429436184f1bc4decb743fa3feba63e.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/223d3f87b8c7eaa38fdc14b52726380e07d76003e4888b6e670ba4cbb66546dc.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/ee74e4e9d7f7d3f7bcad1fc35fcc78d46c2c1e36eaa7c6bff2a0a0982b03516d.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/2bb21b4c8af8e92b59d7c44750fea24744f0b60d11dd75d3b7e21b7c04c5c22b.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/d164bd5f89555e734fb64951f0bb0159f759a25b589a9672420fd1f0b386d38c.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/8a9ba42842291d108b89b6dae2637a734a9b3e71eb5701b29755f1af7a913a22.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/2376cf9d45cf569045a6990fb9b21dfb84998e6ffdf9af5b8d60feb3621178ec.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/4aab4d4086f5a07cdeceb337d840d55aaed65f8963d3ac50342a0df1995e3154.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/f3dd93eae83cbbe833cf8fe167aa7e81c8855dc6d3eb5965ff3e93b5dfead2cd.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/48e3781be0e2254910097e175e0963612477d1e79fe99bb2791ad59fd2aefab6.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/61c77636aeb4ea3bbdd6caff169935895f7432fc1850c8ed456d45e9bcc19181.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/47a0373828243d1e0b5c50bd874fda58e4c830c2601e812aa006aacd2fbcb41b.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/117edf3946ff7e8a6533a17560fcbe8037f0d5002831513f9f4324e85b22a9f4.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/8c4fff8a39feb63a4affbe8e2fb83ed7c312868079cc3db2251276255a1f2be6.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/52d57da23d494fc452c5b0b75b87ee22ebc72aba97a6d1d5b22f5b0ae43363c6.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/ad05a0338450b86e2439387e3796589e5126acf3048a7f6eba625fe30d62cb55.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/1acaca8cfc1d8b9515f23f21c1ded2b0f83bd50133a750ff217882d33f4c2b10.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/d06c337fb48deb4b1af4fccf8158b52585af47570871f4ffe5ec77c7a3eba923.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/4d27dfbe777a41a0054f9f5f432f938a90bc46aaa0298f5bcc2f73ba4dccbc34.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/50a6e4e43ec1f802776ce15232f37607597c4b966eec56c30d745878493b79ea.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/42aa3710362003eda49c0364df9ff3ff1f3443755a2826b38323dac336613b37.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/bdc264745689b75ff1ce396479fde465f3a622ab1e9e013a3e448682ad9095b2.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/9376837bda8d226048384d8a794e2849b9e4a90b43b93e7fc086f29f7292a4be.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/3cc2cdc3f5d6cace21ea290497b49de618d474adeebc995fd0e582a7a44dc9fb.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/2685a772b8aa69079ae356aca81ae703010a1464d62660d482032bc331c2d5a1.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/6d9f6e250fd81cb5b315798faa196277eb4641a033aac8ea380e0a3e7370fa24.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/4ea6c39b2dcf8136369f408f8f5a8ece19dbc261c3bf643023eadce6088df1fa.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/da733c042f034293d1ae3d7ddcaf5f177ef638f70eba11848e400544814ce581.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/deb4e65a88cd09f82472df77a88da3982d2206a7e00c604ac96b16362b904460.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/29cea30323ad1ed3ba5d475c65b0987eb247d07516da66251e0a1d93e159b5ef.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/b641f8b72552ec4b05f31e3c69e0f32f0fee8eb37f2973dfeef690996e36bfbf.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/77519139ab0e77e8a23e9e748edadb7d5c2644ebbb92ed58d860c7374fbe74a3.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/58cd81131f66eab956238e382531503902b0da94d1950a8bcc23bd8331618f17.png",
+          "/assets/pets/skins/animated_skins/Golem/PET_SKIN_MITHRIL_GOLEM_COPPER/ca46378c49c7be333b1944f5d623dcfe671098254b4769843bdbc5718b918905.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_MITHRIL_GOLEM_CRYSTAL",
+      "name": "Crystal Mithril Golem Skin",
+      "texturePath": "/assets/pets/skins/Golem/a20aa3dfd94a622bbe4facf0b19e6dbb07636e7762ade427ccaa2f94a075326c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Mithril Golem pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SNOWMAN_ICE_GOLEM",
+      "name": "Ice Golem Snowman Skin",
+      "texturePath": "/assets/pets/skins/Golem/69736cfd666c4237e910892d8974889e199c2d59b7d006dcaa01b6241393fe23.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSnowman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

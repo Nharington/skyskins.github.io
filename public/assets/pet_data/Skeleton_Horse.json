@@ -1,0 +1,28 @@
+{
+  "name": "§6Skeleton Horse",
+  "type": "SKELETON_HORSE",
+  "category": "Combat",
+  "description": "§8Combat Mount\n\n§7Run around town on your scary, yet\n§7trusty, steed!\n\n§7Intelligence: §b100\n§7Speed: §f50\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Run\n§7Increases the speed of your mount\n§7by §a150%§7.\n\n§6Ride Into Battle\n§7While riding your horse, gain +§a40%\n§7bow damage.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Skeleton_Horse_Pet",
+    "https://wiki.hypixel.net/Skeleton_Horse_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "SKELETON_HORSE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Skeleton_Horse/7ca9d8c4428e15fdc1f03c28afed48ebec1cea30b3e09a812a9768f0279c5c.png",
+      "lore": "§8Combat Mount\n\n§7Run around town on your scary, yet\n§7trusty, steed!\n\n§7Intelligence: §b100\n§7Speed: §f50\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Run\n§7Increases the speed of your mount\n§7by §a150%§7.\n\n§6Ride Into Battle\n§7While riding your horse, gain +§a40%\n§7bow damage.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_HORSE_ZOMBIE",
+      "name": "Zombie Skeleton Horse Skin",
+      "texturePath": "/assets/pets/skins/Skeleton_Horse/578211e1b4d99d1c7bfda4838e48fc884c3eae376f58d932bc2f78b0a919f8e7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSkeleton Horse§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

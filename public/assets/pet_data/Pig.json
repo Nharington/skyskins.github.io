@@ -1,0 +1,77 @@
+{
+  "name": "§6Pig",
+  "type": "PIG",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Speed: §f25\n§7Potato Fortune: §6[Potato Fortune]\n\n§6Hamfisted\n§7Increases §6Coin§7 gain from §6Shiny Pigs\n§7by §a50%§7.\n\n§6Shining Stampede\n§7Grants §6+50%☘ Potato Fortune§7 per\n§6Shiny Pig§7 §3Bestiary§7 tier.\n\n§6Pig Parade\n§7Increases the base stats of this pet\n§7by §a?%§7 during the §dYear of the Pig§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pig_Pet",
+    "https://wiki.hypixel.net/Pig_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 10000,
+      "time": 45,
+      "input": "PIG;3",
+      "output": "PIG;4",
+      "items": [
+        "ENCHANTED_PORK:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "PIG;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Pig/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f25\n§7Potato Fortune: §6[Potato Fortune]\n\n§6Hamfisted\n§7Increases §6Coin§7 gain from §6Shiny Pigs\n§7by §a30%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "PIG;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Pig/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4.png",
+      "lore": "§8Farming Mount\n\n§7Speed: §f25\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Run\n§7Increases the speed of your mount\n§7by §a40%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "PIG;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Pig/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4.png",
+      "lore": "§8Farming Mount\n\n§7Speed: §f25\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Run\n§7Increases the speed of your mount\n§7by §a40%§7.\n\n§6Sprint\n§7While holding an §aEnchanted Carrot on\n§aa Stick§7, increases the speed of your\n§7mount by §a40%\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "PIG;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Pig/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f25\n§7Potato Fortune: §6[Potato Fortune]\n\n§6Hamfisted\n§7Increases §6Coin§7 gain from §6Shiny Pigs\n§7by §a50%§7.\n\n§6Shining Stampede\n§7Grants §6+50%☘ Potato Fortune§7 per\n§6Shiny Pig§7 §3Bestiary§7 tier.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "PIG;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Pig/621668ef7cb79dd9c22ce3d1f3f4cb6e2559893b6df4a469514e667c16aa4.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f25\n§7Potato Fortune: §6[Potato Fortune]\n\n§6Hamfisted\n§7Increases §6Coin§7 gain from §6Shiny Pigs\n§7by §a50%§7.\n\n§6Shining Stampede\n§7Grants §6+50%☘ Potato Fortune§7 per\n§6Shiny Pig§7 §3Bestiary§7 tier.\n\n§6Pig Parade\n§7Increases the base stats of this pet\n§7by §a?%§7 during the §dYear of the Pig§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_PIGMAN_BBQ",
+      "name": "BBQ Pigman Skin",
+      "texturePath": "/assets/pets/skins/Pig/b63cdd2998c8087e01db1ed6c188ceda2a459d08dec423c4dded19cdc44670a0.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aPigman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PIGMAN_LUNAR_PIG",
+      "name": "Lunar Pig Pigman Skin",
+      "texturePath": "/assets/pets/skins/Pig/8eca4c37ec4cc27e19e3050227f9ea8b18f8c9f1c3a9fbbcf3dca6d6e7e8a679.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Pigman pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PIGMAN_ZODIAC_PIG",
+      "name": "Zodiac Pig Pigman Skin",
+      "texturePath": "/assets/pets/skins/Pig/d42c1132312104add7d565f7c6614faeaaa84ef2aefd8f33657e3b59595a10f3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aPigman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

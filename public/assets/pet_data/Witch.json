@@ -1,0 +1,52 @@
+{
+  "name": "§6Witch",
+  "type": "WITCH",
+  "category": "Alchemy",
+  "description": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Alchemy Wisdom: §3[Alchemy Wisdom]\n\n§6Toil and Trouble\n§7Increases your chance of dropping\n§6Ingredients§7 during the §5Year of the\n§5Witch§7 by §a100%§7.\n\n§6Alchemism\n§7Reduces how long §5Potions§7 take to\n§7brew by §a50%§7.\n\n§6Witching Hour\n§7Increases the base stats of this pet\n§7by §a100%§7 during the §5Year of the Witch§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 500000,
+      "time": 259200,
+      "input": "WITCH;3",
+      "output": "WITCH;4",
+      "items": [
+        "GIANT_WITCH_CAULDRON"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "WITCH;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Witch/baf818b04d6ae98a69ad8d9463d8d0379921d3eb79222e1c6272f65372d80775.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Alchemy Wisdom: §3[Alchemy Wisdom]\n\n§6Toil and Trouble\n§7Increases your chance of dropping\n§6Ingredients§7 during the §5Year of the\n§5Witch§7 by §a50%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "WITCH;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Witch/baf818b04d6ae98a69ad8d9463d8d0379921d3eb79222e1c6272f65372d80775.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Alchemy Wisdom: §3[Alchemy Wisdom]\n\n§6Toil and Trouble\n§7Increases your chance of dropping\n§6Ingredients§7 during the §5Year of the\n§5Witch§7 by §a75%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "WITCH;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Witch/baf818b04d6ae98a69ad8d9463d8d0379921d3eb79222e1c6272f65372d80775.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Alchemy Wisdom: §3[Alchemy Wisdom]\n\n§6Toil and Trouble\n§7Increases your chance of dropping\n§6Ingredients§7 during the §5Year of the\n§5Witch§7 by §a75%§7.\n\n§6Alchemism\n§7Reduces how long §5Potions§7 take to\n§7brew by §a40%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "WITCH;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Witch/baf818b04d6ae98a69ad8d9463d8d0379921d3eb79222e1c6272f65372d80775.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Alchemy Wisdom: §3[Alchemy Wisdom]\n\n§6Toil and Trouble\n§7Increases your chance of dropping\n§6Ingredients§7 during the §5Year of the\n§5Witch§7 by §a100%§7.\n\n§6Alchemism\n§7Reduces how long §5Potions§7 take to\n§7brew by §a50%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "WITCH;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Witch/baf818b04d6ae98a69ad8d9463d8d0379921d3eb79222e1c6272f65372d80775.png",
+      "lore": "§8Alchemy Pet\n\n§7Intelligence: §b100\n§7Alchemy Wisdom: §3[Alchemy Wisdom]\n\n§6Toil and Trouble\n§7Increases your chance of dropping\n§6Ingredients§7 during the §5Year of the\n§5Witch§7 by §a100%§7.\n\n§6Alchemism\n§7Reduces how long §5Potions§7 take to\n§7brew by §a50%§7.\n\n§6Witching Hour\n§7Increases the base stats of this pet\n§7by §a100%§7 during the §5Year of the Witch§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": []
+}

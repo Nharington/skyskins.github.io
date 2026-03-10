@@ -1,0 +1,77 @@
+{
+  "name": "§6Pigman",
+  "type": "PIGMAN",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Defense: §a50\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n\n§6Bacon Farmer\n§7Pig minions work §a30% §7faster while on\n§7your island\n\n§6Pork Master\n§7Buffs the §6Pigman Sword §7by §a40 §c❁\n§cDamage §7and §a25 §c❁ Strength§7.\n\n§6Giant Slayer\n§7Deal §c+50% §7damage to monsters Level\n§a50+§7 and §c+75% §7damage to monsters\n§7Level §a100+§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Pigman_Pet",
+    "https://wiki.hypixel.net/Pigman_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 250000,
+      "time": 43200,
+      "input": "PIGMAN;3",
+      "output": "PIGMAN;4",
+      "items": [
+        "ENCHANTED_PORK:128"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "PIGMAN;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Pigman/d15afad53d1726fae86b3fb11ba01e51112b1055e8e5af8b7df86ef956f1d4a1.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a50\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n\n§6Bacon Farmer\n§7Pig minions work §a10% §7faster while on\n§7your island\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "PIGMAN;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Pigman/d15afad53d1726fae86b3fb11ba01e51112b1055e8e5af8b7df86ef956f1d4a1.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a50\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n\n§6Bacon Farmer\n§7Pig minions work §a20% §7faster while on\n§7your island\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "PIGMAN;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Pigman/d15afad53d1726fae86b3fb11ba01e51112b1055e8e5af8b7df86ef956f1d4a1.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a50\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n\n§6Bacon Farmer\n§7Pig minions work §a20% §7faster while on\n§7your island\n\n§6Pork Master\n§7Buffs the §6Pigman Sword §7by §a30 §c❁\n§cDamage §7and §a15 §c❁ Strength§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "PIGMAN;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Pigman/d15afad53d1726fae86b3fb11ba01e51112b1055e8e5af8b7df86ef956f1d4a1.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a50\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n\n§6Bacon Farmer\n§7Pig minions work §a30% §7faster while on\n§7your island\n\n§6Pork Master\n§7Buffs the §6Pigman Sword §7by §a40 §c❁\n§cDamage §7and §a25 §c❁ Strength§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "PIGMAN;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Pigman/d15afad53d1726fae86b3fb11ba01e51112b1055e8e5af8b7df86ef956f1d4a1.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a50\n§7Strength: §c50\n§7Ferocity: §c[Ferocity]\n\n§6Bacon Farmer\n§7Pig minions work §a30% §7faster while on\n§7your island\n\n§6Pork Master\n§7Buffs the §6Pigman Sword §7by §a40 §c❁\n§cDamage §7and §a25 §c❁ Strength§7.\n\n§6Giant Slayer\n§7Deal §c+50% §7damage to monsters Level\n§a50+§7 and §c+75% §7damage to monsters\n§7Level §a100+§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_PIGMAN_BBQ",
+      "name": "BBQ Pigman Skin",
+      "texturePath": "/assets/pets/skins/Pigman/b63cdd2998c8087e01db1ed6c188ceda2a459d08dec423c4dded19cdc44670a0.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aPigman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PIGMAN_LUNAR_PIG",
+      "name": "Lunar Pig Pigman Skin",
+      "texturePath": "/assets/pets/skins/Pigman/8eca4c37ec4cc27e19e3050227f9ea8b18f8c9f1c3a9fbbcf3dca6d6e7e8a679.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied to\n§7Pigman pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_PIGMAN_ZODIAC_PIG",
+      "name": "Zodiac Pig Pigman Skin",
+      "texturePath": "/assets/pets/skins/Pigman/d42c1132312104add7d565f7c6614faeaaa84ef2aefd8f33657e3b59595a10f3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aPigman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

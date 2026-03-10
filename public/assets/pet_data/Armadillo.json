@@ -1,0 +1,166 @@
+{
+  "name": "§dArmadillo",
+  "type": "ARMADILLO",
+  "category": "Mining",
+  "description": "§8Mining Mount\n\n§7Defense: §a200\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it! Moves faster based on your\n§f✦ Speed§7.\n\n§6Tunneller\n§7While in the §5Crystal Hollows§7, this Pet\n§7breaks all blocks in its path using\n§7your held item.\n\n§6Rolling Miner\n§7Every §a30 §7seconds, the next\n§dGemstone §7you mine gives §a2x §7drops\n\n§6Long Claws\n§7Grants §e+300▚ Mining Spread §7while\n§7mining Hard Stone.\n\n§6Well-Worked\n§7Consumes §a?% §7less energy when\n§7tunneling.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Armadillo_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "ARMADILLO;4",
+      "output": "ARMADILLO;5",
+      "items": [
+        "FROZEN_SCUTE:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "ARMADILLO;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Armadillo/c1eb6df4736ae24dd12a3d00f91e6e3aa7ade6bbefb0978afef2f0f92461018f.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it! Moves faster based on your\n§f✦ Speed§7.\n\n§6Tunneller\n§7While in the §5Crystal Hollows§7, this Pet\n§7breaks all blocks in its path using\n§7your held item.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "ARMADILLO;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Armadillo/c1eb6df4736ae24dd12a3d00f91e6e3aa7ade6bbefb0978afef2f0f92461018f.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it! Moves faster based on your\n§f✦ Speed§7.\n\n§6Tunneller\n§7While in the §5Crystal Hollows§7, this Pet\n§7breaks all blocks in its path using\n§7your held item.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "ARMADILLO;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Armadillo/c1eb6df4736ae24dd12a3d00f91e6e3aa7ade6bbefb0978afef2f0f92461018f.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it! Moves faster based on your\n§f✦ Speed§7.\n\n§6Tunneller\n§7While in the §5Crystal Hollows§7, this Pet\n§7breaks all blocks in its path using\n§7your held item.\n\n§6Rolling Miner\n§7Every §a40 §7seconds, the next\n§dGemstone §7you mine gives §a2x §7drops\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "ARMADILLO;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Armadillo/c1eb6df4736ae24dd12a3d00f91e6e3aa7ade6bbefb0978afef2f0f92461018f.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it! Moves faster based on your\n§f✦ Speed§7.\n\n§6Tunneller\n§7While in the §5Crystal Hollows§7, this Pet\n§7breaks all blocks in its path using\n§7your held item.\n\n§6Rolling Miner\n§7Every §a30 §7seconds, the next\n§dGemstone §7you mine gives §a2x §7drops\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "ARMADILLO;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Armadillo/c1eb6df4736ae24dd12a3d00f91e6e3aa7ade6bbefb0978afef2f0f92461018f.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it! Moves faster based on your\n§f✦ Speed§7.\n\n§6Tunneller\n§7While in the §5Crystal Hollows§7, this Pet\n§7breaks all blocks in its path using\n§7your held item.\n\n§6Rolling Miner\n§7Every §a30 §7seconds, the next\n§dGemstone §7you mine gives §a2x §7drops\n\n§6Long Claws\n§7Grants §e+300▚ Mining Spread §7while\n§7mining Hard Stone.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "ARMADILLO;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Armadillo/c1eb6df4736ae24dd12a3d00f91e6e3aa7ade6bbefb0978afef2f0f92461018f.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it! Moves faster based on your\n§f✦ Speed§7.\n\n§6Tunneller\n§7While in the §5Crystal Hollows§7, this Pet\n§7breaks all blocks in its path using\n§7your held item.\n\n§6Rolling Miner\n§7Every §a? §7seconds, the next\n§dGemstone §7you mine gives §a2x §7drops\n\n§6Long Claws\n§7Grants §e+?▚ Mining Spread §7while\n§7mining Hard Stone.\n\n§6Well-Worked\n§7Consumes §a?% §7less energy when\n§7tunneling.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_ARMADILLO_ARMARON",
+      "name": "Armaron Armadillo Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/cd24b8a9a60fcbbfe7c739ac5f6a2bf32ce2011ba677fc0867167db8cfc385c6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aArmadillo§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/cd24b8a9a60fcbbfe7c739ac5f6a2bf32ce2011ba677fc0867167db8cfc385c6.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/db0ab1f3a502f2c6025a5ede224a6b86f133cf4b3777c79a923ca3258522ecdf.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/99ce3116a09639339474176806a4b10d02dbe6087b100eff8f251a47cae21d95.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/8d17bf213ebe04683694fc6911704623e5e44325866907e238569797d244473a.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/b5084c1bceae5f2a5b9c6ae33e1362f19c26bf5356118f7b14b632e63d813c7a.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/442ad5c60220f003eeb21531b5017bc7990a2ac5ce4046c69b83e98e033f1944.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/8b94b23adf4692bd2f7cdd22cc6e19fd0fd327c474619d8c25ec74d55de67151.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/c6a3514dce484a07c89d1601bc914657c9d933349088ebf5799cc072927caa60.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/dd8484a8bddb4c30d7f9405d2c58e21adaee47414e9532ce8b56959723115fa8.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/e77f8d29e8cc140e5566430c48439739a9db76de2b8a7b942d0b1c2cfe6965cb.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/a6a5d0878801d3ad23b8b3d3711656086273a29b610cc0b025c68603abdb0765.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/7948040b5fc3f070c0f455b678d1a704a2c9d2a669eb02f88ee6cf700b960b1a.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/717faa59c07a9228c0f17745afb5fae42e052629cbc80512c042ad235b875584.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/4661893b017d0fbb1588596517e988d0a00521890f35ccf8baff09f697ac2c71.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/bd77e364389412a7cdfd316491fa7e894438a5ebe9cd663f0e19119c9eb6582a.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/17bd049eade124d8eaada371bd4316e3c2da143dbc2f958fb3d34849bfe67f67.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/1e4b1be7920914d5a2f31e64bc1e0de4516fb2ae7147463ce6db524402c242a9.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/4b69aac54f97701e2526d9867527cd2ec75357207cf9a7d5e1f52584941421bd.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/5521f767aede219be428c99090bd87c9b82c831a3f1c99b4770bcc365f7477d8.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/8256d8a229ac7fd598fada2bc688a443acc9f74e724b51b340143cfa2c3a4a42.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/932bf5553fd1cb84c78a70b70beb9d28742aa1e445df810bd3b8c368a9e1b7ed.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/8135d24ee55da2b667177b36dffed9644bf1bd762b43695cd94344e6c6c8fc1.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/972e903e1781f12aa720d5b3f6702867bc77a0fe1682b32806dcaac29286812.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/443009605a15918d33909f70fe95dec8c01f9f52584383d5605954465fc72644.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/7595483d67a4256645274bea43f124b54b1a1a3b4196be2fd9fe541c0da19551.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/e5047a4eb0f8454a602e2abd56507ff77ac9e602dee67575401e3ac90d345a57.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/b6829c404c7c97998c5b0918af1d5649c122358e921cf087f543284179dfb1e7.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/7bf0fec7bbc6ab97fffe8f4f0412425caba63990adf018906c99a711d8cb66d0.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/1854fc69f09bcf55f3f3028ad9f3183ec36e238cad99fa829073492a2548b42e.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/5a40df8b62e21f68c2eebcf9798b3478627bbe31cb665373c1755955aa19e818.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/ccf6c9a7d98cc42598f24de37d53286cd04424c8af15bb576e4ab4285c1e374e.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/4dd23b15362e512ea0cc1f13a737134ab99b70d79223243ab735c473a24ffd79.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/b340e104f3a3fda6f65f04af6ce7a14b473722c30ca46270ad0b11dcb3e33c70.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ARMARON/ffa3e9e9ec7b4ca83cd8f02d58e5580fc5f27f9770b96918be9eb457e5f99380.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ARMADILLO_ENCHANTED",
+      "name": "Enchanted Armadillo Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/114d39c2dae9f36e60472e11a29ab26500382d662e76ce884c64f7ab146cbddd.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Armadillo pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 4,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/114d39c2dae9f36e60472e11a29ab26500382d662e76ce884c64f7ab146cbddd.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/ebca61d60a8d1251d5d321e4103654a0d675a5f2428a00fae3da0f35987fe40b.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/1c67caaf138fab0b5d6f61639bcfcb678bdf13e6a2d8f3f2fb849fee2d7ffe79.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/8afc26f4cc4e1b7fe1a77cda7e6fc865a9a5c08dbe677a7a6da13a69991c85e7.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/aada2c7606f0fda810af065eca6f997eeaff1fc3c4fee975ba6dcb4898499dec.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/83cb57ef3776b44eaa8ddc4ad868627eb739e38b81879f8b4269852cd2417433.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/55f35e3778156afac51cb8f2cd3c87f2feafb0ddc2dbdea72568433790b29522.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/177528ec673eb81526bc7d6ed1e9d030413a64fe4c14f6623f5ebd748cff4919.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/d3e9193ca1d2d35f3fed9b2ab2a2bca2cd250e5fd73af5caffb841762c31e8b3.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_ENCHANTED/7426d7b174e8bd9c283f91a42cf2dfa95a518d5eae97ab5595412d4951d4db18.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ARMADILLO_GLACIAL",
+      "name": "Glacial Armadillo Skin",
+      "texturePath": "/assets/pets/skins/Armadillo/9f742eb7fd661d382885b22bdc9a29e22665b1d191a30d1f67d0dc958cfe93d8.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aArmadillo§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 12 chilled armadillos!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ARMADILLO_SEAFOAM",
+      "name": "Seafoam Armadillo Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/d0c72b0db2ecbdaf153c563593d17d546b302b278b1b81d3e063963b5b0e5bc4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aArmadillo§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/d0c72b0db2ecbdaf153c563593d17d546b302b278b1b81d3e063963b5b0e5bc4.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/9f80d8ddb7a689b28ccee283ede060aebea8787dd09220f0afa951b67e4b5e9c.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/e479115288b3789ed316353878fba4d2c4164de6525d91d280d3e6714e6a5d8c.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/7eb3d14736c287d2d625589473ec480997df55ff81968d624a13145ebefa210a.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/b90f4e88ff70baf85138c458cb0d635d2935ebf3baa59d958cacb3130fd53dd5.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/5ad2a510c931f94beae1813ef8a39e62358edc79b0289e0e8df6c484539c75dd.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/6cb449d6f389ed4cc6e3ca6b2583c678adb366881a678e8d9a14bb721f19e516.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/a1aa754ed4aecc606fa4e7391e728cc2f993a4770f7e398af62e766a0f916364.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/e87c075e8f030937ecf85246588359ff0daa28cd5a98defc6c6d1b7490653506.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/e87c075e8f030937ecf85246588359ff0daa28cd5a98defc6c6d1b7490653506.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/a1aa754ed4aecc606fa4e7391e728cc2f993a4770f7e398af62e766a0f916364.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/6cb449d6f389ed4cc6e3ca6b2583c678adb366881a678e8d9a14bb721f19e516.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/5ad2a510c931f94beae1813ef8a39e62358edc79b0289e0e8df6c484539c75dd.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/b90f4e88ff70baf85138c458cb0d635d2935ebf3baa59d958cacb3130fd53dd5.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/7eb3d14736c287d2d625589473ec480997df55ff81968d624a13145ebefa210a.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/e479115288b3789ed316353878fba4d2c4164de6525d91d280d3e6714e6a5d8c.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/9f80d8ddb7a689b28ccee283ede060aebea8787dd09220f0afa951b67e4b5e9c.png",
+          "/assets/pets/skins/animated_skins/Armadillo/PET_SKIN_ARMADILLO_SEAFOAM/d0c72b0db2ecbdaf153c563593d17d546b302b278b1b81d3e063963b5b0e5bc4.png"
+        ]
+      }
+    }
+  ]
+}

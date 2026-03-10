@@ -1,0 +1,84 @@
+{
+  "name": "§6Giraffe",
+  "type": "GIRAFFE",
+  "category": "Foraging",
+  "description": "§8Foraging Pet\n\n§7Health: §c100\n§7Crit Chance: §95%\n§7Swing Range: §e[Swing Range]\n\n§6Good Heart\n§7Grants §c+199❣ Health Regen\n\n§6Higher Ground\n§7Increases your §9☠ Crit Damage §7and\n§c❁ Strength §7by §c0.15% §7for every\n§e0.1Ⓢ Swing Range §7over §e3Ⓢ §7(up to\n§e6Ⓢ§7)\n\n§6Long Neck\n§7Increases your melee damage by\n§c100% §7if you are more than 3 blocks\n§7away from the target\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Giraffe_Pet",
+    "https://wiki.hypixel.net/Giraffe_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 9000000,
+      "time": 1036800,
+      "input": "GIRAFFE;3",
+      "output": "GIRAFFE;4",
+      "items": [
+        "ENCHANTED_ACACIA_LOG:512"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "GIRAFFE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Giraffe/2528ce6ad51fcb6e27c85566e70da351075185f184d910f4996e4311d4a1bfa5.png",
+      "lore": "§8Foraging Pet\n\n§7Health: §c100\n§7Crit Chance: §95%\n§7Swing Range: §e[Swing Range]\n\n§6Good Heart\n§7Grants §c+100.5❣ Health Regen\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "GIRAFFE;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Giraffe/2528ce6ad51fcb6e27c85566e70da351075185f184d910f4996e4311d4a1bfa5.png",
+      "lore": "§8Foraging Pet\n\n§7Health: §c100\n§7Crit Chance: §95%\n§7Swing Range: §e[Swing Range]\n\n§6Good Heart\n§7Grants §c+151❣ Health Regen\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "GIRAFFE;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Giraffe/2528ce6ad51fcb6e27c85566e70da351075185f184d910f4996e4311d4a1bfa5.png",
+      "lore": "§8Foraging Pet\n\n§7Health: §c100\n§7Crit Chance: §95%\n§7Swing Range: §e[Swing Range]\n\n§6Good Heart\n§7Grants §c+151❣ Health Regen\n\n§6Higher Ground\n§7Increases your §9☠ Crit Damage §7and\n§c❁ Strength §7by §c0.15% §7for every\n§e0.1Ⓢ Swing Range §7over §e3Ⓢ §7(up to\n§e6Ⓢ§7)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "GIRAFFE;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Giraffe/2528ce6ad51fcb6e27c85566e70da351075185f184d910f4996e4311d4a1bfa5.png",
+      "lore": "§8Foraging Pet\n\n§7Health: §c100\n§7Crit Chance: §95%\n§7Swing Range: §e[Swing Range]\n\n§6Good Heart\n§7Grants §c+200.99❣ Health Regen\n\n§6Higher Ground\n§7Increases your §9☠ Crit Damage §7and\n§c❁ Strength §7by §c0.15% §7for every\n§e0.1Ⓢ Swing Range §7over §e3Ⓢ §7(up to\n§e6Ⓢ§7)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "GIRAFFE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Giraffe/2528ce6ad51fcb6e27c85566e70da351075185f184d910f4996e4311d4a1bfa5.png",
+      "lore": "§8Foraging Pet\n\n§7Health: §c100\n§7Crit Chance: §95%\n§7Swing Range: §e[Swing Range]\n\n§6Good Heart\n§7Grants §c+199❣ Health Regen\n\n§6Higher Ground\n§7Increases your §9☠ Crit Damage §7and\n§c❁ Strength §7by §c0.15% §7for every\n§e0.1Ⓢ Swing Range §7over §e3Ⓢ §7(up to\n§e6Ⓢ§7)\n\n§6Long Neck\n§7Increases your melee damage by\n§c100% §7if you are more than 3 blocks\n§7away from the target\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_GIRAFFE_BAMBOO",
+      "name": "Bamboo Giraffe Skin",
+      "texturePath": "/assets/pets/skins/Giraffe/829921c8368e20d1f4751696229d785151ef8b230110aaaa7d93f6c49ffc4265.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGiraffe§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GIRAFFE_CHERRY",
+      "name": "Cherry Giraffe Skin",
+      "texturePath": "/assets/pets/skins/Giraffe/274025e1f28472f66e507b141c4ad34b111ad084da0cba3d3383e95e46c99a92.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGiraffe§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GIRAFFE_SAFARI",
+      "name": "Safari Giraffe Skin",
+      "texturePath": "/assets/pets/skins/Giraffe/16474dfc3fb1c5932b33d2b85adc840f1dcaa8c5b84bf6e32b35bba1302885f7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGiraffe§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GIRAFFE_WARPED",
+      "name": "Warped Giraffe Skin",
+      "texturePath": "/assets/pets/skins/Giraffe/8f343c692955ee728d5f940aa4fc81ded3430eec3da57702b4aa0fe9a6c97106.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGiraffe§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

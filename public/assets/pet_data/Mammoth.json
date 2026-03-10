@@ -1,0 +1,46 @@
+{
+  "name": "§6Mammoth",
+  "type": "MAMMOTH",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Defense: §a50\n§7Cold Resistance: §b[Cold Resistance]\n\n§6Wooly Coat\n§7Gain a §a100% §7chance for mobs to not\n§7inflict §b❄ Cold §7when damaging you in\n§7the §bGlacite Mineshafts§7.\n\n§6Tusk Luck\n§7Gain §b+0.5✯ Magic Find §7for every\n§7100 §6☘ Mining Fortune§7, doubled in the\n§bGlacite Tunnels §7and §bGlacite\n§bMineshafts§7.\n\n§6Corpse Crusher\n§7Gain §630☘ Mining Fortune §7for each\n§bFrozen Corpse §7looted in your\n§7current §bGlacite Mineshaft§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mammoth_Pet",
+    "https://wiki.hypixel.net/Mammoth_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "forge",
+      "inputs": [
+        "TUSK_FOSSIL:1.0",
+        "FLAWLESS_ONYX_GEM:1.0"
+      ],
+      "count": 1,
+      "duration": 604800,
+      "overrideOutputId": "MAMMOTH;4"
+    }
+  ],
+  "rarities": [
+    {
+      "id": "MAMMOTH;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Mammoth/6b10715732cd1fd49fa1b6187947c307dd4687105cf033840607f9d6234743ad.png",
+      "lore": "§8Combat Pet\n\n§7Defense: §a50\n§7Cold Resistance: §b[Cold Resistance]\n\n§6Wooly Coat\n§7Gain a §a100% §7chance for mobs to not\n§7inflict §b❄ Cold §7when damaging you in\n§7the §bGlacite Mineshafts§7.\n\n§6Tusk Luck\n§7Gain §b+0.5✯ Magic Find §7for every\n§7100 §6☘ Mining Fortune§7, doubled in the\n§bGlacite Tunnels §7and §bGlacite\n§bMineshafts§7.\n\n§6Corpse Crusher\n§7Gain §630☘ Mining Fortune §7for each\n§bFrozen Corpse §7looted in your\n§7current §bGlacite Mineshaft§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_MAMMOTH_CLOUD",
+      "name": "Cloud Mammoth Skin",
+      "texturePath": "/assets/pets/skins/Mammoth/d52b559251c4cdf97dc2b31177ef34fe58ccc795619eba5cd07de2f8024006be.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMammoth§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_MAMMOTH_VOID",
+      "name": "Void Mammoth Skin",
+      "texturePath": "/assets/pets/skins/Mammoth/cbb560b0f8d583953e77de4c5f4693bd52ac03115019f7bb02f4c259936ad44c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aMammoth§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

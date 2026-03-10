@@ -1,0 +1,118 @@
+{
+  "name": "§6Glacite Golem",
+  "type": "GLACITE_GOLEM",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Cold Resistance: §b[Cold Resistance]\n§7Mining Speed: §6[Mining Speed]\n\n§6Powder-powered\n§7Gain §a20% §7more §bGlacite Powder §7from\n§7most sources.\n\n§6Iceborn\n§7Gain §a+100 §6☘ Mining Fortune §7while in the\n§bGlacite Mineshafts§7.\n\n§6Frozen Perfection\n§7Gain §a+1 §5✧ Pristine §7for every\n§bFrozen Corpse §7you've looted in the\n§7current §bGlacite Mineshaft§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Glacite_Golem_Pet",
+    "https://wiki.hypixel.net/Glacite_Golem_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 2500000,
+      "time": 432000,
+      "input": "GLACITE_GOLEM;3",
+      "output": "GLACITE_GOLEM;4",
+      "items": [
+        "GLACITE_AMALGAMATION:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "GLACITE_GOLEM;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Glacite_Golem/af132a6593876d3c377d503fd66eca3fb938743251f7b16a9870c60b7388c8a3.png",
+      "lore": "§8Mining Pet\n\n§7Cold Resistance: §b[Cold Resistance]\n§7Mining Speed: §6[Mining Speed]\n\n§6Powder-powered\n§7Gain §a10% §7more §bGlacite Powder §7from\n§7most sources.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "GLACITE_GOLEM;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Glacite_Golem/af132a6593876d3c377d503fd66eca3fb938743251f7b16a9870c60b7388c8a3.png",
+      "lore": "§8Mining Pet\n\n§7Cold Resistance: §b[Cold Resistance]\n§7Mining Speed: §6[Mining Speed]\n\n§6Powder-powered\n§7Gain §a15% §7more §bGlacite Powder §7from\n§7most sources.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "GLACITE_GOLEM;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Glacite_Golem/af132a6593876d3c377d503fd66eca3fb938743251f7b16a9870c60b7388c8a3.png",
+      "lore": "§8Mining Pet\n\n§7Cold Resistance: §b[Cold Resistance]\n§7Mining Speed: §6[Mining Speed]\n\n§6Powder-powered\n§7Gain §a15% §7more §bGlacite Powder §7from\n§7most sources.\n\n§6Iceborn\n§7Gain §a+75 §6☘ Mining Fortune §7while in the\n§bGlacite Mineshafts§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "GLACITE_GOLEM;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Glacite_Golem/af132a6593876d3c377d503fd66eca3fb938743251f7b16a9870c60b7388c8a3.png",
+      "lore": "§8Mining Pet\n\n§7Cold Resistance: §b[Cold Resistance]\n§7Mining Speed: §6[Mining Speed]\n\n§6Powder-powered\n§7Gain §a20% §7more §bGlacite Powder §7from\n§7most sources.\n\n§6Iceborn\n§7Gain §a+100 §6☘ Mining Fortune §7while in the\n§bGlacite Mineshafts§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "GLACITE_GOLEM;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Glacite_Golem/af132a6593876d3c377d503fd66eca3fb938743251f7b16a9870c60b7388c8a3.png",
+      "lore": "§8Mining Pet\n\n§7Cold Resistance: §b[Cold Resistance]\n§7Mining Speed: §6[Mining Speed]\n\n§6Powder-powered\n§7Gain §a20% §7more §bGlacite Powder §7from\n§7most sources.\n\n§6Iceborn\n§7Gain §a+100 §6☘ Mining Fortune §7while in the\n§bGlacite Mineshafts§7.\n\n§6Frozen Perfection\n§7Gain §a+1 §5✧ Pristine §7for every\n§bFrozen Corpse §7you've looted in the\n§7current §bGlacite Mineshaft§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_GLACITE_GOLEM_CAVERN",
+      "name": "Cavern Glacite Golem Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/a1b8458bf009ad36601299cef604e45d8dc68e7f455931c9f3c79bf6bcc0d29f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGlacite Golem§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/a1b8458bf009ad36601299cef604e45d8dc68e7f455931c9f3c79bf6bcc0d29f.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/da2836d75176e665db7f162e00fa560a13624afcfdf27f8d9facf7ef206cb810.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/2816c92b3198d900279e07070482e8a6c742e95099f3e8fbb1ed2aa4ed3aca12.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/e8452d6f5037548857ee0209dd78ce000d5ccbdd83881ef3074c1f767b3f649d.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/ede63d083061693bd68156bbe92a1a07e5a68279ed77cd63377c0f4789879bad.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/2c0ce7faede96d4e0ba41cdd1e60e6a3ded125655de070701021218ff23443e3.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/40673c32d18ee07e7d416dd27bf69010b34fbc2a9fb6b96e606a3a17833a4da.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/8864fa12496220c774179a26ff1a7f29487dfae10f566ba3fe5204cefdee07ae.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/86a503f6b10746fcec8b90db8e01797ce3146765703cffffb1a7700c45a61149.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/d3dfb211fffac417a00e80c34f557fb762bead2212d5c25ff842ffa88a246c0.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/541fdf89b7765e7cc897bbc3a24fb1870222c9df8ae6be60171b711174b1240f.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/ba6990f8d7bba3c02fb727d8679b88eb61d6ac861656193fafcd6bf4c48098ce.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/26e5ffe295f4bec58af203d492a86ac0ce84ec3972338e17365b9fc31bcaaf7f.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/76c872d9ecd04162e90b17e7e5dff68c6453872d7690c7b0eb5fb37bfef644c6.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/db8dfaf9e492ad60e6bcd3887d2347e002b3b4b5716859934780c83b21a67b9f.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/9d6edc5ab39d0494d57ab2a03b0a51bbe4be30e24e721536359274f4dce03fa8.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/3c6b77e579faafd9bcb11965a58fa9f291b0ac05d3eaa4ff2c46dc126199e16b.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/a443f6ae36694830a4b6e50d1a86e9d3c1618807c1a2f6dd282960b9bab37f1f.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/841b17bacdaef4b62c1e847eadb17ed7ae467c8da8777d3ff156a541b691ca7.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/35ca15c0a6ffa0ca4ae05f084beef8ffa6481926d777e10c37d86e4cb3b88861.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/f5247d26aef05e7b28742a6bad4b517a21896f4425cedc234193443d90affdc2.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/f1b9bf30d78a56adb008e6a714c567f651393cfa88a98060eef8406385e95646.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/e69ff6c5fa415c429f91612c1e4da3c624a9ead421149adeb4d1a88833d18ee7.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/63d2f596b7b7d244b384c546861866d6997fe4b04f96cb9bcf7b7b524d303a20.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/80766589063b554e694d7945f55bc99caac4f5ef185ea097ca74b6abf82e4b66.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/84ebc952a530d6410182f1e402caadbeaefc7c9e8b735d9a92b1635ed8336938.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/e5baec5fe33e9ec3c47316cecb0cd1f41e6c038137f8aeb5b40ec68f36899d9e.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/e3fba5748620b180fca3e96eba679529fac4dbd4fdff9cefbd1f57ee25bb2938.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/3307765527fad2ca0a3c452251581cafc67ee8eea31394b18d2406584af36a34.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/f72e7f7f5d0b744db028f97383e6bfe1b652a54248da9bf1663422b89f08a300.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/a49b6dd1f95ef0fb0530419f782021117fa8a94c1819bcb566b58205b3682d.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/461077dcfb4255c1a965aae63320271dd6f6bca4e95d096a384198b001b62894.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/b7bca9455a15f66ca3aa99f683d1a9bb6c2bb11fbca102553ddd4b9b671cd0de.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/ba39d28aa21b8b49471e8c046fbbd30b475484324f198bbda47b3ca6e83ce5bd.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/22555e868cbf213b2da36b357941b47229960823a9bfb76f74c5ae32ab55cf06.png",
+          "/assets/pets/skins/animated_skins/Glacite_Golem/PET_SKIN_GLACITE_GOLEM_CAVERN/c014499bc4b5dace1718be0850d6bb18b16917df3738b897351102ea8b4f771a.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_GLACITE_GOLEM_CRYSTAL",
+      "name": "Crystal Glacite Golem Skin",
+      "texturePath": "/assets/pets/skins/Glacite_Golem/5a5126c06fa4e219527e4055cf9a0df4b7e3bf9ccdfe277ae0fadd6f611f88e6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGlacite Golem§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 12 crystallized golems!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GLACITE_GOLEM_MOLTEN",
+      "name": "Molten Glacite Golem Skin",
+      "texturePath": "/assets/pets/skins/Glacite_Golem/9114dbd2b0ccf7244b3fcc25ef4cdcc0a560a428e993d4e7a28db3ddab3f8ee9.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGlacite Golem§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

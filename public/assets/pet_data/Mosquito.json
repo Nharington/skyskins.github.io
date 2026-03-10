@@ -1,0 +1,55 @@
+{
+  "name": "§6Mosquito",
+  "type": "MOSQUITO",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Speed: §f20\n§7Bonus Pest Chance: §2[Bonus Pest Chance]%\n\n§6Smooth Jazz\n§7Pest Vinyls are §a50% §7more effective.\n\n§6Buzzin' Barterer\n§7Gain §6+2☘ Sugar Cane Fortune§7 for\n§7every unique visitor you've served\n§7in §aThe Garden§7.\n§8Your Bonus: 1.7 Sugar Cane Fortune\n§8Capped at 175 Fortune\n\n§6Bloodsucker's Betrayal\n§7When collected, §2Pest Traps §7will catch\n§7the next pest §a20% §7faster.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Mosquito_Pet",
+    "https://wiki.hypixel.net/Mosquito_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 2500000,
+      "time": 432000,
+      "input": "MOSQUITO;3",
+      "output": "MOSQUITO;4",
+      "items": [
+        "TARANTULA_SILK:64"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "MOSQUITO;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Mosquito/52a9fe05bc663efcd12e56a3ccc5ec035bf577b78708548b6f4ffcf1d30eccfe.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f20\n§7Bonus Pest Chance: §2[Bonus Pest Chance]%\n\n§6Smooth Jazz\n§7Pest Vinyls are §a25% §7more effective.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "MOSQUITO;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Mosquito/52a9fe05bc663efcd12e56a3ccc5ec035bf577b78708548b6f4ffcf1d30eccfe.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f20\n§7Bonus Pest Chance: §2[Bonus Pest Chance]%\n\n§6Smooth Jazz\n§7Pest Vinyls are §a25% §7more effective.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "MOSQUITO;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Mosquito/52a9fe05bc663efcd12e56a3ccc5ec035bf577b78708548b6f4ffcf1d30eccfe.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f20\n§7Bonus Pest Chance: §2[Bonus Pest Chance]%\n\n§6Smooth Jazz\n§7Pest Vinyls are §a35% §7more effective.\n\n§6Buzzin' Barterer\n§7Gain §6+1☘ Sugar Cane Fortune§7 for\n§7every unique visitor you've served\n§7in §aThe Garden§7.\n§8Your Bonus: 1.7 Sugar Cane Fortune\n§8Capped at 175 Fortune\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "MOSQUITO;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Mosquito/52a9fe05bc663efcd12e56a3ccc5ec035bf577b78708548b6f4ffcf1d30eccfe.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f20\n§7Bonus Pest Chance: §2[Bonus Pest Chance]%\n\n§6Smooth Jazz\n§7Pest Vinyls are §a50% §7more effective.\n\n§6Buzzin' Barterer\n§7Gain §6+2☘ Sugar Cane Fortune§7 for\n§7every unique visitor you've served\n§7in §aThe Garden§7.\n§8Your Bonus: 1.7 Sugar Cane Fortune\n§8Capped at 175 Fortune\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "MOSQUITO;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Mosquito/52a9fe05bc663efcd12e56a3ccc5ec035bf577b78708548b6f4ffcf1d30eccfe.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f20\n§7Bonus Pest Chance: §2[Bonus Pest Chance]%\n\n§6Smooth Jazz\n§7Pest Vinyls are §a50% §7more effective.\n\n§6Buzzin' Barterer\n§7Gain §6+2☘ Sugar Cane Fortune§7 for\n§7every unique visitor you've served\n§7in §aThe Garden§7.\n§8Your Bonus: 1.7 Sugar Cane Fortune\n§8Capped at 175 Fortune\n\n§6Bloodsucker's Betrayal\n§7When collected, §2Pest Traps §7will catch\n§7the next pest §a20% §7faster.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": []
+}

@@ -1,0 +1,84 @@
+{
+  "name": "§6Zombie",
+  "type": "ZOMBIE",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Health: §c100\n§7Crit Damage: §930%\n\n§6Bite Shield\n§7Reduce the damage taken from\n§7zombies by §a25%§7.\n\n§6Rotten Blade\n§7Deal §a150% §7more damage to §2༕ Undead\n§7mobs\n\n§6Living Dead\n§7Increases all stats on §2Undead ༕\n§7armor by §a20%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Zombie_Pet",
+    "https://wiki.hypixel.net/Zombie_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 5000,
+      "time": 45,
+      "input": "ZOMBIE;3",
+      "output": "ZOMBIE;4",
+      "items": [
+        "ENCHANTED_ROTTEN_FLESH:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "ZOMBIE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Zombie/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Crit Damage: §930%\n\n§6Bite Shield\n§7Reduce the damage taken from\n§7zombies by §a25%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "ZOMBIE;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Zombie/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Crit Damage: §930%\n\n§6Bite Shield\n§7Reduce the damage taken from\n§7zombies by §a25%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "ZOMBIE;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Zombie/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Crit Damage: §930%\n\n§6Bite Shield\n§7Reduce the damage taken from\n§7zombies by §a25%§7.\n\n§6Rotten Blade\n§7Deal §a150% §7more damage to §2༕ Undead\n§7mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "ZOMBIE;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Zombie/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Crit Damage: §930%\n\n§6Bite Shield\n§7Reduce the damage taken from\n§7zombies by §a25%§7.\n\n§6Rotten Blade\n§7Deal §a150% §7more damage to §2༕ Undead\n§7mobs\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "ZOMBIE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Zombie/56fc854bb84cf4b7697297973e02b79bc10698460b51a639c60e5e417734e11.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c100\n§7Crit Damage: §930%\n\n§6Bite Shield\n§7Reduce the damage taken from\n§7zombies by §a25%§7.\n\n§6Rotten Blade\n§7Deal §a150% §7more damage to §2༕ Undead\n§7mobs\n\n§6Living Dead\n§7Increases all stats on §2Undead ༕\n§7armor by §a20%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_HORSE_ZOMBIE",
+      "name": "Zombie Skeleton Horse Skin",
+      "texturePath": "/assets/pets/skins/Zombie/578211e1b4d99d1c7bfda4838e48fc884c3eae376f58d932bc2f78b0a919f8e7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSkeleton Horse§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ZOMBIE_BIG_BRAIN",
+      "name": "Big Brain Zombie Skin",
+      "texturePath": "/assets/pets/skins/Zombie/3871a02f09137806064c3e90d9bb8e0346fe73a392679da0a6584c605b0724fb.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aZombie§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ZOMBIE_BRAIN_FREEZE",
+      "name": "Brain Freeze Zombie Skin",
+      "texturePath": "/assets/pets/skins/Zombie/b1abfeefe236b3c9a23a71b30d0c7892133423d6b40bfa21e8d8d66cde8d8e19.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aZombie§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ZOMBIE_SENTINEL",
+      "name": "Sentinel Zombie Skin",
+      "texturePath": "/assets/pets/skins/Zombie/2422c02fe18d29ed2e3554febab7ef4e3f17c85a6cc379aec5d89aec233b78cb.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aZombie§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

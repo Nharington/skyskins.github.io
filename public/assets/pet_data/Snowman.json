@@ -1,0 +1,80 @@
+{
+  "name": "§dSnowman",
+  "type": "SNOWMAN",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Fight alongside your pet Snowman!\n\n§7Damage: §c[Damage]\n§7Strength: §c25\n§7Crit Damage: §925%\n\n§6Blizzard\n§7Enemies within §a16 §7blocks are slowed\n§7by §a25% §7and deal §a10% §7less damage.\n\n§6Frostbite\n§7Your freezing aura slows enemy\n§7attacks causing you to take §a10%\n§7reduced damage\n\n§6Snow Cannon\n§7Shoots a snowball towards an enemy\n§7when you attack dealing §a20% §7of\n§7your last dealt melee damage,\n§7capped at §f200,000§7. §8(1s cooldown)\n\n§6Ouch!\n§7Your snowballs have §a50% §7chance of\n§7dealing §cdouble §7damage!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Snowman_Pet",
+    "https://wiki.hypixel.net/Snowman_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "SNOWMAN;4",
+      "output": "SNOWMAN;5",
+      "items": [
+        "MAGIC_TOP_HAT:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SNOWMAN;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Snowman/609e161bdc325c71572a548a79bb15481c924d63e4fb821379d5dd6c8929f39f.png",
+      "lore": "§8Combat Pet\n\n§7Fight alongside your pet Snowman!\n\n§7Damage: §c[Damage]\n§7Strength: §c25\n§7Crit Damage: §925%\n\n§6Blizzard\n§7Enemies within §a16 §7blocks are slowed\n§7by §a25% §7and deal §a10% §7less damage.\n\n§6Frostbite\n§7Your freezing aura slows enemy\n§7attacks causing you to take §a10%\n§7reduced damage\n\n§6Snow Cannon\n§7Shoots a snowball towards an enemy\n§7when you attack dealing §a20% §7of\n§7your last dealt melee damage,\n§7capped at §f200,000§7. §8(1s cooldown)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "SNOWMAN;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Snowman/903485cb1cd882fdd7faaf1359ffc3bd4d5341c81c17e95527204e554dad8188.png",
+      "lore": "§8Combat Pet\n\n§7Fight alongside your pet Snowman!\n\n§7Damage: §c[Damage]\n§7Strength: §c25\n§7Crit Damage: §925%\n\n§6Blizzard\n§7Enemies within §a16 §7blocks are slowed\n§7by §a25% §7and deal §a10% §7less damage.\n\n§6Frostbite\n§7Your freezing aura slows enemy\n§7attacks causing you to take §a10%\n§7reduced damage\n\n§6Snow Cannon\n§7Shoots a snowball towards an enemy\n§7when you attack dealing §a20% §7of\n§7your last dealt melee damage,\n§7capped at §f200,000§7. §8(1s cooldown)\n\n§6Ouch!\n§7Your snowballs have §a50% §7chance of\n§7dealing §cdouble §7damage!\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_SNOWMAN_COOKIE_SANDWICH",
+      "name": "Cookie Sandwich Snowman Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Snowman/PET_SKIN_SNOWMAN_COOKIE_SANDWICH_DAY/34719e417a258490bcf3e1e03003f63e614b07a543f190ec3c1be3072995f782.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSnowman§7 pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Snowman/PET_SKIN_SNOWMAN_COOKIE_SANDWICH_DAY/34719e417a258490bcf3e1e03003f63e614b07a543f190ec3c1be3072995f782.png"
+          ]
+        },
+        "night": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Snowman/PET_SKIN_SNOWMAN_COOKIE_SANDWICH_NIGHT/cb9d373f7b34218d27144ee389c90b6bd7c42d94f12048ad45311056fc1cade2.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_SNOWMAN_ICE_GOLEM",
+      "name": "Ice Golem Snowman Skin",
+      "texturePath": "/assets/pets/skins/Snowman/69736cfd666c4237e910892d8974889e199c2d59b7d006dcaa01b6241393fe23.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSnowman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SNOWMAN_MELTING",
+      "name": "Melting Snowman Skin",
+      "texturePath": "/assets/pets/skins/Snowman/686e468f2494d81b8ad4d6eaa242f25b86ce5a4b817e00759eb5cd5d18aad58e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSnowman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SNOWMAN_PLUSHIE",
+      "name": "Plushie Snowman Skin",
+      "texturePath": "/assets/pets/skins/Snowman/316cc8f6d7d3b211dac2dc87bd7779e1ff8a001db99c6c77e679a85a669b1441.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSnowman§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "name": "§dGriffin",
+  "type": "GRIFFIN",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n§7Crit Damage: §950%\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n\n§6Odyssey\n§c12 §7types of §2✿ Mythological §7mobs can\n§7spawn from §eGriffin Burrows§7. Their\n§7stats scale with your Griffin’s\n§7rarity.\n\n§6Sacred Strength\n§7Gain §c+10% ❁ Strength §7when above\n§c85% ❤ Health§7.\n\n§6King of Kings\n§7Grants §b+15%✯ Magic Find §7on §2✿\n§2Mythological §7mobs.\n\n§6Ancient Earth\n§7Grants §d+1❃ Tracking §7on §eGriffin\n§eBurrows §7for each burrow excavated\n§7in your current chain.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Griffin_Pet",
+    "https://wiki.hypixel.net/Griffin_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "GRIFFIN;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Griffin/4c27e3cb52a64968e60c861ef1ab84e0a0cb5f07be103ac78da67761731f00c8.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n§7Crit Damage: §950%\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n\n§6Odyssey\n§c2 §7types of §2✿ Mythological §7mobs can\n§7spawn from §eGriffin Burrows§7. Their\n§7stats scale with your Griffin’s\n§7rarity.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "GRIFFIN;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Griffin/4c27e3cb52a64968e60c861ef1ab84e0a0cb5f07be103ac78da67761731f00c8.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n§7Crit Damage: §950%\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n\n§6Odyssey\n§c4 §7types of §2✿ Mythological §7mobs can\n§7spawn from §eGriffin Burrows§7. Their\n§7stats scale with your Griffin’s\n§7rarity.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "GRIFFIN;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Griffin/4c27e3cb52a64968e60c861ef1ab84e0a0cb5f07be103ac78da67761731f00c8.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n§7Crit Damage: §950%\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n\n§6Odyssey\n§c12 §7types of §2✿ Mythological §7mobs can\n§7spawn from §eGriffin Burrows§7. Their\n§7stats scale with your Griffin’s\n§7rarity.\n\n§6Sacred Strength\n§7Gain §c+6% ❁ Strength §7when above\n§c85% ❤ Health§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "GRIFFIN;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Griffin/4c27e3cb52a64968e60c861ef1ab84e0a0cb5f07be103ac78da67761731f00c8.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n§7Crit Damage: §950%\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n\n§6Odyssey\n§c12 §7types of §2✿ Mythological §7mobs can\n§7spawn from §eGriffin Burrows§7. Their\n§7stats scale with your Griffin’s\n§7rarity.\n\n§6Sacred Strength\n§7Gain §c+8% ❁ Strength §7when above\n§c85% ❤ Health§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "GRIFFIN;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Griffin/4c27e3cb52a64968e60c861ef1ab84e0a0cb5f07be103ac78da67761731f00c8.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n§7Crit Damage: §950%\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n\n§6Odyssey\n§c12 §7types of §2✿ Mythological §7mobs can\n§7spawn from §eGriffin Burrows§7. Their\n§7stats scale with your Griffin’s\n§7rarity.\n\n§6Sacred Strength\n§7Gain §c+10% ❁ Strength §7when above\n§c85% ❤ Health§7.\n\n§6King of Kings\n§7Grants §b+15%✯ Magic Find §7on §2✿\n§2Mythological §7mobs.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "GRIFFIN;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Griffin/4c27e3cb52a64968e60c861ef1ab84e0a0cb5f07be103ac78da67761731f00c8.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n§7Crit Damage: §950%\n§7Bonus Attack Speed: §e[Bonus Attack Speed]%\n\n§6Odyssey\n§c12 §7types of §2✿ Mythological §7mobs can\n§7spawn from §eGriffin Burrows§7. Their\n§7stats scale with your Griffin’s\n§7rarity.\n\n§6Sacred Strength\n§7Gain §c+12% ❁ Strength §7when above\n§c85% ❤ Health§7.\n\n§6King of Kings\n§7Grants §b+15%✯ Magic Find §7on §2✿\n§2Mythological §7mobs.\n\n§6Ancient Earth\n§7Grants §d+1❃ Tracking §7on §eGriffin\n§eBurrows §7for each burrow excavated\n§7in your current chain.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_FOUR_SEASONS_GRIFFIN",
+      "name": "Four Seasons Griffin Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/f1630fc7a04c3f679212b8d1ee9a33d23efb6377c4257c86dc04935d59f35ea5.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGriffin§7 pets.\n\n§aFeatures!\n§8▶ §7This skin changes based on the\n§7current SkyBlock season!\n§8▶ §7Modifies the look of your\n§2Mythological Creatures§7!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§4§lULTIMATE COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/f1630fc7a04c3f679212b8d1ee9a33d23efb6377c4257c86dc04935d59f35ea5.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/3d3d3d28e48b9f50c110100c0aedcf9adadd12cde9515ba5a02f542ec8943822.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/91aee9b5baee7236fd99a2ac2c216fb2f8de010d2b29de86a4854580c65291a7.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/f4a8667351e091ddf698171ff9e98629e96dd9bc1a800d312b4b785a89b5ea6f.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/d20c274a4c810bd6d57cc0a6ee3384cd4da64c6285c862d46d384e9b2bd67567.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/f2a5336a3e73049e60266aaf9ca9af17596338ad419911a3e3b0e97d3980dde9.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/a8df3af21c45029d7151692b15ccd78121314b0b934033daf47cc8326a7c7f39.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/6d45031f5e569b00fd94c9da26993a94d519d5a830fc506ae24651ac000520b9.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/abdc2b2dad7255c7cc4d9e4af6fade8d2b89c0537da49b2a152f7ed44272a637.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/a4b4df4757e3da613c10c78e7c8365fe4f08d8b114206f4168318b130bedc82b.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/cd9aeca7031a19b76f7c1d9c79bcf5c0b1d9ed81ef1d30181b15c02cd03d9dfe.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/84e57eec3021a350f5bfa747703ac4926dc58141c6f35e18ca3a0fae762f4ff7.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/a3459c498e0abea7028d02b0e9dbf30468ddeddf0f26b155ba6c8ae56c038f8b.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/2571f4d36ec5db2dc79ef773376a23ee62d4ef59a9f81828d897e9a9aeb484b6.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/bcdb02801247cbd4930eec9da31d6ac053838e59a1c1bdc6d9e4e9afe01cb19d.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/9ec3e52baf7961de5135b6e5c1f3094f7c4724d7e706b475a21bc726f63bc7e8.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/db4db4a2a39a75851f95122755dffdc80d6a52fe089caf184f192f5ef7abf3ee.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/a126e7e23060e6af880defe00b4af942b063f14d57023622b4a77b1774737a4c.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/98af6f8ced3f3a4cd3eef78902252419428ffb5691734b7cb15ff3dcb4b364ba.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/18a4589de0469af61b3b9cdd7de968a46db79bfe119271918de5914aba6fb361.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/a110ae878bc4740d80ace2b768cdff3a7e79b760d7c6f9283e46c40c31ae2d70.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/99b9ecbe4cec6cccef68862a31453c776cb7b4b2e18d7ba4e2fe4ed479424bc4.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/c4cffc1d174edb85ca657752dc91782f9e21b5082bf922ba95463a98fa695075.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/19b22a1fa06b34d5ca762ad5deaa8676bb178f16f83ee42c14f3848f361e6906.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/be8822587c53a30ed289eeea797a31d75f723cea8d221501a54e4b6d906279b3.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/4970161dadaef90ab7d207fa2b3f26550f0fd0579e2016b31cc0f5b78a131cb6.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/b6c007a44c384b5e2aeffa6f7e3f66040c9b03361f084c975807075cfe3a829.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/6496c97f984e870d8afa0c8918e3e2d14774cf6707cc6b8e9e756bcfc2d4dcb4.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/4e3598d4616ccc6ad50eddaf6cc6cce49355afc69b89b874b7a08713f663c158.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/b9a7e3379e4c128b33c5f8a0c053dff94bd815caf5d835f0c9ea998748100d74.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/2dd275934e202a832167a5f3bd2d3255e28fd88c5a34dde8cddc24b8dc14b386.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/5e1b9f24a4b9b6f1ab1fa4317d2fdc15f5dd30ccb407699c1c8122593446af06.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/99edae03c6debc66166e0273956cce788eec663b665bda3b1334bf5962021663.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/3cfc7885d0c268e52c7af285284183bc05bbff21106fd759f88c2155b00f0c6e.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_FOUR_SEASONS_GRIFFIN_SPRING/4ee03e818eb80f19e908d9238a59e263af00607a66426db60a1ac0a655d4f932.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_GRIFFIN_BALD_EAGLE",
+      "name": "Bald Eagle Griffin Skin",
+      "texturePath": "/assets/pets/skins/Griffin/e15c4adce60a4480f7d5d763dda5b04573ea08c7e167e25680b8153c6b4ef9b4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGriffin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GRIFFIN_PEAFOWL",
+      "name": "Peafowl Griffin Skin",
+      "texturePath": "/assets/pets/skins/Griffin/b5fcf1e20bc09681e246978a4f3ac04d74a9d7a5ef9b87617b2d458cfbf79406.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGriffin§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_GRIFFIN_REINDRAKE",
+      "name": "Reindrake Griffin Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/129f446ef7ca9d550f17772a2a1591fa58aa3005e8df1c7a52414de107591826.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGriffin§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/129f446ef7ca9d550f17772a2a1591fa58aa3005e8df1c7a52414de107591826.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/66f1070e5094c12dbe99674c5aa0e936dc4f880fc1b2b881cf01593e2dd6d6e9.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/b1a3e708e4e190726ff6a687aef7490a1d123e490ca9cd982131a53424a7a3d9.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/a36b0ec34199ea1245181a72cd477379da11de48a75ab124d28bd179f617f376.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/e926b530048d7f968a756d384b2f27046b4543decf40720599d883ac8e0d9a98.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/f6ab36001d6e3180be62c08722f69912bcd0e0e7043c7189218d29374e80bf2f.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/acd96cb9e6ca7047afb6ee71174fb45c3fff88a8d3aec0c1ce3b086ebe228bb8.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/c375efaf28eb936ba454b13024fc66bda4026fcd27ddde895cc24280029a94df.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/3b55dbe8e094966387402efc318b18ca9ff52ebe02fb279cd314951de360907c.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/7c8c5eaffc3fba7a88f94470ba88f551fe3c709efebe89c8203651aead59864d.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/8c5fbdcaaeba457bab84635d5e4c1f6c4c6bed18585c8e8d7926a4664bb3fbe8.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/9c87c82d14ddc6556c1b966f9374aa89533aeadb7e8820e10b3da408b4574778.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/e4256adb5e060fe810835cd20eeb240e16cc85dc3b477d422800c6c8ef2bff2b.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/b2c4ff93147e1336f23d8b50c3f048eb637d8ec6171e3c54325a4a8af403c7b4.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/8192ec9acd922f12b7f921d134ee83494203b0e55ba34930ded73e0f4ef6cd70.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/70beb4c7f5f8d14be3a04f6fa3573fa8bd59ea2236b66f05fba57c678ca37776.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/3cf93f383182d36d4391833cdd708243e30a00b5f402fbe5db03ee23da745f0b.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/3be4e82229a0128a66a62b9924071b67fc457751dde19535f9e66a700f3b0c8c.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/c9fe0bf3bed85d12827fdda5270bc230aa65364d21956e17ac74a154ffec0442.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/c9f802f0ef265589c326dc4d8e3606d74add5050e716b1efce9de60ada1e1c78.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/606d5bd8540c3e7f3f5760aea43b7c9e9faa6a2f2a0171001bbf632d1ec286c4.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/17058761d2b8bdd9e1b7bf2895d298accd57bd278cb99fc377d98314400adc2b.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/b6112c9950d953c4c0ba98ae314165004a09f594a721db620ebb7c5508b59d0a.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/29bed2b38777321b6560bfebe0998fcc8e636ae73b7b55c6f109fdfa3960e94f.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/d6286cf0e0ce2bad5e1917fdcf26269b32ec5460db9e7a236c073adc52c65a14.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/a9e4aa1e3583edd8ef3d21062e9b6a24234333e492036c3cca9b3e48c2141985.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/a179e6a3b5ac2a77fa6aec8e2aa457a380d865aba42bd55a72c66ea0971b1fc9.png",
+          "/assets/pets/skins/animated_skins/Griffin/PET_SKIN_GRIFFIN_REINDRAKE/d7b284aa30adcfdfa642d354d1d78533dd7fa960c69bab89fbbe44f8beb9dd01.png"
+        ]
+      }
+    }
+  ]
+}

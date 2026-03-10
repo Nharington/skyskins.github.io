@@ -1,0 +1,61 @@
+{
+  "name": "§dHermit Crab",
+  "type": "HERMIT_CRAB",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Defense: §a20\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §32%\n\n§6Comfort Zone\n§7Grants §b+40☂ Fishing Speed §7for §a30s\n§7upon catching §6Treasure§7.\n\n§6Seafloor Scalper\n§6Treasure §7catches are §a10% §7more\n§7likely to be §6§lGREAT §7or §d§lOUTSTANDING§7.\n\n§6Crab Rave\n§7Grants §6+0.2⛃ Treasure Chance\n§7for each player with a §aHermit Crab\n§aPet §7within §a30 §7blocks, up to §a5 §7players.\n\n§6Hotspot Hazard\n§7Increases the chance of catching\n§dHotspot Sea Creatures §7by §a?%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hermit_Crab_Pet",
+    "https://wiki.hypixel.net/Hermit_Crab_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "HERMIT_CRAB;4",
+      "output": "HERMIT_CRAB;5",
+      "items": [
+        "SCUTTLER_SHELL:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "HERMIT_CRAB;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Hermit_Crab/26629dfa3fdfef04054024e0156d5e19da5401b1911f59b4bd3982685fe54c2c.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a20\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §32%\n\n§6Comfort Zone\n§7Grants §b+20☂ Fishing Speed §7for §a30s\n§7upon catching §6Treasure§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "HERMIT_CRAB;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Hermit_Crab/26629dfa3fdfef04054024e0156d5e19da5401b1911f59b4bd3982685fe54c2c.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a20\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §32%\n\n§6Comfort Zone\n§7Grants §b+30☂ Fishing Speed §7for §a30s\n§7upon catching §6Treasure§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "HERMIT_CRAB;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Hermit_Crab/26629dfa3fdfef04054024e0156d5e19da5401b1911f59b4bd3982685fe54c2c.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a20\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §32%\n\n§6Comfort Zone\n§7Grants §b+30☂ Fishing Speed §7for §a30s\n§7upon catching §6Treasure§7.\n\n§6Seafloor Scalper\n§6Treasure §7catches are §a7.5% §7more\n§7likely to be §6§lGREAT §7or §d§lOUTSTANDING§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "HERMIT_CRAB;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Hermit_Crab/26629dfa3fdfef04054024e0156d5e19da5401b1911f59b4bd3982685fe54c2c.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a20\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §32%\n\n§6Comfort Zone\n§7Grants §b+40☂ Fishing Speed §7for §a30s\n§7upon catching §6Treasure§7.\n\n§6Seafloor Scalper\n§6Treasure §7catches are §a10% §7more\n§7likely to be §6§lGREAT §7or §d§lOUTSTANDING§7.\n\n§7§eRight-click to add this pet to your\n§epet menu!\n\n§5§lEPIC"
+    },
+    {
+      "id": "HERMIT_CRAB;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Hermit_Crab/26629dfa3fdfef04054024e0156d5e19da5401b1911f59b4bd3982685fe54c2c.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a20\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §32%\n\n§6Comfort Zone\n§7Grants §b+40☂ Fishing Speed §7for §a30s\n§7upon catching §6Treasure§7.\n\n§6Seafloor Scalper\n§6Treasure §7catches are §a10% §7more\n§7likely to be §6§lGREAT §7or §d§lOUTSTANDING§7.\n\n§6Crab Rave\n§7Grants §6+0.2⛃ Treasure Chance\n§7for each player with a §aHermit Crab\n§aPet §7within §a30 §7blocks, up to §a5 §7players.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "HERMIT_CRAB;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Hermit_Crab/26629dfa3fdfef04054024e0156d5e19da5401b1911f59b4bd3982685fe54c2c.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a20\n§7Fishing Speed: §b[Fishing Speed]\n§7Sea Creature Chance: §32%\n\n§6Comfort Zone\n§7Grants §b+40☂ Fishing Speed §7for §a30s\n§7upon catching §6Treasure§7.\n\n§6Seafloor Scalper\n§6Treasure §7catches are §a10% §7more\n§7likely to be §6§lGREAT §7or §d§lOUTSTANDING§7.\n\n§6Crab Rave\n§7Grants §6+0.2⛃ Treasure Chance\n§7for each player with a §aHermit Crab\n§aPet §7within §a30 §7blocks, up to §a5 §7players.\n\n§6Hotspot Hazard\n§7Increases the chance of catching\n§dHotspot Sea Creatures §7by §a50%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": []
+}

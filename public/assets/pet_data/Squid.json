@@ -1,0 +1,134 @@
+{
+  "name": "§6Squid",
+  "type": "SQUID",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Health: §c50\n§7Intelligence: §b50\n\n§6More Ink\n§7Gain a §a100% §7chance to get double\n§7drops from squids\n\n§6Ink Specialty\n§7Buffs the §5Ink Wand §7by §a40 §c❁ Damage\n§7and §a20 §c❁ Strength§7.\n\n§6Fishing Wisdom Boost\n§7Grants §3+30☯ Fishing Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Squid_Pet",
+    "https://wiki.hypixel.net/Squid_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 3000000,
+      "time": 432000,
+      "input": "SQUID;3",
+      "output": "SQUID;4",
+      "items": [
+        "ENCHANTED_INK_SACK:64"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SQUID;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Squid/01433be242366af126da434b8735df1eb5b3cb2cede39145974e9c483607bac.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c50\n§7Intelligence: §b50\n\n§6More Ink\n§7Gain a §a50% §7chance to get double\n§7drops from squids\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "SQUID;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Squid/01433be242366af126da434b8735df1eb5b3cb2cede39145974e9c483607bac.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c50\n§7Intelligence: §b50\n\n§6More Ink\n§7Gain a §a75% §7chance to get double\n§7drops from squids\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "SQUID;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Squid/01433be242366af126da434b8735df1eb5b3cb2cede39145974e9c483607bac.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c50\n§7Intelligence: §b50\n\n§6More Ink\n§7Gain a §a75% §7chance to get double\n§7drops from squids\n\n§6Ink Specialty\n§7Buffs the §5Ink Wand §7by §a30 §c❁ Damage\n§7and §a10 §c❁ Strength§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "SQUID;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Squid/01433be242366af126da434b8735df1eb5b3cb2cede39145974e9c483607bac.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c50\n§7Intelligence: §b50\n\n§6More Ink\n§7Gain a §a100% §7chance to get double\n§7drops from squids\n\n§6Ink Specialty\n§7Buffs the §5Ink Wand §7by §a40 §c❁ Damage\n§7and §a20 §c❁ Strength§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "SQUID;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Squid/01433be242366af126da434b8735df1eb5b3cb2cede39145974e9c483607bac.png",
+      "lore": "§8Fishing Pet\n\n§7Health: §c50\n§7Intelligence: §b50\n\n§6More Ink\n§7Gain a §a100% §7chance to get double\n§7drops from squids\n\n§6Ink Specialty\n§7Buffs the §5Ink Wand §7by §a40 §c❁ Damage\n§7and §a20 §c❁ Strength§7.\n\n§6Fishing Wisdom Boost\n§7Grants §3+30☯ Fishing Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_SQUID_CHROMARI",
+      "name": "Chromari Squid Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/a70424d44f510935bed7890385b6c88595b3020b7d5a691f9dfc6d894f762cfe.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSquid§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/a70424d44f510935bed7890385b6c88595b3020b7d5a691f9dfc6d894f762cfe.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/4909b14f0e45d0c946a911ca72c1ebed8f6645cdbbb1a3993a3a988ffd4e9404.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/1f23dda7f77a63f5ed029deeb69c83d344f293ac303a8fab3a16bcf0b92e804f.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/56a16994fec265ba8db4333e832141d0d9c51b8749e898bc305ca0b4bed4069f.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/486a54a8bfc9ab7141174034648a950010db72b55c9b2d8596bbb123b5c4441.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/e9f652d0fdde3400cf030ab6c7fa2be7706d37ed3ae25a6de487d70e63e5c0fe.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/e9e553a8657461fc2ebc5cb6b0b623b6753d097f4327c64afbef1d79d34a98ff.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/c2c6a32a78ee16a1e31308caa9c601af2819be3927633212327758937ddf21f7.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/b1fe345b2cce8481b667472a11869f4a8c9719e99be1513dcf7ed182c98fd887.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/5d7bb3bd0810e0c17865f85fc7c3e8df292fffe9d9524df6732854ef6a25a0ef.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/93eeda7f8a3456169f6cc94d8768721910edeef4dc7f13571f922053f771f55e.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/adb4570500f3d878dd620a50091377faff38ad40427c95f541bf1d85f0ff2af0.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/32fa2d3f3f3eb63b7814d5178ae607558274dc274d127b438867564b9f8153aa.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/e5d1cf59a2fb5268679308b8439e04fdf13fbc3136af89fbb0eb5bbce5a9369c.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/1a3a9b29a75c5e2c591b6af33d2fc55f478999abbfa68bc21efdce6c8f851ea4.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/4a353bfee26e859a539041777e0da5cc7b530e74b718a0c772bf48751a716097.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/d0df2d99ad5da735ccdd0a36f92f5fde0cd9581f3495934ec20c2d8cc53acfc.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/a33a519400447552e12dceef1ac11c4645284fd57e30a292442b476156fab825.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/304341f10ee88fb03afa77f0ce258a89411032363cc99cecdc98e52850f63c23.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/6df9294aa098bb0f49964a3a043c9df89667fb19fa190efcee93bbf814f6cf30.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/5e93a450c555087ed417480d4ba05652409002f809dfa632e05542eb77d7e245.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/53942e00b7c3687850dfb70e033c4ffa9ae81aaab7ae3d65dac2ad2016393e15.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/e0eba4f05acda2e76876dbae2cc7111c6b08edc1c932d44602a9a72b5f2db4d0.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/1ed9d7cfa103d4e4f459f59a414514783de4f06b4816b9650bca1319379d184.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/b2868168528843b637065d4730a843eaaf37ea82ac8d42b7b3e19761651f8a70.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/c95a56437aab62cde3c4276dfd459199c201be4ff4a6ab519e5800467c4b6f40.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/c339801678efddd75beecf7d98ba3978189dbd48cb2f1ffb339fd2e6106f93cd.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/1631e4cf0ef9f6575fddee9fd0f5db6c8c9b61b533f9761c318d8eeb9248c633.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/f577d1c8b4c1012a374148333cc2333ebfd917286e8f5cbf3a952e6ac86ff088.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/edd7db065ff33a756714cdc7c1ad5c5beaee8a2b988a16e1b7f6b9705b06164f.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/8bd0c5096ba7b4768d0f1383542223e8fa34da6b79985c9297de5ff708c9c68a.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/2ca7c0b5432318f3ad0157c2e6ec5a073a6f427f82d2027b47a60a7ec264f7c9.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/5b004155a0126b00b364120ce424d6240721167922d577c150673129dc89be96.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/d6cf73baaf7ed658891a0ad71eb9a9cdf23f7ca96653e2c0772b538759986cc0.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_CHROMARI/f4e1638cbc379d47ef6d9b681bbd893d2e11d3d34d4b7113745bccb6739f7583.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_SQUID_GLOW",
+      "name": "Glow Squid Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/a437ca41e741fbf395fda7c21778a40a4989eac4265e02f1e7778908b395a632.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSquid§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/a437ca41e741fbf395fda7c21778a40a4989eac4265e02f1e7778908b395a632.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/8e0785c6f4a4d84a7a5289f2f435d10a5a7a4c4debc41d3cf95665ae658ba181.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/3d1ca6068e4b8cce378e554618034c014ff6219dc37bf0b0635848fa3cebbec.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/cfad4bbfc7a9ce14877e99ca5ca16b8d9d9ec3d0c065829e42766bcdbd4a0191.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/a1309033f08a444dea956d0d8099e5d132b14509617ee00ce0c4687879900546.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/4167e70f8470d5d69aedb2a98c916f4b5a77d7ca8d051fbf70fb1b80ba7f9802.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/fca9982520eee4066bab0ae697f3b3656084b6639ba89113bd8e23ab7288563d.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/727581cfcf9905729b336dcf13784eac227bcdd709c4e92e018d45c4896ae29b.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/e0f95d0e5c64f46851b3c5d5d75cc0b7a9e09a1121740cd00e3cf25fa362306a.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/162eba7072c3054e310daf2e6970cc65a4346a9c4118399f4d68a2d7e66612b7.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/f2ff4c824c39727c6bb8a126379a5ded2ba9aed24b59879f6b3af461e44df84a.png",
+          "/assets/pets/skins/animated_skins/Squid/PET_SKIN_SQUID_GLOW/65d43d64e8e3e43f4de13ed1e2ca0ead1e88c4017ca466b8d057408029a80d19.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_SQUID_GOBLIN",
+      "name": "Goblin Squid Skin",
+      "texturePath": "/assets/pets/skins/Squid/c164fe93349e7db8e733226523baa6d117110e53d30f8c2eb23b97a720523be7.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Squid pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

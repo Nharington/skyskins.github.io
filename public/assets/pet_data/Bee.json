@@ -1,0 +1,179 @@
+{
+  "name": "§6Bee",
+  "type": "BEE",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Strength: §c30\n§7Intelligence: §b50\n§7Speed: §f10\n§7Mining Fortune: §6[Mining Fortune]\n§7Foraging Fortune: §6[Foraging Fortune]\n§7Farming Fortune: §6[Farming Fortune]\n\n§6Hive\n§7For each player within §a25 §7blocks:\n §b+10✎ Intelligence\n §c+8❁ Strength\n §a+5❈ Defense\n§8Max 15 players\n\n§6Busy Buzz Buzz\n§7Grants §a+30 §7of each to your pet:\n§6☘ Farming Fortune\n§6☘ Foraging Fortune\n§6☘ Mining Fortune\n\n§6Weaponized Honey\n§7Gain §a25% §7of received damage as §6❤\n§6Absorption§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Bee_Pet",
+    "https://wiki.hypixel.net/Bee_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 450000,
+      "time": 259200,
+      "input": "BEE;3",
+      "output": "BEE;4",
+      "items": [
+        "ENCHANTED_GOLD_BLOCK:9"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "BEE;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Bee/7e941987e825a24ea7baafab9819344b6c247c75c54a691987cd296bc163c263.png",
+      "lore": "§8Farming Pet\n\n§7Strength: §c30\n§7Intelligence: §b50\n§7Speed: §f10\n\n§6Hive\n§7For each player within §a25 §7blocks:\n §b+3✎ Intelligence\n §c+3❁ Strength\n §a+2❈ Defense\n§8Max 15 players\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "BEE;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Bee/7e941987e825a24ea7baafab9819344b6c247c75c54a691987cd296bc163c263.png",
+      "lore": "§8Farming Pet\n\n§7Strength: §c30\n§7Intelligence: §b50\n§7Speed: §f10\n\n§6Hive\n§7For each player within §a25 §7blocks:\n §b+6✎ Intelligence\n §c+5❁ Strength\n §a+3❈ Defense\n§8Max 15 players\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "BEE;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Bee/7e941987e825a24ea7baafab9819344b6c247c75c54a691987cd296bc163c263.png",
+      "lore": "§8Farming Pet\n\n§7Strength: §c30\n§7Intelligence: §b50\n§7Speed: §f10\n§7Mining Fortune: §6[Mining Fortune]\n§7Foraging Fortune: §6[Foraging Fortune]\n§7Farming Fortune: §6[Farming Fortune]\n\n§6Hive\n§7For each player within §a25 §7blocks:\n §b+6✎ Intelligence\n §c+5❁ Strength\n §a+3❈ Defense\n§8Max 15 players\n\n§6Busy Buzz Buzz\n§7Grants §a+20 §7of each to your pet:\n§6☘ Farming Fortune\n§6☘ Foraging Fortune\n§6☘ Mining Fortune\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "BEE;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Bee/7e941987e825a24ea7baafab9819344b6c247c75c54a691987cd296bc163c263.png",
+      "lore": "§8Farming Pet\n\n§7Strength: §c30\n§7Intelligence: §b50\n§7Speed: §f10\n§7Mining Fortune: §6[Mining Fortune]\n§7Foraging Fortune: §6[Foraging Fortune]\n§7Farming Fortune: §6[Farming Fortune]\n\n§6Hive\n§7For each player within §a25 §7blocks:\n §b+10✎ Intelligence\n §c+8❁ Strength\n §a+5❈ Defense\n§8Max 15 players\n\n§6Busy Buzz Buzz\n§7Grants §a+30 §7of each to your pet:\n§6☘ Farming Fortune\n§6☘ Foraging Fortune\n§6☘ Mining Fortune\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "BEE;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Bee/7e941987e825a24ea7baafab9819344b6c247c75c54a691987cd296bc163c263.png",
+      "lore": "§8Farming Pet\n\n§7Strength: §c30\n§7Intelligence: §b50\n§7Speed: §f10\n§7Mining Fortune: §6[Mining Fortune]\n§7Foraging Fortune: §6[Foraging Fortune]\n§7Farming Fortune: §6[Farming Fortune]\n\n§6Hive\n§7For each player within §a25 §7blocks:\n §b+10✎ Intelligence\n §c+8❁ Strength\n §a+5❈ Defense\n§8Max 15 players\n\n§6Busy Buzz Buzz\n§7Grants §a+30 §7of each to your pet:\n§6☘ Farming Fortune\n§6☘ Foraging Fortune\n§6☘ Mining Fortune\n\n§6Weaponized Honey\n§7Gain §a25% §7of received damage as §6❤\n§6Absorption§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_BEE_BEEDAZZLED",
+      "name": "BeeDazzled Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/66671fa36a56cd08c85f0956fca5ffa3793d744a373244b92b71a55da5636c0f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Bee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_BEELOVED",
+      "name": "BeeLoved Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/fb2e99137ba2a2996ec45e806550d617da479a0a48846b5f8bbc81b6ab59dd2f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Bee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_GREAT_GATSBEE",
+      "name": "Great Gats Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/a1235c3dececec89f37f25abbefa227ec3a4fe73e03be9361ed473301b4e0d7b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Bee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_HIVE",
+      "name": "Hive Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/8ac223e6e77dad17bb3aa0909556f651776f81d4c760c7167b2e27c49c4fc59.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Bee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_HONEY",
+      "name": "Honey Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/36e7a813e27580e0b5cade870905b8c8c7cbc178f80893384c8697baeb8a6a8.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Bee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_RGBEE",
+      "name": "RGBee Bee Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/ac511502768c381a05a267c2a6f89fcb84b4fb11b6be488cad51e1a59daaaa56.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBee\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/ac511502768c381a05a267c2a6f89fcb84b4fb11b6be488cad51e1a59daaaa56.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/7fba1915f776b92b4f93dba5ad77256c8c04e5899503b0bec6c1781152d3aafb.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/9edd2f7b4b3b561340f9c2cf85b52ac1d12f8a73621e45c8f27fd1d117320b37.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/4dc2cff0586626e46eb67e086e2591bddc47d398aea08057fa6721e952679ba0.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/a64570ffe22ac4d3e1ea003d82964a244ad4653a57bcc5b66dfe372586819d71.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/467dd8b3f7166c99d6bd1a3963abb1367a50e14ecafe5a373c63834ce0136be7.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/8fe08c25a7f28807a40cae720071dd299cdbc87eb2f421941b29a78030359969.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/e6bc8b93e9372cfa3928efcf7ba9966b8e303fa80653a34502ec48af9013c63d.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/e0858d1e8758ca61a3c6ac82a61b1e8da6987a76947913fa9a848e114d2792a8.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/eeb239d5170b1a54f003d395dbc613e5ee2a1934d75ca8267df5217b931ac79.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/4dfb7b5841e33f6a3a2da1d69d00338fabfe5e1001d5cd211b310b2a9c75379c.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/4eccd7d64c102569971fd3386c7e422729ccd287515a4f8d576acaa5c690ffd2.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/9d58dd1c22d80f4c365949249c18ef4928f3e61784233fa41cfa7c68b1d58d73.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/2a6b3a862b01041ed7166d229b4dd7c35a6072f4f3b9c67805b0ae81b3897c86.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/454efdf3c48898e5cd01b4db255b6bc03b43568dbd2f4aafcd535d1c11b6e136.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/77e7fbb395545e3eae83764f86027bf116100e4f52fe108541df089482d5fcbb.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/8f3f79fff196700ae36fec7461c1abd96bbc4ca9d57f97e96b89b24b8de524f3.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/8c64005651612347dd4e8a1b6b4e8ab3638b799692823964f6c6ba72efc05808.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/da385b626672c9c3179ec295be57d162220c41caae1ded5d33b0b3fb544715b6.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/dd6fe6d615740d62a644ca52c71486d27e96a491427ebd00fbee8edab4e26e56.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/eb4aab6177d4aa51c62e82f426e5424c5c8ef5489a46508a2e42e7b48d6dd40.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/dda5d0affd4f8a2171004f9be2b365c62a7e868a2389bd8558b8e3128ea22495.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/eccd9ba473244139a7cbc78f38c2b20db38a61b3abe31277938da98dd79a31e7.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/1fcdf78671a8fba5293318310bd471db122245cea64920447143cb70b40234bd.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/dd4c96f5dc25fe4eb2c3fae53951c739a18f62d492a6ac6cf54619c8bbfda24f.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/99c6da45da5a46614c05d5f8d7b3dfefb025e82ca4cdb4f0db64ced1315df659.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/76ef4ecf3205bdb0b71aee19aa0c8bb5d1ec961626920de8d86d7806e81270ab.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/3f05d1599b194d5e8f50b95330c93bca2a5a572deafb6feca138cc38347f5b55.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/6794d39edb667f660eb87fffb4d8e76403a3bbdb9ab3737b9f03655b2f90e219.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/e8159fac7600488a459711a8731baaccc4670ab1846383d377f3713921784430.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/ad0b84151273ddd6deab5eb73aae6483c31ce0566e8ca63504075f55c4b36ce1.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/bfff8a40fb497a630597fb9c430c6b26c454c061407a0578cad3f1f2b6e463df.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/61e81974d1d22e3e5dbe167984de24f3253c24949ad98f8a4b0b5499b8043324.png",
+          "/assets/pets/skins/animated_skins/Bee/PET_SKIN_BEE_RGBEE/7755e3cdbd70eaf0a8eb945ddf8cb37e8494d9b2748b12655f32f646dad3aa20.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_BEE_RUGBEE",
+      "name": "RugBee Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/32eab2723eed1866b234b4ab967ee6392674d76dd7508b94640311ed1fdb36e5.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_SPELLING_BEE",
+      "name": "Spelling Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/9a09e730872732d3d267120a4a1ba732ab224ee96215e80bbec78af4dcfdd2a1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_USB",
+      "name": "USBee Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/ad8e4187921f223878af435d4554c32473e7437f59236618c80a0cd773b9606d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_WANNA_BEE",
+      "name": "Wanna Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/61bbdb3a28ec3ec7e562c82a2851c15f26452d81043bca1747db9b0c91b43210.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_WASABEE",
+      "name": "WasaBee Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/c7887fb09860985d5bafaae88c706ec9b190a03c1a7501b5ba34a32950542c17.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BEE_ZOMBEE",
+      "name": "ZomBee Bee Skin",
+      "texturePath": "/assets/pets/skins/Bee/f6e1ae93ad5e94a0904a0877ff14a9de56083242a5786ac7dc503e098ae37120.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBee\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

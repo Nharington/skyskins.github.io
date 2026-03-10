@@ -1,0 +1,194 @@
+{
+  "name": "§6Ender Dragon",
+  "type": "ENDER_DRAGON",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Damage: §950%\n§7Crit Chance: §910%\n\n§6End Strike\n§7Deal §a200% §7more damage to §5⊙ Ender\n§7mobs.\n\n§6One With The Dragon\n§7Buffs the §6Aspect of the Dragons\n§7sword by §a50 §c❁ Damage §7and §a30 §c❁\n§cStrength§7.\n\n§6Superior\n§7Increases all §cCombat §7stats and §b✯\n§bMagic Find §7by §a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Ender_Dragon_Pet",
+    "https://wiki.hypixel.net/Ender_Dragon_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 400000000,
+      "time": 1728000,
+      "input": "ENDER_DRAGON;3",
+      "output": "ENDER_DRAGON;4",
+      "items": [
+        "SUMMONING_EYE:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "ENDER_DRAGON;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Ender_Dragon/aec3ff563290b13ff3bcc36898af7eaa988b6cc18dc254147f58374afe9b21b9.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Damage: §950%\n§7Crit Chance: §910%\n\n§6End Strike\n§7Deal §a200% §7more damage to §5⊙ Ender\n§7mobs.\n\n§6One With The Dragon\n§7Buffs the §6Aspect of the Dragons\n§7sword by §a50 §c❁ Damage §7and §a30 §c❁\n§cStrength§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "ENDER_DRAGON;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Ender_Dragon/aec3ff563290b13ff3bcc36898af7eaa988b6cc18dc254147f58374afe9b21b9.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Damage: §950%\n§7Crit Chance: §910%\n\n§6End Strike\n§7Deal §a200% §7more damage to §5⊙ Ender\n§7mobs.\n\n§6One With The Dragon\n§7Buffs the §6Aspect of the Dragons\n§7sword by §a50 §c❁ Damage §7and §a30 §c❁\n§cStrength§7.\n\n§6Superior\n§7Increases all §cCombat §7stats and §b✯\n§bMagic Find §7by §a10%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_DRAGON_NEON_BLUE",
+      "name": "Neon Blue Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/Ender_Dragon/96a4b9fbcf8c3e7e1232e57d6a2870ba3ea30f76407ae1197fd52e9f76ca46ac.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_DRAGON_NEON_PURPLE",
+      "name": "Neon Purple Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/Ender_Dragon/54bdf5ba6289b29e27c57db1ec7f76151c39492d409268e00a9838e8c963159.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_DRAGON_NEON_RED",
+      "name": "Neon Red Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/Ender_Dragon/e05c9b4f4218677c5b4bcc9c7d9e29e18d1684a536781fede1280fc5e6961538.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_DRAGON_PASTEL",
+      "name": "Pastel Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/Ender_Dragon/4a62ec4e019fe0fed059663ae59daa0d91729517bf33ae7f7d7e722913602df4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDER_DRAGON_BABY",
+      "name": "Baby Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/cd66a6816bd720d0ebd83979f25ecd52910b003eaed96a59c8f07703d07226e1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/cd66a6816bd720d0ebd83979f25ecd52910b003eaed96a59c8f07703d07226e1.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/9fc7ef67bc505cfa68dd3c9f9104ae277905b1a48f6c16e3aedd56512e591362.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/72b543952cd346252b7a7bde2349fa4129ebaeded17d5d4dfcec755346ab33.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/4edff126c317bd963dcad1aa9adf8c6c788f0db86339c51cc74b144eb50aa219.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/c115e75522a8ec9fe5e0cc5a25182e0773280bf361bae334ccb8a08b5e3c1a1c.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/8be54d2b0913908c645c55dae4bfe090747f87cf2ced543ababbb41b26d073c6.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/e75967b995587415ad873bb95837723a094c889cda148aecea4864c99261b17a.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/7be28df9da31f33332972c0918f78b8a47febc0121b82a36f8650a4bf08f39b3.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/6c29cc25ac1e405c2a4169346ebee5e60111b766e0467fd395bb3bb2aad280da.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/e62edf8c5857a6a537fa619579ee033c9fcd13421c639e6435900f7aa83124eb.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/833f1325532312c189ae60f954abc151b048c29c69863426c42b2de44e1f0499.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/e80b4eb7115fd717a18b9d8880aeaa957f2bf29bb0f49f61d5b22e9c12ad1a22.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/243d2c3dcdf97e569916cc9f053df907945de1c45bcfb353f82e7525b0cbb5ef.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/9eb96b55239181a4ae20d5250fc9ca5a49379d66f520c083586f228460fadad9.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/25ce7dec3d8798f258595f2049d4ef4f2134d3d659d68005e4cf4093ccbf036.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/24e73adc6be7922d0d6287192b48b4afcd6d72207773d0b15a1903b051ec0c22.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/5cfd14e72406254b0803e66d77b60973b12321859dd0dd03060dc7debd6304bb.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/d210acd8a2088d85fab478be3b0b4f6353cd386e82799db55bf5b39bc03a7410.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/c3120269a8d219c7b4e17bb4ccac2b596985c8758d68f6583ab72d531e9a3836.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/8acca271b109c269626190dcd40b9679db000e4216d96dc8081b3ec4d83da098.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/ca7615c15295fefadb7ebbee967a0865fbd8738deaeaa23da7b87284bd0368d5.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/3bdf013a917bdf6be685ca1e180ef3f5b39d58f76b4d36aae536810490fe7c7a.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/277ff0d8131473a3b0c1be4884f8f24a4b4a0d956a8fcd98054195298e7c2e9e.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/d785110ff1a48a6121552abfb15a6dd3990fabaca71bb14ae3ef68557e900f26.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/c35cc34913ad9310dad2fb1d2f1b0d8c360c52d3a9e8b375ac64dfece201643.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/816355a45530ecaa13eb63ef4a737b0a912c7e36b0529ba376056f3e865ed187.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/b0d7f4949ddd360490b31306dd20fab7c2a03a6b3e586a3aa175e89f948073b1.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/9b1b3f8ab35ce7b3d8baca5a2402839e02fbbe78014b069c66fbc1e008338e80.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/69b666931f723110fa0b0e57e828a55037ea656745173b6e5cfed8ed619fa965.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/ded000d55e537a4ed81d24491600649ed91dfa7c6923ddcb0ee72285fe3672ff.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/632be78790434f73c60b7e0ae228b44290d624bcce2f86616f6daa1316290566.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/6ccf239595725feaee3e7fc002030d60f93fd9565d1c9846220447c121feae05.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/8f24c48865c35598a4b9725fa82f37210c7a361298750885d7a3600789cdb4a5.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/32374ea2e10f981ea728c0673ff4add7228cf98cecfdd990bd3ae564f44dfb46.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/39be8fa0c07773c11389e2bb5eb33aa8ca0b03702b82aac2b23d5df847aa0654.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_BABY/1002abcc9c7c01c889d7bf6f9daa6ca51e07d55618e8f79ef5bb58dc66af0c51.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ENDER_DRAGON_BABY_BLUE",
+      "name": "Baby Blue Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/Ender_Dragon/49582fa21c45c40a80a9a791842f71078f47c335d627bb560eb86dad641a8c4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDER_DRAGON_LUNAR",
+      "name": "Lunar Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/Ender_Dragon/d6d851c9a386fc2c2ae3295d8c2feaea65ff2848d85a944f9bd9dfbde0df39eb.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE",
+      "name": "Super Plushie Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/8fad2855da70044fb4753ea8878a9110691e5ac2f90a71b8cebb2092f82c5583.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 15 cute animated plushies!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§4§lULTIMATE COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/8fad2855da70044fb4753ea8878a9110691e5ac2f90a71b8cebb2092f82c5583.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/354e4670be812090aa2bc7335b97fd29f3cf295ccdd4db8d9bf6234a803e2d48.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/d42904feaeb90b1309758bf03570b945e8af024d71c73bbfdadc35a76659c9a0.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/2f91078ae07a9e218b52ad978841e094229f6cb0cb758b919f27e24154c7a4b7.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/79b3bf313246e373c00af745d1bba0e64054b142f7aed7429c787a75dcfac17.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/4aadb2fc77e70404ce094194b08b04c1521a74404329c160e8a34db12104571e.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/429d990a90f00b5c707cfcc131f6b9c0ce683d0bef5d681d269444991b08e8ec.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/ac16f6d454ca55e7c7584308c1e3199a7fbd0c898bc97c6b44fa9eff64a6d7d9.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/49443fbb5fdfa8c5a9b9b5483fafbeee242c28db3b7c6122548fc34f07d7009d.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/2f0e28dc1a1f6a5f22491ecd0c1d7c514106f26482006615fe78f5932dfda2fb.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/5a0b2d15e5cc2969e77c3dd4de2cb1ae061e98ef9d1ef5a7201e3f4985294083.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/60c95dda7fac830d5389ccde4071f0e814c793ff3c0fbe721fac28938b0823c3.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/3ed35208159522dddb7019fb9925d739f068ec3b2c929b018d92a6427de17f2e.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/18f42f17103f790411d40c8adfc625a09b0c57a0b775769aa1855a1a89b951ab.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/bdb83e9de37de15cf7d5a3041c08c58b8abcc48aae0e57f03bc9a474349eb0a0.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/34e66ae491f0a261947f09333fab7b633035e83e7ec66e53ce1b457e41d74e18.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/5813d0dd526dd49a4297eeae7cd543739687206c742388a1d1927566aa8d7e78.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/1a501820662d0fe21b0b6a42d227ecb0a1427df762a4342395c9b2e9dfff60fa.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/23b3d4c7b9b61d9a4b7f3a50819805ccc9430aead834327946165158bd8239f.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/685258634b5eb3880596729601c809e0d4fe80d85bc5aeb43142297bbadda303.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/902856f7938fe22bae3bdd923b0939a21af6b1d08efe707865bb36434d2760b2.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/138877d43e5b371aca2131ab1f3a2012c78edc496006fad6d28fa46d8a5d4235.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/aad86e2a9f7fc8f3ab84b0b0582d60f54f9ad5ac4cdac2571721a282ee260300.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/e3ede23980d87257290f056da35e90def364c93dc172cc50220dd60fc1ce13a6.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/e346a4f9260b212731ccf4de13671f10084fa98449af263604e51efda927a2c3.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/63b58dd124fdaa0e6f406dddda74bf17ddb61abe71b16c6fcecd85691e08b0dd.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/d305992593d37b2f7cd6ade81a4affb9b69b9987e83c0223d9090a2efc8572de.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/16c751783842d3a56ccdc6320f46e2a75acb6485bda03e3b3027c52c380c2182.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/efb18778cf7a8684d186bfa74a5ad3c481ce91516352eecf699b2067feadb9e7.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/bb1f2cf368101f4348c609d440aed1552adcd9aa7c0e1b1013717b338d3e378.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/591894900011cd24bed9f55a64e4a46871c66224ec26c9fa05883489cfaf2619.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/b3868ecb95bdd6c090aacee8a9c613c9d2c86dd3f58c710fcfbd904816501545.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/cef55f8bbb3e937bb255f0f408cb1b4acd0f5d0c334e0f4d00f47a88ff5f6ce6.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/fdba31b225f641551695638b4de12b753de087cff8cc6c3eaca11e82c9d358d1.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/898109d92dd3940733108f30dea197e8fc2c060e56c6283341e8eff8b86a4ec7.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/a06a35521a8205a5bc5bb45f2635101fa5257a00107ed764ef060b1d7ede10e4.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/ff17155239290d8f4d90cb90dc78a25da70ccf416617b2035dc655d914d0be53.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/185c12b8408fa7ef90c7175ecec081080b87ad3ab3c65b61f1808ce34215364.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/afee5f38b6461f5b371b114bca1fe6f9022212fd36ee81bfdb74e58dfb414deb.png",
+          "/assets/pets/skins/animated_skins/Ender_Dragon/PET_SKIN_ENDER_DRAGON_SWAP_PLUSHIE_BLACK/3c8a27f7318d09b255ba18a359ce273c30b4eb7bca56e388e0881dd960128bb3.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ENDER_DRAGON_UNDEAD",
+      "name": "Undead Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/Ender_Dragon/e7232b2d2e618076cd620e352445d4a16382fdb24bcfafba7acceec0c146d2f6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ENDER_DRAGON_ZODIAC",
+      "name": "Zodiac Ender Dragon Skin",
+      "texturePath": "/assets/pets/skins/Ender_Dragon/78c1859908bc3c65e54a21904c8cb5ea00ab783c38b21560b75031a9fbbf22e1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aEnder Dragon§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

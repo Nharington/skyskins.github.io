@@ -1,0 +1,78 @@
+{
+  "name": "§dSpider",
+  "type": "SPIDER",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n\n§6One With The Spider\n§7Applies §c+15❁ Strength §7to all\n§4Arachnal Ж §7weapons, armor, and\n§7equipment you have equipped.\n\n§6Web-weaver\n§7Upon hitting a monster, it becomes\n§7slowed by §a40%§7.\n\n§6Spider Whisperer\n§7Spider, Cave Spider and Tarantula\n§7minions work §a30% §7faster while on\n§7your island.\n\n§6Web Battlefield\n§7Killing mobs grants §c+0.06❁ Strength\n§7and §b+0.01✯ Magic Find §7for §a40s §7to all\n§7players staying within §a20 §7blocks of\n§7where they died. §8Stacks up to 10\n§8times.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Spider_Pet",
+    "https://wiki.hypixel.net/Spider_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 100000,
+      "time": 3600,
+      "input": "SPIDER;4",
+      "output": "SPIDER;5",
+      "items": [
+        "ENCHANTED_STRING:64",
+        "ENCHANTED_SPIDER_EYE:32",
+        "FAKE_NEUROSCIENCE_DEGREE:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SPIDER;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Spider/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n\n§6One With The Spider\n§7Applies §c+3❁ Strength §7to all\n§4Arachnal Ж §7weapons, armor, and\n§7equipment you have equipped.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "SPIDER;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Spider/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n\n§6One With The Spider\n§7Applies §c+6❁ Strength §7to all\n§4Arachnal Ж §7weapons, armor, and\n§7equipment you have equipped.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "SPIDER;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Spider/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n\n§6One With The Spider\n§7Applies §c+9❁ Strength §7to all\n§4Arachnal Ж §7weapons, armor, and\n§7equipment you have equipped.\n\n§6Web-weaver\n§7Upon hitting a monster, it becomes\n§7slowed by §a40%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "SPIDER;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Spider/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n\n§6One With The Spider\n§7Applies §c+12❁ Strength §7to all\n§4Arachnal Ж §7weapons, armor, and\n§7equipment you have equipped.\n\n§6Web-weaver\n§7Upon hitting a monster, it becomes\n§7slowed by §a40%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "SPIDER;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Spider/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n\n§6One With The Spider\n§7Applies §c+15❁ Strength §7to all\n§4Arachnal Ж §7weapons, armor, and\n§7equipment you have equipped.\n\n§6Web-weaver\n§7Upon hitting a monster, it becomes\n§7slowed by §a40%§7.\n\n§6Spider Whisperer\n§7Spider, Cave Spider and Tarantula\n§7minions work §a30% §7faster while on\n§7your island.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "SPIDER;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Spider/cd541541daaff50896cd258bdbdd4cf80c3ba816735726078bfe393927e57f1.png",
+      "lore": "§8Combat Pet\n\n§7Strength: §c50\n§7Crit Chance: §910%\n\n§6One With The Spider\n§7Applies §c+15❁ Strength §7to all\n§4Arachnal Ж §7weapons, armor, and\n§7equipment you have equipped.\n\n§6Web-weaver\n§7Upon hitting a monster, it becomes\n§7slowed by §a40%§7.\n\n§6Spider Whisperer\n§7Spider, Cave Spider and Tarantula\n§7minions work §a30% §7faster while on\n§7your island.\n\n§6Web Battlefield\n§7Killing mobs grants §c+0.06❁ Strength\n§7and §b+0.01✯ Magic Find §7for §a40s §7to all\n§7players staying within §a20 §7blocks of\n§7where they died. §8Stacks up to 10\n§8times.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_SPIDER_BLACK_WIDOW",
+      "name": "Black Widow Spider Skin",
+      "texturePath": "/assets/pets/skins/Spider/4ef27331cb9b93ec33be5ff388900d2666967ca2712c29057de9fa702a84b87a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSpider§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SPIDER_PEACOCK",
+      "name": "Peacock Spider Skin",
+      "texturePath": "/assets/pets/skins/Spider/f9c75185cf50c6680b98bd25d99820fc238bfdbc8d8c694cef207a5ac84ee1e3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSpider§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

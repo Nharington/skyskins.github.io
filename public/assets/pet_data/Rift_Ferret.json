@@ -1,0 +1,28 @@
+{
+  "name": "§5Rift Ferret",
+  "type": "RIFT_FERRET",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Intelligence: §b--2\n§7Speed: §f50\n\n§6Orbs are Fun\n§7Gain §a+10% §7experience from §bXP Orbs§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8§l* §8Soulbound §8§l*\n§5§kX§5 Rift-Transferable §5§kX\n§5§lEPIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rift_Ferret_Pet",
+    "https://wiki.hypixel.net/Rift_Ferret_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "RIFT_FERRET;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Rift_Ferret/b6b11399448260185da1d17e54c984515faab6d8585f00972451ec2b43d46f94.png",
+      "lore": "§8Combat Pet\n\n§7Intelligence: §b--2\n§7Speed: §f50\n\n§6Orbs are Fun\n§7Gain §a+10% §7experience from §bXP Orbs§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8§l* §8Soulbound §8§l*\n§5§kX§5 Rift-Transferable §5§kX\n§5§lEPIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_FERRET_BLACK_ANGORA",
+      "name": "Black Angora Rift Ferret Skin",
+      "texturePath": "/assets/pets/skins/Rift_Ferret/363e121ab0d932855c52fc5d72d6da6b4ca23b8201a92600f9a1dfa09497255e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRift\n§aFerret§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

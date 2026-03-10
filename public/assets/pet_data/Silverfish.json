@@ -1,0 +1,77 @@
+{
+  "name": "§6Silverfish",
+  "type": "SILVERFISH",
+  "category": "Mining",
+  "description": "§8Mining Pet\n\n§7Defense: §a100\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Magnetic\n§7Earn §a+50% §7more Exp when mining.\n\n§6Experienced Burrower\n§7Grants §3+30☯ Mining Wisdom§7.\n\n§6Dexterity\n§7Grants §6+150⸕ Mining Speed §7and\n§7permanent §eHaste ?§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Silverfish_Pet",
+    "https://wiki.hypixel.net/Silverfish_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 10000,
+      "time": 45,
+      "input": "SILVERFISH;3",
+      "output": "SILVERFISH;4",
+      "items": [
+        "ENCHANTED_COBBLESTONE:8"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "SILVERFISH;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Silverfish/811a1173af3bead305e6339f555662e990d5faadb87e07299fa68ca828a6d2fb.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Magnetic\n§7Earn §a+30% §7more Exp when mining.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "SILVERFISH;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Silverfish/da91dab8391af5fda54acd2c0b18fbd819b865e1a8f1d623813fa761e924540.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Magnetic\n§7Earn §a+40% §7more Exp when mining.\n\n§7§eRight-click to add this pet to\n§eyour pet menu!\n\n§a§lUNCOMMON"
+    },
+    {
+      "id": "SILVERFISH;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Silverfish/811a1173af3bead305e6339f555662e990d5faadb87e07299fa68ca828a6d2fb.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Magnetic\n§7Earn §a+40% §7more Exp when mining.\n\n§6Experienced Burrower\n§7Grants §3+20☯ Mining Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "SILVERFISH;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Silverfish/811a1173af3bead305e6339f555662e990d5faadb87e07299fa68ca828a6d2fb.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Magnetic\n§7Earn §a+50% §7more Exp when mining.\n\n§6Experienced Burrower\n§7Grants §3+25☯ Mining Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "SILVERFISH;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Silverfish/811a1173af3bead305e6339f555662e990d5faadb87e07299fa68ca828a6d2fb.png",
+      "lore": "§8Mining Pet\n\n§7Defense: §a100\n§7Mining Fortune: §6[Mining Fortune]\n\n§6Magnetic\n§7Earn §a+50% §7more Exp when mining.\n\n§6Experienced Burrower\n§7Grants §3+30☯ Mining Wisdom§7.\n\n§6Dexterity\n§7Grants §6+150⸕ Mining Speed §7and\n§7permanent §eHaste ?§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_SILVERFISH",
+      "name": "Fortified Silverfish Skin",
+      "texturePath": "/assets/pets/skins/Silverfish/d8552ff591042c4a38f8ba0626784ae28c4545a97d423fd9037c341035593273.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSilverfish§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SILVERFISH_FOSSILIZED",
+      "name": "Fossilized Silverfish Skin",
+      "texturePath": "/assets/pets/skins/Silverfish/ca3a363368ed1e06cee3900717f062e02ec39aee1747675392255b48f7f83600.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§7Silverfish pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_SILVERFISH_SILBRRRFISH",
+      "name": "Silbrrrfish Silverfish Skin",
+      "texturePath": "/assets/pets/skins/Silverfish/43ca04cef6f1707ceb9fecdee12d1ec7878b74186b69aa5c471d3b3c0a4264eb.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aSilverfish§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

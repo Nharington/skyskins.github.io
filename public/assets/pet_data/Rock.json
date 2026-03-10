@@ -1,0 +1,203 @@
+{
+  "name": "§6Rock",
+  "type": "ROCK",
+  "category": "Mining",
+  "description": "§8Mining Mount\n\n§7Defense: §a200\n§7True Defense: §f[True Defense]\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Sailing Stone\n§7Sneak to move your rock to your\n§7location (15s cooldown)\n\n§6Fortify\n§7While sitting on your rock, gain +§a25%\n§7defense\n\n§6Steady Ground\n§7While sitting on your rock, deal §c+30x\n§7damage\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rock_Pet",
+    "https://wiki.hypixel.net/Rock_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 50000000,
+      "time": 1209600,
+      "input": "ROCK;3",
+      "output": "ROCK;4",
+      "items": [
+        "ENCHANTED_COBBLESTONE:64"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "ROCK;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Rock/7df8aab57136df2296c7c6f969ff25d58116fe2ec59b96a85ba4927e1f6779e6.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n§7True Defense: §f[True Defense]\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Sailing Stone\n§7Sneak to move your rock to your\n§7location (15s cooldown)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "ROCK;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Rock/7df8aab57136df2296c7c6f969ff25d58116fe2ec59b96a85ba4927e1f6779e6.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n§7True Defense: §f[True Defense]\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Sailing Stone\n§7Sneak to move your rock to your\n§7location (15s cooldown)\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "ROCK;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Rock/7df8aab57136df2296c7c6f969ff25d58116fe2ec59b96a85ba4927e1f6779e6.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n§7True Defense: §f[True Defense]\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Sailing Stone\n§7Sneak to move your rock to your\n§7location (15s cooldown)\n\n§6Fortify\n§7While sitting on your rock, gain +§a20%\n§7defense\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "ROCK;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Rock/7df8aab57136df2296c7c6f969ff25d58116fe2ec59b96a85ba4927e1f6779e6.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n§7True Defense: §f[True Defense]\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Sailing Stone\n§7Sneak to move your rock to your\n§7location (15s cooldown)\n\n§6Fortify\n§7While sitting on your rock, gain +§a25%\n§7defense\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "ROCK;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Rock/7df8aab57136df2296c7c6f969ff25d58116fe2ec59b96a85ba4927e1f6779e6.png",
+      "lore": "§8Mining Mount\n\n§7Defense: §a200\n§7True Defense: §f[True Defense]\n\n§6Ridable\n§7Right-click your summoned pet to\n§7ride it!\n\n§6Sailing Stone\n§7Sneak to move your rock to your\n§7location (15s cooldown)\n\n§6Fortify\n§7While sitting on your rock, gain +§a25%\n§7defense\n\n§6Steady Ground\n§7While sitting on your rock, deal §c+30x\n§7damage\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_ROCK_BLINKING",
+      "name": "Blinking Rock Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_BLINKING/c410ef05d130e5f428b6bc462cddc39fe96cc380ea1609582d39df83496429a8.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRock\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 5,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_BLINKING/c410ef05d130e5f428b6bc462cddc39fe96cc380ea1609582d39df83496429a8.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_BLINKING/5150c1b93569209c6f5468682b09d5740b6c87b39e2d3e8faae6a1ce9d794c71.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_BLINKING/dc5beecf2e10537d4735bb89f11aeddbd84bfa3715aadd5cf8cc7105b370e707.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_BLINKING/f814eadaa5da6e38f8536501d457a130adef9a025103bdd19dd4732d353509a0.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ROCK_COOL",
+      "name": "Cool Rock Skin",
+      "texturePath": "/assets/pets/skins/Rock/fefcdbb7d95502acc1ae35a32a40ce4dec8f4c9f0da26c9d9fe7c2c3eb748f6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Rock\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ROCK_DERP",
+      "name": "Derpy Rock Skin",
+      "texturePath": "/assets/pets/skins/Rock/c4f89fbd12c209f7f26c1f34a1bd7f47635814759c09688dd212b205c73a8c02.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied\n§7to Rock pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ROCK_EMBARRASSED",
+      "name": "Embarrassed Rock Skin",
+      "texturePath": "/assets/pets/skins/Rock/27ff34992e66599e8529008be3fb577cb0ab545294253e25a0cc988e416c849.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied\n§7to Rock pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ROCK_HOLLOW",
+      "name": "Hollow Rock Skin",
+      "texturePath": "/assets/pets/skins/Rock/aa55a28f2e474b4e6732aec883464b0b5a3b9b82ca1caf7f700480340ca173d4.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRock\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ROCK_LAUGH",
+      "name": "Laughing Rock Skin",
+      "texturePath": "/assets/pets/skins/Rock/8cc1ef513d5f616675242174acde7b9d6259a47c4fe8f6e4b6e20920319d7073.png",
+      "lore": "§8Consumed on use\n\n§7§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7§7This skin can only be applied\n§7to Rock pets.\n\n§7§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ROCK_NORTH_STAR",
+      "name": "North Star Rock Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/cde41521f0abbe5cb6157dc2585e717128b2daa3a2110bfb185afacebfa71358.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRock\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§b§l§ka§r §b§lDIVINE COSMETIC §b§l§ka",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/cde41521f0abbe5cb6157dc2585e717128b2daa3a2110bfb185afacebfa71358.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/80ee90c82af117db7d9eec497cc283ec2f40c8f6e1827a5ed86e9b492d8d20fb.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/5a27e8457e40ba84bf1bc1ae158342bd54e138c5ee95212600e11891942eb55a.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/e8337250c8c3753328fb198dfbc742a79001f78d1185fc13001521c61c61a0aa.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/d6c5ee8c2298214a09649d6a1fe05102419a0c9fcfc3410e5a3655827951e610.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/56ca64c323c2b6777d2a0d2bb2a45aa0923fcfa565275fd62096ce5c65fb386.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/55392a019bcc652ee77c310994840bc4264d66f0e1cb591c5267b0018217e9d4.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/2378b3467eb53bff14158354d90f6695ae140a4aa7ff11f7285a5f7a02809158.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/549d5c234438d34cec815595e2aef88a588a0ad86e94bc2f40eacc0ecbf0db8a.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/9dad75e5f2159ee30f83edc7e4e93b352186b9196b0938d1a9706ec9dfa5d481.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/6b07ed5cd2dbdabe941b04ea835b5b6953d0957b53dd6e4978884ed38d1772fb.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/d6b9251aad30049ef37963c147a365e2072622e80d3bc63a375cbd86798813a7.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/45f5cab199508725ea2bbe3ed2d84b891c5d8b7ee7eaedc69e67196dc6fee3d9.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/69d452342f85311a9d215a97cc19a2aeed99e33fdd48cac22e05ba21b0291574.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/35995da1e8cd133b93d454d64d8a44b5d519d8ac66241aea35c8eb469a144a17.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/dff085ba10fcd7fa9a7e0c7525597091f08d3655cc25ca016045fda601ef4c09.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/33902b298a6503ec20a9a659dcbb19b55471cb6f0812c28c6327ec4cd2ca429.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/59cd773beffa0635c3725d44c7349fc54ebb5dbf58aab20a61366f8918bb28a4.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/3f287e8ba03beefb8fc2b6d118ed8866ee65b01d682da5deedf35734f6950569.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/3b2788d7cd60834a09b4f51b8827c431b04aeb8327bca40ccf7cb1c09e18666a.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/b3acb2abd682132269a0dc7e17878e0dd3e2cbfc24d03c2bb10be63dc5e323ae.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/6ec9c807b9685b73212f514d09f5a3cf1d90ef0f6049ced96e96ade771ce4039.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/58157c38755c274664c21bda166bc1016b2be989218785603a575369dc6b7f35.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/7271ce02ae26ad0f23c5eb5ed7831e6da59afeb8bc1de4896c2fee68990a09f5.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/9705d21af7a4a715a0736ab105ae11599de27a9cbdda9d23d8ea617fba4fe1c1.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_NORTH_STAR/e455f632fdf878a63c249e287bee5fa1fe758beeca6c8426415e61d6955fb946.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ROCK_SMILE",
+      "name": "Smiling Rock Skin",
+      "texturePath": "/assets/pets/skins/Rock/713c8b2916a275db4c1762cf5f13d7b95b91d60baf5164a447d6efa7704cf11b.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRock\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ROCK_SURPRISED",
+      "name": "Surprised Rock Skin",
+      "texturePath": "/assets/pets/skins/Rock/8c7c4545d4134fae44ef319303c91ad14fcc9354b0bf071933b4a420e172fbd1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRock\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_ROCK_SUS",
+      "name": "Sus Rock Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SUS/ec6821535982efbbb757ad16cc85a1be18998806f5c53ea2f35cb20b99574869.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRock\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 30,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SUS/ec6821535982efbbb757ad16cc85a1be18998806f5c53ea2f35cb20b99574869.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SUS/9850914394b0807e3385ca5c987940ed4ce04da2f0148405e2d3ee1ce585b3bb.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SUS/9850914394b0807e3385ca5c987940ed4ce04da2f0148405e2d3ee1ce585b3bb.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ROCK_SWEATING",
+      "name": "Sweating Rock Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/1aa6573ec88910143f0e1759a56d07021471bbcbd81ed9fcbea85c3dbcb52bb9.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRock\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/1aa6573ec88910143f0e1759a56d07021471bbcbd81ed9fcbea85c3dbcb52bb9.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/bed2d60c147610cb6cfb8e9bc372ce74e6e54d56eda8f3f0cf86d77293cdc266.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/b5d2a1cc65a16523f6bd343fa855507411e2f20df2b750cf74087ae2f7deecee.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/ec793352f6459a95de7daa1a3fd1887f106b622e144d500029caec5b7bdefe54.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/cfb832f6a9b7c7516176809c5c20133f04c8df8b9a8abf29ab822b424f57be6.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/19eed192daa876789ae71f1293781b7e31daced74f625c2cf0d75f088dc971cc.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/925786e891200784e6499d9e46da8f0703179998e8cd1861d0063c2c7dede213.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/acfa2fa6f9de04b99fd2c6147a037bc7ae499eb5b9046d6a62c3b86c2611613c.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/739248b6bc740e8f04de074b95fdd9112b594086ec75e0753fb40c0ee075158a.png",
+          "/assets/pets/skins/animated_skins/Rock/PET_SKIN_ROCK_SWEATING/26ca4c9f9543238de127a0af424e2e0dcfe7ef26fbd21c9a026adac2caa1fe04.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_ROCK_THINKING",
+      "name": "Thinking Rock Skin",
+      "texturePath": "/assets/pets/skins/Rock/dd2f781f03c365bbc5dd1e7186ab38dc69465e836c9fe066a9a844f34a4da92.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aRock\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§9§lRARE COSMETIC",
+      "animated": false
+    }
+  ]
+}

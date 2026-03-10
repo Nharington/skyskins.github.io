@@ -1,0 +1,56 @@
+{
+  "name": "§6Hedgehog",
+  "type": "HEDGEHOG",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Speed: §f15\n\n§6Spiky Quills\n§7Deal §a100%§7 more damage to §2ൠ Pests§7.\n\n§6Fearsome Farmer\n§7Grants §6+100☘ Farming Fortune §7on §2ൠ\n§2Pests§7.\n\n§6Hunter's Insight\n§7Grants §6+0.7☘ Farming Fortune§7 per\n§7Pest Bestiary Tier.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Hedgehog_Pet",
+    "https://wiki.hypixel.net/Hedgehog_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "HEDGEHOG;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Hedgehog/5f5e835c116e8e200e2e06aa593cab8f1a9f8c40e7f005a9c76f12e24f4c6370.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f15\n\n§6Spiky Quills\n§7Deal §a100%§7 more damage to §2ൠ Pests§7.\n\n§6Fearsome Farmer\n§7Grants §6+100☘ Farming Fortune §7on §2ൠ\n§2Pests§7.\n\n§6Hunter's Insight\n§7Grants §6+0.7☘ Farming Fortune§7 per\n§7Pest Bestiary Tier.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_HEDGEHOG_BURNING",
+      "name": "Burning Hedgehog Skin",
+      "texturePath": "/assets/pets/skins/Hedgehog/61437a07b12fa65bcded92c28bc79520ebddb0b9c2e17800c9d75f66442b8550.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aHedgehog§7 pets.\n\n§aThis skin will allow you to swap\n§abetween 14 burning hedgehogs!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_HEDGEHOG_GLACIAL",
+      "name": "Glacial Hedgehog Skin",
+      "texturePath": "/assets/pets/skins/Hedgehog/f036480bd06226a03fd8039c48efd0b270b26e64d3bc150b698574f9d66c5064.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aHedgehog§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_HEDGEHOG_PINEAPPLE",
+      "name": "Pineapple Hedgehog Skin",
+      "texturePath": "/assets/pets/skins/Hedgehog/cf5ba3378fc1d22ef115e60d0c91bb91b93bbaeb309a2f6b18f36fdca8c5cba6.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aHedgehog§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_HEDGEHOG_RAMBUTAN",
+      "name": "Rambutan Hedgehog Skin",
+      "texturePath": "/assets/pets/skins/Hedgehog/46448ae73a4dc97fc4223224706f9753a912b785e820f51d09ace2e685aae0e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aHedgehog§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_HEDGEHOG_STRAWBERRY",
+      "name": "Strawberry Hedgehog Skin",
+      "texturePath": "/assets/pets/skins/Hedgehog/ee0fdd1b7a823a1d449ae3dc0ea5391f6b7487b8398b75a2b86889a420cb49f3.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aHedgehog§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "§6Rose Dragon",
+  "type": "ROSE_DRAGON",
+  "category": "Farming",
+  "description": "§8Farming Pet\n\n§7Speed: §f100\n§7Farming Fortune: §6[Farming Fortune]\n\n§6Garden Power\n§7Grants §6+3☘ Farming Fortune §7per\n§aFarming §7level.\n\n§6Rosy Scales\n§7Grants §6+0.15☘ Farming Fortune\n§7and §f+0.1✦ Speed §7per Crop\n§7Milestone.\n\n§6Dragon's Gluttony\n§7Increases the chance to drop rare\n§7items when breaking crops by §a40%§7.\n\n§6Spiritual Perfection\n§7Gain §a20% §7more §cCopper §7from §aGarden\n§aVisitors §7and from analyzing §eMutations§7.\n\n§6Symbiosis\n§7If you own a level §a200 Rose Dragon§7,\n§7grants §6+3☘ Farming Fortune §7for\n§7every other unique maxed §aFarming\n§aPet §7that you own.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Rose_Dragon_Pet",
+    "https://wiki.hypixel.net/Rose_Dragon_Pet"
+  ],
+  "recipes": [],
+  "rarities": [
+    {
+      "id": "ROSE_DRAGON;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Rose_Dragon/9b7c3de075a2bb238ef51431206b10d586cb2a5b1cc41fe851cc5f0b02d357c7.png",
+      "lore": "§8Farming Pet\n\n§7Speed: §f100\n§7Farming Fortune: §6[Farming Fortune]\n\n§6Garden Power\n§7Grants §6+3☘ Farming Fortune §7per\n§aFarming §7level.\n\n§6Rosy Scales\n§7Grants §6+0.15☘ Farming Fortune\n§7and §f+0.1✦ Speed §7per Crop\n§7Milestone.\n\n§6Dragon's Gluttony\n§7Increases the chance to drop rare\n§7items when breaking crops by §a40%§7.\n\n§6Spiritual Perfection\n§7Gain §a20% §7more §cCopper §7from §aGarden\n§aVisitors §7and from analyzing §eMutations§7.\n\n§6Symbiosis\n§7If you own a level §a200 Rose Dragon§7,\n§7grants §6+3☘ Farming Fortune §7for\n§7every other unique maxed §aFarming\n§aPet §7that you own.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": []
+}

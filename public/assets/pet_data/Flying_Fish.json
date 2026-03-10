@@ -1,0 +1,110 @@
+{
+  "name": "§dFlying Fish",
+  "type": "FLYING_FISH",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Defense: §a50\n§7Strength: §c50\n\n§6Quick Reel\n§7Grants §b+80☂ Fishing Speed§7.\n\n§6Lava Bender\n§7Gives §a100 §c❁ Strength §7and §a❈ Defense\n§7when near water or lava\n\n§6Magmatic Diver\n§7Increases the stats of §aDiver Armor§7,\n§aMagma Lord Armor§7, and §aAbyssal\n§aArmor §7by §a20%§7.\n\n§6Rapid Decay\n§7Increases the chance to activate\n§7the §d§lFlash Enchantment §7by §a?%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Flying_Fish_Pet",
+    "https://wiki.hypixel.net/Flying_Fish_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 1000000,
+      "time": 3600,
+      "input": "FLYING_FISH;4",
+      "output": "FLYING_FISH;5",
+      "items": [
+        "RADIOACTIVE_VIAL:1"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "FLYING_FISH;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Flying_Fish/b8b1bc70136d620a822d08dfc2b04abe927e1c432b256139624b00c7bf4d3c1e.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a50\n§7Strength: §c50\n\n§6Quick Reel\n§7Grants §b+60☂ Fishing Speed§7.\n\n§6Water Bender\n§7Gives §a80 §c❁ Strength §7and §a❈ Defense\n§7when near water\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "FLYING_FISH;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Flying_Fish/b8b1bc70136d620a822d08dfc2b04abe927e1c432b256139624b00c7bf4d3c1e.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a50\n§7Strength: §c50\n\n§6Quick Reel\n§7Grants §b+75☂ Fishing Speed§7.\n\n§6Water Bender\n§7Gives §a100 §c❁ Strength §7and §a❈ Defense\n§7when near water\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "FLYING_FISH;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Flying_Fish/b8b1bc70136d620a822d08dfc2b04abe927e1c432b256139624b00c7bf4d3c1e.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a50\n§7Strength: §c50\n\n§6Quick Reel\n§7Grants §b+80☂ Fishing Speed§7.\n\n§6Water Bender\n§7Gives §a100 §c❁ Strength §7and §a❈ Defense\n§7when near water\n\n§6Deep Sea Diver\n§7Increases the stats of §aDiver Armor\n§7and §aAbyssal Armor §7by §a20%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§6§lLEGENDARY"
+    },
+    {
+      "id": "FLYING_FISH;5",
+      "name": "Mythic",
+      "texturePath": "/assets/pets/defaults/Flying_Fish/b0e2363c2d41a9d323ba625de8c0637063a36fe85a045de275a7b7739ded6051.png",
+      "lore": "§8Fishing Pet\n\n§7Defense: §a50\n§7Strength: §c50\n\n§6Quick Reel\n§7Grants §b+80☂ Fishing Speed§7.\n\n§6Lava Bender\n§7Gives §a? §c❁ Strength §7and §a❈ Defense\n§7when near water or lava\n\n§6Magmatic Diver\n§7Increases the stats of §aDiver Armor§7,\n§aMagma Lord Armor§7, and §aAbyssal\n§aArmor §7by §a?%§7.\n\n§6Rapid Decay\n§7Increases the chance to activate\n§7the §d§lFlash Enchantment §7by §a100%§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§d§lMYTHIC"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_FLYING_FISH_HARLEQUIN",
+      "name": "Harlequin Flying Fish Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/b66acaa01f5a155d2cbf63878911b1e4c4d6e4164b13278aa105652f6880d0f0.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aFlying Fish§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/b66acaa01f5a155d2cbf63878911b1e4c4d6e4164b13278aa105652f6880d0f0.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/f81637218be1beed807553545b4cee244cf60ee0002ec775474bd6517f131330.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/c7ad0474c140a6ff5052f7c619e55d8c614a1b4ccedd496c0284098e41237b8b.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/cd17d87453fc2d32b8c96508b7afbc880d887f246453a65911188f0e7dc58a57.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/c06c6329909ff95579b630eab0f8a4c89132e4d3bee3bda0b7550f994c7f172f.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/b6874239e0a763bed6b2f40b1e2fe3eb7d850b4a13f2f3884dc70655fdfe2831.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/d50bc0b0a5a73ac7b004c98915941f67d49ead5ec91d0bd93d810797d95c625d.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/adb540c1be6aa9d0cc6f5bf17105c8b0a76411bfffabf566e73e2fba11dab149.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/549711506ec6e644b7bf5ba1c2bdf4907d6f00e6e5fb9772fded78255fe7efa3.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/513c2411d23a65dfdbfed82ce7045e317ecb350b5db3cbe57c7fcb313021b8bd.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/af5192382eb97a4e2b20a95889d8209adbc9c8bb4ada195a64eff198f173d7fe.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/65b08e5914cbb3e22f0914a13674a62493c7a164f5279664fe07ff1796f2c257.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/6e23b0affde36b239dd81182a1eb4a6567b9795057dcbc55235b4f8858ad74a0.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/3b91ab2ab4e0696f2b4e1ae1483c6d95510ea494782d965595695169a5992713.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/6625ba8eec09ce94dc846ce7b229d0d018ed0a259f25b730b397032e9e30f9a6.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/56540ddb95f1c16b45931a0b5c4a9ae3d4d22d3766981a0528956307ac340c3b.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/b6438dd1044a90c69287f1e94a0d07aa7e88154e5d2bcb83e530aa7257ff4760.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/97ef8313d672409f2589add09d9adc3e1161b05ed3185646189f50019ba4884.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/2cc961bc8a6baf3178d734a94d0802c1db633d88fb2a4b100dfb54e13c3959f2.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/aedf06bed12711cf23d403f0cec2b0e62ed446f1368a713270a12cf876d13ffa.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/41eaa5eba12041c6c9934be5bf75f3a9657860ad341d3a35a87d689509795fd5.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/7ae331001b74c08dd6bd75e17341155518c131ddcc56243fda3f820f68b6cdec.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/95cdc9bd95ab01ffca7637a2890fa84a166267968eb57c96f5d4b5be4dbab13b.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/6f33bd4e8b5dddba22e25b3f27d4e9804e752ae9485c2ab84dac33c4014cad1e.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/f766afb3e9043fec5f6bd6dbe22428700233d3c38ce8acaaff92d14b922083b2.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/90569f052781d5a2a7e581bb8388c22b90c6b10acbfba2446c53e8cca362890.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/84c3ef686778acdf62d13897607ba56c2f964fd27cc86582d36787a892e014e3.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/81983668e031b645af619a8f2dca8f03cbd5c48c44f38b79835823694aaa016a.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/de19a7a2a6582ab0905546a6baf83d8f4a1338053c673ad3594427d71d902efa.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/2d0e485efc0d0269922cde008800fd3506af5eb50a54636cb128d3be373ccd41.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/825bc73d4f628249959333ec0c90afe449055cdb4bf3976f73cbfc0ed5ab744f.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/7363794db2cee526bdcb43a87fd677e0b7027ffa07400e10e8f07447a93b18e1.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/bc96338ec092453257185693cbc91d6cf722a7e97938b3c8b69ae19db173c44d.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/e7e6a84c8bc8ac6049f5eabcc41feb7e055e02ba2dca7677524e276472390cf7.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/4dd5e6e1a89bbdc26092739b321ce6bc8801e397af13ddb86aea4c217b2e2df2.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/7cad34ef53a465e6b1540fff57a298e07f0c5871c1dbeb97ba3e3a50b0e23773.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/c2c0f42703ce2bfc7cb49af045fcd9481bae5820c9a60b8ee6429ee75541328a.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/3d463ea4358c8354d25b55a3a407dbc4fd559038dfcee452d154b8cca5c8cffb.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/b458cb9cec83bad9b94a1ceb4f10a466c5d37fbfe738a0d0c18c22c45f6f30c.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/71b3640d94d64b5dc3868bf9ce6541d4f935183d7cf436141e52ed264e31a033.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/be2e7d025a693ed7ac705748f38bf8fa4da1dbfc3815c81bc3266f6b3bc5afa0.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/aa957c973725c87dbf4fc65d80e836bde12e9c55e69d234baa6e30a5af7868de.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/62b758ade8c749e99fe5a0d667b25bbba550cc39de2ec6934928caa5de5419b3.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/9276e9cf58fafc8e810517284a875ff2e3ff2ed4333532f55246a838dc58c771.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/f90f1f38c48f083103c1aea80049abff37132b125055f97132b7d40a6af631a1.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/c91cbf7826dacd26f8a7c0b8f2fedcf03e998a767367d2fdc46942e773d9a05.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/3fb7e7bf75dd060aafa1b19af5d4c1131170e6cd095011c8aa53eb39714d2fd1.png",
+          "/assets/pets/skins/animated_skins/Flying_Fish/PET_SKIN_FLYING_FISH_HARLEQUIN/b748750d4c7c878cedf2946dfa32b890056032b7b02f61ebdc96449747a5117f.png"
+        ]
+      }
+    }
+  ]
+}

@@ -1,0 +1,257 @@
+{
+  "name": "§6Wolf",
+  "type": "WOLF",
+  "category": "Combat",
+  "description": "§8Combat Pet\n\n§7Health: §c50\n§7True Defense: §f[True Defense]\n§7Crit Damage: §910%\n§7Speed: §f20\n\n§6Alpha Dog\n§7Take §a30% §7less damage from wolves\n\n§6Pack Leader\n§7Gain §a15% §9☠ Crit Damage §7for every\n§7nearby wolf monster.\n§8Max 10 wolves\n\n§6Combat Wisdom Boost\n§7Grants §3+30☯ Combat Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Wolf_Pet",
+    "https://wiki.hypixel.net/Wolf_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 50000,
+      "time": 1800,
+      "input": "WOLF;3",
+      "output": "WOLF;4",
+      "items": [
+        "ENCHANTED_SPRUCE_LOG:32"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "WOLF;0",
+      "name": "Common",
+      "texturePath": "/assets/pets/defaults/Wolf/81483105ab8c33f04c97c7493c9871c8a51cc49df6d9b5e23b26652094bf3030.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7True Defense: §f[True Defense]\n§7Crit Damage: §910%\n§7Speed: §f20\n\n§6Alpha Dog\n§7Take §a10% §7less damage from wolves\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§f§lCOMMON"
+    },
+    {
+      "id": "WOLF;1",
+      "name": "Uncommon",
+      "texturePath": "/assets/pets/defaults/Wolf/dc3dd984bb659849bd52994046964c22725f717e986b12d548fd169367d494.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7True Defense: §f[True Defense]\n§7Crit Damage: §910%\n§7Speed: §f20\n\n§6Alpha Dog\n§7Take §a20% §7less damage from wolves\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§a§lUNCOMMON"
+    },
+    {
+      "id": "WOLF;2",
+      "name": "Rare",
+      "texturePath": "/assets/pets/defaults/Wolf/dc3dd984bb659849bd52994046964c22725f717e986b12d548fd169367d494.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7True Defense: §f[True Defense]\n§7Crit Damage: §910%\n§7Speed: §f20\n\n§6Alpha Dog\n§7Take §a20% §7less damage from wolves\n\n§6Pack Leader\n§7Gain §a10% §9☠ Crit Damage §7for every\n§7nearby wolf monster.\n§8Max 10 wolves\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§9§lRARE"
+    },
+    {
+      "id": "WOLF;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Wolf/81483105ab8c33f04c97c7493c9871c8a51cc49df6d9b5e23b26652094bf3030.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7True Defense: §f[True Defense]\n§7Crit Damage: §910%\n§7Speed: §f20\n\n§6Alpha Dog\n§7Take §a30% §7less damage from wolves\n\n§6Pack Leader\n§7Gain §a15% §9☠ Crit Damage §7for every\n§7nearby wolf monster.\n§8Max 10 wolves\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "WOLF;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Wolf/81483105ab8c33f04c97c7493c9871c8a51cc49df6d9b5e23b26652094bf3030.png",
+      "lore": "§8Combat Pet\n\n§7Health: §c50\n§7True Defense: §f[True Defense]\n§7Crit Damage: §910%\n§7Speed: §f20\n\n§6Alpha Dog\n§7Take §a30% §7less damage from wolves\n\n§6Pack Leader\n§7Gain §a15% §9☠ Crit Damage §7for every\n§7nearby wolf monster.\n§8Max 10 wolves\n\n§6Combat Wisdom Boost\n§7Grants §3+30☯ Combat Wisdom§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_GRANDMA_WOLF_REAL",
+      "name": "Real Grandma Wolf Skin",
+      "texturePath": "/assets/pets/skins/Wolf/582eaf9fd0c8ac94275952b5faacb802050822e919ba5be88f5e8ed978468e1d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to\n§aGrandma Wolf§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WOLF",
+      "name": "Dark Wolf Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/7ba39650a69800d303da8fd2e09dfbecac077e6c196da5354204fe2e35a4967c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aWolf\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/7ba39650a69800d303da8fd2e09dfbecac077e6c196da5354204fe2e35a4967c.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/7161623919273a7261e6287fdcd34c2399bb349c633ecabbc6d281af271962ff.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/deea5ef4c9021ea6ff358f6560d967d20169cab060fa831f9c61e7a74bf2dfa8.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/a6001ca5e628af7cd64b689dd1f9f86eb7a363823062dd56aa26ae12e7a4a649.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/c8b1aa050ef0682dce8112075a675498128a6708c1ccb7ca0d4a760e458abd21.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/eca3bb1ab0ba30a3b4ede121355296752e34d992b50e5e734aed1f09102777a2.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/387a7c85756561eb3d57da463ec13719b36a765ef961ee53f03d7a066e0e5038.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/b0f9769c7a1bed1b6cf20328b1c8508c30b3757a975822733587742a0269e81a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/7a558f634d802974dc6ab7e1a4aa72ade63c356268ef2e512f4c09d050e6cf0b.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/32cd5bc082d434adb5e7bca6bfd1881da8d31a56d1cae3fd8e8d1c98ece70cd0.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/bef6877067b5dcffcd9cebc6a71c71df6b3382b94566da2cafc35f48ca370c66.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/75532e1ed352e5de53a6e7b9fb0edf206eb5793be0e89ef37f671b07d708791d.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/939f343f330ace75dcc4cecd5fa18c04c3a5e6d00ff3aa45622f6fddd7cb8f26.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/d73cbb538de21123d5543c1d6cf933b25142f172d0421a5b0b1f924ac4345572.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/afa5f68f3f9db384a7f16966a5260660f45f6ed27c700dce2dec2e94fad01fe7.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/fba5dd784927be8313a28544c17b33513aabfcc0ab55b70bc10169176677716a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/daad4d8218b9b6f16b211f57338d49fb30a49bf46c40c4d5c0008117808c53fe.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/883189313816ffce0ddb42916ce05fd84facb90ea94ef9c97b01ce174b81b76e.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/14e18d8f6b1c19d2f9c1e02c9596a0f345417f41bc3246ea6ded8dd5a3739c22.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/410f1a5deac8ea4cef10dfd2ee28a7d23729bfa5b617f886197f85dd4e970e63.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/406e94d9ebf24ddda43cf5cb442f592a3c0343334a6c9d31ccef6b9002d5df05.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/8d1134674bcebc31f78e19f5868acaf226418021406eba91ac9a879ae4a82deb.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/c355cfbb11e74efed5c95796968b88c854c60d8e6715643ddabf809afb49aefc.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/86150d2f844c98c0a86fdec232c56959fd419ded6da646fa43cd0e0479a59a6a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/4c5e00a70bc525bd511fa7f41e1902625c93668676a9f8c5cdeb4297affb5634.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/d68ba480e312d3e592a12fafcedf5566dc247bcc98aa10319f6a7eb1e886e063.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/5dee0f1cd1f63b5d64a6ad815657152700f48ffd3edf2778425ecc842d95987e.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/bb3f828682280d2ea178ad26e33c9161c664ec0f50139e4ba1184fb7eaf005e7.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/f31b3702d0ece3c248fbfad4010311f10c3bfed7c41c63f6d7f2e3db78990e5a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/605fb725940f34c44a764df98284a09471527f72ed89713cf6e5043a6c3eb840.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/d360b715b87923c98338d4e861f9bd3a9506f66d4e7891c8677e7084868f5eaa.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/62bcad1f142f99a002c601a063d9cffa35deaeb1d250fc764088b0a4b6e5b642.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/a759bbe07ceba1c4f9c6a814763d771a8fd5b07ba22b2c6df1e4e56a4038dd3.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/283804260b492bd390605b25ecd3bfc1532e0508ff4640b0eed5b417eb0e87f2.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_WOLF_DOGE",
+      "name": "Doge Wolf Skin",
+      "texturePath": "/assets/pets/skins/Wolf/8e19ac0af105a22640b764815687bf069336ede7c63c0c9fbb843e22d172d0b1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aWolf\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WOLF_DOGE_PLUSHIE",
+      "name": "Doge Plushie Wolf Skin",
+      "texturePath": "/assets/pets/skins/Wolf/3ace7a9dba909ece3b52376f3e0be5620668c8426e542d6f967c22f843f8c3f.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aWolf\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WOLF_FENRIR",
+      "name": "Fenrir Wolf Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/70033ffa0a15d1825cce8818643ff81361096f9af88919105c8e8f6a75c9dd5a.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aWolf\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 3,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/70033ffa0a15d1825cce8818643ff81361096f9af88919105c8e8f6a75c9dd5a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/a44829cb49e4997f21cead6a20c5135275a4337fe5da01ca9861657d2453fa7f.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/dca2fe9d218bc91bc5adfeb9b288ec3750561838cb5999539bd487c3b019e8a1.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/41615bee7870567a301f259284440e21f718ef9d18ff7b907ba66b2f0c3026b1.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/66567f6c45ecd1479987a02d5f419d618605f56449f5f9363ca22c5b4bbaa7af.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/5b0e3518b7e3ff4297fcc2f4528bc526f24e82fdc3283216833dfc4a21487ed8.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/e9b4eb14efe377e361affaee591aca92358ed8eb230ca712feb0dbb561968bcd.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/de959a4ad3d8de02efd8d73d6d1b0b43d958bdb54ae57bd5220aa66bae745590.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/4851e686d405736b26e2672b7bb5e437baf298287014202063e985753bdc9099.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/28f943e423103503bc43268327f575f9ad18a4dc3a87b5bf8e3022b3c418ac45.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/f7a2c86e57456c141fc3c3348932479c6865c5c989634cf6e0383285ab9cd49b.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/ec14ad526a6c715ce7dccdc18cb3437ca7737a21aef89e3414f0284053cedacb.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/ccf93deb4590df339fa43883b763d0ca15f56e452c33acc755bb4ae9cc42762f.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/8af3fd6d477aee98433c2c9789842597acd91e29c85a4839f4489230d371b591.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/2650bc619c3c11fda486b6692d9219f4c5185c6ed3cf285a11a319bf54aab41d.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/fa69988ffb93372a75f70e6a1ffe997ccce4985cd72883108b3fd06519a1f0ec.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/dbeade93107b6bab4be788b196870bb003b2e429e0bc407c63d1272eb4c20d1a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/ead17ddd37a9b726bc123a66c07ecf4f1243d2a94c1c6076245e1e48634aae4a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/fb238b9b8a6a455f64f2db3278a8e2070cc90579ab02dac11648d7ba7aad1fce.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/122ced234ec0c030d42911b1164bb0e1eab86469a8f27b0c8a1cd3891e7b97c0.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/7187a0216a5e66e586c15a44518ef8fe6db0a14319d23a355da4814c121940bb.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/7e2f20f187a80fe9fa67a43c900ff872bf0d02104e8ec43b1c74dc8c3b7f645.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/fa29bb640595d46f3a3bc1e7742bf2ce3e8164c185b0e0afb47d55df95c95c53.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/87228c0198e1a3ada762130ff7582ca8018dc439ede95f03d57462b4bed36d16.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/3e2dfc05d847f2bdc458b5005a9584ea8c6da1da7120a18644b293667287ca10.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/e9ffa787978fa5bf98fd33708272ff3ea7410fc9c02f51945f8ca146a158a217.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/a3920db10a9b65e0829fd174e6548f575a657ebe3fc9436f3a701d6f8d7ae434.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/91dc5e376e3b58622925cf2e603d0fa73e46722424302e00795ad2e35a896b0d.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/ae2b9dcf7cbde2447e21276691a82bcbb6db4439b3fc70b7647a7426c56d22f8.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/b9f46f8a5a257049eca3f21f7770a9f2ba1c5e8cb718533ed74162aa2545b2db.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/958b92f97eabbb17ce9684dc1131d4dc3436af97c3d35345cfb237e1816cd758.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/cd55331dac948605dd6af3f610e5f99371b68ac0a8899b5d1e80b200b2602e7a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/eac8a97687af914d27f3f6b25a65ac152e1ad8201c6a33dd605c37fec8c6da68.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/da157befbdf65df67a79ecdc5d12bd4b24c678e9b0d86f09474359c348a29558.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/d7f91f12d17869d8ef2a6e65ce1bca26ed8c128bee0e9c07bc9d1e9fe67702c5.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/5bfd9b72b81c71da4f2109e3d03a55327bd025bb8c6fe16b8b4654104860e35f.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/f608f272342b28b78a69cf54a20aedda3e1542f8611e400e2806db5fdc60144.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/7bdf2220d1b31df0a2a7a340eab993f38540426fcf6f3a80a295784bcd637482.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/44a5c03d720e67e5733f3a81514ef04b45dc9bdb9c53d3120cb857d6291737df.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/25eab57ce81562e74cfac6e5eaa6cc916ffc786ebaf623ee5e21252f283df116.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_FENRIR/632875ab5460472fd749cda486791d7212edfd5b14973ab3a731f22a7d7e8f75.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_WOLF_GERMAN",
+      "name": "German Wolf Skin",
+      "texturePath": "/assets/pets/skins/Wolf/8745c3249a354aafc50dea7369640497d5e591a34e21990df5bc95c2799413e1.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aWolf\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_WOLF_HUSKY",
+      "name": "Husky Wolf Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/7ba39650a69800d303da8fd2e09dfbecac077e6c196da5354204fe2e35a4967c.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aWolf\n§7pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/7ba39650a69800d303da8fd2e09dfbecac077e6c196da5354204fe2e35a4967c.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/7161623919273a7261e6287fdcd34c2399bb349c633ecabbc6d281af271962ff.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/deea5ef4c9021ea6ff358f6560d967d20169cab060fa831f9c61e7a74bf2dfa8.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/a6001ca5e628af7cd64b689dd1f9f86eb7a363823062dd56aa26ae12e7a4a649.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/c8b1aa050ef0682dce8112075a675498128a6708c1ccb7ca0d4a760e458abd21.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/eca3bb1ab0ba30a3b4ede121355296752e34d992b50e5e734aed1f09102777a2.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/387a7c85756561eb3d57da463ec13719b36a765ef961ee53f03d7a066e0e5038.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/b0f9769c7a1bed1b6cf20328b1c8508c30b3757a975822733587742a0269e81a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/7a558f634d802974dc6ab7e1a4aa72ade63c356268ef2e512f4c09d050e6cf0b.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/32cd5bc082d434adb5e7bca6bfd1881da8d31a56d1cae3fd8e8d1c98ece70cd0.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/bef6877067b5dcffcd9cebc6a71c71df6b3382b94566da2cafc35f48ca370c66.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/75532e1ed352e5de53a6e7b9fb0edf206eb5793be0e89ef37f671b07d708791d.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/939f343f330ace75dcc4cecd5fa18c04c3a5e6d00ff3aa45622f6fddd7cb8f26.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/d73cbb538de21123d5543c1d6cf933b25142f172d0421a5b0b1f924ac4345572.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/afa5f68f3f9db384a7f16966a5260660f45f6ed27c700dce2dec2e94fad01fe7.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/fba5dd784927be8313a28544c17b33513aabfcc0ab55b70bc10169176677716a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/daad4d8218b9b6f16b211f57338d49fb30a49bf46c40c4d5c0008117808c53fe.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/883189313816ffce0ddb42916ce05fd84facb90ea94ef9c97b01ce174b81b76e.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/14e18d8f6b1c19d2f9c1e02c9596a0f345417f41bc3246ea6ded8dd5a3739c22.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/410f1a5deac8ea4cef10dfd2ee28a7d23729bfa5b617f886197f85dd4e970e63.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/406e94d9ebf24ddda43cf5cb442f592a3c0343334a6c9d31ccef6b9002d5df05.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/8d1134674bcebc31f78e19f5868acaf226418021406eba91ac9a879ae4a82deb.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/c355cfbb11e74efed5c95796968b88c854c60d8e6715643ddabf809afb49aefc.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/86150d2f844c98c0a86fdec232c56959fd419ded6da646fa43cd0e0479a59a6a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/4c5e00a70bc525bd511fa7f41e1902625c93668676a9f8c5cdeb4297affb5634.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/d68ba480e312d3e592a12fafcedf5566dc247bcc98aa10319f6a7eb1e886e063.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/5dee0f1cd1f63b5d64a6ad815657152700f48ffd3edf2778425ecc842d95987e.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/bb3f828682280d2ea178ad26e33c9161c664ec0f50139e4ba1184fb7eaf005e7.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/f31b3702d0ece3c248fbfad4010311f10c3bfed7c41c63f6d7f2e3db78990e5a.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/605fb725940f34c44a764df98284a09471527f72ed89713cf6e5043a6c3eb840.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/d360b715b87923c98338d4e861f9bd3a9506f66d4e7891c8677e7084868f5eaa.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/62bcad1f142f99a002c601a063d9cffa35deaeb1d250fc764088b0a4b6e5b642.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/a759bbe07ceba1c4f9c6a814763d771a8fd5b07ba22b2c6df1e4e56a4038dd3.png",
+          "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_HUSKY/283804260b492bd390605b25ecd3bfc1532e0508ff4640b0eed5b417eb0e87f2.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_WOLF_SPIRIT",
+      "name": "Spirit Wolf Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_SPIRIT_DAY/a6197d8ce763e21ac1196131140180109ca84f78a96f6b7fbe0058b2d374daa0.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aWolf\n§7pets.\n\n§aThis skin adapts to the day-night\n§acycle!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§6§lLEGENDARY COSMETIC",
+      "animated": true,
+      "animation": {
+        "day": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_SPIRIT_DAY/a6197d8ce763e21ac1196131140180109ca84f78a96f6b7fbe0058b2d374daa0.png"
+          ]
+        },
+        "night": {
+          "ticks": 1,
+          "frames": [
+            "/assets/pets/skins/animated_skins/Wolf/PET_SKIN_WOLF_SPIRIT_NIGHT/11d1c5de76f55dcd211cca67755279fd915ec444037353f080988d706b37977e.png"
+          ]
+        }
+      }
+    },
+    {
+      "id": "PET_SKIN_WOLF_ZODIAC",
+      "name": "Zodiac Wolf Skin",
+      "texturePath": "/assets/pets/skins/Wolf/ddd6c0e4807f88033d13e5bd38c767cbb82387de13a9536a4df4c61f0350558d.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aWolf\n§7pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}

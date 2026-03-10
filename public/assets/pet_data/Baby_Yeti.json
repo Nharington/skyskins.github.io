@@ -1,0 +1,120 @@
+{
+  "name": "§6Baby Yeti",
+  "type": "BABY_YETI",
+  "category": "Fishing",
+  "description": "§8Fishing Pet\n\n§7Strength: §c40\n§7Intelligence: §b75\n\n§6Cold Breeze\n§7Gives §a50 §c❁ Strength §7and §9☠ Crit\n§9Damage §7when near snow\n\n§6Ice Shields\n§7Gain §a75% §7of your §c❁ Strength §7as §a❈\n§aDefense§7.\n\n§6Yeti Fury\n§7Buffs the §6Yeti Sword §7by §a100 §c❁ Damage\n§7and §b✎ Intelligence§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY",
+  "infoUrls": [
+    "https://hypixel-skyblock.fandom.com/wiki/Baby_Yeti_Pet",
+    "https://wiki.hypixel.net/Baby_Yeti_Pet"
+  ],
+  "recipes": [
+    {
+      "type": "katgrade",
+      "coins": 20000000,
+      "time": 1036800,
+      "input": "BABY_YETI;3",
+      "output": "BABY_YETI;4",
+      "items": [
+        "ENCHANTED_RAW_SALMON:16"
+      ]
+    }
+  ],
+  "rarities": [
+    {
+      "id": "BABY_YETI;3",
+      "name": "Epic",
+      "texturePath": "/assets/pets/defaults/Baby_Yeti/ef9f6a57d8f686fedd5185d178550913f48f91b57c9162d70d368b1fd9fe2b52.png",
+      "lore": "§8Fishing Pet\n\n§7Strength: §c40\n§7Intelligence: §b75\n\n§6Cold Breeze\n§7Gives §a50 §c❁ Strength §7and §9☠ Crit\n§9Damage §7when near snow\n\n§6Ice Shields\n§7Gain §a50% §7of your §c❁ Strength §7as §a❈\n§aDefense§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§8Can be upgraded at Kat in The Hub!\n§5§lEPIC"
+    },
+    {
+      "id": "BABY_YETI;4",
+      "name": "Legendary",
+      "texturePath": "/assets/pets/defaults/Baby_Yeti/ef9f6a57d8f686fedd5185d178550913f48f91b57c9162d70d368b1fd9fe2b52.png",
+      "lore": "§8Fishing Pet\n\n§7Strength: §c40\n§7Intelligence: §b75\n\n§6Cold Breeze\n§7Gives §a50 §c❁ Strength §7and §9☠ Crit\n§9Damage §7when near snow\n\n§6Ice Shields\n§7Gain §a75% §7of your §c❁ Strength §7as §a❈\n§aDefense§7.\n\n§6Yeti Fury\n§7Buffs the §6Yeti Sword §7by §a100 §c❁ Damage\n§7and §b✎ Intelligence§7.\n\n§eRight-click to add this pet to your\n§epet menu!\n\n§6§lLEGENDARY"
+    }
+  ],
+  "variants": [
+    {
+      "id": "PET_SKIN_BABY_YETI_DARK_PLUSH",
+      "name": "Onyx Plush Baby Yeti Skin",
+      "texturePath": "/assets/pets/skins/Baby_Yeti/788db33ffd491be408c5c4480a0c48537027744fb99f7f2a2b59a6e401cb6a24.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Baby\n§7Yeti pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BABY_YETI_DARK_SASQUATCH",
+      "name": "Dark Sasquatch Baby Yeti Skin",
+      "texturePath": "/assets/pets/skins/Baby_Yeti/e8aebb0944fbfaa30ee685684abe2340a532dd21da7e364adb6e839f06466adc.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBaby\n§aYeti§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BABY_YETI_LIGHT_SASQUATCH",
+      "name": "Light Sasquatch Baby Yeti Skin",
+      "texturePath": "/assets/pets/skins/Baby_Yeti/4005bdfb52117b6e9b177ee2dc7b80cd61d6861cd66d87a2a389060ced6894.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBaby\n§aYeti§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_BABY_YETI_MIDNIGHT",
+      "name": "Midnight Baby Yeti Skin",
+      "texturePath": "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/af44a4f82f1e720874d0944cb9fc04febdcca8b4d73558ac268f9e060ab53d05.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBaby\n§aYeti§7 pets.\n\n§aThis skin is animated!\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§d§lMYTHIC COSMETIC",
+      "animated": true,
+      "animation": {
+        "ticks": 2,
+        "frames": [
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/af44a4f82f1e720874d0944cb9fc04febdcca8b4d73558ac268f9e060ab53d05.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/42804c1d1bb85508006af8130b1099526e400ddbd5724f7d2b3437451bb50049.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/950eb3a4d927cb26c615478171c94024bacc5208a06b14870de5eddc65cf60a9.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/2f68d74257ca7f02c1cd6bc967c7c5e19e1c24bd83ab9f8c311d3be26163a979.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/b9904ed8ef50305e53dcdb14b36cfec127c5ac02498d1ed9c393d559c2a49695.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/5787afcc94a8a3a26ced6f8e0353ea53f25c4c7bc5517b2f618c47c10ae29a9.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/4368fe8ab1f9b5db8c6252c3d4b4b64426b7e731aabba0e4ad5d3dd1b5ab4ef2.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/59cebee9c1e0ec0de1681f367eac6bb10fa5748c46a332ba02d80d661b52b1e6.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/769d3f4f754d079916a390fffffe687791562ddc2e7d35808ce9cf8d6a341d72.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/657a0ff7d15b900fe186c9a5d7e4ef6397a02e037dc4cc8a4466f8c7f165c463.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/57b7c8ffdeac0644dc8b98f96739ba84ea80343864c26923056ebe17295f7687.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/74926209a22112551cbf8264949924728e19fabbaf58ebfe0095a8d7e7b55e12.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/bad0aa5864ef5ebc5b7876d80596ae3ea6d8303bc49ecc30faec0a8f085f1d7f.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/b80662287857430d8c71e3f78c56070dcf250db5243080cf7e5121cd545e04e.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/8c481ef508bba7532dddc5eccd434e4bc60356fd8d84a542fd1e4b0eab37f1cc.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/128aa536588508afb2648253edee46849f308165d382f8ab883bf6de4a135d39.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/558a078471eccd31350f8543687709bbdbb743d071a7052c1c16abbdc3561a32.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/d2fad345ab291b22ee642aaab9090fd670a201a4073e04972e84a747711c0ab0.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/84594a927af50e506f9803bc8fc23dcd5158b1557e76cb3991f14c405dda685.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/e66eb00319e93bab52ef0ca1cd94497750f99af1bb6f5c752184490ff4679313.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/205b9607aa02abd92019920e554e5999345de0d01460873c103214db277ec628.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/9f71b1acce198c931ae9aed25a9e890d7f920949be671882957d62760963dc2.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/bf69bee9483756fd157aaa38cfbb420f3223f08812a561a9274371fd92b96f74.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/65e988faef6bc8e953fbe5dc0cdbeb0a0a43de90251eea6bb7bf7a41adce41b4.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/59d2db2d358a6cff95238a745f6a1016ec4de108e48089e9c27ab91c9c99beb2.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/fcc30646627580f52bab5ca0fb01a3f6f6f9d288bc6e8122d65cf65c5a3b3ef0.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/b2867e10b4b66b8cfaf04983261d1895ce1a62a647ddb982a4532f90e11661f5.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/5577ebe353c53c155b2b757cd813aff69bbcca18fa89a62bc7d6e7942a2524b9.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/2f1a703b1847f94f5e000b28f2a487f03021ad687417c5e29d8c138db3c231e3.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/4e9bc723b923da72555ddc0dbfe2ae10d81f4736133e0657525c462f072679ba.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/c0b904e14fd099e47fc9281b44cfe2f167742fa5f93a38bf26276d381677444a.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/4f98a6b70f6086328e1e8172c93ceee3fce3189de9527a9262da617db2ff15de.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/6716b8259ebc64016eb6bb3e087b05c413478bc06b3980d1dde2a4432169aaaa.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/9cb0b4c4333b241ad5582b34c840dce7cbe1a3d9185cf60ca91dacc2b4010ed3.png",
+          "/assets/pets/skins/animated_skins/Baby_Yeti/PET_SKIN_BABY_YETI_MIDNIGHT/4b548a05c23761d5fc1729afd78b081d184ebe8e897609e95e063492f892693a.png"
+        ]
+      }
+    },
+    {
+      "id": "PET_SKIN_BABY_YETI_PLUSHIE",
+      "name": "Plushie Baby Yeti Skin",
+      "texturePath": "/assets/pets/skins/Baby_Yeti/f0ef518cb67739c4af18cdfffa05360079afc735ef291528fa7ae0c926804c59.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to §aBaby\n§aYeti§7 pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    },
+    {
+      "id": "PET_SKIN_YETI_GROWN_UP",
+      "name": "Grown-up Baby Yeti Skin",
+      "texturePath": "/assets/pets/skins/Baby_Yeti/f5f29a975529276d916fc67998833c11ee178ff21e5941afdfb0fa7010f8374e.png",
+      "lore": "§8Consumed on use\n\n§7Pet skins change the look and\n§7particle trail of your pet but only\n§7one skin can be active at a time!\n\n§7This skin can only be applied to Baby\n§7Yeti pets.\n\n§eRight-click on your summoned pet to\n§eapply this skin!\n\n§5§lEPIC COSMETIC",
+      "animated": false
+    }
+  ]
+}
