@@ -1,6 +1,11 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
 
+function assetUrl(path: string) {
+  const base = import.meta.env.BASE_URL || '';
+  return `${base}${path.replace(/^\//, '')}`;
+}
+
 export interface PetAnimation {
   ticks: number;
   frames: string[];
@@ -38,6 +43,32 @@ export interface RegistryEntry {
   variantsCount: number;
 }
 
+export type CosmeticRarity =
+  | 'COMMON'
+  | 'UNCOMMON'
+  | 'RARE'
+  | 'EPIC'
+  | 'LEGENDARY'
+  | 'MYTHIC'
+  | 'DIVINE'
+  | 'SPECIAL'
+  | 'VERY SPECIAL'
+  | 'SUPREME'
+  | 'UNKNOWN';
+
+export interface OwnedSkinEntry {
+  key: string; // `${petId}::${skinId}` to disambiguate duplicate ids
+  skinId: string;
+  petId: string;
+  petName: string;
+  skinName: string;
+  rarity: CosmeticRarity;
+  quantity: number;
+  acquiredDate?: string; // YYYY-MM-DD
+  pricePaid?: number;
+  updatedAt: number;
+}
+
 interface AppState {
   registry: Record<string, RegistryEntry>;
   selectedPetData: PetRecord | null;
@@ -48,6 +79,8 @@ interface AppState {
   activeFilter: string | null;
   showAnimatedOnly: boolean;
   dayNightMode: 'day' | 'night';
+
+  ownedSkins: Record<string, OwnedSkinEntry>;
   
   setRegistry: (data: Record<string, RegistryEntry>) => void;
   selectPet: (id: string | null) => void;
@@ -58,6 +91,10 @@ interface AppState {
   setShowAnimatedOnly: (val: boolean) => void;
   setDayNightMode: (mode: 'day' | 'night') => void;
   fetchPetData: (id: string) => Promise<void>;
+
+  upsertOwnedSkin: (entry: Omit<OwnedSkinEntry, 'updatedAt'>) => void;
+  updateOwnedSkin: (key: string, patch: Partial<Omit<OwnedSkinEntry, 'key' | 'updatedAt'>>) => void;
+  removeOwnedSkin: (key: string) => void;
 }
 
 export const useAppStore = create<AppState>()(
@@ -72,6 +109,7 @@ export const useAppStore = create<AppState>()(
       activeFilter: null,
       showAnimatedOnly: false,
       dayNightMode: 'day',
+      ownedSkins: {},
       
       setRegistry: (data) => set({ registry: data }),
       selectPet: (id) => {
@@ -84,7 +122,7 @@ export const useAppStore = create<AppState>()(
       },
       fetchPetData: async (id) => {
         try {
-          const res = await fetch(`/assets/pet_data/${id}.json`);
+          const res = await fetch(assetUrl(`/assets/pet_data/${id}.json`));
           if (!res.ok) throw new Error(`Failed to load data for pet ${id}`);
           const data = await res.json();
           set((state) => {
@@ -106,16 +144,72 @@ export const useAppStore = create<AppState>()(
       setActiveFilter: (f) => set({ activeFilter: f }),
       setShowAnimatedOnly: (val) => set({ showAnimatedOnly: val }),
       setDayNightMode: (mode) => set({ dayNightMode: mode }),
+
+      upsertOwnedSkin: (entry) =>
+        set((state) => ({
+          ownedSkins: {
+            ...state.ownedSkins,
+            [entry.key]: { ...entry, updatedAt: Date.now() },
+          },
+        })),
+      updateOwnedSkin: (key, patch) =>
+        set((state) => {
+          const existing = state.ownedSkins[key];
+          if (!existing) return {};
+          return {
+            ownedSkins: {
+              ...state.ownedSkins,
+              [key]: { ...existing, ...patch, updatedAt: Date.now() },
+            },
+          };
+        }),
+      removeOwnedSkin: (key) =>
+        set((state) => {
+          if (!state.ownedSkins[key]) return {};
+          const next = { ...state.ownedSkins };
+          delete next[key];
+          return { ownedSkins: next };
+        }),
     }),
     {
       name: 'skyskins-storage',
-       partialize: (state) => ({ 
+      migrate: (persisted: any, _version) => {
+        const state = persisted as any;
+        const owned: Record<string, any> = state?.ownedSkins ?? {};
+
+        // Migrate old `{ [skinId]: entry }` shape into `{ [petId::skinId]: entry }`.
+        // If it's already migrated, entries will have `key`.
+        const nextOwned: Record<string, OwnedSkinEntry> = {};
+        for (const [k, v] of Object.entries(owned)) {
+          const entry = v as any;
+          const petId = entry?.petId;
+          const skinId = entry?.skinId ?? k;
+          if (!petId || !skinId) continue;
+          const key = typeof entry?.key === 'string' ? entry.key : `${petId}::${skinId}`;
+          nextOwned[key] = {
+            key,
+            skinId,
+            petId,
+            petName: entry?.petName ?? petId,
+            skinName: entry?.skinName ?? skinId,
+            rarity: entry?.rarity ?? 'UNKNOWN',
+            quantity: typeof entry?.quantity === 'number' ? entry.quantity : 1,
+            acquiredDate: entry?.acquiredDate,
+            pricePaid: entry?.pricePaid,
+            updatedAt: typeof entry?.updatedAt === 'number' ? entry.updatedAt : Date.now(),
+          };
+        }
+
+        return { ...state, ownedSkins: nextOwned };
+      },
+      partialize: (state) => ({ 
         selectedPetId: state.selectedPetId,
         selectedVariantId: state.selectedVariantId,
         selectedRarityIdx: state.selectedRarityIdx,
         activeFilter: state.activeFilter,
         showAnimatedOnly: state.showAnimatedOnly,
         dayNightMode: state.dayNightMode,
+        ownedSkins: state.ownedSkins,
       }),
     }
   )

@@ -1,25 +1,54 @@
-import { useRef, useState } from 'react';
+import { useEffect, useRef, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
-import { RotateCcw, Camera, Sun, Moon } from 'lucide-react';
+import { RotateCcw, Camera, Sun, Moon, Sparkles, SunMoon } from 'lucide-react';
 import { PetModel } from '../3d/PetModel';
 import type { PetAnimation, DayNightAnimation } from '../../store/useAppStore';
 
 interface ViewerSceneProps {
   textureUrl: string;
   animation?: PetAnimation | DayNightAnimation;
+  isAnimatedSkin?: boolean;
   supportsDayNight?: boolean;
   dayNightMode?: 'day' | 'night';
   onToggleDayNight?: () => void;
   onScreenshot?: () => void;
 }
 
-export function ViewerScene({ textureUrl, animation, supportsDayNight, dayNightMode, onToggleDayNight, onScreenshot }: ViewerSceneProps) {
+export function ViewerScene({
+  textureUrl,
+  animation,
+  isAnimatedSkin,
+  supportsDayNight,
+  dayNightMode,
+  onToggleDayNight,
+  onScreenshot,
+}: ViewerSceneProps) {
   const controlsRef = useRef<any>(null);
   const [isTextureLoading, setIsTextureLoading] = useState(true);
+  const [angles, setAngles] = useState<{ yaw: number; pitch: number } | null>(null);
+
+  useEffect(() => {
+    let raf: number | null = null;
+    const loop = () => {
+      const c = controlsRef.current;
+      if (c && typeof c.getAzimuthalAngle === 'function' && typeof c.getPolarAngle === 'function') {
+        const yaw = (c.getAzimuthalAngle() * 180) / Math.PI;
+        const polar = (c.getPolarAngle() * 180) / Math.PI;
+        // OrbitControls polar: 0 = looking down from +Y, 90 = horizontal. Convert to pitch-like.
+        const pitch = 90 - polar;
+        setAngles({ yaw, pitch });
+      }
+      raf = requestAnimationFrame(loop);
+    };
+    raf = requestAnimationFrame(loop);
+    return () => {
+      if (raf != null) cancelAnimationFrame(raf);
+    };
+  }, []);
 
   return (
-    <div className="flex-1 cursor-grab active:cursor-grabbing w-full h-full relative z-0 bg-[#141414]">
+    <div className="flex-1 cursor-grab active:cursor-grabbing w-full h-full relative bg-[#141414]">
       
       {/* Loading Overlay */}
       {isTextureLoading && (
@@ -61,6 +90,48 @@ export function ViewerScene({ textureUrl, animation, supportsDayNight, dayNightM
           >
             <Camera className="w-5 h-5" />
           </button>
+        )}
+      </div>
+
+      {/* Top-right info + camera readout */}
+      <div className="absolute top-4 right-4 md:top-6 md:right-8 z-50 pointer-events-none flex flex-col items-end gap-2">
+        {(isAnimatedSkin || supportsDayNight) && (
+          <div className="flex flex-col sm:flex-row gap-2">
+            {isAnimatedSkin && (
+              <div className="bg-[#111111]/75 backdrop-blur-md border-2 border-white/10 px-3 py-2 shadow-xl flex items-center gap-3">
+                <div className="bg-[#222] p-2 border border-[#333] shrink-0">
+                  <Sparkles className="w-4 h-4 text-amber-400" />
+                </div>
+                <span className="font-bold text-white tracking-wide text-xs sm:text-sm whitespace-nowrap">
+                  Animated Skin
+                </span>
+              </div>
+            )}
+            {supportsDayNight && (
+              <div className="bg-[#111111]/75 backdrop-blur-md border-2 border-white/10 px-3 py-2 shadow-xl flex items-center gap-3">
+                <div className="bg-[#222] p-2 border border-[#333] shrink-0">
+                  <SunMoon className="w-4 h-4 text-emerald-400" />
+                </div>
+                <span className="font-bold text-white tracking-wide text-xs sm:text-sm whitespace-nowrap">
+                  Day / Night Cycle
+                </span>
+              </div>
+            )}
+          </div>
+        )}
+
+        {angles && (
+          <div className="bg-[#111111]/75 backdrop-blur-md border-2 border-white/10 px-3 py-2 shadow-xl">
+            <div className="text-[10px] font-black uppercase tracking-[0.18em] text-[#888]">Camera</div>
+            <div className="mt-1 flex gap-3 text-xs font-bold text-white">
+              <span className="tabular-nums">
+                <span className="text-[#aaa]">Yaw</span> {angles.yaw.toFixed(1)}°
+              </span>
+              <span className="tabular-nums">
+                <span className="text-[#aaa]">Pitch</span> {angles.pitch.toFixed(1)}°
+              </span>
+            </div>
+          </div>
         )}
       </div>
 

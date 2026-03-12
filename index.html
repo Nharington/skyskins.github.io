@@ -42,6 +42,22 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="prefetch" href="/assets/registry.json" as="fetch">
 
+    <script>
+      (function () {
+        try {
+          var stored = sessionStorage.getItem("spa-redirect");
+          if (stored) {
+            sessionStorage.removeItem("spa-redirect");
+            var url = new URL(window.location.href);
+            url.pathname = stored.split("?")[0].split("#")[0] || "/";
+            url.search = "";
+            url.hash = "";
+            window.history.replaceState({}, "", url.pathname);
+          }
+        } catch (e) {}
+      })();
+    </script>
+
     <script type="application/ld+json">
       {
         "@context": "https://schema.org",

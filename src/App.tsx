@@ -7,6 +7,7 @@ import { SkinsPanel } from './components/pets/SkinsPanel';
 import { PetInfoPanel } from './components/pets/PetInfoPanel';
 import { ViewerScene } from './components/3d/ViewerScene';
 import { InfoModal } from './components/layout/InfoModal';
+import { BrowsePage } from './pages/BrowsePage';
 
 function App() {
   const {
@@ -34,6 +35,14 @@ function App() {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   const [isSkinsPanelOpen, setIsSkinsPanelOpen] = useState(false);
   const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
+  const [path, setPath] = useState(() => (typeof window !== 'undefined' ? window.location.pathname : '/'));
+
+  const navigate = useCallback((to: string) => {
+    if (typeof window === 'undefined') return;
+    if (window.location.pathname === to) return;
+    window.history.pushState({}, '', to);
+    setPath(to);
+  }, []);
 
   useEffect(() => {
     fetch(`${import.meta.env.BASE_URL}assets/registry.json`)
@@ -54,6 +63,12 @@ function App() {
         console.error('Failed to load registry.json', err);
         setLoading(false);
       });
+  }, []);
+
+  useEffect(() => {
+    const onPop = () => setPath(window.location.pathname);
+    window.addEventListener('popstate', onPop);
+    return () => window.removeEventListener('popstate', onPop);
   }, []);
 
   useEffect(() => {
@@ -146,6 +161,12 @@ function App() {
      return false;
   }, [selectedPetData, selectedVariantId]);
 
+  const activeVariantIsAnimated = useMemo(() => {
+    if (!selectedPetData || !selectedVariantId) return false;
+    const skin = selectedPetData.variants.find((v) => v.id === selectedVariantId);
+    return Boolean(skin?.animated || skin?.animation);
+  }, [selectedPetData, selectedVariantId]);
+
   const activeAnimation = useMemo(() => {
     if (!selectedPetData || !selectedVariantId) return undefined;
     const skin = selectedPetData.variants.find(v => v.id === selectedVariantId);
@@ -163,6 +184,8 @@ function App() {
     );
   }
 
+  const isBrowse = path === '/browse';
+
   return (
     <TooltipProvider delayDuration={100}>
       <div className="flex flex-col h-screen w-full bg-[#111111] text-white overflow-hidden relative selection:bg-emerald-500/30 font-sans">
@@ -170,85 +193,97 @@ function App() {
           isSidebarOpen={isSidebarOpen}
           onToggleSidebar={() => setIsSidebarOpen((o) => !o)}
           onOpenInfo={() => setIsInfoModalOpen(true)}
+          onOpenCollection={() => navigate('/browse')}
+          onBackToViewer={() => navigate('/')}
+          mode={isBrowse ? 'browse' : 'viewer'}
           totalPets={Object.keys(registry).length}
         />
 
-        <div className="flex flex-1 overflow-hidden relative flex flex-row">
-          {isSidebarOpen && (
-            <div
-              className="fixed inset-0 bg-black/50 z-20 md:hidden backdrop-blur-sm"
-              onClick={handleCloseSidebar}
+        {!isBrowse ? (
+          <div className="flex flex-1 overflow-hidden relative flex flex-row">
+            {isSidebarOpen && (
+              <div
+                className="fixed inset-0 bg-black/50 z-20 md:hidden backdrop-blur-sm"
+                onClick={handleCloseSidebar}
+              />
+            )}
+
+            <PetSidebar
+              isOpen={isSidebarOpen}
+              registry={registry}
+              filteredPets={filteredPets}
+              categories={categories}
+              selectedPetId={selectedPetId}
+              searchQuery={searchQuery}
+              activeFilter={activeFilter}
+              showAnimatedOnly={showAnimatedOnly}
+              onSelectPet={(id) => {
+                selectPet(id);
+                setIsSidebarOpen(false);
+              }}
+              onSearchChange={setSearchQuery}
+              onFilterChange={setActiveFilter}
+              onAnimatedOnlyChange={setShowAnimatedOnly}
+              onRarityClick={handleRarityClick}
             />
-          )}
 
-          <PetSidebar
-            isOpen={isSidebarOpen}
-            registry={registry}
-            filteredPets={filteredPets}
-            categories={categories}
-            selectedPetId={selectedPetId}
-            searchQuery={searchQuery}
-            activeFilter={activeFilter}
-            showAnimatedOnly={showAnimatedOnly}
-            onSelectPet={(id) => {
-              selectPet(id);
-              setIsSidebarOpen(false);
-            }}
-            onSearchChange={setSearchQuery}
-            onFilterChange={setActiveFilter}
-            onAnimatedOnlyChange={setShowAnimatedOnly}
-            onRarityClick={handleRarityClick}
-          />
-
-          <div className="flex-1 relative flex flex-col bg-[#141414] shadow-[inset_0_0_50px_rgba(0,0,0,0.8)]">
-
-            {selectedPetData && selectedPetData.variants.length > 0 && (
-              <button
-                onClick={() => setIsSkinsPanelOpen(!isSkinsPanelOpen)}
-                className="md:hidden absolute right-4 top-4 z-20 bg-[#222222]/90 p-2.5 border-2 border-white/10 text-emerald-500 shadow-xl backdrop-blur-md active:scale-95 transition-all"
-                title="Toggle Skins"
-              >
-                <div className="relative">
-                  <div className="w-5 h-5 flex items-center justify-center">
-                    <div className="absolute inset-0 bg-emerald-500/20 rounded-full animate-ping" />
-                    <span className="text-[10px] font-black leading-none">{selectedPetData.variants.length}</span>
+            <div className="flex-1 relative flex flex-col bg-[#141414] shadow-[inset_0_0_50px_rgba(0,0,0,0.8)]">
+              {selectedPetData && selectedPetData.variants.length > 0 && (
+                <button
+                  onClick={() => setIsSkinsPanelOpen(!isSkinsPanelOpen)}
+                  className="md:hidden absolute right-4 top-4 z-20 bg-[#222222]/90 p-2.5 border-2 border-white/10 text-emerald-500 shadow-xl backdrop-blur-md active:scale-95 transition-all"
+                  title="Toggle Skins"
+                >
+                  <div className="relative">
+                    <div className="w-5 h-5 flex items-center justify-center">
+                      <div className="absolute inset-0 bg-emerald-500/20 rounded-full animate-ping" />
+                      <span className="text-[10px] font-black leading-none">{selectedPetData.variants.length}</span>
+                    </div>
                   </div>
-                </div>
-              </button>
-            )}
+                </button>
+              )}
 
-            {selectedPetData && selectedPetData.variants.length > 0 && (
-              <SkinsPanel
-                variants={selectedPetData.variants}
-                selectedVariantId={selectedVariantId}
-                onSelectVariant={(id) => {
-                   selectVariant(id);
-                   setIsSkinsPanelOpen(false);
-                }}
-                isOpen={isSkinsPanelOpen}
-                onClose={() => setIsSkinsPanelOpen(false)}
+              {selectedPetData && selectedPetData.variants.length > 0 && (
+                <SkinsPanel
+                  variants={selectedPetData.variants}
+                  selectedVariantId={selectedVariantId}
+                  onSelectVariant={(id) => {
+                    selectVariant(id);
+                    setIsSkinsPanelOpen(false);
+                  }}
+                  isOpen={isSkinsPanelOpen}
+                  onClose={() => setIsSkinsPanelOpen(false)}
+                />
+              )}
+
+              {selectedPetData && (
+                <PetInfoPanel
+                  selectedPet={selectedPetData}
+                  selectedVariantId={selectedVariantId}
+                  selectedRarityIdx={selectedRarityIdx}
+                  onRarityChange={selectRarityIdx}
+                />
+              )}
+
+              <ViewerScene
+                textureUrl={activeTextureUrl}
+                animation={activeAnimation}
+                isAnimatedSkin={activeVariantIsAnimated}
+                supportsDayNight={activeVariantSupportDayNight}
+                dayNightMode={dayNightMode}
+                onToggleDayNight={() => setDayNightMode(dayNightMode === 'day' ? 'night' : 'day')}
               />
-            )}
-
-            {selectedPetData && (
-              <PetInfoPanel
-                selectedPet={selectedPetData}
-                selectedVariantId={selectedVariantId}
-                selectedRarityIdx={selectedRarityIdx}
-                onRarityChange={selectRarityIdx}
-              />
-            )}
-
-            <ViewerScene 
-               textureUrl={activeTextureUrl} 
-               animation={activeAnimation}
-               supportsDayNight={activeVariantSupportDayNight}
-               dayNightMode={dayNightMode}
-               onToggleDayNight={() => setDayNightMode(dayNightMode === 'day' ? 'night' : 'day')}
-            />
-
+            </div>
           </div>
-        </div>
+        ) : (
+          <BrowsePage
+            onViewIn3D={(petId, skinId) => {
+              selectPet(petId);
+              selectVariant(skinId);
+              navigate('/');
+            }}
+          />
+        )}
         
         <InfoModal 
           isOpen={isInfoModalOpen} 

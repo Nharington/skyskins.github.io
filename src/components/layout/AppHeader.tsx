@@ -1,27 +1,40 @@
-import { Github, Info } from 'lucide-react';
+import { ArrowLeft, Grid3X3, Github, Info } from 'lucide-react';
 
 interface AppHeaderProps {
   isSidebarOpen: boolean;
   onToggleSidebar: () => void;
   onOpenInfo: () => void;
+  mode?: 'viewer' | 'browse';
+  onOpenCollection: () => void;
+  onBackToViewer?: () => void;
   totalPets: number;
 }
 
-export function AppHeader({ onToggleSidebar, onOpenInfo, totalPets }: AppHeaderProps) {
+export function AppHeader({ onToggleSidebar, onOpenInfo, onOpenCollection, onBackToViewer, totalPets, mode = 'viewer' }: AppHeaderProps) {
   return (
     <header className="h-16 bg-[#1a1a1a] border-b-4 border-[#111111] flex items-center justify-between px-3 sm:px-4 md:px-8 z-30 shrink-0 shadow-[0_4px_20px_rgba(0,0,0,0.5)] relative">
       <div className="flex items-center gap-2 sm:gap-4">
-        <button
-          onClick={onToggleSidebar}
-          className="md:hidden p-2 hover:bg-[#333333] border-2 border-white/5 rounded transition-all active:scale-95"
-          aria-label="Toggle sidebar"
-        >
-          <div className="flex flex-col gap-1 w-5">
-            <div className="h-0.5 w-full bg-slate-300" />
-            <div className="h-0.5 w-3/4 bg-slate-400" />
-            <div className="h-0.5 w-full bg-slate-300" />
-          </div>
-        </button>
+        {mode === 'viewer' ? (
+          <button
+            onClick={onToggleSidebar}
+            className="md:hidden p-2 hover:bg-[#333333] border-2 border-white/5 rounded transition-all active:scale-95"
+            aria-label="Toggle sidebar"
+          >
+            <div className="flex flex-col gap-1 w-5">
+              <div className="h-0.5 w-full bg-slate-300" />
+              <div className="h-0.5 w-3/4 bg-slate-400" />
+              <div className="h-0.5 w-full bg-slate-300" />
+            </div>
+          </button>
+        ) : (
+          <button
+            onClick={onBackToViewer}
+            className="md:hidden p-2 hover:bg-[#333333] border-2 border-white/5 rounded transition-all active:scale-95"
+            aria-label="Back to viewer"
+          >
+            <ArrowLeft className="w-5 h-5 text-slate-300" />
+          </button>
+        )}
         
         <div className="flex items-center gap-2 sm:gap-3 group cursor-pointer">
           <div className="w-8 h-8 sm:w-10 sm:h-10 rounded flex items-center justify-center shadow-[0_0_15px_rgba(16,185,129,0.3)] transition-transform group-hover:scale-105 shrink-0 overflow-hidden">
@@ -47,6 +60,25 @@ export function AppHeader({ onToggleSidebar, onOpenInfo, totalPets }: AppHeaderP
       </div>
 
       <div className="flex items-center gap-2 sm:gap-3">
+        {mode === 'viewer' ? (
+          <button
+            onClick={onOpenCollection}
+            className="flex items-center gap-2 text-[10px] font-black text-[#aaa] hover:text-white transition-all bg-[#2a2a2a] hover:bg-[#333] p-2 sm:px-4 sm:py-2 border border-[#444] tracking-widest group"
+            title="Browse skins"
+          >
+            <Grid3X3 className="w-4 h-4 text-emerald-400 group-hover:scale-110 transition-transform" />
+            <span className="hidden sm:inline">BROWSE</span>
+          </button>
+        ) : (
+          <button
+            onClick={onBackToViewer}
+            className="flex items-center gap-2 text-[10px] font-black text-[#aaa] hover:text-white transition-all bg-[#2a2a2a] hover:bg-[#333] p-2 sm:px-4 sm:py-2 border border-[#444] tracking-widest group"
+            title="Back to viewer"
+          >
+            <ArrowLeft className="w-4 h-4 text-emerald-400 group-hover:scale-110 transition-transform" />
+            <span className="hidden sm:inline">VIEWER</span>
+          </button>
+        )}
         <button
           onClick={onOpenInfo}
           className="flex items-center gap-2 text-[10px] font-black text-[#aaa] hover:text-white transition-all bg-[#2a2a2a] hover:bg-[#333] p-2 sm:px-4 sm:py-2 border border-[#444] tracking-widest group"
