@@ -31,7 +31,7 @@ export interface PetRecord {
   category: string;
   description: string;
   infoUrls: string[];
-  recipes: any[];
+  recipes: unknown[];
   rarities: PetVariant[];
   variants: PetVariant[];
 }
@@ -173,34 +173,36 @@ export const useAppStore = create<AppState>()(
     }),
     {
       name: 'skyskins-storage',
-      migrate: (persisted: any, _version) => {
-        const state = persisted as any;
-        const owned: Record<string, any> = state?.ownedSkins ?? {};
+      migrate: (persisted: unknown, _version) => {
+        const state = (persisted ?? {}) as Record<string, unknown>;
+        const owned = (state.ownedSkins && typeof state.ownedSkins === 'object'
+          ? (state.ownedSkins as Record<string, unknown>)
+          : {}) as Record<string, unknown>;
 
         // Migrate old `{ [skinId]: entry }` shape into `{ [petId::skinId]: entry }`.
         // If it's already migrated, entries will have `key`.
         const nextOwned: Record<string, OwnedSkinEntry> = {};
         for (const [k, v] of Object.entries(owned)) {
-          const entry = v as any;
-          const petId = entry?.petId;
-          const skinId = entry?.skinId ?? k;
+          const entry = (v && typeof v === 'object' ? (v as Record<string, unknown>) : {}) as Record<string, unknown>;
+          const petId = typeof entry.petId === 'string' ? entry.petId : undefined;
+          const skinId = typeof entry.skinId === 'string' ? entry.skinId : k;
           if (!petId || !skinId) continue;
-          const key = typeof entry?.key === 'string' ? entry.key : `${petId}::${skinId}`;
+          const key = typeof entry.key === 'string' ? entry.key : `${petId}::${skinId}`;
           nextOwned[key] = {
             key,
             skinId,
             petId,
-            petName: entry?.petName ?? petId,
-            skinName: entry?.skinName ?? skinId,
-            rarity: entry?.rarity ?? 'UNKNOWN',
-            quantity: typeof entry?.quantity === 'number' ? entry.quantity : 1,
-            acquiredDate: entry?.acquiredDate,
-            pricePaid: entry?.pricePaid,
-            updatedAt: typeof entry?.updatedAt === 'number' ? entry.updatedAt : Date.now(),
+            petName: typeof entry.petName === 'string' ? entry.petName : petId,
+            skinName: typeof entry.skinName === 'string' ? entry.skinName : skinId,
+            rarity: (typeof entry.rarity === 'string' ? entry.rarity : 'UNKNOWN') as CosmeticRarity,
+            quantity: typeof entry.quantity === 'number' ? entry.quantity : 1,
+            acquiredDate: typeof entry.acquiredDate === 'string' ? entry.acquiredDate : undefined,
+            pricePaid: typeof entry.pricePaid === 'number' ? entry.pricePaid : undefined,
+            updatedAt: typeof entry.updatedAt === 'number' ? entry.updatedAt : Date.now(),
           };
         }
 
-        return { ...state, ownedSkins: nextOwned };
+        return { ...(state as any), ownedSkins: nextOwned };
       },
       partialize: (state) => ({ 
         selectedPetId: state.selectedPetId,

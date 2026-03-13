@@ -1,6 +1,7 @@
 import { useEffect, useRef, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
 import { OrbitControls } from '@react-three/drei';
+import type { OrbitControls as OrbitControlsImpl } from 'three-stdlib';
 import { RotateCcw, Camera, Sun, Moon, Sparkles, SunMoon } from 'lucide-react';
 import { PetModel } from '../3d/PetModel';
 import type { PetAnimation, DayNightAnimation } from '../../store/useAppStore';
@@ -24,7 +25,7 @@ export function ViewerScene({
   onToggleDayNight,
   onScreenshot,
 }: ViewerSceneProps) {
-  const controlsRef = useRef<any>(null);
+  const controlsRef = useRef<OrbitControlsImpl | null>(null);
   const [isTextureLoading, setIsTextureLoading] = useState(true);
   const [angles, setAngles] = useState<{ yaw: number; pitch: number } | null>(null);
 
@@ -32,7 +33,7 @@ export function ViewerScene({
     let raf: number | null = null;
     const loop = () => {
       const c = controlsRef.current;
-      if (c && typeof c.getAzimuthalAngle === 'function' && typeof c.getPolarAngle === 'function') {
+      if (c) {
         const yaw = (c.getAzimuthalAngle() * 180) / Math.PI;
         const polar = (c.getPolarAngle() * 180) / Math.PI;
         // OrbitControls polar: 0 = looking down from +Y, 90 = horizontal. Convert to pitch-like.

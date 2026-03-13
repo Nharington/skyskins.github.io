@@ -1,3 +1,8 @@
+import { useEffect, useMemo, useRef, useState } from 'react';
+
+type Vec3 = { x: number; y: number; z: number };
+type Vec2 = { x: number; y: number };
+
 interface SkinHeadThumbProps {
   frames: string[];
   ticks?: number;
@@ -7,11 +12,6 @@ interface SkinHeadThumbProps {
   pitchDeg?: number;
   className?: string;
 }
-
-import { useEffect, useMemo, useRef, useState } from 'react';
-
-type Vec3 = { x: number; y: number; z: number };
-type Vec2 = { x: number; y: number };
 
 const imageCache = new Map<string, HTMLImageElement>();
 function loadImage(url: string) {
@@ -273,16 +273,16 @@ export function SkinHeadThumb({
       }
     };
 
+    let lastT: number | null = null;
     const stop = () => {
       if (rafRef.current != null) cancelAnimationFrame(rafRef.current);
       rafRef.current = null;
+      lastT = null;
     };
 
     const loop = (t: number) => {
-      // Use RAF delta.
-      const last = (loop as any)._last as number | undefined;
-      (loop as any)._last = t;
-      const dt = last != null ? (t - last) / 1000 : 0;
+      const dt = lastT != null ? (t - lastT) / 1000 : 0;
+      lastT = t;
       timeRef.current += dt;
       if (timeRef.current >= frameDuration) {
         timeRef.current = 0;
@@ -306,7 +306,7 @@ export function SkinHeadThumb({
 
   return (
     <div ref={hostRef} className={className}>
-      <canvas ref={canvasRef} style={{ width: '100%', height: '100%', imageRendering: 'pixelated' as any }} />
+      <canvas ref={canvasRef} style={{ width: '100%', height: '100%', imageRendering: 'pixelated' }} />
     </div>
   );
 }

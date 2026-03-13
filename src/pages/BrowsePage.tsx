@@ -83,9 +83,8 @@ interface BrowsePageProps {
 export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
   const { registry, ownedSkins, upsertOwnedSkin, updateOwnedSkin, removeOwnedSkin } = useAppStore();
 
-  // Match the viewer's on-screen camera readout (Yaw/Pitch).
-  const PREVIEW_YAW = 26.8;
-  const PREVIEW_PITCH = 10.6;
+  const PREVIEW_YAW = 16;
+  const PREVIEW_PITCH = 6.7;
 
   const petIds = useMemo(() => Object.keys(registry), [registry]);
 
@@ -236,7 +235,7 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
 
   const handleSaveOwned = () => {
     if (!selected) return;
-    const qty = Math.max(0, Math.floor(Number.isFinite(Number(formQty)) ? Number(formQty) : 0));
+    const qty = Math.max(0, Math.floor(Number.isFinite(formQty) ? formQty : 0));
     if (qty <= 0) {
       removeOwnedSkin(selected.key);
       return;

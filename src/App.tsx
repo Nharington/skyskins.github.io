@@ -117,9 +117,8 @@ function App() {
   const handleRarityClick = useCallback((petId: string, rarityName: string) => {
     selectPet(petId);
     if (selectedPetId === petId && selectedPetData) {
-        const idx = selectedPetData.rarities.findIndex((r) => r.name === rarityName);
-        if (idx !== -1) selectRarityIdx(idx);
-    } else {
+      const idx = selectedPetData.rarities.findIndex((r) => r.name === rarityName);
+      if (idx !== -1) selectRarityIdx(idx);
     }
   }, [selectPet, selectedPetId, selectedPetData, selectRarityIdx]);
 
@@ -155,10 +154,9 @@ function App() {
   }, [registry]);
 
   const activeVariantSupportDayNight = useMemo(() => {
-     if (!selectedPetData || !selectedVariantId) return false;
-     const skin = selectedPetData.variants.find(v => v.id === selectedVariantId);
-     if (skin && skin.animation && 'day' in skin.animation) return true;
-     return false;
+    if (!selectedPetData || !selectedVariantId) return false;
+    const skin = selectedPetData.variants.find((v) => v.id === selectedVariantId);
+    return Boolean(skin?.animation && 'day' in skin.animation);
   }, [selectedPetData, selectedVariantId]);
 
   const activeVariantIsAnimated = useMemo(() => {
@@ -169,7 +167,7 @@ function App() {
 
   const activeAnimation = useMemo(() => {
     if (!selectedPetData || !selectedVariantId) return undefined;
-    const skin = selectedPetData.variants.find(v => v.id === selectedVariantId);
+    const skin = selectedPetData.variants.find((v) => v.id === selectedVariantId);
     return skin?.animation;
   }, [selectedPetData, selectedVariantId]);
 

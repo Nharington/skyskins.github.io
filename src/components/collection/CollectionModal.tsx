@@ -181,7 +181,7 @@ export function CollectionModal({ isOpen, onClose, onViewIn3D }: CollectionModal
 
   const handleSaveOwned = () => {
     if (!selected) return;
-    const qty = Math.max(0, Math.floor(Number.isFinite(Number(formQty)) ? Number(formQty) : 0));
+    const qty = Math.max(0, Math.floor(Number.isFinite(formQty) ? formQty : 0));
     if (qty <= 0) {
       removeOwnedSkin(`${selected.petId}::${selected.skinId}`);
       return;
