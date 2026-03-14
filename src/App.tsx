@@ -7,7 +7,7 @@ import { PetSidebar } from './components/pets/PetSidebar';
 import { SkinsPanel } from './components/pets/SkinsPanel';
 import { PetInfoPanel } from './components/pets/PetInfoPanel';
 import { ViewerScene } from './components/3d/ViewerScene';
-import { InfoModal } from './components/layout/InfoModal';
+import { SettingsModal } from './components/layout/SettingsModal';
 import { BrowsePage } from './pages/BrowsePage';
 
 function App() {
@@ -33,9 +33,9 @@ function App() {
   } = useAppStore();
 
   const [loading, setLoading] = useState(true);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
-  const [isSkinsPanelOpen, setIsSkinsPanelOpen] = useState(false);
-  const [isInfoModalOpen, setIsInfoModalOpen] = useState(false);
+  const [isSidebarOpen, setIsSidebarOpen] = useState(() => typeof window !== 'undefined' && window.innerWidth >= 768);
+  const [isSkinsPanelOpen, setIsSkinsPanelOpen] = useState(() => typeof window !== 'undefined' && window.innerWidth >= 768);
+  const [isSettingsModalOpen, setIsSettingsModalOpen] = useState(false);
   const [path, setPath] = useState(() => (typeof window !== 'undefined' ? window.location.pathname : '/'));
 
   const navigate = useCallback((to: string) => {
@@ -160,12 +160,6 @@ function App() {
     return Boolean(skin?.animation && 'day' in skin.animation);
   }, [selectedPetData, selectedVariantId]);
 
-  const activeVariantIsAnimated = useMemo(() => {
-    if (!selectedPetData || !selectedVariantId) return false;
-    const skin = selectedPetData.variants.find((v) => v.id === selectedVariantId);
-    return Boolean(skin?.animated || skin?.animation);
-  }, [selectedPetData, selectedVariantId]);
-
   const activeAnimation = useMemo(() => {
     if (!selectedPetData || !selectedVariantId) return undefined;
     const skin = selectedPetData.variants.find((v) => v.id === selectedVariantId);
@@ -191,7 +185,7 @@ function App() {
         <AppHeader
           isSidebarOpen={isSidebarOpen}
           onToggleSidebar={() => setIsSidebarOpen((o) => !o)}
-          onOpenInfo={() => setIsInfoModalOpen(true)}
+          onOpenInfo={() => setIsSettingsModalOpen(true)}
           onOpenCollection={() => navigate('/browse')}
           onBackToViewer={() => navigate('/')}
           mode={isBrowse ? 'browse' : 'viewer'}
@@ -224,37 +218,10 @@ function App() {
               onFilterChange={setActiveFilter}
               onAnimatedOnlyChange={setShowAnimatedOnly}
               onRarityClick={handleRarityClick}
+              onToggleSidebar={() => setIsSidebarOpen(!isSidebarOpen)}
             />
 
-            <div className="flex-1 relative flex flex-col bg-[#141414] shadow-[inset_0_0_50px_rgba(0,0,0,0.8)]">
-              {selectedPetData && selectedPetData.variants.length > 0 && (
-                <button
-                  onClick={() => setIsSkinsPanelOpen(!isSkinsPanelOpen)}
-                  className="md:hidden absolute right-4 top-4 z-20 bg-[#222222]/90 p-2.5 border-2 border-white/10 text-emerald-500 shadow-xl backdrop-blur-md active:scale-95 transition-all"
-                  title="Toggle Skins"
-                >
-                  <div className="relative">
-                    <div className="w-5 h-5 flex items-center justify-center">
-                      <div className="absolute inset-0 bg-emerald-500/20 rounded-full animate-ping" />
-                      <span className="text-[10px] font-black leading-none">{selectedPetData.variants.length}</span>
-                    </div>
-                  </div>
-                </button>
-              )}
-
-              {selectedPetData && selectedPetData.variants.length > 0 && (
-                <SkinsPanel
-                  variants={selectedPetData.variants}
-                  selectedVariantId={selectedVariantId}
-                  onSelectVariant={(id) => {
-                    selectVariant(id);
-                    setIsSkinsPanelOpen(false);
-                  }}
-                  isOpen={isSkinsPanelOpen}
-                  onClose={() => setIsSkinsPanelOpen(false)}
-                />
-              )}
-
+            <div className="flex-1 relative flex flex-col bg-[#141414] shadow-[inset_0_0_50px_rgba(0,0,0,0.8)] min-w-0">
               {selectedPetData && (
                 <PetInfoPanel
                   key={`${selectedPetData.type}:${selectedVariantId ?? 'default'}:${selectedRarityIdx}`}
@@ -268,12 +235,23 @@ function App() {
               <ViewerScene
                 textureUrl={activeTextureUrl}
                 animation={activeAnimation}
-                isAnimatedSkin={activeVariantIsAnimated}
                 supportsDayNight={activeVariantSupportDayNight}
                 dayNightMode={dayNightMode}
                 onToggleDayNight={() => setDayNightMode(dayNightMode === 'day' ? 'night' : 'day')}
               />
             </div>
+
+            {selectedPetData && selectedPetData.variants.length > 0 && (
+              <SkinsPanel
+                variants={selectedPetData.variants}
+                selectedVariantId={selectedVariantId}
+                onSelectVariant={(id) => {
+                  selectVariant(id);
+                }}
+                isOpen={isSkinsPanelOpen}
+                onToggle={() => setIsSkinsPanelOpen(!isSkinsPanelOpen)}
+              />
+            )}
           </div>
         ) : (
           <BrowsePage
@@ -285,9 +263,9 @@ function App() {
           />
         )}
         
-        <InfoModal 
-          isOpen={isInfoModalOpen} 
-          onClose={() => setIsInfoModalOpen(false)} 
+        <SettingsModal 
+          isOpen={isSettingsModalOpen} 
+          onClose={() => setIsSettingsModalOpen(false)} 
         />
       </div>
     </TooltipProvider>

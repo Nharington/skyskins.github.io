@@ -21,6 +21,7 @@ interface AppState {
   showAnimatedOnly: boolean;
   dayNightMode: 'day' | 'night';
   browseLayout: BrowseLayout;
+  postprocessingPreset: string;
 
   ownedCosmetics: Record<string, OwnedCosmeticEntry>;
   
@@ -33,6 +34,7 @@ interface AppState {
   setShowAnimatedOnly: (val: boolean) => void;
   setDayNightMode: (mode: 'day' | 'night') => void;
   setBrowseLayout: (layout: BrowseLayout) => void;
+  setPostprocessingPreset: (preset: string) => void;
   fetchPetData: (id: string) => Promise<void>;
 
   upsertOwnedCosmetic: (entry: Omit<OwnedCosmeticEntry, 'updatedAt'>) => void;
@@ -53,6 +55,7 @@ export const useAppStore = create<AppState>()(
       showAnimatedOnly: false,
       dayNightMode: 'day',
       browseLayout: 'grid',
+      postprocessingPreset: 'None',
       ownedCosmetics: {},
       
       setRegistry: (data) => set({ registry: data }),
@@ -89,6 +92,7 @@ export const useAppStore = create<AppState>()(
       setShowAnimatedOnly: (val) => set({ showAnimatedOnly: val }),
       setDayNightMode: (mode) => set({ dayNightMode: mode }),
       setBrowseLayout: (layout) => set({ browseLayout: layout }),
+      setPostprocessingPreset: (preset) => set({ postprocessingPreset: preset }),
 
       upsertOwnedCosmetic: (entry) =>
         set((state) => ({
@@ -171,7 +175,7 @@ export const useAppStore = create<AppState>()(
           };
         }
 
-        return { ...(state as Record<string, unknown>), ownedCosmetics: nextOwned, browseLayout: state.browseLayout ?? 'grid' };
+        return { ...(state as Record<string, unknown>), ownedCosmetics: nextOwned, browseLayout: state.browseLayout ?? 'grid', postprocessingPreset: state.postprocessingPreset ?? 'None' };
       },
       partialize: (state) => ({ 
         selectedPetId: state.selectedPetId,
@@ -181,6 +185,7 @@ export const useAppStore = create<AppState>()(
         showAnimatedOnly: state.showAnimatedOnly,
         dayNightMode: state.dayNightMode,
         browseLayout: state.browseLayout,
+        postprocessingPreset: state.postprocessingPreset,
         ownedCosmetics: state.ownedCosmetics,
       }),
     }

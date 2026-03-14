@@ -1,242 +1,49 @@
 import { useEffect, useMemo, useState } from 'react';
 import {
   AlignJustify,
-  Calendar,
   ChevronDown,
   ChevronUp,
-  Coins,
   Filter,
   Grid3X3,
   PackageCheck,
-  PackagePlus,
-  Palette,
+  PackageX,
   Search,
-  Shield,
   Sparkles,
+  SunMoon,
+  X,
 } from 'lucide-react';
 import { CosmeticThumb } from '../components/collection/CosmeticThumb';
+import { SkinHeadThumb } from '../components/collection/SkinHeadThumb';
 import { ScrollArea } from '../components/ui/scroll-area';
 import {
   getCatalogLoadUnitCount,
-  getCosmeticTypeLabel,
   loadCosmeticCatalog,
   type CatalogItem,
-  type CosmeticKind,
   type CosmeticRarity,
   type OwnedCosmeticEntry,
 } from '../lib/cosmetics';
 import { useAppStore } from '../store/useAppStore';
-import { cosmeticRarityRank, stripMinecraftFormatting } from '../utils/skinRarity';
+import { rarityHex, compareBrowseRarity, stripMinecraftFormatting } from '../utils/skinRarity';
+import { 
+  type CosmeticTypeFilter, 
+  getBrowseDescription, 
+  getTypeIcon, 
+  getTypeFilterLabel, 
+  matchesBrowseQuery, 
+  uniqueSortedValues 
+} from '../utils/browseUtils';
+import { OwnedEditor } from '../components/browse/OwnedEditor';
 
 type SortModeAll = 'type' | 'source' | 'item' | 'rarity';
 type SortModeOwned = 'date' | 'qty' | 'item' | 'source';
-type CosmeticTypeFilter = 'all' | CosmeticKind;
 
 const PREVIEW_YAW = -42;
 const PREVIEW_PITCH = 27;
 const PREVIEW_ROTATION = 19;
 const FILTERS: ReadonlyArray<CosmeticTypeFilter> = ['all', 'petSkin', 'dye', 'helmetSkin'];
 
-function rarityHex(rarity: CosmeticRarity) {
-  switch (rarity) {
-    case 'COMMON':
-      return '#aaaaaa';
-    case 'UNCOMMON':
-      return '#55ff55';
-    case 'RARE':
-      return '#5555ff';
-    case 'EPIC':
-      return '#aa00aa';
-    case 'LEGENDARY':
-      return '#ffaa00';
-    case 'MYTHIC':
-      return '#ff55ff';
-    case 'DIVINE':
-      return '#55ffff';
-    case 'SPECIAL':
-    case 'VERY SPECIAL':
-      return '#ff5555';
-    case 'ULTIMATE':
-    case 'SUPREME':
-      return '#aa0000';
-    case 'UNKNOWN':
-      return '#777777';
-    default: {
-      const exhaustiveCheck: never = rarity;
-      return exhaustiveCheck;
-    }
-  }
-}
-
-function getBrowseDescription(item: CatalogItem) {
-  const description = item.description?.trim();
-  if (!description) return null;
-
-  const normalizedDescription = stripMinecraftFormatting(description).trim().toLowerCase();
-  const redundantPetSkinLabel = `${item.parentNamePlain.trim().toLowerCase()} skin`;
-
-  if (normalizedDescription === redundantPetSkinLabel) {
-    return null;
-  }
-
-  return description;
-}
-
-function getTypeIcon(type: CosmeticTypeFilter) {
-  switch (type) {
-    case 'all':
-      return Filter;
-    case 'petSkin':
-      return Sparkles;
-    case 'dye':
-      return Palette;
-    case 'helmetSkin':
-      return Shield;
-    default: {
-      const exhaustiveCheck: never = type;
-      return exhaustiveCheck;
-    }
-  }
-}
-
-function getTypeFilterLabel(type: CosmeticTypeFilter) {
-  if (type === 'all') return 'All';
-  return getCosmeticTypeLabel(type);
-}
-
-function matchesBrowseQuery(item: CatalogItem, query: string) {
-  if (!query) return true;
-
-  const haystacks = [
-    item.itemNamePlain,
-    item.parentNamePlain,
-    item.category,
-    item.typeLabel,
-    stripMinecraftFormatting(item.description ?? ''),
-  ];
-
-  return haystacks.some((value) => value.toLowerCase().includes(query));
-}
-
-function compareBrowseRarity(a: CosmeticRarity, b: CosmeticRarity) {
-  if (a === 'UNKNOWN') return 1;
-  if (b === 'UNKNOWN') return -1;
-  return cosmeticRarityRank(b) - cosmeticRarityRank(a) || a.localeCompare(b);
-}
-
-function uniqueSortedValues<T extends string>(values: Iterable<T>, compare?: (a: T, b: T) => number) {
-  return [...new Set(values)].sort(compare);
-}
-
 interface BrowsePageProps {
   onViewIn3D: (petId: string, skinId: string) => void;
-}
-
-interface OwnedEditorProps {
-  canViewIn3D: boolean;
-  onRemove: () => void;
-  onSave: (draft: { quantity: number; acquiredDate?: string; pricePaid?: number }) => void;
-  onViewIn3D: () => void;
-  selectedOwned?: OwnedCosmeticEntry;
-}
-
-function OwnedEditor({ canViewIn3D, onRemove, onSave, onViewIn3D, selectedOwned }: OwnedEditorProps) {
-  const [quantity, setQuantity] = useState(selectedOwned?.quantity ?? 1);
-  const [acquiredDate, setAcquiredDate] = useState(selectedOwned?.acquiredDate ?? '');
-  const [pricePaid, setPricePaid] = useState(selectedOwned?.pricePaid != null ? String(selectedOwned.pricePaid) : '');
-
-  return (
-    <div className="flex flex-col gap-4 border-2 border-[#222] bg-[#111111] p-4">
-      <div className="flex items-center justify-between gap-3">
-        <div className="text-[10px] font-black uppercase tracking-[0.18em] text-[#777]">Owned details</div>
-        <div className="text-[10px] font-black uppercase tracking-[0.16em] text-[#666]">
-          {canViewIn3D ? '3D preview ready' : 'Browse-only preview'}
-        </div>
-      </div>
-
-      <div className="grid grid-cols-1 gap-3">
-        <label className="flex flex-col gap-1.5">
-          <span className="text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">Quantity</span>
-          <input
-            type="number"
-            min={0}
-            step={1}
-            value={quantity}
-            onChange={(e) => setQuantity(Number(e.target.value))}
-            className="w-full border-2 border-[#1a1a1a] bg-[#0b0b0b] px-3 py-3 text-sm font-bold text-white outline-none focus:border-emerald-500"
-          />
-        </label>
-
-        <label className="flex flex-col gap-1.5">
-          <span className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">
-            <Calendar className="h-3.5 w-3.5 text-[#666]" />
-            Acquired date
-          </span>
-          <input
-            type="date"
-            value={acquiredDate}
-            onChange={(e) => setAcquiredDate(e.target.value)}
-            className="w-full border-2 border-[#1a1a1a] bg-[#0b0b0b] px-3 py-3 text-sm font-bold text-white outline-none focus:border-emerald-500"
-            style={{ colorScheme: 'dark' }}
-          />
-        </label>
-
-        <label className="flex flex-col gap-1.5">
-          <span className="flex items-center gap-2 text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">
-            <Coins className="h-3.5 w-3.5 text-[#666]" />
-            Price paid
-          </span>
-          <input
-            type="number"
-            min={0}
-            step="0.01"
-            inputMode="decimal"
-            placeholder="Optional"
-            value={pricePaid}
-            onChange={(e) => setPricePaid(e.target.value)}
-            className="w-full border-2 border-[#1a1a1a] bg-[#0b0b0b] px-3 py-3 text-sm font-bold text-white outline-none focus:border-emerald-500 placeholder:text-[#444]"
-          />
-        </label>
-      </div>
-
-      <div className="flex flex-col gap-2 pt-1">
-        <button
-          onClick={() =>
-            onSave({
-              quantity,
-              acquiredDate: acquiredDate.trim() === '' ? undefined : acquiredDate,
-              pricePaid: pricePaid.trim() === '' ? undefined : Number(pricePaid),
-            })
-          }
-          className="flex w-full items-center justify-center gap-2 border-b-4 border-emerald-700 bg-emerald-500 py-3 text-[10px] font-black uppercase tracking-widest text-black transition-all hover:bg-emerald-400 active:translate-y-[2px] active:border-b-0"
-        >
-          {selectedOwned ? <PackageCheck className="h-4 w-4" /> : <PackagePlus className="h-4 w-4" />}
-          {selectedOwned ? 'Save owned changes' : 'Add to owned'}
-        </button>
-
-        {selectedOwned && (
-          <button
-            onClick={onRemove}
-            className="w-full border-2 border-[#333] bg-[#1a1a1a] py-3 text-[10px] font-black uppercase tracking-widest text-[#ddd] transition-colors hover:border-[#555] hover:bg-[#202020]"
-          >
-            Remove from owned
-          </button>
-        )}
-
-        <button
-          onClick={onViewIn3D}
-          disabled={!canViewIn3D}
-          className={`w-full border-2 py-3 text-[10px] font-black uppercase tracking-widest transition-colors ${
-            canViewIn3D
-              ? 'border-[#224444] bg-[#102020] text-emerald-200 hover:border-emerald-500 hover:bg-[#143030]'
-              : 'cursor-not-allowed border-[#2d2d2d] bg-[#171717] text-[#666]'
-          }`}
-        >
-          {canViewIn3D ? 'View in 3D' : '3D preview unavailable'}
-        </button>
-      </div>
-    </div>
-  );
 }
 
 export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
@@ -267,6 +74,8 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
 
   const [selectedKey, setSelectedKey] = useState<string | null>(null);
   const [hoveredKey, setHoveredKey] = useState<string | null>(null);
+  const [mobileInfoOpen, setMobileInfoOpen] = useState(false);
+  const [showMobileFilters, setShowMobileFilters] = useState(false);
   const petCatalogKey = useMemo(() => petIds.join('|'), [petIds]);
 
   useEffect(() => {
@@ -475,55 +284,26 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
 
   return (
     <div className="flex flex-1 flex-col overflow-hidden">
-      <div className="border-b border-white/10 bg-[#181818]">
-        <div className="flex flex-col gap-4 p-4">
-          <div className="flex flex-col gap-3 xl:flex-row xl:items-center">
-            <div className="grid grid-cols-2 gap-3 xl:min-w-[260px]">
-              <div className="border-2 border-[#252525] bg-[#111111] px-4 py-3">
-                <div className="text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">Catalog</div>
-                <div className="mt-2 text-lg font-black text-white">{allItems.length}</div>
-                <div className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#777]">Total cosmetics</div>
-              </div>
-              <div className="border-2 border-[#252525] bg-[#111111] px-4 py-3">
-                <div className="text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">Owned</div>
-                <div className="mt-2 text-lg font-black text-emerald-300">{ownedEntries.length}</div>
-                <div className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#777]">Tracked entries</div>
-              </div>
-            </div>
-
-            <div className="relative flex-1">
-              <Search className="absolute left-4 top-3.5 h-4 w-4 text-[#777777]" />
-              <input
-                type="text"
-                placeholder="Search by item, source, category, or cosmetic type..."
-                value={query}
-                onChange={(e) => setQuery(e.target.value)}
-                className="w-full bg-[#111111] border-2 border-[#252525] focus:border-emerald-500 outline-none pl-11 pr-4 py-3 text-sm font-bold placeholder:text-[#555555] rounded-none transition-colors"
-                autoComplete="off"
-                spellCheck={false}
-              />
-            </div>
-          </div>
-
-          <div className="flex flex-col gap-3 xl:flex-row xl:items-center xl:justify-between">
-            <div className="flex flex-wrap gap-2">
+      <div className="border-b border-[#252525] bg-[#111] shrink-0">
+        <div className="flex flex-col gap-2 p-2 md:p-3 xl:px-4 xl:py-3 cursor-default">
+          <div className="flex flex-col xl:flex-row xl:items-center justify-between gap-2 xl:gap-4">
+            <div className="flex flex-nowrap md:flex-wrap overflow-x-auto gap-1.5 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden w-full xl:w-auto">
               {FILTERS.map((filterValue) => {
                 const Icon = getTypeIcon(filterValue);
                 const isActive = typeFilter === filterValue;
-
                 return (
                   <button
                     key={filterValue}
                     onClick={() => setTypeFilter(filterValue)}
-                    className={`flex items-center gap-2 border-2 px-4 py-2 text-xs font-black uppercase tracking-[0.16em] transition-colors ${
+                    className={`shrink-0 flex items-center h-9 gap-1.5 border px-2.5 text-[10px] md:text-[11px] font-black uppercase tracking-[0.16em] transition-colors ${
                       isActive
-                        ? 'border-emerald-500 bg-emerald-500/12 text-emerald-200'
-                        : 'border-[#252525] bg-[#111111] text-[#9a9a9a] hover:border-[#3a3a3a] hover:text-white'
+                        ? 'border-emerald-500/50 bg-emerald-500/10 text-emerald-300'
+                        : 'border-[#222] bg-[#151515] text-[#888] hover:border-[#444] hover:text-[#ccc]'
                     }`}
                   >
-                    <Icon className="h-4 w-4" />
+                    <Icon className="h-3 w-3 md:h-3.5 md:w-3.5" />
                     <span>{getTypeFilterLabel(filterValue)}</span>
-                    <span className="border border-white/10 bg-black/20 px-2 py-1 text-[10px] text-[#d4d4d4]">
+                    <span className="border border-white/5 bg-black/40 px-1 py-0.5 text-[9px] text-[#aaa]">
                       {typeCounts[filterValue]}
                     </span>
                   </button>
@@ -531,161 +311,195 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
               })}
             </div>
 
-            <div className="flex flex-wrap gap-2">
-              <label className="flex cursor-pointer select-none items-center gap-2 border-2 border-[#252525] bg-[#111111] px-4 py-3 transition-colors hover:border-[#333333]">
-                <Filter className="h-4 w-4 text-[#888888]" />
+            <div className="relative w-full xl:flex-1 shrink-0 h-9">
+              <Search className="absolute left-2.5 top-[11px] h-3.5 w-3.5 text-[#555]" />
+              <input
+                type="text"
+                placeholder="Search catalog..."
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                className="w-full h-full bg-[#151515] border border-[#222] focus:border-emerald-500/50 outline-none pl-8 pr-8 text-xs font-bold text-[#eee] placeholder:text-[#555] transition-colors"
+                autoComplete="off"
+                spellCheck={false}
+              />
+              {query && (
+                <button
+                  onClick={() => setQuery('')}
+                  className="absolute right-2.5 top-[11px] text-[#555] hover:text-[#aaa] transition-colors"
+                >
+                  <X className="h-3.5 w-3.5" />
+                </button>
+              )}
+            </div>
+          </div>
+
+          <button
+            onClick={() => setShowMobileFilters(!showMobileFilters)}
+            className="xl:hidden flex w-full h-9 items-center justify-between border border-[#222] bg-[#151515] px-3 text-left transition-colors hover:bg-white/[0.03]"
+          >
+            <div className="flex items-center gap-1.5">
+              <Filter className="h-3.5 w-3.5 text-[#777]" />
+              <span className="text-[10px] md:text-[11px] font-black uppercase tracking-widest text-[#999]">Filters & Settings</span>
+            </div>
+            {showMobileFilters ? (
+              <ChevronUp className="h-3.5 w-3.5 text-[#777]" />
+            ) : (
+              <ChevronDown className="h-3.5 w-3.5 text-[#777]" />
+            )}
+          </button>
+
+          <div className={`flex flex-col xl:flex-row xl:items-center justify-between gap-2 xl:gap-4 ${showMobileFilters ? 'flex' : 'hidden xl:flex'} transition-all`}>
+            <div className="flex gap-2">
+              <div className="flex items-center h-9 gap-2 border border-[#222] bg-[#151515] px-2.5 text-[9px] md:text-[10px] font-black uppercase tracking-[0.16em] text-[#777]">
+                <span>Catalog</span>
+                <span className="text-white border-l border-[#333] pl-2">{allItems.length}</span>
+              </div>
+              <div className="flex items-center h-9 gap-2 border border-[#222] bg-[#151515] px-2.5 text-[9px] md:text-[10px] font-black uppercase tracking-[0.16em] text-[#777]">
+                <span>Owned</span>
+                <span className="text-emerald-400 border-l border-[#333] pl-2">{ownedEntries.length}</span>
+              </div>
+            </div>
+
+            <div className="flex flex-wrap items-center gap-2">
+              <label className="flex items-center h-9 gap-1.5 border border-[#222] bg-[#151515] px-2.5 text-[9px] md:text-[10px] font-black uppercase tracking-[0.16em] text-[#aaa] cursor-pointer hover:border-[#444] transition-colors select-none">
                 <div
-                  className={`flex h-4 w-4 items-center justify-center border-2 transition-colors ${
-                    ownedOnly ? 'border-emerald-500 bg-emerald-500' : 'border-[#333333] bg-[#0b0b0b]'
+                  className={`flex shrink-0 h-3 w-3 items-center justify-center border transition-colors ${
+                    ownedOnly ? 'border-emerald-500 bg-emerald-500' : 'border-[#444] bg-[#0b0b0b]'
                   }`}
                 >
-                  {ownedOnly && <div className="h-2 w-2 bg-white" />}
+                  {ownedOnly && <div className="h-1.5 w-1.5 bg-white" />}
                 </div>
                 <input type="checkbox" checked={ownedOnly} onChange={(e) => setOwnedOnly(e.target.checked)} className="hidden" />
-                <span className="whitespace-nowrap text-xs font-bold uppercase tracking-widest text-[#aaaaaa]">Owned only</span>
+                <span>Owned only</span>
               </label>
 
-              <div className="flex items-center gap-2 border-2 border-[#252525] bg-[#111111] px-4 py-3">
-                <span className="whitespace-nowrap text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">Sort</span>
+              <div className="flex flex-1 xl:flex-none h-9 items-center gap-2 border border-[#222] bg-[#151515] px-2.5 relative">
+                <span className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">Sort</span>
                 {!ownedOnly ? (
                   <select
                     value={sortAll}
                     onChange={(e) => setSortAll(e.target.value as SortModeAll)}
-                    className="bg-[#0b0b0b] border border-[#222] px-2 py-1 text-xs font-bold text-[#ddd] outline-none focus:border-emerald-500"
-                    style={{ colorScheme: 'dark' }}
+                    className="bg-transparent text-[9px] md:text-[10px] font-black uppercase tracking-widest text-[#ccc] outline-none w-full xl:w-auto cursor-pointer"
                   >
-                    <option value="type">Cosmetic type</option>
-                    <option value="source">Source name</option>
-                    <option value="item">Item name</option>
-                    <option value="rarity">Rarity</option>
+                    <option value="type" className="bg-[#111]">Cosmetic type</option>
+                    <option value="source" className="bg-[#111]">Source name</option>
+                    <option value="item" className="bg-[#111]">Item name</option>
+                    <option value="rarity" className="bg-[#111]">Rarity</option>
                   </select>
                 ) : (
                   <select
                     value={sortOwned}
                     onChange={(e) => setSortOwned(e.target.value as SortModeOwned)}
-                    className="bg-[#0b0b0b] border border-[#222] px-2 py-1 text-xs font-bold text-[#ddd] outline-none focus:border-emerald-500"
-                    style={{ colorScheme: 'dark' }}
+                    className="bg-transparent text-[9px] md:text-[10px] font-black uppercase tracking-widest text-[#ccc] outline-none w-full xl:w-auto cursor-pointer"
                   >
-                    <option value="date">Date acquired</option>
-                    <option value="qty">Quantity</option>
-                    <option value="item">Item name</option>
-                    <option value="source">Source name</option>
+                    <option value="date" className="bg-[#111]">Date acquired</option>
+                    <option value="qty" className="bg-[#111]">Quantity</option>
+                    <option value="item" className="bg-[#111]">Item name</option>
+                    <option value="source" className="bg-[#111]">Source name</option>
                   </select>
                 )}
               </div>
 
-              <div className="flex items-center gap-2 border-2 border-[#252525] bg-[#111111] px-2 py-2">
+              <div className="flex items-center h-9 gap-0.5 border border-[#222] bg-[#151515] p-1">
                 <button
                   onClick={() => setBrowseLayout('grid')}
-                  className={`flex items-center gap-2 px-3 py-2 text-[10px] font-black uppercase tracking-[0.18em] transition-colors ${
+                  className={`flex items-center h-full gap-1 px-2 text-[9px] md:text-[10px] font-black uppercase tracking-[0.16em] transition-colors ${
                     browseLayout === 'grid'
-                      ? 'border border-emerald-500/40 bg-emerald-500/12 text-emerald-200'
-                      : 'border border-transparent text-[#888] hover:text-white'
+                      ? 'bg-emerald-500/20 text-emerald-300'
+                      : 'text-[#888] hover:text-[#ccc]'
                   }`}
                 >
-                  <Grid3X3 className="h-4 w-4" />
+                  <Grid3X3 className="h-3 w-3" />
                   Grid
                 </button>
                 <button
                   onClick={() => setBrowseLayout('list')}
-                  className={`flex items-center gap-2 px-3 py-2 text-[10px] font-black uppercase tracking-[0.18em] transition-colors ${
+                  className={`flex items-center h-full gap-1 px-2 text-[9px] md:text-[10px] font-black uppercase tracking-[0.16em] transition-colors ${
                     browseLayout === 'list'
-                      ? 'border border-emerald-500/40 bg-emerald-500/12 text-emerald-200'
-                      : 'border border-transparent text-[#888] hover:text-white'
+                      ? 'bg-emerald-500/20 text-emerald-300'
+                      : 'text-[#888] hover:text-[#ccc]'
                   }`}
                 >
-                  <AlignJustify className="h-4 w-4" />
+                  <AlignJustify className="h-3 w-3" />
                   List
                 </button>
               </div>
-            </div>
-          </div>
 
-          <div className="flex justify-end">
-            <div className="w-full max-w-[230px] border-2 border-[#252525] bg-[#111111]">
-              <button
-                onClick={() => setRarityFilterOpen((current) => !current)}
-                className="flex w-full items-center justify-between gap-3 px-3 py-3 text-left transition-colors hover:bg-white/[0.03]"
-              >
-                <div className="min-w-0">
-                  <div className="text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">Rarity</div>
-                  <div className="mt-1 truncate text-[10px] font-bold uppercase tracking-[0.14em] text-[#8a8a8a]">{raritySummary}</div>
-                </div>
-                {rarityFilterOpen ? (
-                  <ChevronUp className="h-4 w-4 shrink-0 text-[#888]" />
-                ) : (
-                  <ChevronDown className="h-4 w-4 shrink-0 text-[#888]" />
-                )}
-              </button>
+              <div className="relative w-full xl:w-[220px] h-9 shrink-0 border border-[#222] bg-[#151515]">
+                <button
+                  onClick={() => setRarityFilterOpen((current) => !current)}
+                  className="flex h-full w-full items-center justify-between gap-2 px-2.5 text-left transition-colors hover:bg-white/[0.03]"
+                >
+                  <div className="flex items-center gap-2 truncate">
+                    <span className="text-[9px] md:text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">Rarity</span>
+                    <span className="truncate text-[9px] md:text-[10px] font-bold uppercase tracking-[0.14em] text-[#aaa]">{raritySummary}</span>
+                  </div>
+                  {rarityFilterOpen ? (
+                    <ChevronUp className="h-3.5 w-3.5 shrink-0 text-[#888]" />
+                  ) : (
+                    <ChevronDown className="h-3.5 w-3.5 shrink-0 text-[#888]" />
+                  )}
+                </button>
 
-              {rarityFilterOpen && (
-                <div className="border-t border-[#252525] px-3 py-3">
-                  <div className="flex flex-col gap-1.5">
-                    {rarityOptions.map((rarity) => {
-                      const isActive = rarityFilters.includes(rarity);
-
-                      return (
-                        <button
-                          key={rarity}
-                          onClick={() => toggleRarityFilter(rarity)}
-                          className={`flex items-center justify-between gap-3 border px-3 py-2 text-left transition-colors ${
-                            isActive
-                              ? 'border-white/25 bg-black/25'
-                              : 'border-[#222222] bg-[#0b0b0b] hover:border-[#3a3a3a] hover:bg-[#121212]'
-                          }`}
-                        >
-                          <span className="mc-font text-xs font-black uppercase tracking-[0.14em]" style={{ color: rarityHex(rarity) }}>
-                            {rarity}
-                          </span>
-                          <span
-                            className={`h-4 w-4 border-2 ${
-                              isActive ? 'border-emerald-500 bg-emerald-500' : 'border-[#333333] bg-transparent'
+                {rarityFilterOpen && (
+                  <div className="absolute z-20 top-[100%] left-[-1px] w-[calc(100%+2px)] border border-[#222] border-t-0 bg-[#151515] shadow-2xl">
+                    <div className="flex flex-col p-1.5 gap-1 max-h-[40vh] overflow-y-auto">
+                      {rarityOptions.map((rarity) => {
+                        const isActive = rarityFilters.includes(rarity);
+                        return (
+                          <button
+                            key={rarity}
+                            onClick={() => toggleRarityFilter(rarity)}
+                            className={`flex items-center justify-between gap-2 border px-2 py-1 text-left transition-colors ${
+                              isActive
+                                ? 'border-emerald-500/20 bg-emerald-500/10'
+                                : 'border-transparent hover:bg-white/5'
                             }`}
                           >
-                            {isActive && <span className="block h-full w-full scale-[0.45] bg-white" />}
-                          </span>
-                        </button>
-                      );
-                    })}
-                  </div>
+                            <span className="mc-font text-[10px] md:text-[11px] font-black uppercase tracking-[0.14em]" style={{ color: rarityHex(rarity) }}>
+                              {rarity}
+                            </span>
+                            <div
+                              className={`flex shrink-0 h-3 w-3 items-center justify-center border transition-colors ${
+                                isActive ? 'border-emerald-500 bg-emerald-500' : 'border-[#444] bg-[#0b0b0b]'
+                              }`}
+                            >
+                              {isActive && <div className="h-1.5 w-1.5 bg-white" />}
+                            </div>
+                          </button>
+                        );
+                      })}
+                    </div>
 
-                  <div className="mt-3 flex items-center justify-between gap-3">
-                    <div className="text-[10px] font-bold uppercase tracking-[0.14em] text-[#666]">No selection shows all</div>
-                    {hasAdvancedFilters && (
-                      <button
-                        onClick={() => setRarityFilters([])}
-                        className="text-[10px] font-black uppercase tracking-[0.16em] text-[#9e9e9e] transition-colors hover:text-white"
-                      >
-                        Clear
-                      </button>
-                    )}
+                    <div className="flex items-center justify-between gap-2 border-t border-[#222] p-2 bg-[#111]">
+                      <span className="text-[8px] md:text-[9px] font-bold uppercase tracking-[0.16em] text-[#666]">No selection shows all</span>
+                      {hasAdvancedFilters && (
+                        <button
+                          onClick={() => setRarityFilters([])}
+                          className="text-[8px] md:text-[9px] font-black uppercase tracking-[0.16em] text-[#aaa] hover:text-white"
+                        >
+                          Clear
+                        </button>
+                      )}
+                    </div>
                   </div>
-                </div>
-              )}
+                )}
+              </div>
             </div>
           </div>
 
           {loading && (
-            <div className="w-full border border-white/10 bg-black/30 p-4">
+            <div className="w-full border border-emerald-500/20 bg-emerald-500/5 p-2 md:p-3">
               <div className="flex items-center justify-between gap-3">
-                <div>
-                  <div className="text-[10px] font-black uppercase tracking-[0.18em] text-[#777]">Building unified cosmetic index</div>
-                  <div className="mt-2 text-sm font-bold text-[#d0d0d0]">
-                    Loading pets, dyes, and helmet skins into one browse catalog.
-                  </div>
+                <div className="flex-1">
+                  <div className="text-[9px] font-black uppercase tracking-[0.18em] text-[#888]">Building index...</div>
                 </div>
                 <div className="text-right">
-                  <div className="text-lg font-black text-white">
-                    {loadDone}/{loadTotal}
-                  </div>
-                  <div className="text-[10px] font-bold uppercase tracking-[0.16em] text-[#666]">Sources indexed</div>
+                  <div className="text-[10px] font-black text-white px-2 py-0.5 border border-white/10 bg-black/20">{loadDone} / {loadTotal}</div>
                 </div>
               </div>
-              <div className="mt-4 h-2 border border-[#222] bg-[#0b0b0b]">
-                <div
-                  className="h-full bg-emerald-500"
-                  style={{ width: loadTotal ? `${Math.min(100, Math.round((loadDone / loadTotal) * 100))}%` : '0%' }}
-                />
+              <div className="mt-2 h-0.5 bg-[#111] w-full">
+                <div className="h-full bg-emerald-500 transition-all duration-300" style={{ width: loadTotal ? `${Math.min(100, Math.round((loadDone / loadTotal) * 100))}%` : '0%' }} />
               </div>
             </div>
           )}
@@ -706,7 +520,7 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
           ) : (
             <div className="p-4 md:p-5">
               {browseLayout === 'grid' ? (
-                <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 xl:grid-cols-3 2xl:grid-cols-4">
+                <div className="grid grid-cols-2 gap-3 sm:gap-4 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 2xl:grid-cols-6">
                   {sortedItems.map((item) => {
                     const isSelected = resolvedSelectedKey === item.key;
                     const owned = ownedCosmetics[item.key];
@@ -716,13 +530,13 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
                     return (
                       <button
                         key={item.key}
-                        onClick={() => setSelectedKey(item.key)}
+                        onClick={() => { setSelectedKey(item.key); setMobileInfoOpen(true); }}
                         onMouseEnter={() => setHoveredKey(item.key)}
                         onMouseLeave={() => setHoveredKey((current) => (current === item.key ? null : current))}
-                        className={`border-2 p-4 text-left transition-all duration-150 ${
+                        className={`group relative flex flex-col border-2 p-4 text-left transition-all duration-300 ${
                           isSelected
-                            ? 'border-emerald-500 bg-[#111111] shadow-[0_0_0_2px_rgba(16,185,129,0.25)]'
-                            : 'border-[#222222] bg-[#111111] hover:border-[#333333] hover:bg-[#151515]'
+                            ? 'border-emerald-500 bg-emerald-500/5 shadow-[0_0_20px_rgba(16,185,129,0.15)]'
+                            : 'border-[#222222] bg-[#111111] hover:border-[#444444] hover:bg-[#151515]'
                         }`}
                       >
                         <div className="aspect-square w-full overflow-hidden border border-white/10 bg-black/20">
@@ -737,16 +551,20 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
                           />
                         </div>
 
-                        <div className="mt-4 flex flex-col gap-2">
-                          <div className="flex flex-wrap gap-2">
-                            <span className="border border-white/10 bg-black/20 px-2 py-1 text-[10px] font-black uppercase tracking-[0.16em] text-[#aaa]">
+                        <div className="mt-4 flex flex-1 flex-col gap-2">
+                          <div className="flex flex-wrap gap-1.5">
+                            <span className="border border-white/10 bg-black/20 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.16em] text-[#aaa]">
                               {item.typeLabel}
                             </span>
-                            {item.animated && (
-                              <span className="border border-amber-500/20 bg-amber-500/10 px-2 py-1 text-[10px] font-black uppercase tracking-[0.16em] text-amber-300">
-                                Animated
+                            {item.animation && 'day' in item.animation ? (
+                              <span className="flex items-center gap-1 border border-emerald-500/20 bg-emerald-500/10 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.16em] text-emerald-300" title="Day/Night Animated">
+                                <SunMoon className="h-3 w-3" />
                               </span>
-                            )}
+                            ) : item.animated ? (
+                              <span className="flex items-center gap-1 border border-amber-500/20 bg-amber-500/10 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.16em] text-amber-300" title="Animated">
+                                <Sparkles className="h-3 w-3" />
+                              </span>
+                            ) : null}
                           </div>
 
                           <div
@@ -755,19 +573,20 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
                           >
                             {item.itemNamePlain}
                           </div>
-                          <div className="truncate text-[11px] font-bold uppercase tracking-[0.16em] text-[#777]">{item.parentNamePlain}</div>
+                          <div className="truncate text-[10px] font-bold uppercase tracking-[0.16em] text-[#777]">{item.parentNamePlain}</div>
                           {browseDescription && (
-                            <div className="line-clamp-2 text-xs leading-relaxed text-[#8a8a8a]">{browseDescription}</div>
+                            <div className="line-clamp-2 text-[11px] leading-relaxed text-[#8a8a8a]">{browseDescription}</div>
                           )}
 
                           <div className="mt-1 flex items-center justify-between gap-2">
                             {owned ? (
-                              <span className="border border-emerald-500/20 bg-emerald-500/10 px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-emerald-300">
-                                x{owned.quantity} owned
+                              <span className="flex items-center gap-1 border border-emerald-500/20 bg-emerald-500/10 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.14em] text-emerald-300">
+                                <PackageCheck className="h-3 w-3" />
+                                x{owned.quantity}
                               </span>
                             ) : (
-                              <span className="border border-white/5 bg-black/20 px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[#666]">
-                                not owned
+                              <span className="flex items-center border border-white/5 bg-black/20 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.14em] text-[#555]" title="Not owned">
+                                <PackageX className="h-3 w-3" />
                               </span>
                             )}
                           </div>
@@ -787,13 +606,13 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
                     return (
                       <button
                         key={item.key}
-                        onClick={() => setSelectedKey(item.key)}
+                        onClick={() => { setSelectedKey(item.key); setMobileInfoOpen(true); }}
                         onMouseEnter={() => setHoveredKey(item.key)}
                         onMouseLeave={() => setHoveredKey((current) => (current === item.key ? null : current))}
-                        className={`grid grid-cols-[96px_minmax(0,1fr)] gap-4 border-2 p-4 text-left transition-all duration-150 ${
+                        className={`group relative grid grid-cols-[96px_minmax(0,1fr)] gap-4 border-2 p-4 text-left transition-all duration-300 ${
                           isSelected
-                            ? 'border-emerald-500 bg-[#141414] shadow-[0_0_0_2px_rgba(16,185,129,0.22)]'
-                            : 'border-[#222222] bg-[#111111] hover:border-[#333333] hover:bg-[#151515]'
+                            ? 'border-emerald-500 bg-emerald-500/5 shadow-[0_0_20px_rgba(16,185,129,0.15)]'
+                            : 'border-[#222222] bg-[#111111] hover:border-[#444444] hover:bg-[#151515]'
                         }`}
                       >
                         <div className="aspect-square w-24 overflow-hidden border border-white/10 bg-black/20">
@@ -819,31 +638,36 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
                               </div>
                               <div className="mt-1 text-[11px] font-bold uppercase tracking-[0.16em] text-[#777]">{item.parentNamePlain}</div>
                             </div>
-                            <div className="flex flex-wrap gap-2">
-                              <span className="border border-white/10 bg-black/20 px-2 py-1 text-[10px] font-black uppercase tracking-[0.16em] text-[#aaa]">
+                            <div className="flex flex-wrap gap-1.5 h-fit">
+                              <span className="border border-white/10 bg-black/20 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.16em] text-[#aaa]">
                                 {item.typeLabel}
                               </span>
-                              {item.animated && (
-                                <span className="border border-amber-500/20 bg-amber-500/10 px-2 py-1 text-[10px] font-black uppercase tracking-[0.16em] text-amber-300">
-                                  Animated
+                              {item.animation && 'day' in item.animation ? (
+                                <span className="flex items-center border border-emerald-500/20 bg-emerald-500/10 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.16em] text-emerald-300" title="Day/Night Animated">
+                                  <SunMoon className="h-3 w-3" />
                                 </span>
-                              )}
+                              ) : item.animated ? (
+                                <span className="flex items-center border border-amber-500/20 bg-amber-500/10 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.16em] text-amber-300" title="Animated">
+                                  <Sparkles className="h-3 w-3" />
+                                </span>
+                              ) : null}
                             </div>
                           </div>
 
-                          <div className="grid gap-3 text-sm text-[#8e8e8e] md:grid-cols-[minmax(0,1fr)_180px]">
+                          <div className="grid gap-3 text-xs text-[#8e8e8e] md:grid-cols-[minmax(0,1fr)_180px]">
                             <div className="leading-relaxed">{browseDescription ?? item.category}</div>
-                            <div className="flex flex-wrap items-center justify-start gap-2 md:justify-end">
-                              <span className="border border-white/10 bg-black/20 px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[#aaa]">
+                            <div className="flex flex-wrap items-center justify-start gap-1.5 md:justify-end">
+                              <span className="border border-white/10 bg-black/20 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.14em] text-[#aaa]">
                                 {item.category}
                               </span>
                               {owned ? (
-                                <span className="border border-emerald-500/20 bg-emerald-500/10 px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-emerald-300">
-                                  x{owned.quantity} owned
+                                <span className="flex items-center gap-1 border border-emerald-500/20 bg-emerald-500/10 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.14em] text-emerald-300">
+                                  <PackageCheck className="h-3 w-3" />
+                                  x{owned.quantity}
                                 </span>
                               ) : (
-                                <span className="border border-white/5 bg-black/20 px-2 py-1 text-[10px] font-black uppercase tracking-[0.14em] text-[#666]">
-                                  not owned
+                                <span className="flex items-center border border-white/5 bg-black/20 px-1.5 py-0.5 text-[9px] font-black uppercase tracking-[0.14em] text-[#555]" title="Not owned">
+                                  <PackageX className="h-3 w-3" />
                                 </span>
                               )}
                             </div>
@@ -858,7 +682,28 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
           )}
         </ScrollArea>
 
-        <div className="flex flex-col gap-4 overflow-hidden border-l-4 border-[#222] bg-[#141414] p-4 md:p-5">
+        {mobileInfoOpen && (
+          <div
+            className="fixed inset-0 z-30 bg-black/60 backdrop-blur-sm lg:hidden"
+            onClick={() => setMobileInfoOpen(false)}
+          />
+        )}
+
+        <div
+          className={`fixed inset-x-0 bottom-0 z-40 max-h-[85vh] overflow-y-auto transition-transform duration-300 lg:static lg:inset-auto lg:z-auto lg:max-h-none lg:overflow-y-auto lg:transition-none ${
+            mobileInfoOpen ? 'translate-y-0' : 'translate-y-full lg:translate-y-0'
+          } flex flex-col gap-4 border-t-4 border-[#222] bg-[#141414] p-4 md:p-5 lg:border-l-4 lg:border-t-0`}
+        >
+          <div className="flex items-center justify-between lg:hidden mb-2">
+            <div className="text-[10px] font-black uppercase tracking-[0.18em] text-[#666]">Item details</div>
+            <button
+              onClick={() => setMobileInfoOpen(false)}
+              className="p-1.5 text-[#888] hover:text-white"
+              aria-label="Close"
+            >
+              <X className="h-4 w-4" />
+            </button>
+          </div>
           {!selected ? (
             <div className="flex flex-1 items-center justify-center p-6 text-center">
               <div className="max-w-sm">
@@ -871,17 +716,32 @@ export function BrowsePage({ onViewIn3D }: BrowsePageProps) {
           ) : (
             <>
               <div className="flex gap-4 border-2 border-[#222] bg-[#0f0f0f] p-4">
-                <div className="h-24 w-24 shrink-0 overflow-hidden border border-white/10 bg-black/20">
-                  <CosmeticThumb
-                    item={selected}
-                    play={selected.animated}
-                    background={false}
-                    yawDeg={PREVIEW_YAW}
-                    pitchDeg={PREVIEW_PITCH}
-                    rotationDeg={PREVIEW_ROTATION}
-                    className="h-full w-full"
-                  />
-                </div>
+                {selected.previewMode === 'skin-head' ? (
+                  <div className="h-28 w-28 shrink-0 overflow-hidden border border-white/10 bg-black">
+                    <SkinHeadThumb
+                      frames={selected.frames}
+                      ticks={selected.ticks}
+                      play
+                      background={false}
+                      yawDeg={PREVIEW_YAW}
+                      pitchDeg={PREVIEW_PITCH}
+                      rotationDeg={PREVIEW_ROTATION}
+                      className="h-full w-full"
+                    />
+                  </div>
+                ) : (
+                  <div className="h-24 w-24 shrink-0 overflow-hidden border border-white/10 bg-black/20">
+                    <CosmeticThumb
+                      item={selected}
+                      play={selected.animated}
+                      background={false}
+                      yawDeg={PREVIEW_YAW}
+                      pitchDeg={PREVIEW_PITCH}
+                      rotationDeg={PREVIEW_ROTATION}
+                      className="h-full w-full"
+                    />
+                  </div>
+                )}
                 <div className="min-w-0 flex-1">
                   <div
                     className="mc-font leading-snug"

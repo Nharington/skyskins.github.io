@@ -55,7 +55,6 @@ function rotZ(v: Vec3, a: number): Vec3 {
   return { x: v.x * c - v.y * s, y: v.x * s + v.y * c, z: v.z };
 }
 function project(v: Vec3): Vec2 {
-  // Canvas Y grows downward; invert so +Y renders upward.
   return { x: v.x, y: -v.y };
 }
 
@@ -88,8 +87,6 @@ function drawFaceMapped(
   const c = (p2.x - p0.x) / s;
   const d = (p2.y - p0.y) / s;
   ctx.save();
-  // Important: compose with the existing devicePixelRatio transform
-  // (set in the render loop) so thumbnails scale/center correctly.
   ctx.translate(p0.x, p0.y);
   ctx.transform(a, b, c, d, 0, 0);
   ctx.drawImage(patch, 0, 0);
@@ -97,9 +94,6 @@ function drawFaceMapped(
     ctx.fillStyle = `rgba(0,0,0,${shade})`;
     ctx.fillRect(0, 0, s, s);
   }
-  ctx.strokeStyle = 'rgba(255,255,255,0.10)';
-  ctx.lineWidth = 2;
-  ctx.strokeRect(0, 0, s, s);
   ctx.restore();
 }
 
@@ -158,7 +152,6 @@ function drawSkullLikeThumb(
   ctx.clearRect(0, 0, w, h);
 
   if (background) {
-    // Optional background vignette (disabled for grid cards).
     ctx.fillStyle = 'rgba(0,0,0,0.28)';
     ctx.fillRect(0, 0, w, h);
     const grad = ctx.createRadialGradient(w * 0.5, h * 0.42, 10, w * 0.5, h * 0.5, w * 0.72);
@@ -169,9 +162,6 @@ function drawSkullLikeThumb(
     ctx.fillRect(0, 0, w, h);
   }
 
-  // Match viewer readout semantics:
-  // - pitch: positive = camera above horizon (look down a bit)
-  // - yaw: viewer's positive azimuth rotates camera around Y; to match viewpoint we rotate model by -yaw.
   const rx = (pitchDeg * Math.PI) / 180;
   const ry = (-yawDeg * Math.PI) / 180;
   const rz = (rotationDeg * Math.PI) / 180;
@@ -200,7 +190,6 @@ function drawSkullLikeThumb(
   patchOuter.width = Math.round(patchSize * outerScale);
   patchOuter.height = Math.round(patchSize * outerScale);
 
-  // Compute projected cube bounds so we can center/scale it in the square.
   const verts: Vec3[] = [];
   for (const sx of [-1, 1]) for (const sy of [-1, 1]) for (const sz of [-1, 1]) verts.push({ x: 0.5 * sx, y: 0.5 * sy, z: 0.5 * sz });
   const proj = verts.map((v) => project(transformPoint(v, rx, ry, rz)));

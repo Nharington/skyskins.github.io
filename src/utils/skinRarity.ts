@@ -43,3 +43,40 @@ export function cosmeticRarityRank(rarity: CosmeticRarity) {
   return idx === -1 ? RARITY_ORDER.length - 1 : idx;
 }
 
+export function compareBrowseRarity(a: CosmeticRarity, b: CosmeticRarity) {
+  if (a === 'UNKNOWN') return 1;
+  if (b === 'UNKNOWN') return -1;
+  return cosmeticRarityRank(b) - cosmeticRarityRank(a) || a.localeCompare(b);
+}
+
+export function rarityHex(rarity: CosmeticRarity) {
+  switch (rarity) {
+    case 'COMMON':
+      return '#aaaaaa';
+    case 'UNCOMMON':
+      return '#55ff55';
+    case 'RARE':
+      return '#5555ff';
+    case 'EPIC':
+      return '#aa00aa';
+    case 'LEGENDARY':
+      return '#ffaa00';
+    case 'MYTHIC':
+      return '#ff55ff';
+    case 'DIVINE':
+      return '#55ffff';
+    case 'SPECIAL':
+    case 'VERY SPECIAL':
+      return '#ff5555';
+    case 'ULTIMATE':
+    case 'SUPREME':
+      return '#aa0000';
+    case 'UNKNOWN':
+      return '#777777';
+    default: {
+      const exhaustiveCheck: never = rarity;
+      return exhaustiveCheck;
+    }
+  }
+}
+

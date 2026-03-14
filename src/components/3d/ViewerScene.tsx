@@ -1,15 +1,15 @@
-import { useEffect, useRef, useState } from 'react';
+import { useRef, useState } from 'react';
 import { Canvas } from '@react-three/fiber';
-import { OrbitControls } from '@react-three/drei';
+import { OrbitControls, OrthographicCamera } from '@react-three/drei';
 import type { OrbitControls as OrbitControlsImpl } from 'three-stdlib';
-import { RotateCcw, Camera, Sun, Moon, Sparkles, SunMoon } from 'lucide-react';
+import { RotateCcw, Camera, Sun, Moon } from 'lucide-react';
 import type { DayNightAnimation, PetAnimation } from '../../lib/cosmetics';
 import { PetModel } from '../3d/PetModel';
+import { ShaderStack } from './ShaderStack';
 
 interface ViewerSceneProps {
   textureUrl: string;
   animation?: PetAnimation | DayNightAnimation;
-  isAnimatedSkin?: boolean;
   supportsDayNight?: boolean;
   dayNightMode?: 'day' | 'night';
   onToggleDayNight?: () => void;
@@ -19,34 +19,13 @@ interface ViewerSceneProps {
 export function ViewerScene({
   textureUrl,
   animation,
-  isAnimatedSkin,
   supportsDayNight,
   dayNightMode,
   onToggleDayNight,
   onScreenshot,
 }: ViewerSceneProps) {
   const controlsRef = useRef<OrbitControlsImpl | null>(null);
-  const [isTextureLoading, setIsTextureLoading] = useState(true);
-  const [angles, setAngles] = useState<{ yaw: number; pitch: number } | null>(null);
-
-  useEffect(() => {
-    let raf: number | null = null;
-    const loop = () => {
-      const c = controlsRef.current;
-      if (c) {
-        const yaw = (c.getAzimuthalAngle() * 180) / Math.PI;
-        const polar = (c.getPolarAngle() * 180) / Math.PI;
-        // OrbitControls polar: 0 = looking down from +Y, 90 = horizontal. Convert to pitch-like.
-        const pitch = 90 - polar;
-        setAngles({ yaw, pitch });
-      }
-      raf = requestAnimationFrame(loop);
-    };
-    raf = requestAnimationFrame(loop);
-    return () => {
-      if (raf != null) cancelAnimationFrame(raf);
-    };
-  }, []);
+  const [isTextureLoading, setIsTextureLoading] = useState(true);;
 
   return (
     <div className="flex-1 cursor-grab active:cursor-grabbing w-full h-full relative bg-[#141414]">
@@ -89,47 +68,6 @@ export function ViewerScene({
         )}
       </div>
 
-      <div className="absolute top-4 right-4 md:top-6 md:right-8 z-50 pointer-events-none flex flex-col items-end gap-2">
-        {(isAnimatedSkin || supportsDayNight) && (
-          <div className="flex flex-col sm:flex-row gap-2">
-            {isAnimatedSkin && (
-              <div className="bg-[#111111]/75 backdrop-blur-md border-2 border-white/10 px-3 py-2 shadow-xl flex items-center gap-3">
-                <div className="bg-[#222] p-2 border border-[#333] shrink-0">
-                  <Sparkles className="w-4 h-4 text-amber-400" />
-                </div>
-                <span className="font-bold text-white tracking-wide text-xs sm:text-sm whitespace-nowrap">
-                  Animated Skin
-                </span>
-              </div>
-            )}
-            {supportsDayNight && (
-              <div className="bg-[#111111]/75 backdrop-blur-md border-2 border-white/10 px-3 py-2 shadow-xl flex items-center gap-3">
-                <div className="bg-[#222] p-2 border border-[#333] shrink-0">
-                  <SunMoon className="w-4 h-4 text-emerald-400" />
-                </div>
-                <span className="font-bold text-white tracking-wide text-xs sm:text-sm whitespace-nowrap">
-                  Day / Night Cycle
-                </span>
-              </div>
-            )}
-          </div>
-        )}
-
-        {angles && (
-          <div className="bg-[#111111]/75 backdrop-blur-md border-2 border-white/10 px-3 py-2 shadow-xl">
-            <div className="text-[10px] font-black uppercase tracking-[0.18em] text-[#888]">Camera</div>
-            <div className="mt-1 flex gap-3 text-xs font-bold text-white">
-              <span className="tabular-nums">
-                <span className="text-[#aaa]">Yaw</span> {angles.yaw.toFixed(1)}°
-              </span>
-              <span className="tabular-nums">
-                <span className="text-[#aaa]">Pitch</span> {angles.pitch.toFixed(1)}°
-              </span>
-            </div>
-          </div>
-        )}
-      </div>
-
       <div
         className="absolute inset-0 pointer-events-none z-0"
         style={{
@@ -138,22 +76,28 @@ export function ViewerScene({
       />
 
       <Canvas
-        camera={{ position: [0, 0, 9], fov: 45 }}
-        gl={{ preserveDrawingBuffer: true }}
+        gl={{ preserveDrawingBuffer: true, antialias: true, alpha: true }}
         className="w-full h-full"
       >
-        <ambientLight intensity={1.2} />
-        <directionalLight position={[5, 10, 5]} intensity={0.8} />
-        <directionalLight position={[-5, 5, -5]} intensity={0.5} color="#4444ff" />
-        <pointLight position={[0, 5, 0]} intensity={0.3} />
+        <OrthographicCamera
+          makeDefault
+          position={[-10, 7.07, 10]}
+          zoom={80}
+          near={-100}
+          far={100}
+        />
+        <ambientLight intensity={0.7} />
+        <directionalLight position={[5, 10, 7.5]} intensity={1.2} castShadow={false} />
+        <directionalLight position={[-5, 2, 5]}  intensity={0.4} />
         <OrbitControls
           ref={controlsRef}
-          enablePan={false}
-          enableZoom
-          minDistance={4}
-          maxDistance={14}
+          enablePan={true}
+          enableZoom={true}
+          minZoom={20}
+          maxZoom={200}
           enableDamping
           dampingFactor={0.05}
+          maxPolarAngle={Math.PI}
         />
         <PetModel
           textureUrl={textureUrl}
@@ -161,6 +105,7 @@ export function ViewerScene({
           dayNightMode={dayNightMode}
           onTextureLoadState={setIsTextureLoading}
         />
+        <ShaderStack />
       </Canvas>
     </div>
   );

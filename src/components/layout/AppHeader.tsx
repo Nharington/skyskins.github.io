@@ -1,4 +1,4 @@
-import { ArrowLeft, Grid3X3, Github, Info } from 'lucide-react';
+import { ArrowLeft, Grid3X3, Github, Settings } from 'lucide-react';
 
 interface AppHeaderProps {
   isSidebarOpen: boolean;
@@ -10,48 +10,38 @@ interface AppHeaderProps {
   totalPets: number;
 }
 
-export function AppHeader({ onToggleSidebar, onOpenInfo, onOpenCollection, onBackToViewer, totalPets, mode = 'viewer' }: AppHeaderProps) {
+export function AppHeader({ onOpenInfo, onOpenCollection, onBackToViewer, totalPets, mode = 'viewer' }: AppHeaderProps) {
   return (
     <header className="h-16 bg-[#1a1a1a] border-b-4 border-[#111111] flex items-center justify-between px-3 sm:px-4 md:px-8 z-30 shrink-0 shadow-[0_4px_20px_rgba(0,0,0,0.5)] relative">
       <div className="flex items-center gap-2 sm:gap-4">
         {mode === 'viewer' ? (
-          <button
-            onClick={onToggleSidebar}
-            className="md:hidden p-2 hover:bg-[#333333] border-2 border-white/5 rounded transition-all active:scale-95"
-            aria-label="Toggle sidebar"
-          >
-            <div className="flex flex-col gap-1 w-5">
-              <div className="h-0.5 w-full bg-slate-300" />
-              <div className="h-0.5 w-3/4 bg-slate-400" />
-              <div className="h-0.5 w-full bg-slate-300" />
-            </div>
-          </button>
+          <div className="w-5" />
         ) : (
           <button
             onClick={onBackToViewer}
-            className="md:hidden p-2 hover:bg-[#333333] border-2 border-white/5 rounded transition-all active:scale-95"
+            className="p-2 hover:bg-[#333333] border-2 border-white/5 rounded transition-all active:scale-95"
             aria-label="Back to viewer"
           >
             <ArrowLeft className="w-5 h-5 text-slate-300" />
           </button>
         )}
         
-        <div className="flex items-center gap-2 sm:gap-3 group cursor-pointer">
+        <div className="flex items-center gap-2 sm:gap-3 group cursor-pointer min-w-0">
           <div className="w-8 h-8 sm:w-10 sm:h-10 rounded flex items-center justify-center shadow-[0_0_15px_rgba(16,185,129,0.3)] transition-transform group-hover:scale-105 shrink-0 overflow-hidden">
              <img src="/favicon.svg" alt="SkySkins Logo" className="w-full h-full object-cover" />
           </div>
-          <h1 className="flex flex-col -gap-0.5 sm:-gap-1 min-w-0">
-            <span className="text-lg sm:text-xl font-black tracking-tight text-white leading-tight">
+          <h1 className="flex flex-col -gap-0.5 sm:-gap-1 min-w-0 overflow-hidden">
+            <span className="text-base sm:text-xl font-black tracking-tight text-white leading-tight truncate">
               SKY<span className="text-emerald-400">Skins</span>
             </span>
-            <div className="hidden sm:flex items-center gap-1.5 text-[10px] text-[#555555] font-bold uppercase tracking-[0.1em]">
+            <div className="hidden sm:flex items-center gap-1.5 text-[9px] sm:text-[10px] text-[#555555] font-bold uppercase tracking-[0.1em]">
                <span>3D Skin Viewer</span>
                <span className="w-1 h-1 rounded-full bg-[#333333]" />
             </div>
           </h1>
         </div>
 
-        <div className="hidden xl:flex items-center gap-1.5 ml-4 bg-white/5 border border-white/10 px-3 py-1 rounded-full shrink-0">
+        <div className="hidden 2xl:flex items-center gap-1.5 ml-4 bg-white/5 border border-white/10 px-3 py-1 rounded-full shrink-0">
           <div className="w-1.5 h-1.5 rounded-full bg-emerald-500 animate-pulse" />
           <span className="text-[10px] font-bold text-slate-400 uppercase tracking-wider whitespace-nowrap">
             {totalPets} Assets Indexed
@@ -81,11 +71,10 @@ export function AppHeader({ onToggleSidebar, onOpenInfo, onOpenCollection, onBac
         )}
         <button
           onClick={onOpenInfo}
-          className="flex items-center gap-2 text-[10px] font-black text-[#aaa] hover:text-white transition-all bg-[#2a2a2a] hover:bg-[#333] p-2 sm:px-4 sm:py-2 border border-[#444] tracking-widest group"
-          title="Info"
+          className="flex items-center gap-2 text-[10px] font-black text-[#aaa] hover:text-white transition-all bg-[#2a2a2a] hover:bg-[#333] p-2 sm:px-3 sm:py-2 border border-[#444] tracking-widest group"
+          title="Settings & Info"
         >
-          <Info className="w-4 h-4 text-emerald-400 group-hover:scale-110 transition-transform" />
-          <span className="hidden sm:inline">INFO</span>
+          <Settings className="w-4 h-4 text-[#aaa] group-hover:rotate-180 transition-transform duration-500" />
         </button>
         <a 
           href="https://discord.gg/QMseZUzJdK" 

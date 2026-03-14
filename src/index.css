@@ -121,10 +121,27 @@
   }
   body {
     @apply bg-background text-foreground;
+    color-scheme: dark;
+  }
+
+  ::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #0b0b0b;
+    border-left: 1px solid #1a1a1a;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #333333;
+    border: 3px solid #0b0b0b;
+    border-radius: 6px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555555;
   }
 }
 
-/* Base custom styles */
 body {
   margin: 0;
   display: flex;
@@ -136,7 +153,6 @@ body {
   width: 100%;
 }
 
-/* Minecraft-style local pixel font */
 @font-face {
   font-family: 'Minecraft';
   src: url('./assets/fonts/minecraft.woff') format('woff');
@@ -153,12 +169,9 @@ body {
   image-rendering: pixelated;
 }
 
-/* Minecraft shadow text effect */
 .mc-shadow {
   text-shadow: 2px 2px 0 rgba(0, 0, 0, 0.6);
 }
-
-/* Authentic Minecraft Tooltip Style */
 .mctooltip {
     background: rgba(16,0,16,0.93);
     border: 2px solid;
@@ -170,7 +183,6 @@ body {
     padding: 8px 10px;
     pointer-events: auto;
     text-indent: initial;
-    /* Removed global text-shadow here to prevent 'ghosting' with children */
     width: auto;
     min-width: 280px;
 }
