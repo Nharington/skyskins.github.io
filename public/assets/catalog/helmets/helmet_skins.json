@@ -1,0 +1,18 @@
+{
+  "kind": "helmetSkin",
+  "label": "Helmet Skins",
+  "items": [
+    {
+      "id": "TRUE_WARDEN_HELMET_SKIN",
+      "name": "True Warden Helmet Skin",
+      "texturePath": "/assets/catalog/helmets/skins/true_warden_helmet_skin.gif",
+      "description": "",
+      "category": "Helmet Skins",
+      "lore": "§8Consumed on use\n\n§7Applies a fortified Warden-themed helmet look.\n§7Designed for bulkier combat loadouts.\n\n§5§lEPIC COSMETIC",
+      "previewMode": "flat-image",
+      "infoUrls": [
+        "https://wiki.hypixel.net/"
+      ]
+    }
+  ]
+}

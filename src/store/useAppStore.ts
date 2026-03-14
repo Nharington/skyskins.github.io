@@ -1,42 +1,14 @@
 import { create } from 'zustand';
 import { persist } from 'zustand/middleware';
-
-export interface PetAnimation {
-  ticks: number;
-  frames: string[];
-}
-
-export interface DayNightAnimation {
-  day: PetAnimation;
-  night: PetAnimation;
-}
-
-export interface PetVariant {
-  id: string;
-  name: string;
-  texturePath: string;
-  lore?: string;
-  animated?: boolean;
-  animation?: PetAnimation | DayNightAnimation;
-}
-
-export interface PetRecord {
-  name: string;
-  type: string;
-  category: string;
-  description: string;
-  infoUrls: string[];
-  recipes: any[];
-  rarities: PetVariant[];
-  variants: PetVariant[];
-}
-
-export interface RegistryEntry {
-  name: string;
-  category: string;
-  rarities: { name: string }[];
-  variantsCount: number;
-}
+import {
+  assetUrl,
+  type BrowseLayout,
+  type CosmeticKind,
+  type CosmeticRarity,
+  type OwnedCosmeticEntry,
+  type PetRecord,
+  type RegistryEntry,
+} from '../lib/cosmetics';
 
 interface AppState {
   registry: Record<string, RegistryEntry>;
@@ -48,6 +20,9 @@ interface AppState {
   activeFilter: string | null;
   showAnimatedOnly: boolean;
   dayNightMode: 'day' | 'night';
+  browseLayout: BrowseLayout;
+
+  ownedCosmetics: Record<string, OwnedCosmeticEntry>;
   
   setRegistry: (data: Record<string, RegistryEntry>) => void;
   selectPet: (id: string | null) => void;
@@ -57,7 +32,12 @@ interface AppState {
   setActiveFilter: (filter: string | null) => void;
   setShowAnimatedOnly: (val: boolean) => void;
   setDayNightMode: (mode: 'day' | 'night') => void;
+  setBrowseLayout: (layout: BrowseLayout) => void;
   fetchPetData: (id: string) => Promise<void>;
+
+  upsertOwnedCosmetic: (entry: Omit<OwnedCosmeticEntry, 'updatedAt'>) => void;
+  updateOwnedCosmetic: (key: string, patch: Partial<Omit<OwnedCosmeticEntry, 'key' | 'updatedAt'>>) => void;
+  removeOwnedCosmetic: (key: string) => void;
 }
 
 export const useAppStore = create<AppState>()(
@@ -72,6 +52,8 @@ export const useAppStore = create<AppState>()(
       activeFilter: null,
       showAnimatedOnly: false,
       dayNightMode: 'day',
+      browseLayout: 'grid',
+      ownedCosmetics: {},
       
       setRegistry: (data) => set({ registry: data }),
       selectPet: (id) => {
@@ -84,7 +66,7 @@ export const useAppStore = create<AppState>()(
       },
       fetchPetData: async (id) => {
         try {
-          const res = await fetch(`/assets/pet_data/${id}.json`);
+          const res = await fetch(assetUrl(`/assets/pet_data/${id}.json`));
           if (!res.ok) throw new Error(`Failed to load data for pet ${id}`);
           const data = await res.json();
           set((state) => {
@@ -106,16 +88,100 @@ export const useAppStore = create<AppState>()(
       setActiveFilter: (f) => set({ activeFilter: f }),
       setShowAnimatedOnly: (val) => set({ showAnimatedOnly: val }),
       setDayNightMode: (mode) => set({ dayNightMode: mode }),
+      setBrowseLayout: (layout) => set({ browseLayout: layout }),
+
+      upsertOwnedCosmetic: (entry) =>
+        set((state) => ({
+          ownedCosmetics: {
+            ...state.ownedCosmetics,
+            [entry.key]: { ...entry, updatedAt: Date.now() },
+          },
+        })),
+      updateOwnedCosmetic: (key, patch) =>
+        set((state) => {
+          const existing = state.ownedCosmetics[key];
+          if (!existing) return {};
+          return {
+            ownedCosmetics: {
+              ...state.ownedCosmetics,
+              [key]: { ...existing, ...patch, updatedAt: Date.now() },
+            },
+          };
+        }),
+      removeOwnedCosmetic: (key) =>
+        set((state) => {
+          if (!state.ownedCosmetics[key]) return {};
+          const next = { ...state.ownedCosmetics };
+          delete next[key];
+          return { ownedCosmetics: next };
+        }),
     }),
     {
       name: 'skyskins-storage',
-       partialize: (state) => ({ 
+      migrate: (persisted: unknown) => {
+        const state = (persisted ?? {}) as Record<string, unknown>;
+        const ownedSource = (
+          state.ownedCosmetics && typeof state.ownedCosmetics === 'object'
+            ? (state.ownedCosmetics as Record<string, unknown>)
+            : state.ownedSkins && typeof state.ownedSkins === 'object'
+              ? (state.ownedSkins as Record<string, unknown>)
+              : {}
+        ) as Record<string, unknown>;
+
+        const nextOwned: Record<string, OwnedCosmeticEntry> = {};
+        for (const [k, v] of Object.entries(ownedSource)) {
+          const entry = (v && typeof v === 'object' ? (v as Record<string, unknown>) : {}) as Record<string, unknown>;
+          const type = (typeof entry.type === 'string' ? entry.type : 'petSkin') as CosmeticKind;
+          const parentId =
+            typeof entry.parentId === 'string'
+              ? entry.parentId
+              : typeof entry.petId === 'string'
+                ? entry.petId
+                : undefined;
+          const itemId =
+            typeof entry.itemId === 'string'
+              ? entry.itemId
+              : typeof entry.skinId === 'string'
+                ? entry.skinId
+                : k;
+          if (!parentId || !itemId) continue;
+          const key = typeof entry.key === 'string' ? entry.key : `${type}::${parentId}::${itemId}`;
+          nextOwned[key] = {
+            key,
+            type,
+            parentId,
+            itemId,
+            parentName:
+              typeof entry.parentName === 'string'
+                ? entry.parentName
+                : typeof entry.petName === 'string'
+                  ? entry.petName
+                  : parentId,
+            itemName:
+              typeof entry.itemName === 'string'
+                ? entry.itemName
+                : typeof entry.skinName === 'string'
+                  ? entry.skinName
+                  : itemId,
+            rarity: (typeof entry.rarity === 'string' ? entry.rarity : 'UNKNOWN') as CosmeticRarity,
+            quantity: typeof entry.quantity === 'number' ? entry.quantity : 1,
+            acquiredDate: typeof entry.acquiredDate === 'string' ? entry.acquiredDate : undefined,
+            pricePaid: typeof entry.pricePaid === 'number' ? entry.pricePaid : undefined,
+            updatedAt: typeof entry.updatedAt === 'number' ? entry.updatedAt : Date.now(),
+          };
+        }
+
+        return { ...(state as Record<string, unknown>), ownedCosmetics: nextOwned, browseLayout: state.browseLayout ?? 'grid' };
+      },
+      partialize: (state) => ({ 
         selectedPetId: state.selectedPetId,
         selectedVariantId: state.selectedVariantId,
         selectedRarityIdx: state.selectedRarityIdx,
         activeFilter: state.activeFilter,
         showAnimatedOnly: state.showAnimatedOnly,
         dayNightMode: state.dayNightMode,
+        browseLayout: state.browseLayout,
+        ownedCosmetics: state.ownedCosmetics,
       }),
     }
   )

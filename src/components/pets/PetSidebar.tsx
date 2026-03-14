@@ -1,8 +1,8 @@
 import { Search, X } from 'lucide-react';
 import { ScrollArea } from '../ui/scroll-area';
 import { Tooltip, TooltipContent, TooltipProvider, TooltipTrigger } from '../ui/tooltip';
+import type { RegistryEntry } from '../../lib/cosmetics';
 import { parseMinecraftLore } from '../../utils/minecraftText';
-import type { RegistryEntry } from '../../store/useAppStore';
 interface PetSidebarProps {
   isOpen: boolean;
   registry: Record<string, RegistryEntry>;

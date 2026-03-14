@@ -218,7 +218,7 @@ body {
 .mctooltip .rarity-divine { color: #55FFFF }
 .mctooltip .rarity-rare { color: #5555FF; text-shadow: 2px 2px #15153F }
 .mctooltip .rarity-epic { color: #AA00AA; text-shadow: 2px 2px #2A002A }
-.mctooltip .rarity-admin, .mctooltip .rarity-supreme { color: #AA0000; text-shadow: 2px 2px #2A0000 }
+.mctooltip .rarity-admin, .mctooltip .rarity-supreme, .mctooltip .rarity-ultimate { color: #AA0000; text-shadow: 2px 2px #2A0000 }
 .mctooltip .rarity-legendary { color: #FFAA00; text-shadow: 2px 2px #2A2A00 }
 .mctooltip .rarity-uncommon { color: #55FF55; text-shadow: 2px 2px #153F15 }
 .mctooltip .rarity-mythic { color: #FF55FF; text-shadow: 2px 2px #3F153F }

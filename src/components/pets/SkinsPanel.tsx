@@ -1,8 +1,8 @@
 import { Layers, X, Sparkles, SunMoon } from 'lucide-react';
 import { ScrollArea } from '../ui/scroll-area';
 import { Tooltip, TooltipContent, TooltipTrigger } from '../ui/tooltip';
+import type { PetVariant } from '../../lib/cosmetics';
 import { parseMinecraftLore } from '../../utils/minecraftText';
-import type { PetVariant } from '../../store/useAppStore';
 
 interface SkinsPanelProps {
   variants: PetVariant[];
@@ -22,16 +22,15 @@ export function SkinsPanel({ variants, selectedVariantId, onSelectVariant, isOpe
       flex flex-col max-h-[60vh] md:max-h-[70vh] transition-all duration-300
       ${isOpen ? 'translate-x-0 opacity-100 scale-100' : 'translate-x-[120%] md:translate-x-0 opacity-0 md:opacity-100 scale-95 md:scale-100 pointer-events-none md:pointer-events-auto'}
     `}>
-      {/* Panel header */}
       <div className="p-3 border-b-4 border-[#1a1a1a] bg-[#1a1a1a] flex items-center gap-2">
         <Layers className="w-4 h-4 text-emerald-400" />
         <span className="font-bold text-xs uppercase text-[#aaaaaa] tracking-wider">
           Skins
         </span>
         <span className="ml-auto mc-font text-sm font-bold text-[#555555]">{variants.length}</span>
-        
+
         {onClose && (
-          <button 
+          <button
             onClick={onClose}
             className="md:hidden ml-2 p-1 hover:bg-white/10 rounded transition-colors"
           >
@@ -42,7 +41,6 @@ export function SkinsPanel({ variants, selectedVariantId, onSelectVariant, isOpe
 
       <ScrollArea className="flex-1">
         <div className="p-2 flex flex-col gap-1">
-          {/* Default button */}
           <button
             onClick={() => onSelectVariant(null)}
             className={`p-2 text-left w-full transition-all duration-150 border-2 flex items-center justify-between ${
@@ -57,7 +55,6 @@ export function SkinsPanel({ variants, selectedVariantId, onSelectVariant, isOpe
             )}
           </button>
 
-          {/* Skin variants */}
           {variants.map((variant) => (
             <Tooltip key={variant.id}>
               <TooltipTrigger asChild>

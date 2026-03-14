@@ -1,0 +1,30 @@
+{
+  "kind": "dye",
+  "label": "Dyes",
+  "items": [
+    {
+      "id": "PURE_BLACK_DYE",
+      "name": "Pure Black Dye",
+      "texturePath": "/assets/catalog/dyes/skins/pure_black_dye.webp",
+      "description": "",
+      "category": "Armor Dyes",
+      "lore": "§8Consumed on use\n\n§7Applies a rich black tint to armor.\n§7Ideal for sharper contrast-heavy sets.\n\n§5§lEPIC COSMETIC",
+      "previewMode": "flat-image",
+      "infoUrls": [
+        "https://wiki.hypixel.net/"
+      ]
+    },
+    {
+      "id": "PURE_WHITE_DYE",
+      "name": "Pure White Dye",
+      "texturePath": "/assets/catalog/dyes/skins/pure_white_dye.webp",
+      "description": "",
+      "category": "Armor Dyes",
+      "lore": "§8Consumed on use\n\n§7Applies a rich white tint to armor.\n§7Ideal for sharper contrast-heavy sets.\n\n§5§lEPIC COSMETIC",
+      "previewMode": "flat-image",
+      "infoUrls": [
+        "https://wiki.hypixel.net/"
+      ]
+    }
+  ]
+}

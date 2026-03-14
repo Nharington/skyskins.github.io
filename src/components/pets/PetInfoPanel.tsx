@@ -1,8 +1,8 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { ChevronLeft, ChevronRight, ExternalLink, Eye, EyeOff } from 'lucide-react';
 import { ScrollArea } from '../ui/scroll-area';
+import type { PetRecord } from '../../lib/cosmetics';
 import { parseMinecraftLore } from '../../utils/minecraftText';
-import type { PetRecord } from '../../store/useAppStore';
 
 interface PetInfoPanelProps {
   selectedPet: PetRecord;
@@ -19,6 +19,7 @@ const RARITY_COLOR_MAP: Record<string, string> = {
   'LEGENDARY': '§6',
   'MYTHIC': '§d',
   'DIVINE': '§b',
+  'ULTIMATE': '§4',
   'SUPREME': '§4',
   'SPECIAL': '§c',
   'VERY SPECIAL': '§c',
@@ -37,11 +38,7 @@ export function PetInfoPanel({
     ? selectedPet.variants.find((v) => v.id === selectedVariantId) ?? null
     : null;
 
-  useEffect(() => {
-    setIsVisible(true);
-  }, [selectedPet.type, selectedRarityIdx, selectedVariantId]);
-
- const rarityName = selectedRarity?.name?.toUpperCase() || 'COMMON';
+  const rarityName = selectedRarity?.name?.toUpperCase() || 'COMMON';
   const colorPrefix = RARITY_COLOR_MAP[rarityName] || '§f';
   const cleanPetName = selectedPet.name.replace(/§[0-9a-fk-or]/g, '');
 
@@ -61,7 +58,6 @@ export function PetInfoPanel({
 
   return (
     <div className="absolute bottom-4 md:bottom-6 left-4 md:left-6 z-10 flex flex-col gap-3 pointer-events-auto max-w-[calc(100vw-2rem)] md:max-w-xl">
-      {/* Visibility Toggle Button */}
       <button
         onClick={() => setIsVisible(!isVisible)}
         className="self-start flex items-center gap-2 px-3 py-1.5 bg-[#111111]/80 backdrop-blur-md border-2 border-white/10 hover:bg-[#222222] transition-colors group shadow-lg"
@@ -78,16 +74,12 @@ export function PetInfoPanel({
 
       {isVisible && (
         <>
-          {/* Tooltip Container */}
           <div className="mctooltip border-image-slice-1 w-fit min-w-[320px] max-w-[480px] flex flex-col max-h-[70vh] !pointer-events-auto animate-in fade-in slide-in-from-bottom-2 duration-300">
-            
-            {/* Title row */}
             <div className="flex items-center justify-between border-b border-white/10 pb-3 mb-2 gap-4 shrink-0">
               <div className="mc-font text-2xl truncate min-w-0 font-normal">
                 {titleNode}
               </div>
 
-              {/* Rarity cycler */}
               {!selectedVariantId && selectedPet.rarities.length > 1 && (
                 <div className="flex items-center shrink-0 bg-[#333333]/40 border border-[#555555]/50 overflow-hidden">
                   <button
@@ -121,7 +113,6 @@ export function PetInfoPanel({
               )}
             </div>
 
-            {/* Lore / Description */}
             <ScrollArea className="flex-1 w-full overflow-y-auto pr-1">
               <div className="mc-font leading-relaxed py-1 flex flex-col gap-1">
                 {loreContent}
@@ -129,7 +120,6 @@ export function PetInfoPanel({
             </ScrollArea>
           </div>
 
-          {/* Wiki buttons */}
           {selectedPet.infoUrls?.length > 0 && (
             <div className="flex gap-2 w-fit animate-in fade-in slide-in-from-bottom-1 duration-400">
               {selectedPet.infoUrls.map((url, i) => {
